@@ -1,0 +1,72 @@
+---
+title: "How to Cite"
+subtitle: "Citation information for the paper, dataset, and interactive tools"
+sidebar: analyses
+toc: false
+---
+
+## The paper
+
+> Gordin, S., Kapon Epshtain, D., & Fire, M. (2025). Shaping History at Scale:
+> Computational Diplomatics and the Diachronic Evolution of Cuneiform Tablet Morphology.
+> *Proceedings of the National Academy of Sciences*.
+
+**BibTeX:**
+
+```bibtex
+@article{gordinShapingHistory2025,
+  title     = {Shaping History at Scale: Computational Diplomatics and the
+               Diachronic Evolution of Cuneiform Tablet Morphology},
+  author    = {Gordin, Shai and Kapon Epshtain, Danielle and Fire, Michael},
+  journal   = {Proceedings of the National Academy of Sciences},
+  year      = {2025},
+  note      = {In review}
+}
+```
+
+## The dataset
+
+> Gordin, S., Kapon Epshtain, D., & Fire, M. (2024). *Cuneiform tablet silhouettes
+> and VAE encodings* [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.12787745
+
+```bibtex
+@dataset{zenodoDataset,
+  author    = {Gordin, Shai and Kapon Epshtain, Danielle and Fire, Michael},
+  title     = {Cuneiform tablet silhouettes and {VAE} encodings},
+  year      = {2024},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.12787745},
+  url       = {https://doi.org/10.5281/zenodo.12787745}
+}
+```
+
+## The VAE model
+
+> Gordin, S., Kapon Epshtain, D., & Fire, M. (2024). *Trained VAE model for cuneiform
+> tablet morphology* [Software]. Zenodo. https://doi.org/10.5281/zenodo.11668219
+
+```bibtex
+@software{zenodoModels,
+  author    = {Gordin, Shai and Kapon Epshtain, Danielle and Fire, Michael},
+  title     = {Trained {VAE} model for cuneiform tablet morphology},
+  year      = {2024},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.11668219},
+  url       = {https://doi.org/10.5281/zenodo.11668219}
+}
+```
+
+## The companion website
+
+> Gordin, S., Kapon Epshtain, D., & Fire, M. (2025). *Shaping History at Scale —
+> Companion website*. DigitalPasts Lab. https://digitalpasts.github.io/ShapingHistory
+
+## Contact
+
+For questions about the analyses, data, or methods:
+
+**Shai Gordin** — PI
+Ariel University / Open University of Israel
+[DigitalPasts Lab](https://github.com/DigitalPasts)
+
+For CDLI data questions: [cdli.ucla.edu](https://cdli.ucla.edu)

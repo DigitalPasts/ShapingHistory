@@ -1,0 +1,187 @@
+---
+title: "5 · Shape Traversal"
+subtitle: "Physical meaning of the three key VAE dimensions"
+sidebar: analyses
+---
+
+> **Paper section:** Results §3.3–3.4 · **Notebooks:** `2.4`, `2.4b`, `10`, `11`, `13`
+
+## Overview
+
+To interpret what each VAE dimension physically encodes, we decode silhouettes at
+11 evenly-spaced points along each dimension axis, holding all others at their
+period-genre mean. We then measure five geometric descriptors at each step:
+
+| Descriptor | Formula | Captures |
+|---|---|---|
+| h/w ratio | height ÷ width | overall orientation |
+| Bounding-box fill | pixel area ÷ bounding-box area | how compactly the tablet fills its extent |
+| Aspect ratio of fill | fill-adjusted h/w | shape after compactness correction |
+| Contour complexity | perimeter² ÷ (4π × area) | outline irregularity (1 = circle) |
+| Solidity | convex-hull area ÷ pixel area | body unity vs. articulated projection |
+
+For each traversal we identify the **primary descriptor** — the one that changes most
+monotonically. The primary descriptor is the physical meaning of that dimension.
+
+## X7 — diplomatic-tradition axis
+
+**Primary descriptor (all genres): h/w ratio**
+
+```{python}
+#| label: fig-x7-traversal
+#| fig-cap: "X7 traversal filmstrip: decoded silhouettes at 11 points along the X7 axis (Administrative baseline, Ur III mean). The silhouette transitions from tall portrait (left) to wide landscape (right). This is a pure orientation dimension."
+
+import matplotlib.pyplot as plt, matplotlib.image as mpimg, os
+
+fig_path = "../../paper/figures/fig_vae_traversal_X7_genre.pdf"
+if os.path.exists(fig_path):
+    print(f"Traversal filmstrip: {fig_path}")
+    print("This figure shows decoded silhouettes at 11 steps along the X7 axis,")
+    print("stratified by genre (Administrative / Literary / Legal).")
+else:
+    print("Figure not found. Run notebook 2.4b to generate.")
+```
+
+![X7 traversal filmstrip — pure h/w ratio axis](../../paper/figures/fig_vae_traversal_X7_genre.pdf){#fig-x7-traversal}
+
+X7 controls **h/w ratio in isolation**: as X7 decreases from +4 to −4, the tablet
+silhouette rotates smoothly from tall portrait to wide landscape, while its fill
+efficiency and outline complexity remain approximately constant. Critically, this
+behavior is **genre-consistent**: whether the baseline tablet is Administrative,
+Literary, or Legal, X7 traversal always produces the same portrait→landscape rotation.
+
+Genre-consistency makes X7 the cleanest single-number summary of scribal orientation
+tradition. A period's mean X7 value directly encodes whether its scribes worked in a
+portrait or landscape tradition, independent of genre composition.
+
+**Key period values:**
+
+| Period | Mean X7 | Tradition |
+|---|---|---|
+| Neo-Assyrian | +2.05 | Extreme portrait |
+| Ur III | +0.89 | Portrait |
+| Old Babylonian | +0.61 | Mild portrait |
+| Neo-Babylonian | −1.14 | Landscape |
+| Achaemenid | −2.48 | Strong landscape |
+
+## X2 — bounding-box fill efficiency (diachronic-drift axis)
+
+**Primary descriptor: fill efficiency (genre-inconsistent)**
+
+```{python}
+#| label: fig-x2-traversal
+#| fig-cap: "X2 traversal filmstrip: decoded silhouettes at 11 steps along the X2 axis, stratified by genre. Primary descriptor = bounding-box fill efficiency. Genre-inconsistency (descriptor changes across baselines) indicates X2 captures the interaction of orientation AND regularization."
+
+import matplotlib.pyplot as plt, os
+
+fig_path = "../../paper/figures/fig_vae_traversal_X2_genre.pdf"
+if os.path.exists(fig_path):
+    print(f"Traversal filmstrip: {fig_path}")
+    print("Administrative baseline: low X2 = articulated portrait, high X2 = compact landscape")
+    print("Literary baseline: primary descriptor shifts — encodes genre-specific norms")
+else:
+    print("Figure not found. Run notebook 2.4b to generate.")
+```
+
+![X2 traversal filmstrip — bounding-box fill efficiency](../../paper/figures/fig_vae_traversal_X2_genre.pdf){#fig-x2-traversal}
+
+X2 captures a **composite morphological feature**:
+
+- **Low X2** (Ur III admin mean = −0.995): tall portrait silhouette with an articulated,
+  irregular outline — fingers, projections, and surface unevenness reduce fill efficiency
+- **High X2** (Achaemenid admin mean = +0.652): compact landscape rectangle with a smooth,
+  regular outline — high fill efficiency
+
+X2 tracks time better than X7 (Spearman ρ = +0.655 vs. −0.430) precisely because it
+captures **two simultaneous historical trends**:
+1. Portrait → landscape rotation (shared with X7)
+2. Outline regularization (additional signal not in X7)
+
+**Genre-inconsistency** (the primary descriptor shifts when you change the baseline
+genre) is evidence that X2 encodes genre-specific shape norms layered on top of the
+global diachronic trend — not a methodological failure.
+
+## X8 — body unity / silhouette cohesion
+
+**Primary descriptor: solidity (genre-inconsistent for Admin vs. others)**
+
+```{python}
+#| label: fig-x8-traversal
+#| fig-cap: "X8 traversal filmstrip: decoded silhouettes at 11 steps along the X8 axis. Primary descriptor = solidity (convex-hull fill). High X8 = articulated/segmented; low X8 = unified slab."
+
+import matplotlib.pyplot as plt, os
+
+fig_path = "../../paper/figures/fig_vae_traversal_X8_genre.pdf"
+if os.path.exists(fig_path):
+    print(f"Traversal filmstrip: {fig_path}")
+    print("High X8: segmented outline with visible projections and divisions")
+    print("Low X8: unified slab-like form, convex hull closely matches pixel area")
+else:
+    print("Figure not found. Run notebook 2.4b to generate.")
+```
+
+![X8 traversal filmstrip — body unity axis](../../paper/figures/fig_vae_traversal_X8_genre.pdf){#fig-x8-traversal}
+
+X8 controls **silhouette cohesion**: whether the tablet body appears as a single
+unified slab (low X8) or as an articulated form with projections and segments (high X8).
+This dimension tracks a separate historical trend — the progressive loss of the
+3rd-millennium rounded, organic tablet form in favor of the 1st-millennium regularized,
+brick-like form.
+
+Diachronic trend: Spearman ρ = −0.573 (p = 0.007), indicating X8 decreases (unifies)
+monotonically across time.
+
+## The discrimination vs. trend dissociation
+
+The three dimensions reveal a structural finding:
+
+```{python}
+#| label: fig-x2x7x8-summary
+#| fig-cap: "Three-panel summary: X7 discriminates traditions (η²=0.435) but shows no trend; X2 and X8 both trend across time (|ρ|>0.55) but discriminate less."
+
+import pandas as pd, matplotlib.pyplot as plt, numpy as np
+
+dims = ['X2', 'X7', 'X8']
+eta2 = [0.078, 0.435, 0.025]
+abs_rho = [0.655, 0.430, 0.573]
+labels = ['X2\n(fill efficiency)', 'X7\n(h/w ratio)', 'X8\n(body unity)']
+colors = ['#b5622e', '#2c6e49', '#4a6fa5']
+
+fig, axes = plt.subplots(1, 2, figsize=(10, 4))
+
+# Left: eta2 comparison
+axes[0].bar(labels, eta2, color=colors, alpha=0.85, edgecolor='white')
+axes[0].set_ylabel('η² (period discrimination)', fontsize=9)
+axes[0].set_title('Period discrimination power', fontsize=10)
+axes[0].axhline(0.14, color='grey', ls='--', lw=0.8, alpha=0.6, label='Large effect')
+axes[0].axhline(0.06, color='grey', ls=':', lw=0.8, alpha=0.6, label='Medium effect')
+axes[0].legend(fontsize=7)
+
+# Right: |rho| comparison
+axes[1].bar(labels, abs_rho, color=colors, alpha=0.85, edgecolor='white')
+axes[1].set_ylabel('|Spearman ρ| (diachronic trend)', fontsize=9)
+axes[1].set_title('Diachronic trend strength', fontsize=10)
+axes[1].axhline(0.5, color='grey', ls='--', lw=0.8, alpha=0.6, label='Strong trend')
+axes[1].legend(fontsize=7)
+
+plt.suptitle('X7: best discriminator; X2 & X8: best trend trackers', fontsize=11)
+plt.tight_layout()
+plt.show()
+```
+
+| Dimension | η² | |ρ| | Physical meaning | Best use |
+|---|---|---|---|---|
+| **X7** | 0.435 (large) | 0.430 (ns) | h/w ratio | Scribal tradition ID |
+| **X2** | 0.078 (medium) | 0.655*** | Fill efficiency | Diachronic tracking |
+| **X8** | 0.025 (small) | 0.573** | Body unity | Secondary time signal |
+
+The **discrimination vs. trend dissociation** means that the dimension that best
+separates scribal traditions (X7) is not the dimension that best tracks time (X2),
+and vice versa. This is the latent-space analogue of distinguishing tradition from
+innovation: a scribal school can maintain its portrait orientation (high X7) while
+still moving toward more regularized outlines (increasing X2) over centuries.
+
+::: {.callout-note}
+**Next:** [Geographic Analysis →](06-geography.qmd) — whether the portrait-to-landscape
+shift is a Babylonian phenomenon or a pan-Mesopotamian one.
+:::

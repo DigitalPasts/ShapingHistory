@@ -1,0 +1,112 @@
+---
+title: "1 · Corpus & Height-to-Width Ratios"
+subtitle: "The three-millennium portrait-to-landscape shift"
+sidebar: analyses
+---
+
+> **Paper section:** Results §3.1 · **Notebooks:** `2.1`, `2.2`, `2.3`
+
+## Overview
+
+This section documents the primary measurement approach: height-to-width (h/w) ratios
+derived from the binary silhouettes of 94,936 cuneiform tablets. It is the simplest
+possible shape descriptor — a single number — yet it carries the clearest long-run
+historical signal in the corpus.
+
+## Why ratios, and why log-scale?
+
+Physical tablet dimensions (height and width in cm) are not systematically available
+in the CDLI catalogue. We therefore use pixel-based h/w ratios from the photographs,
+which encode relative proportions rather than absolute measurements.
+
+We work with the **natural log of the h/w ratio** throughout for statistical analyses.
+The log transformation:
+
+- Is symmetric around 0 (log(1) = 0 = square; portrait positive, landscape negative)
+- Corrects the asymmetry of the raw ratio (portrait side: 1 → ∞; landscape side: 0 → 1)
+- Enables additive decomposition of shifts
+
+All medians and IQR in tables are reported in the **original ratio scale**.
+
+## The three-millennium shift
+
+The core finding: the median h/w ratio of the corpus falls from **1.125** (Ur III,
+most representative 2nd-millennium period) to **0.741** (Neo-Babylonian) and **0.786**
+(Achaemenid), a log-ratio shift of approximately −0.27 over the 2nd-to-1st-millennium
+transition.
+
+```{python}
+#| label: fig-ratio-period
+#| fig-cap: "Height-to-width ratio distributions by period, log scale. Vertical dashed line at log(1) = 0 marks the square/isometric boundary. Blue = portrait-dominant periods (median > 1); red = landscape-dominant (median < 1)."
+#| code-fold: true
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+import os
+
+fig_path = "../../paper/figures/fig_ratio_by_period_log.pdf"
+if os.path.exists(fig_path):
+    # Display the pre-computed figure
+    from IPython.display import Image
+    # Convert PDF to PNG for display if needed
+    img = plt.imread(fig_path) if fig_path.endswith('.png') else None
+    print(f"Figure available at: {fig_path}")
+    print("Run notebook 2.2 to regenerate.")
+else:
+    print("Figure not found. Run notebook 2.2 to generate.")
+```
+
+![Height-to-width ratio by period (log scale)](../../paper/figures/fig_ratio_by_period_log.pdf){#fig-ratio-period}
+
+## Period summary statistics
+
+```{python}
+#| label: tbl-period-stats
+#| tbl-cap: "Period-level h/w ratio statistics: median, 95% bootstrap CI, IQR, CV, and orientation classification."
+
+import pandas as pd
+df = pd.read_csv("../../paper/figures/period_summary_stats.csv")
+df['Median'] = df['Median'].round(3)
+df['IQR'] = df['IQR'].round(3)
+df['CV'] = df['CV'].round(3)
+df['95% CI'] = df.apply(lambda r: f"[{r['CI_95_low']:.3f}, {r['CI_95_high']:.3f}]", axis=1)
+display_cols = ['Period', 'n', 'Median', '95% CI', 'IQR', 'CV', 'Orientation']
+df[display_cols].style.background_gradient(subset=['CV'], cmap='YlOrRd') \
+                      .format({'n': '{:,}'}) \
+                      .set_caption("Physical pixel-ratio statistics by period")
+```
+
+## Diachronic trend
+
+```{python}
+#| label: fig-diachronic
+#| fig-cap: "Diachronic trend in median log h/w ratio with Spearman rank correlation. Each point = one period."
+
+import matplotlib.image as mpimg
+print("Figure: ../../paper/figures/fig_diachronic_trend.pdf")
+```
+
+![Diachronic trend](../../paper/figures/fig_diachronic_trend.pdf){#fig-diachronic}
+
+## Three-method convergence
+
+The same trend is observed across three independent measurement strategies:
+
+- **Physical pixel ratio** (this notebook, from bounding-box pixel measurements)
+- **Image-derived pixel ratio** (notebook 2.3, larger subsample)
+- **VAE dimension X2** (notebook 2.4, latent-space coordinate; Spearman ρ = +0.655, *p* = 0.001)
+
+![Three-method overlay](../../paper/figures/fig_comparison_diachronic_overlay.pdf){#fig-three-method}
+
+## Key result
+
+The portrait-to-landscape transition is robust across all three measurement approaches.
+The Spearman rank correlation between chronological rank and median log-ratio is
+statistically significant (*p* < 0.001), and the same directional signal emerges
+from three independent measurement regimes.
+
+::: {.callout-note}
+**Next:** [Standardization Scale →](02-standardization.qmd) — how the CV of h/w ratios
+measures institutional control over scribal format.
+:::

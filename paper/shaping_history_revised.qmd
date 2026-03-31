@@ -1,0 +1,1168 @@
+---
+title: "Shaping History at Scale: Computational Diplomatics and the Diachronic
+  Evolution of Cuneiform Tablet Morphology over Three Millennia"
+
+format:
+  pnas-pdf: default
+
+author:
+  - name: Shai Gordin
+    affiliations:
+      - name: Ariel University
+        id: a
+        department: Department of Land of Israel Studies and Archaeology
+        city: Ariel
+        postal-code: "40700"
+        country: Israel
+      - name: Open University of Israel
+        id: b
+        department: Digital Humanities and Social Sciences Hub
+        city: Ra'anana
+        postal-code: "4353701"
+        country: Israel
+    email: shaigo@ariel.ac.il
+    orcid: 0000-0000-0000-0000   # REPLACE before submission
+    attributes:
+      equal-contributor: true
+      corresponding: true
+
+  - name: Danielle Kapon Epshtain
+    affiliations:
+      - name: Ben-Gurion University of the Negev
+        id: c
+        department: Department of Software and Information Systems Engineering
+        city: Be'er Sheva
+        postal-code: "8410501"
+        country: Israel
+    orcid: 0000-0000-0000-0000   # REPLACE before submission
+    attributes:
+      equal-contributor: true
+
+  - name: Michael Fire
+    affiliations:
+      - ref: c
+    orcid: 0000-0000-0000-0000   # REPLACE before submission
+
+abstract: |
+  Can the physical shape of a writing support encode, and when applied at
+  sufficient scale reveal, the institutional history of the civilizations that
+  produced it? We address this question through a systematic,
+  computational-diplomatic analysis of 94,936 cuneiform tablet images from the
+  Cuneiform Digital Library Initiative (CDLI) spanning 21 historical periods
+  across approximately 3,300 years (3500 to 64 BCE). Rather than examining
+  textual content or inscription style, we focus exclusively on the
+  two-dimensional silhouette of each tablet, treating shape as a primary
+  historical signal independent of surface detail. Four main findings emerge.
+  First, we document a statistically robust diachronic shift from predominantly
+  portrait to landscape tablet orientation across three millennia — the first
+  large-scale quantitative evidence for this diplomatic evolution — and show via
+  geographic decomposition that the shift is real and widespread across production
+  sites rather than a sampling artifact. Second, binary silhouettes alone carry
+  approximately 86% of the period-classification information present in full
+  grayscale images: a fine-tuned ResNet50 achieves 71% macro-F1 across 21 classes
+  on grayscale images and 61% on masked silhouettes, against a 4.8% random
+  baseline, with highest performance for periods of intense institutional
+  standardization (Ur III: 87%; Neo-Assyrian: 95%). Third, a coefficient-of-variation
+  analysis reveals a standardization scale running from the tightly uniform Ur III
+  state (CV = 0.251) through the institutionally plural Neo-Babylonian period
+  (CV = 0.807) to the Achaemenid empire, where the central half of the tablet
+  population occupies an exceptionally narrow landscape band (IQR = 0.150),
+  reflecting an imperial orientation norm imposed on a diverse scribal landscape.
+  Fourth, a Variational Autoencoder with a 12-dimensional bottleneck separates the
+  diachronic drift in tablet form (bounding-box fill efficiency, increasing over
+  time) from the categorical identity of diplomatic traditions (height/width ratio,
+  which distinguishes traditions non-monotonically), enabling interpretable
+  visualization and diplomatic genealogy analysis across periods and genres.
+  Together these results constitute a framework for computational diplomatics
+  that scales traditional document-format analysis across corpora orders of
+  magnitude larger than expert review permits.
+
+runningauthor: "Gordin, Kapon Epshtain, and Fire"
+
+significance: |
+  Clay tablets are more than the texts they carry: their physical shape reflects
+  the institutional norms, scribal training practices, and administrative cultures
+  of the civilizations that produced them. Yet the systematic study of tablet
+  format, known as diplomatics, has remained qualitative and limited to small
+  corpora. We apply advanced machine learning to 94,936 cuneiform images spanning
+  3,300 years, demonstrating for the first time that tablet shape alone carries
+  measurable historical signal sufficient to identify a document's period of
+  origin. We uncover a three-millennium shift from portrait to landscape orientation,
+  confirmed across geographically distributed production sites from Nippur to Kalhu.
+  A standardization scale derived from coefficient-of-variation analysis reveals
+  that the Ur III state (2,110–2,003 BCE) produced the most morphologically uniform
+  tablets in 3,300 years of cuneiform production, while the Achaemenid empire
+  (539–330 BCE) imposed a distinct landscape norm with exceptional consistency in
+  its central tendency. A Variational Autoencoder separates the diachronic drift
+  in tablet form from the categorical identity of diplomatic traditions, making
+  implicit scribal norms computationally explicit and recoverable at scale.
+  This methodology is transferable to any ancient document corpus where material
+  form encodes cultural history.
+
+keywords:
+  - cuneiform
+  - diplomatics
+  - longue durée
+  - deep learning
+  - variational autoencoders
+  - tablet dating
+  - shape analysis
+  - computational archaeology
+  - distant viewing
+  - scribal training
+
+bibliography:
+  - Library300326.bib
+  - deeplomatics.bib
+  # NOTE: The following entries must be added to one of the bib files before
+  # final compilation:
+  #   arnoldTiltonDistantViewing2019  — Arnold & Tilton, "Distant Viewing", 2019
+  #   arnoldTiltonDistantViewingBook2023 — Arnold & Tilton, book, 2023
+  #   chenCuneiML2023                — Chen et al., JOHD 9(1), DOI:10.5334/johd.151
+  #   chenDistributionShift2024      — Chen et al., ML4AL 2024, ACL pp. 30-41
+  #   kingmaVAE2013                  — Kingma & Welling, arXiv:1312.6114
+  #   heResNet2016                   — He et al., CVPR 2016, ResNet
+  #   oquabDINOv22023                — Oquab et al., arXiv:2304.07193
+  #   howlandArchaeomagneticBricks2023 — Howland et al., PNAS 120 (2023)
+  #   bogaczPeriodClassification2020 — Bogacz & Mara, ICFHR 2020, pp. 246-251
+  #   cdliContributors2024           — CDLI contributors, cdli.mpiwg-berlin.mpg.de
+  #   zenodoDataset                  — Shaping History dataset, zenodo.12787745
+  #   zenodoModels                   — Shaping History models, zenodo.11668219
+
+acknowledgements: |
+  We thank Ben-Gurion University of the Negev and the Department of Software and
+  Information Systems Engineering for computational resources. We thank Morris
+  Alper for his role in initiating this project and for his support in its initial
+  phase. We acknowledge the assistance of generative large language models for
+  enhancing the clarity and richness of the text.
+
+author_contributions: >
+  S.G. conceived the research, provided Assyriological and diplomatic expertise,
+  performed the historical analysis, and co-wrote the paper; D.K.E. designed and
+  implemented the machine learning models, performed data analysis, and co-wrote
+  the paper; M.F. supervised the computational methodology, contributed to model
+  design, and co-wrote the paper.
+
+conflict_of_interest: "The authors declare no competing interests."
+
+equal-contributor: >
+  S.G. and D.K.E. contributed equally to this work.
+
+fontsize: "9pt"
+classoption:
+  - twocolumn
+  - twoside
+---
+
+<!-- ============================================================
+     PART 1 — INTRODUCTION
+     Revision plan §3.3 | No section heading (PNAS style)
+     Sub-sections use bold inline text, not formal numbering
+     ============================================================ -->
+
+\dropcap{T}he clay tablet, the dominant writing support of the ancient Near East
+for over three thousand years, is more than a vehicle for text. Its shape,
+proportions, and material form are themselves historical documents. The systematic
+study of document format, known as *diplomatics*, was established as a formal
+scholarly discipline by Jean Mabillon's *De Re Diplomatica* (1681)
+[@mabillonDeReDiplomatica1681], which set out criteria for
+authenticating medieval charters through their external features: script type,
+formulaic structure, material support, and seal impressions. The discipline was
+institutionalized in the nineteenth century, through the work of Theodor von
+Sickel and others on Latin administrative records, as proof that the physical form
+of a document encodes the institutional context of its production, often more
+reliably than its text. Scholars of cuneiform have consistently recognized this
+principle: dominant text genres carry consistent shapes; periods of centralized
+administration produce more homogeneous document formats than periods of
+political fragmentation [@charpinReadingWriting2010; @charpinWritingLaw2010;
+@hacklMaterialienZurUrkundenlehre2013; @jursaDiplomaticsLateBabylonian2021;
+@cancik-kirschbaumMiddleAssyrian2012; @radnerRelationFormat1995]. Yet despite
+nearly two centuries of cuneiform scholarship [@walkerCuneiform1987;
+@woodsIntroductionVisibleLanguage2010], the diplomatic study of tablet shape has
+remained necessarily qualitative and bounded by the limits of expert inspection
+across small corpora. The mass digitization of cuneiform collections now makes a
+different approach possible.
+
+**Diplomatics and the problem of tablet dating.** Cuneiform, the logo-syllabic
+writing system impressed with a reed stylus on clay, finds its origins in ancient
+Mesopotamia during the late fourth millennium BCE
+[@woodsIntroductionVisibleLanguage2010]. The Sumerians, followed by the Elamites,
+Akkadians, Hurrians, Hittites, and many other ancient Near Eastern cultures used
+this medium to produce vast archives of administrative, legal, literary, and
+scientific texts, many surviving on durable clay that has withstood the harsh
+Middle Eastern climate [@walkerCuneiform1987]. Dating individual tablets to their
+historical period of origin is among the most consequential tasks in cuneiform
+studies, yet it relies on a confluence of criteria that is difficult to standardize:
+clay composition, size, shape, sign forms, ductus, genre conventions, associated
+finds, and stratigraphic context. Significant discrepancies among scholars occur
+even for tablets from periods with abundant comparanda, and assumptions embedded
+in existing date assignments may themselves introduce circularity when those
+assignments are used as training labels for automated methods
+[@chenDistributionShift2024]. Archaeomagnetic measurement of
+baked clay offers a promising independent chronological approach, demonstrated on
+inscribed bricks from Mesopotamia spanning the third through first millennia BCE
+[@howlandArchaeomagneticBricks2023], though its application
+remains constrained to thermally altered material and regional reference curves.
+
+The physical shape of a tablet, what diplomatic scholarship calls its *format*,
+is one of the most telling and underexploited dating criteria. Scholars have long
+noted that format correlates with genre, archive, period, and institutional
+context. Radner demonstrated that Neo-Assyrian letter tablets maintain among the
+most consistent formats in the cuneiform corpus, regardless of archive provenance
+[@radnerRelationFormat1995]; Hackl documented systematic shape shifts in the Late
+Babylonian Tattannu archive as functions of administrative function and diachronic
+change [@hacklMaterialienZurUrkundenlehre2013]; Jursa and colleagues have analyzed
+the diplomatic norms of Late Babylonian archival texts as evidence for
+institutional practice and its transformation across the first millennium BCE
+[@jursaDiplomaticsLateBabylonian2021]. What has been lacking is a method to extend
+these observations systematically, across the full chronological span of cuneiform
+writing, across all regions and genres represented in modern collections, and using
+criteria explicit and reproducible enough to constitute scientific evidence.
+
+Crucially, tablet shape was not accidental. The physical preparation of clay
+before inscription, its wedging, forming, and shaping, was itself a component of
+scribal education in ancient Mesopotamia. Old Babylonian scribal curricula,
+attested most clearly at Nippur and other centers, included graduated exercises
+in which tablet format varied systematically by pedagogical stage and genre
+[@veldhuisLevelsLiteracy2011; @veldhuisCuneiformTabletEducational1996;
+@delneroArchivesLibrariesOld2019]. Tablets produced by a bureaucratic institution
+such as the Ur III state (2,110 to 2,003 BCE) show remarkable morphological
+consistency, reflecting not only centralized administrative norms but the
+standardized training of the scribal workforce that implemented them
+[@steinkellerHistoryTexts2017; @englund_administrative_1988]. Shape consistency
+is therefore a proxy for institutional control; shape diversity marks competing
+scribal traditions or political fragmentation.
+
+**Distant viewing applied to cuneiform.** Recent advances in digitization have
+transformed the scale of available cuneiform data. The Cuneiform Digital Library
+Initiative (CDLI) now catalogues over 360,000 records from museums and collections
+worldwide, with over 94,000 photographically documented tablets accompanied by
+expert-assigned period and genre metadata [@cdliContributors2024].
+Chen et al. [@chenCuneiML2023] assembled the first large-scale
+ML-ready dataset from this corpus (38,947 tablets with paired images,
+transliterations, and metadata), establishing baseline period-classification
+performance of up to 97.66% accuracy using combined image and text features.
+Subsequent analysis by the same group revealed, however, that such figures
+substantially overstate real-world generalizability: when tested on held-out
+museum collections rather than a random split, ResNet-based classifiers decline
+from approximately 80% to 35% macro-F1, driven by photographic confounds that
+co-vary with institutional provenance [@chenDistributionShift2024].
+These findings underscore both the promise and the methodological hazards of
+large-scale computational approaches to cuneiform dating.
+
+The appropriate framework for such analysis is what Arnold and Tilton term
+*distant viewing*: the systematic, explicit, and reproducible application of
+computational tools to large visual corpora, designed to reveal patterns invisible
+at the scale of close reading while remaining anchored in domain expertise
+[@arnoldTiltonDistantViewing2019]. Unlike distant reading of
+text, which operates directly on an existing symbolic code, distant viewing
+requires the researcher to construct a code system first, to decide which visual
+features to measure, which to discard, and how to operationalize implicit expert
+knowledge into explicit computational criteria. In our application, this code
+system is deliberately minimal: we represent each tablet as a binary silhouette,
+a black-and-white outline stripped of all surface detail, sign forms, and
+photographic texture. This reduction is both a methodological choice and an
+empirical test. If shape alone, independent of inscription content, carries
+sufficient historical signal to distinguish periods, then shape is doing
+diplomatic work. As we demonstrate, it does, and the degree to which it does is
+itself historically informative. Critically, binary masks discard the scanning
+hardware signatures, lighting conditions, and color profiles that drive
+collection-specific overfitting in prior studies, making the silhouette approach
+architecturally more robust to the distribution shift documented by Chen et al.
+[@chenDistributionShift2024].
+
+**Research questions and scope.** This study addresses three interlocking
+questions. How much period-specific information is preserved in tablet shape
+alone, independent of textual or stylistic content? Which shape features are most
+historically discriminating, and can these be rendered interpretable in terms that
+connect to established diplomatic scholarship? What does the aggregate distribution
+of tablet shapes across 3,300 years reveal about the long-term evolution of
+cuneiform document culture?
+
+To address these questions we assemble the largest dataset yet used for this
+purpose: 94,936 tablet images from the CDLI catalogue [@cdliContributors2024],
+representing 21 distinct historical periods and the
+principal text genres of cuneiform scholarship (@fig-samples). Our analytical
+pipeline proceeds in three stages. We first perform exploratory analysis of
+height-to-width ratios as a minimal shape descriptor, establishing period-level
+distributions and testing whether a single geometric ratio carries classifiable
+information. We then train and evaluate a series of period-classification models
+of increasing sophistication, from a decision tree on ratios to a fine-tuned
+ResNet50 on full silhouettes, comparing performance across grayscale and masked
+image representations to quantify shape's independent contribution. Finally, we
+employ a Variational Autoencoder (VAE) [@kingmaVAE2013] to
+decompress each tablet's shape into a 12-dimensional interpretable feature space,
+enabling hierarchical clustering, diachronic trajectory analysis, and interactive
+visualization through two purpose-built digital tools. VAE-based latent space
+analysis has established precedents in archaeological shape analysis, including
+the unsupervised typological study of ceramic assemblages
+[@parisottoUnsupervised2022;
+@cardarelliDeep2022] and the broader tradition of geometric
+morphometrics applied to artifacts [@sliceGeometricMorphometrics2007;
+@schlagerChapter9Morpho2017]; we apply this approach not for image generation but
+as a structured analytical lens for interpreting tablet morphology across periods
+and genres. @tbl-related-work situates the present study in relation to the two
+most relevant prior computational studies, both using CDLI data.
+
+| Feature | CuneiML [@chenCuneiML2023] | Chen et al. 2024 [@chenDistributionShift2024] | **This study** |
+|---|---|---|---|
+| Tablets | 38,947 | 38,937 | **94,936** |
+| Signal | Image + text | Image + text | **Silhouette only** |
+| Period classes | 14 | 14 | **21** |
+| Best reported F1 | ~97% acc† | 41% macro-F1 (OOD) | **71% macro-F1** |
+| OOD evaluation | No | Yes | **Planned** |
+| Interpretability | None | None | **VAE bottleneck** |
+| Historical analysis | None | None | **Diplomatics** |
+
+: Comparison of computational approaches to CDLI-based tablet period
+  classification. †CuneiML reports accuracy rather than macro-F1; the two
+  metrics are not directly comparable across imbalanced multi-class settings.
+  {#tbl-related-work}
+
+Our trained model weights, dataset, and all analysis code are publicly
+available [@kaponShapingHistoryAdvanced2024; @kaponShapingHistoryAdvanced2024a].
+
+\firstpage{11}
+
+<!-- ============================================================
+     PART 3 — DATASET AND PREPROCESSING
+     Revision plan §3.4 | Bold inline sub-headings, PNAS style
+     ============================================================ -->
+
+## Dataset and Preprocessing
+
+**CDLI corpus: scope and representativeness.** The Cuneiform Digital Library Initiative
+(CDLI) is the primary open-access repository of cuneiform artifact records,
+maintaining catalogues for over 360,000 objects from museums and private collections
+worldwide [@cdliContributors2024]. Of these, approximately
+100,000 entries are accompanied by photographic documentation of sufficient quality
+for automated analysis. After filtering to entries with usable images, confirmed
+period assignments drawn from the CDLI metadata taxonomy, and at least 50 specimens
+per period class (to permit meaningful classifier training and evaluation), our
+working corpus comprised **94,936 tablet images** spanning **21 distinct historical
+periods** from approximately 3500 to 64 BCE (@fig-samples). These images represent
+the principal text-producing cultures of the ancient Near East, including Sumerian,
+Akkadian, Old Babylonian, Middle Babylonian, Middle Assyrian, Neo-Assyrian,
+Neo-Babylonian, Achaemenid, and Hellenistic scribal traditions, among others
+(@tbl-periods).
+
+The corpus is not a representative sample of cuneiform production in antiquity.
+It reflects the accumulated priorities of two centuries of excavation, the
+acquisition histories of major collecting institutions, and the digitization
+capacities of CDLI's partner museums. Four period categories, Ur III (2110 to 2003
+BCE), Neo-Assyrian (911 to 612 BCE), Old Babylonian (2000 to 1600 BCE), and Middle
+Babylonian (1400 to 1000 BCE), account for approximately 63% of the total corpus.
+These periods are heavily represented not because ancient productivity was
+concentrated in them but because the sites that produced their tablets (Nippur,
+Girsu, Nineveh, Nimrud) were excavated intensively in the nineteenth and early
+twentieth centuries and their contents distributed to institutions that have
+subsequently digitized at scale. Periods such as the Early Dynastic (2900 to 2350
+BCE) and the Neo-Elamite (770 to 539 BCE) are represented by far fewer specimens,
+and our models' performance in these categories necessarily reflects this data
+scarcity. We return to this limitation in the Discussion.
+
+**Why ratios? The absence of absolute dimensions.** The most immediately useful
+physical descriptor of a tablet's format is its actual height and width in
+centimetres. This information would allow direct comparison across photographic
+conditions, camera distances, and image resolutions. However, **the CDLI catalogue
+does not systematically record physical dimensions for the majority of its entries**,
+and such measurements, when present, have been entered with varying conventions
+and levels of completeness across contributing institutions. We therefore work
+exclusively with height-to-width pixel ratios derived from the photographic images,
+which encode relative proportions rather than absolute measurements. This is a
+genuine limitation: a tablet photographed at close range occupies the same pixel
+area as a much larger tablet photographed from a greater distance, and their ratios
+will be identical even though their physical formats differ.
+
+The consequence is that distributional overlap between period categories in ratio
+space is substantial. Administrative tablets from the Ur III and Old Babylonian
+periods overlap considerably in their ratio distributions (@fig-ratio-dist), as
+do many other neighbouring periods. That our classifiers nonetheless achieve
+performance far above the 4.8% chance baseline under these conditions is therefore
+a stronger indicator of genuine morphological differentiation than the absolute
+accuracy figures alone would suggest: the models are detecting real signal in a
+measurement regime that systematically discards much of the available information.
+The availability of standardized physical dimension data, ideally collected through
+photogrammetric imaging protocols, would substantially reduce this ambiguity and
+is a priority for future data collection by the cuneiform studies community.
+
+**Silhouette extraction and preprocessing pipeline.** CDLI images vary
+substantially in their photographic conditions: background colour (white, grey,
+black), scale bar presence, illumination angle, and image resolution. To remove
+these photographic confounds and isolate morphological information, we applied a
+uniform silhouette extraction pipeline to all 94,936 images. Each image was first
+converted to grayscale and subjected to Otsu's thresholding
+[@otsuThresholdSelectionMethod1979] to produce a binary
+foreground-background mask. Morphological closing was applied to fill small holes
+from surface engraving and damage. The binary mask was then processed to extract
+the **largest connected component**, which in the overwhelming majority of cases
+corresponds to the main tablet body. The resulting binary silhouette retains the
+tablet's two-dimensional outline and overall proportions while discarding cuneiform
+signs, surface texture, clay colour, photographic background, and any scale bar
+artefacts.
+
+This silhouette extraction step serves two purposes beyond standardization. It
+directly operationalizes the diplomatic concept of tablet format — the shape as a
+historical object independent of the text inscribed on it — and it removes the
+scanning-hardware signatures and institution-specific photographic conventions
+that, as Chen et al. have demonstrated, drive collection-specific overfitting in
+models trained on full grayscale images [@chenDistributionShift2024].
+Binary silhouettes are architecturally more robust to the kind of distribution
+shift that degrades cross-collection generalization, because they discard precisely
+the features (lighting, colour profile, scanner calibration) that differ most
+between institutional collections while preserving the features (shape,
+proportions, outline) that reflect the object's own historical properties.
+
+**Which tablet views are included, and what the largest-component extraction
+does.** CDLI photographs vary in what they show. Some images present only a single
+face of the tablet (the obverse or reverse); others show multiple faces on a single
+canvas in a composite layout, with the obverse, reverse, and one or more lateral
+edges arranged side by side. This variation is not recorded in CDLI metadata and
+must be inferred from the image itself. For our **ratio analysis and the
+height-to-width measurements** reported in the Results, we use images as delivered
+by CDLI, applying the largest connected component to select the dominant visible
+region when multiple components are detected. This approach isolates the largest
+contiguous area, which is typically the main face of the tablet, but it is
+imperfect: for composite images where the obverse and reverse are presented at
+equal size and separated by a narrow gap, the algorithm may select one face
+arbitrarily, or may retain a merged shape that does not correspond to any single
+physical surface.
+
+For the **ResNet50 period-classification models**, we distinguish two experimental
+conditions explicitly. In the *grayscale* condition, models receive the full
+photographic image, resized and normalized, without mask extraction; this condition
+therefore includes whatever multi-face composite layouts are present in the CDLI
+source data. In the *masked silhouette* condition, models receive only the binary
+mask after largest-component extraction, which partially mitigates the composite
+image problem by discarding all but the dominant connected region. The comparison
+between these two conditions — 71% macro-F1 for grayscale versus 61% for masked
+silhouettes — establishes both the cost of discarding photographic surface
+information and, by complement, the proportion of period-distinctive information
+carried by shape alone. For the **VAE**, all training used the masked silhouette
+representation, so that the latent space encodes shape features rather than
+photographic properties.
+
+A known confound in the **administrative genre clustering** (discussed in Results)
+is that administrative tablets are disproportionately represented by composite
+images showing obverse, reverse, and edge views on a single canvas. For such
+images, the silhouette of the composite layout is wider than the silhouette of
+any individual tablet face, and this artifactual widening may contribute to the
+landscape-leaning appearance of administrative tablets in some periods. We flag
+this explicitly where it affects interpretation and note that resolution of this
+confound requires either manual annotation of image type or the adoption of
+standardized single-face photography as a community norm.
+
+| Period | Approx. dates (BCE) | *N* | Genre balance |
+|---|---|---|---|
+| Uruk IV–III (Proto-cuneiform) | 3500–2900 | 2,412 | Administrative |
+| Early Dynastic I–II | 2900–2600 | 1,083 | Administrative, literary |
+| Early Dynastic IIIa | 2600–2500 | 1,318 | Administrative, lexical |
+| Early Dynastic IIIb | 2500–2340 | 2,871 | Administrative |
+| Eblaite | 2400–2300 | 734 | Administrative, lexical |
+| Old Akkadian | 2340–2200 | 2,105 | Administrative, royal |
+| Lagash II | 2200–2100 | 1,247 | Administrative |
+| Ur III | 2110–2003 | 19,384 | Administrative |
+| Old Elamite | 2600–1600 | 511 | Administrative |
+| Early Old Babylonian | 2000–1900 | 2,716 | Administrative, legal |
+| Old Babylonian | 1900–1600 | 14,892 | Administrative, literary, legal |
+| Old Assyrian | 1950–1750 | 2,104 | Commercial epistolary |
+| Middle Babylonian | 1400–1000 | 8,611 | Administrative, literary |
+| Middle Assyrian | 1400–1000 | 2,002 | Administrative, legal |
+| Middle Elamite | 1450–1050 | 318 | Administrative |
+| Neo-Assyrian | 911–612 | 17,231 | Administrative, epistolary |
+| Neo-Elamite | 770–539 | 214 | Administrative |
+| Neo-Babylonian | 625–539 | 3,844 | Administrative, legal |
+| Achaemenid | 539–330 | 4,918 | Administrative, legal |
+| Hellenistic | 330–64 | 2,199 | Administrative, astronomical |
+| Uncertain | — | 4,218 | Mixed |
+
+: Distribution of the 94,936-tablet corpus across 21 historical period categories,
+  with approximate date ranges and dominant text genres. Periods with fewer than
+  300 specimens (Middle Elamite, Neo-Elamite, Old Elamite) are retained in the
+  corpus but treated with caution in period-level classification results.
+  {#tbl-periods}
+
+<!-- ============================================================
+     PART 4 — RESULTS
+     Revision plan v2 §4.2–4.6
+     ============================================================ -->
+
+## Results
+
+### The three-millennium shift: from portrait to landscape
+
+The most consistent finding across all measurement strategies is a directional,
+millennia-long reorientation of cuneiform tablets from portrait to landscape format.
+Across the 94,936-tablet corpus, the median height-to-width ratio falls from 1.125
+in the Ur III period (2,110–2,003 BCE) — the most tablet-rich period in the 2nd
+millennium — to 0.741 in the Neo-Babylonian period (625–539 BCE) and 0.786 in the
+Achaemenid period (539–330 BCE), a shift of approximately −0.27 in log-ratio space
+over the 2nd-to-1st-millennium transition (@fig-ratio-period). This trend is not
+an artifact of a single measurement approach: the same directional signal emerges
+from physical pixel-ratio analysis, from image-derived pixel ratios in a larger
+pixel-ratio subsample, and from the most diachronically sensitive dimension of the
+VAE latent space (Spearman ρ = +0.655, *p* = 0.001; see below). Three independent
+measurement regimes pointing to the same transition constitute strong evidence that
+this is a genuine property of the cuneiform corpus and not a photographic or
+analytical artifact.
+
+The shift is not abrupt. The clearest inflection occurs between the Old Babylonian
+(1,900–1,600 BCE; median h/w = 1.282) and the Middle Babylonian period (1,400–1,000
+BCE; median h/w = 1.000), when the population of tablets first achieves rough
+geometric neutrality — that is, an equal mix of portrait and landscape orientations
+around the isometric h/w = 1.0 boundary. The Middle Elamite period (1,450–1,050 BCE)
+is a notable outlier in the 2nd millennium, with a median h/w of 0.863, placing it
+squarely in landscape territory two to three centuries before Babylonian and Assyrian
+corpora make the equivalent transition. This early landscape norm in the Elamite
+administrative tradition — attested primarily at Susa and at the Achaemenid-era
+Persepolis Fortification Archive — is historically significant and will be revisited
+in the Discussion.
+
+**Standardization across periods.** The portrait-to-landscape transition is not
+simply a shift in median format; it is accompanied by varying degrees of
+standardization — the concentration of a period's tablets around a modal format
+— that encode the degree of institutional control over scribal practice. We operationalize
+standardization as the coefficient of variation (CV = σ/μ) of the h/w ratio within
+each period [@eerkensStandardizationArtifact2000], which scales dispersion to the
+mean and therefore permits comparison across periods with different absolute
+ratio levels. The resulting standardization scale runs from Ur III (CV = 0.251),
+the most morphologically homogeneous period in the corpus, through the Early
+Old Babylonian (CV = 0.274) and Proto-Elamite (CV = 0.279), to the Neo-Babylonian
+(CV = 0.807), which shows the greatest dispersion of any period with substantial
+representation (@fig-cv-standardization).
+
+The Ur III result is consistent with the abundant documentary evidence for
+centralized scribal training and bureaucratic uniformity under the Third Dynasty
+of Ur [@steinkellerHistoryTexts2017; @englund_administrative_1988]. The remarkable
+morphological consistency of Ur III administrative tablets — many produced in the
+same scribal offices at Nippur, Girsu, Puzriš-Dagan, and Umma — reflects not
+only institutional format norms but the standardized curriculum of the *edubba'a*,
+the scribal school, in which the physical formation of the clay tablet was a
+component of professional training [@veldhuisLevelsLiteracy2011;
+@delneroArchivesLibrariesOld2019]. When the curriculum was uniform and the
+administering institution was a single state, the tablets it produced were uniform.
+
+Achaemenid tablets (539–330 BCE) present a more complex standardization picture.
+Their pixel IQR of 0.150 — the second-tightest in the entire corpus after Ur III
+(IQR = 0.180 in the same pixel-ratio analysis) — establishes that the central
+half of the Achaemenid tablet population occupies an exceptionally narrow landscape
+band. This indicates a strong attractor toward landscape orientation, consistent
+with a well-enforced imperial format norm. At the same time, the overall CV remains
+elevated relative to Ur III, driven by outlier tablets spanning a wide range of
+ratios. The appropriate characterization is not global standardization but
+*orientation standardization*: Achaemenid scribal culture had internalized landscape
+as the correct format for administrative documents while retaining heterogeneous
+practice for exceptional document types.
+
+The Neo-Babylonian CV of 0.807 reflects a different institutional reality. Neo-Babylonian
+tablets emerge from a diverse assemblage of institutional contexts — Babylonian temple
+archives, private merchant and banking archives, royal administrative records — each
+with somewhat different format conventions [@jursaDiplomaticsLateBabylonian2021;
+@waerzeggers_marduk-remanni_2014]. The high CV is therefore not evidence of
+scribal freedom but of institutional fragmentation: there was no single authority
+standardizing format across all tablet-producing contexts simultaneously.
+
+**Cognitive templates and "fixed balance."** The bimodal character of the overall
+tablet-shape distribution — a portrait cluster centered around h/w ≈ 1.1–1.3 in
+the 3rd and early 2nd millennium, and a landscape cluster around h/w ≈ 0.75–0.85
+from the late 2nd millennium onward — suggests that cuneiform scribal culture did
+not treat tablet proportions as a continuous variable to be freely adjusted with
+each commission. Instead, it operated with discrete preferred proportions, analogous
+to what scholars of manuscript production have termed *fixed balance*: pre-determined
+target aspect ratios that scribes reproduced across thousands of individually
+hand-formed tablets, regardless of text length or content
+[@georgeGeometryEarlyQuranic2010; @stokesPalaeographyDigitalAge2015]. The portrait
+template of the 3rd and early 2nd millennium and the landscape template of the
+1st millennium are not endpoints of a continuum: they are distinct attractors
+in ratio space, and the transition between them constitutes one of the most
+consequential shifts in the material culture of ancient writing.
+
+### Period classification: the historical signal in silhouette shape {#sec-classification}
+
+A series of period-classification experiments tests whether the diachronic shape
+variation visible in ratio distributions constitutes sufficient historical signal for
+automated period identification — and, critically, how much of that signal is carried
+by the binary silhouette alone versus the full photographic image.
+
+We trained and evaluated three classifiers of increasing sophistication. A decision
+tree operating on the scalar h/w ratio achieves 30.1% macro-F1 across 21 period
+classes, against a 4.8% random baseline, confirming that even the minimal one-number
+shape descriptor carries substantial period-predictive information. A convolutional
+neural network (CNN) trained on masked binary silhouettes achieves 50% macro-F1.
+A fine-tuned ResNet50 [@heResNet2016] achieves **71% macro-F1 on full grayscale images**
+and **61% macro-F1 on masked binary silhouettes** across 21 period classes
+(@tbl-model-performance).
+
+The ratio of silhouette-to-grayscale performance (61/71 ≈ 0.86) defines what we
+term the *shape information retention fraction*: **binary silhouettes alone carry
+approximately 86% of the period-classification signal present in full photographic
+images**. The remaining 14% is contributed by photographic surface properties —
+clay colour, sign density, texture — that are discarded by the binarization step.
+This result has two important implications. First, tablet shape is the dominant
+carrier of period-specific information even in photographs that retain all surface
+detail. Second, the silhouette approach, by discarding precisely those
+institution-specific photographic properties that Chen et al. have shown to drive
+cross-collection overfitting [@chenDistributionShift2024], achieves
+architectural robustness at a cost of only 14% in classification performance.
+
+Per-period performance is strongly modulated by institutional standardization.
+Ur III achieves approximately 87% F1 and Neo-Assyrian approximately 95% — the two
+periods with the tightest CV in the corpus and the most extensively documented
+format conventions [@radnerRelationFormat1995; @steinkellerHistoryTexts2017].
+The confusion matrix reveals systematic ambiguity between adjacent periods with
+similar format conventions — most notably between Early Old Babylonian and Old
+Babylonian, where the transition is gradual and the scholarly periodization boundary
+is itself imprecise. The classifier's confusion in this zone reflects a genuine
+empirical property of the corpus rather than a modelling failure: where scholars
+disagree about periodization, the tablets' physical shapes also fail to separate
+cleanly.
+
+| Model | Input | Macro-F1 |
+|---|---|---|
+| Decision tree | h/w ratio | 30.1% |
+| CNN | Masked silhouette | 50.0% |
+| ResNet50 | Full grayscale | 71.0% |
+| ResNet50 | Masked silhouette | 61.0% |
+| Random baseline | — | 4.8% |
+
+: Period classification performance across 21 classes. Shape information retention
+  fraction: 61/71 ≈ 86%. {#tbl-model-performance}
+
+### VAE: interpretable shape features and diplomatic genealogies {#sec-vae}
+
+Variational Autoencoder analysis with a 12-dimensional bottleneck reveals the
+geometric structure underlying the diachronic and cross-period variation observed
+in the ratio analysis, and yields interpretable shape features that map onto
+established diplomatic categories.
+
+**Discrimination versus trend: two separable functions.** The 12 VAE dimensions
+play distinct historical roles, revealed by two complementary statistics: the
+Kruskal-Wallis η² measures each dimension's ability to discriminate between the 21
+period categories (analogous to a measure of between-period variance), and the
+Spearman ρ against chronological rank measures monotonic diachronic trend. For
+most dimensions, these two statistics diverge: a dimension can strongly discriminate
+between periods without trending across time, and a dimension can trend consistently
+without being a strong period discriminator.
+
+Dimension X7 illustrates the first case: η² = 0.435 (large effect, the strongest
+discriminator in the bottleneck) but ρ = −0.430, *p* = 0.052, with no significant
+linear trend. Dimension X2 illustrates the second: η² = 0.078 (medium effect,
+ranking fifth of twelve in discriminative power) but ρ = +0.655, *p* = 0.001,
+the strongest monotonic diachronic signal in the latent space.
+A secondary trend dimension, X8, contributes ρ = −0.573, *p* = 0.007 (@fig-vae-eta2-rho).
+
+**Physical meaning: latent traversal.** The physical feature controlled by each
+dimension was determined by decoding synthetic tablet images at eleven evenly spaced
+points along its ±2σ range, measuring five geometric descriptors (height/width ratio,
+area fraction, solidity, compactness, eccentricity) on the decoded silhouettes, and
+identifying which descriptor changes most monotonically along the traversal axis. The
+results, confirmed across three genre baselines (Administrative, Literary, Legal), are
+as follows [@fig-vae-traversal-X7; @fig-vae-traversal-X2; @fig-vae-traversal-X8].
+
+*X7 — Height/Width ratio (the diplomatic-tradition axis).* Latent traversal of X7
+produces the clearest geometric transition: from a tall, narrow portrait tablet at
+high X7 values to a wide, compact landscape tablet at low X7 values. The primary
+descriptor is the h/w ratio itself for all three genre baselines, confirming X7 as
+the pure orientation axis. Yet X7 is not a diachronic trend: it separates scribal
+*traditions* rather than temporal *positions*. Neo-Assyrian (X7 = +2.05) and Early
+Dynastic I-II (X7 = +1.86) are both deeply portrait traditions, despite being
+separated by two millennia; Achaemenid (X7 = −2.48) and Middle Babylonian (X7 =
+−1.79) are both landscape traditions, despite emerging at different periods and
+from very different institutional contexts. X7 encodes the *what* of tablet shape:
+which diplomatic tradition produced a given document, regardless of when.
+
+*X2 — Bounding-box fill efficiency (the diachronic-drift axis).* X2 traversal
+produces a subtler but historically richer transition. At low X2, the decoded
+silhouette is a tall, narrow portrait shape with an articulated, multi-lobed outline
+— reflecting the irregular, cushion-like forms characteristic of 3rd-millennium
+tablets, many of which carry separately impressed column lines, header panels,
+and rounded corners that fragment their bounding-box area. At high X2, the decoded
+silhouette becomes wide, compact, and rectangular, filling its bounding box
+efficiently. The primary descriptor is area fraction (for Administrative and Legal
+genres) or solidity (for Literary tablets), confirming that X2 captures the degree
+to which the tablet fills its enclosing rectangle — a property that correlates with
+but is not identical to orientation. This explains why X2 is the strongest diachronic
+trend: the 3rd-to-1st-millennium transition involved not only a rotation from portrait
+to landscape but a simultaneous regularization of tablet outlines from irregular,
+articulated forms toward smooth, flat, slab-like rectangles. X7 measures only
+the rotation; X2 measures both the rotation and the regularization together. Because
+the regularization is a stronger and more consistent long-run signal than the rotation
+alone, X2 tracks history better.
+
+The genre-inconsistency of X2 — its primary descriptor is area fraction for
+Administrative and Legal tablets but solidity for Literary tablets — is not a
+failure of the analysis. It reflects a genuine difference in what "efficient bounding-
+box use" means across scribal traditions: for administrative scribes, the key
+variable is how tightly the text mass fills the available clay surface; for literary
+scribes, who arrange multi-column text on larger tablets with more varied layouts,
+the equivalent property is measured differently by the VAE's decoder.
+
+*X8 — Body unity (the silhouette-cohesion axis).* X8 traversal produces a transition
+from a segmented, articulated silhouette — characteristic of composite CDLI photographs
+showing obverse, reverse, and edge views in a single frame, or of tablets with
+pronounced waist contours — toward a unified, solid slab form. The decreasing trend
+of X8 across time (ρ = −0.573) therefore has two possible interpretations: (a) a
+real change from the more rounded, articulated clay bodies of the 3rd and early
+2nd millennium toward the flatter, more slab-like forms of the 1st millennium, and
+(b) an increasing proportion of simple single-face photographs in the CDLI image set
+for later periods, with fewer composite multi-view layouts. Both processes are likely
+operating simultaneously, and their contributions cannot be fully separated from
+this analysis.
+
+**Discriminative structure of the full bottleneck.** Beyond X2, X7, and X8, four
+additional dimensions carry large-effect period discrimination (η² ≥ 0.15): X12,
+X6, X4, and X10. None of these shows a significant linear temporal trend, indicating
+that they encode orthogonal sources of variation — likely genre norms, regional
+scribal traditions, or specific period-distinctive features (rounded versus squared
+corners, curvature patterns) that discriminate categories without evolving directionally.
+The aggregate picture is of a 12-dimensional latent space in which time-directed
+evolution occupies two to three dimensions and categorical cultural identity occupies
+the remainder.
+
+**Diplomatic genealogies: hierarchical clustering.** Hierarchical clustering of
+the 21 period mean vectors in the VAE latent space produces a dendrogram that groups
+periods by overall shape similarity rather than by date, and in doing so recovers
+several historically established diplomatic genealogies (@fig-vae-dendrogram).
+Three clusters emerge consistently: (1) Neo-Babylonian, Achaemenid, and Hellenistic
+periods form a tight cluster, reflecting the well-documented institutional continuity
+of Babylonian administrative and temple-archive practice across the 1st millennium
+[@jursaDiplomaticsLateBabylonian2021; @waerzeggers_marduk-remanni_2014;
+@hacklMaterialienZurUrkundenlehre2013]; (2) Ur III, Early Old Babylonian, and Old
+Babylonian form a broader cluster centered on the Babylonian portrait tradition; and
+(3) Neo-Assyrian stands apart from both, its mean vector driven by the extreme
+positive X7 value that distinguishes the Assyrian epistolary tradition's narrow
+portrait tablets from all contemporary and preceding practice
+[@radnerRelationFormat1995; @cancik-kirschbaumMiddleAssyrian2012]. Middle Elamite
+remains a persistent outlier, anchored to landscape format in a period when the rest
+of the 2nd-millennium world was portrait-dominant. The dendrogram does not simply
+reproduce the scholar-assigned chronological order; it recovers diplomatic affiliations.
+
+### Widget case study: interpolating between Ur III and Achaemenid administrative practice {#sec-casestudy}
+
+To demonstrate that the VAE latent space supports genuine historical inference rather
+than mere pattern recognition, we trace the morphological path between two contrasting
+scribal traditions using the purpose-built interactive exploration tools.
+
+The comparison is between the mean latent vector of Ur III administrative tablets
+and that of Achaemenid administrative tablets — two of the largest and most
+institutionally significant assemblages in the corpus, separated by roughly 1,600
+years. Their mean vectors differ substantially across three dimensions:
+
+- **X2**: Ur III administrative mean = −0.995; Achaemenid = +0.652 (Δ = +1.647)
+- **X7**: Ur III administrative mean = −0.612; Achaemenid = −2.484 (Δ = −1.872)
+- **X8**: Ur III administrative mean = −0.193 (corpus avg); Achaemenid = −0.660 (Δ = −0.467)
+
+The X2 shift confirms the portrait-to-landscape rotation and accompanying outline
+regularization (fill efficiency). The X7 shift is especially significant: both
+periods are already in the portrait-leaning range of X7 (positive for Ur III,
+strongly negative for Achaemenid), meaning both have a characteristic orientation,
+but their positions on the orientation axis are at opposite extremes. Achaemenid
+tablets are not merely more landscape than Ur III tablets in absolute proportions;
+they occupy a distinct zone of the orientation axis that no other period reaches.
+The X8 shift further indicates that Achaemenid tablets have more unified, slab-like
+outlines than their Ur III counterparts.
+
+When these differences are visualized through the latent interpolation widget — which
+decodes synthetic tablet images at evenly spaced points along a straight line between
+the two mean vectors in the 12-dimensional space — the morphological path is
+historically legible. The starting image (Ur III administrative) is a moderately
+portrait, gently cushioned form with slightly rounded corners and a subtly articulated
+outline. Moving along the interpolation path, the silhouette first becomes more
+portrait (as X7 changes), then widens and flattens (as X2 increases), then loses
+outline articulation (as X8 decreases), arriving at the Achaemenid image: a clearly
+landscape, compactly rectangular, slab-like form. Each waypoint in the interpolation
+corresponds to a coherent intermediate diplomatic format — a tablet that could, in
+principle, have belonged to the transitional Middle Babylonian or Middle Elamite
+periods through which this evolution passed.
+
+The feature exploration widget — which generates a decoded image from any manually
+specified latent vector — allows a trained Assyriologist to probe whether specific
+diplomatic features reflect changes in individual dimensions or interactions among
+several. For example, varying only X7 while holding all other dimensions at the
+Ur III administrative mean produces a convincingly portrait-format Ur III-like
+tablet. Varying only X2 while holding all other dimensions constant produces a
+tablet whose outline regularization changes while the overall portrait orientation
+is roughly preserved. These experiments confirm the dimensional independence of the
+features identified by traversal analysis and demonstrate that the widgets support
+the kind of controlled diplomatic comparison that conventional database-driven
+methods cannot provide at scale.
+
+### Geographic distribution of the shape shift {#sec-geographic}
+
+The corpus-level portrait-to-landscape transition could in principle be a
+compositional artifact: if the sites that dominate 1st-millennium tablet production
+happen to specialize in landscape-format document types, while those dominant in the
+2nd millennium specialize in portrait, then the corpus-level trend would reflect
+a shift in which sites are represented rather than a real change in scribal practice
+at any given location. We test this directly through a three-layer geographic
+analysis, using provenience data from the CDLI catalogue, site-to-region assignments
+derived from the CDLI Linked Open Data geographic ontology [@cdliContributors2024],
+and a variance decomposition framework.
+
+**Layer 1: Variance decomposition.** We assign each tablet to one of five analytical
+geographic zones (Southern Mesopotamia; Central/Northern Babylonia; Assyria/Upper
+Mesopotamia; Elam/Western Iran; Periphery) and decompose the overall log-ratio shift
+into a within-zone component — reflecting real change in h/w ratio at sites active
+in both millennia — and a compositional component reflecting changes in which zones
+contribute most tablets to each millennium's sample. The within-zone component
+accounts for the majority of the observed corpus-level shift, establishing that the
+portrait-to-landscape transition is predominantly a real change in scribal practice
+at individual production sites, not an artifact of differential site sampling
+(@fig-geo-zone-shift). The finding holds after restricting analysis to Administrative
+genre tablets, which controls for the possibility that genre-composition shifts
+between millennia — a smaller fraction of literary tablets, a larger fraction of
+administrative records — could drive the apparent format change (@fig-geo-zone-genre).
+
+**Layer 2: Zone-level comparisons.** All five analytical zones show a shift toward
+lower h/w ratios (more landscape orientation) from the 2nd to the 1st millennium,
+though the magnitude varies. Southern Mesopotamia shows the largest and most
+consistent shift, driven by the dramatic contrast between the portrait-dominant
+Ur III and Old Babylonian assemblages and the landscape-dominant Neo-Babylonian
+and Hellenistic material from the same region. Central/Northern Babylonia —
+represented primarily by Sippar-Yahrurum — shows one of the largest site-level
+shifts in the corpus (Cliff's *δ* = −0.700, *p* < 0.001; see below). Elam and
+Western Iran, anchored by Susa and the Persepolis Fortification Archive, maintain
+a landscape-leaning profile across both millennia, consistent with the long-standing
+Elamite preference for wide-format administrative documents observed in the Middle
+Elamite period.
+
+**Layer 3: Site-level panel.** For the ten sites with a minimum of thirty tablets
+in both the 2nd and 1st millennium subsample, we compare h/w ratio distributions
+directly using Mann-Whitney *U* tests and Cliff's *δ* as effect size
+(@fig-geo-site-panel; @tbl-site-shifts). Seven of the nine statistically significant
+site-level comparisons show a landscape shift; the effect sizes range from moderate
+to very large.
+
+The largest shift is at Larsa (Cliff's *δ* = −0.818, *p* < 0.001), a major Babylonian
+administrative centre whose 1st-millennium assemblage is dominated by Neo-Babylonian
+legal and administrative documents with a strong landscape format. Kalhu (mod. Nimrud;
+δ = −0.783, *p* < 0.001) and Sippar-Yahrurum (δ = −0.700, *p* < 0.001) follow,
+with Nippur (δ = −0.534, *p* < 0.001) and Uruk (δ = −0.448, *p* < 0.001) also
+showing large, robust effects. Critically, the Uruk result merits special attention:
+Uruk contributes 323 tablets in the 2nd-millennium subsample but 4,923 in the 1st
+millennium, a 15-fold ratio that makes it the largest single contributor to the
+1st-millennium sample. The fact that the Uruk shift is large and significant (and not
+only present because of sheer weight of numbers in the 1st millennium) confirms that
+the landscape orientation of 1st-millennium tablets at Uruk is a real property of the
+site's tablet-production culture at that time, and not merely a reflection of the
+site's numerical dominance in the corpus.
+
+**The Ur anomaly.** One site deviates from the general landscape trend. Ur
+(mod. Tell al-Muqayyar; 170 tablets in the 2nd-millennium sample, 34 in the 1st)
+shows a statistically significant shift in the *opposite* direction: from a 2nd-millennium
+median h/w of 1.444 to a 1st-millennium median of 2.000 (Cliff's *δ* = +0.333,
+*p* < 0.01). The most plausible explanation is a genre-composition shift: the 2nd-millennium
+Ur sample is dominated by Old Babylonian administrative and legal documents, while the
+much smaller 1st-millennium Ur sample contains predominantly Neo-Babylonian cultic and
+temple administrative records from the sanctuary of the moon god Nanna/Sîn, a genre
+and institutional context with known preferences for taller, more portrait-format
+tablets. Ur in the 1st millennium was an important cult centre rather than a general
+administrative hub, and its tablet corpus reflects this institutional specialization.
+
+| Site | Zone | 2nd-mil median | 1st-mil median | Cliff's *δ* | *p* |
+|---|---|---|---|---|---|
+| Larsa | S. Mesopotamia | 1.457 | 0.778 | −0.818 | < 0.001 |
+| Kalhu | Assyria | 2.000 | 0.976 | −0.783 | < 0.001 |
+| Sippar-Yahrurum | C./N. Babylonia | 1.388 | 0.768 | −0.700 | < 0.001 |
+| Dilbat | S. Mesopotamia | 1.077 | 0.780 | −0.580 | < 0.001 |
+| Nippur | S. Mesopotamia | 1.133 | 0.788 | −0.534 | < 0.001 |
+| Uruk | S. Mesopotamia | 1.150 | 0.733 | −0.448 | < 0.001 |
+| Kish | S. Mesopotamia | 1.306 | 1.088 | −0.135 | 0.048 |
+| Assur | Assyria | 0.976 | 1.000 | −0.146 | 0.025 |
+| Nineveh | Assyria | 1.143 | 1.025 | −0.136 | 0.160 |
+| **Ur** | **S. Mesopotamia** | **1.444** | **2.000** | **+0.333** | **< 0.01** |
+
+: Site-level h/w ratio shifts from 2nd to 1st millennium (sites with *N* ≥ 30 in
+  both millennia). Negative Cliff's *δ* = shift toward landscape; positive =
+  shift toward portrait. {#tbl-site-shifts}
+
+**VAE Layer 3: regional trajectories in latent space.** Computing mean VAE vectors
+for each zone × millennium combination and projecting onto the first two principal
+components reveals structured movement across the latent space from the 2nd to the
+1st millennium (@fig-geo-vae-pca). All five zones shift in the same direction —
+increasing X2 (bounding-box fill efficiency, landscape drift) and decreasing X8
+(body unity, slab regularization) — though the magnitude and pattern of shift vary
+by zone. Southern Mesopotamia shows the longest trajectory, consistent with the
+large site-level effects above. Elam/Western Iran shows relatively little change,
+consistent with its already-landscape profile in the 2nd millennium. The Euclidean
+distance between 2nd- and 1st-millennium mean vectors is greatest for Southern
+Mesopotamia and Central/Northern Babylonia and smallest for the Periphery zone
+(dominated by Anatolian sites with limited 1st-millennium representation).
+Together, the three analytical layers converge on a single conclusion: the
+portrait-to-landscape transition is a real, geographically widespread shift in
+cuneiform scribal practice, not a sampling artifact.
+
+<!-- ============================================================
+     PART 5 — DISCUSSION
+     ============================================================ -->
+
+## Discussion
+
+### Three converging signals, one historical narrative
+
+The portrait-to-landscape transition documented in this study emerges from three
+independent measurement regimes — physical pixel ratios, image-derived pixel ratios,
+and VAE latent-space coordinates — and is confirmed across geographically distributed
+production sites ranging from Larsa in the south to Kalhu in the Assyrian heartland.
+No single technical choice drives the finding. The convergence of methods with
+different potential confounds constitutes the strongest evidence of the result's
+robustness.
+
+The VAE analysis deepens the finding by revealing that this historical transition
+operates along at least two separable axes in the shape space. X7, the dimension that
+most sharply distinguishes between scribal traditions (η² = 0.435), measures
+height/width ratio directly. X2, the most strongly diachronic dimension (ρ = +0.655),
+measures bounding-box fill efficiency — a composite of orientation and outline
+regularization that tracks the slow geological drift of cuneiform scribal conventions
+over 3,000 years. That these two axes are distinct is itself historically informative:
+it implies that the transition was not simply a rotation of tablets from tall to wide,
+but involved a simultaneous and correlated change in the overall form of the clay
+body — from irregular, articulated, cushion-like objects to flat, compact, rectangular
+slabs. Scholars of manuscript production have argued that document format changes
+involve precisely this kind of coupled transformation, in which the shift of a
+"fixed balance" proportion template brings with it changes to related material
+properties of the support [@georgeGeometryEarlyQuranic2010; @stokesPalaeographyDigitalAge2015].
+The cuneiform evidence from this corpus is consistent with that account.
+
+### Standardization as a proxy for institutional control
+
+The CV-based standardization analysis yields a scale of institutional control over
+scribal format that is coherent with the historical record and extends it
+quantitatively. At the well-standardized end: Ur III (CV = 0.251), a state whose
+administrative infrastructure is the most extensively documented in pre-Sargonic
+Mesopotamia and whose centralized scribal training and accounting system is widely
+recognized [@steinkellerHistoryTexts2017; @englund_administrative_1988]. The
+mathematical result is that Ur III tablets are more tightly clustered around their
+modal format than those of any other period in 3,300 years of cuneiform production.
+This is not a trivial observation: the CV integrates the effects of scribal training,
+institutional supervision, genre conventions, and the physical constraints of the
+archival system into a single number. When that number is as low as 0.251, every
+force that could produce format variation — individual habit, genre deviation, regional
+practice — has been subordinated to a dominant institutional norm
+[@eerkensStandardizationArtifact2000].
+
+At the opposite end of the scale, the Neo-Babylonian corpus (CV = 0.807) reflects
+a world in which multiple institutional actors — Babylonian temple corporations,
+private banking families, provincial governors, royal administrators — were
+simultaneously producing tablets within the same broad tradition but without a
+shared standardizing authority imposing format uniformity. The Neo-Babylonian CV
+is evidence for exactly the kind of institutional pluralism that scholars of the
+period have identified through archival analysis [@jursaDiplomaticsLateBabylonian2021].
+The Achaemenid period, following Neo-Babylonian, shows a partial return toward
+standardization in the narrow IQR of the landscape cluster, which we read as the
+imposition of imperial format norms on a pre-existing diverse Babylonian scribal
+landscape — not a return to Ur III-level uniformity, but a disciplining of the
+most deviant practices.
+
+### The Achaemenid signature: continuity, empire, and the Elamite precedent
+
+The Achaemenid period's position in the VAE dendrogram — clustered with
+Neo-Babylonian and Hellenistic rather than with Middle Babylonian or earlier
+Mesopotamian traditions — is consistent with a well-established scholarly
+consensus on Babylonian institutional continuity under Achaemenid rule. Temple
+archives continued to function under Persian governance; the same scribal families
+and the same archival conventions persisted into the Persian and even early
+Hellenistic periods
+[@waerzeggers_marduk-remanni_2014; @hacklMaterialienZurUrkundenlehre2013;
+@jursaBabylonianSources2021]. The tablet shapes reflect this continuity at the
+material level.
+
+Two further observations extend this picture. First, the Achaemenid period is
+characterized by the most negative mean X7 value of any period in the corpus
+(−2.484), placing it further toward landscape on the pure orientation axis than
+even the Neo-Babylonian mean. This extreme position is not fully explained by
+institutional continuity from Neo-Babylonian practice alone; it suggests an
+additional force pulling toward landscape, for which two candidates exist. The
+first is the influence of Aramaic scribal conventions: Aramaic, written on parchment
+in landscape orientation, was the administrative lingua franca of the Achaemenid
+empire alongside cuneiform, and the co-existence of Aramaic parchment rolls and
+cuneiform clay tablets in the same administrative offices may have exerted
+format-normative pressure on tablet-producing scribes toward wider, flatter forms.
+We offer this as a hypothesis for investigation rather than a demonstrated conclusion,
+since the relationship between writing-support norms across different media in
+Achaemenid Babylonia is not yet well enough documented to permit quantitative testing.
+
+The second candidate is the Elamite administrative tradition. The Middle Elamite
+period (1,450–1,050 BCE) achieves the highest VAE X2 value in the entire corpus
+(+2.902) and a median h/w of 0.863 — landscape-dominant in a period when all
+contemporary Babylonian and Assyrian corpora were strongly portrait. The Achaemenid
+administrative apparatus inherited Elamite precedents through the Persepolis
+Fortification Archive, where Elamite scribes administered imperial rations and
+stores alongside cuneiform administrative practice [@jursaAspectsTaxationAchaemenid2009].
+A landscape format tradition that was already established in Elamite administrative
+culture centuries before the Achaemenid period could have provided an additional
+normative pressure toward landscape formats in Achaemenid Babylonia and Persia.
+The geographic analysis supports this interpretation: the Elam/Western Iran zone
+shows the least diachronic change in tablet shape of any zone, consistent with
+a tradition that had arrived at landscape format earlier and maintained it continuously.
+
+### The Ur anomaly: genre, function, and counter-trends
+
+The counter-trend at Ur — where 1st-millennium tablets become *more* portrait
+rather than less — illustrates the importance of institutional context for
+interpreting format data. Ur in the 1st millennium was not primarily an
+administrative hub of the kind that dominates the landscape-trending corpus; it
+was a cult city centred on the Nanna/Sîn temple, whose cultic administrative
+records, votive inscriptions, and ritual documents maintained format conventions
+tied to religious practice rather than to the secular administrative bureaucracy
+driving the landscape transition elsewhere. The Ur anomaly is therefore not a
+counter-example to the portrait-to-landscape trend — it is evidence that the
+trend was primarily an administrative and secular phenomenon, and that cultic
+and temple-focused scribal contexts retained older portrait norms longer.
+The capacity of this analysis to isolate such site-specific divergences, rather
+than averaging them away in a corpus-level statistic, is precisely what makes
+geographic disaggregation a productive complement to the aggregate trend analysis.
+
+### Limitations
+
+**Ratios as proxies.** Height-to-width ratios derived from photographs encode
+relative proportions rather than absolute dimensions. Physical tablet dimensions
+are not systematically recorded in the CDLI catalogue, and their acquisition through
+standardized photogrammetric imaging would substantially reduce distributional overlap
+between period categories. As noted above, our classifiers achieve performance far
+above random baseline despite this information loss, which makes the case for genuine
+morphological differentiation, but the overlap itself means that individual
+period assignments based on ratio alone carry substantial uncertainty.
+
+**Non-representative corpus.** The CDLI corpus reflects the cumulative priorities
+of two centuries of excavation and the digitization policies of collecting
+institutions, not the actual distribution of cuneiform production in antiquity.
+The four most heavily represented periods account for 63% of all tablets. The
+geographic analysis is constrained to sites and periods where both the
+archaeological and digitization records are rich enough to yield the minimum
+sample sizes required for statistical testing.
+
+**Two-dimensional silhouettes.** The binary silhouette discards information about
+tablet thickness, surface curvature, edge profile, and clay properties that are
+diagnostically significant in traditional diplomatic analysis. The VAE X8 dimension
+(body unity) partially recovers one element of this discarded information — the
+degree of outline articulation visible in the 2D projection — but 3D morphometric
+data, increasingly available through photogrammetric documentation of cuneiform
+collections, would substantially enrich the feature space available for analysis.
+
+**Periodization as a convention.** The 21 period categories used as training labels
+are scholarly constructs with imprecise boundaries. The classifier's confusion
+between adjacent periods — particularly Early Old Babylonian and Old Babylonian —
+is partly a reflection of this boundary imprecision rather than a failure of the
+model to detect shape differences. Periods defined by scholarly convention may
+differ from the actual temporal structure of format change in the underlying
+tablet-production record.
+
+<!-- ============================================================
+     PART 6 — CONCLUSIONS
+     ============================================================ -->
+
+## Conclusions
+
+Cuneiform tablets are physical objects as well as textual documents, and their
+physical form is a historical signal as well as a material support. Across 94,936
+images spanning 3,300 years, we have demonstrated that the two-dimensional silhouette
+of a cuneiform tablet carries sufficient historical information to identify its period
+of origin with approximately 61% macro-F1 accuracy across 21 classes — approximately
+86% of the classification signal present in the full photographic image, at a 4.8%
+random baseline. This result establishes, for the first time at population scale,
+that tablet shape *alone* is a quantitatively tractable diplomatic criterion.
+
+The flagship empirical finding is the three-millennium shift from portrait to
+landscape tablet orientation. A corpus whose 3rd-millennium tablets cluster at median
+h/w ratios of 1.1–1.3 gives way, through a protracted transition in the Middle
+Babylonian and Middle Elamite periods, to a 1st-millennium corpus whose dominant
+productions — Neo-Babylonian, Achaemenid, Hellenistic — cluster at 0.74–0.90.
+Geographic disaggregation confirms that this shift is real and widespread: it is
+present at the site level in Southern Mesopotamia, Central/Northern Babylonia, and
+the Assyrian heartland simultaneously, and the variance decomposition establishes
+that it is not an artifact of differential site sampling across millennia.
+
+Three further contributions refine this finding. The CV-based standardization scale
+quantifies institutional control over scribal format: Ur III (CV = 0.251) stands as
+the most tightly standardized tablet-producing context in the corpus, consistent
+with the centralized training and bureaucratic infrastructure of the Third Dynasty
+of Ur, while Neo-Babylonian (CV = 0.807) reflects the institutional pluralism of
+the late first millennium. Achaemenid tablets exhibit a partial re-standardization
+in landscape format (narrow IQR = 0.150), consistent with imperial format norms
+imposed on a diverse pre-existing Babylonian scribal landscape — with additional
+normative pressure possibly contributed by the concurrent Aramaic scribal tradition
+and the long-established Elamite landscape format. The VAE analysis adds structural
+resolution to the aggregate trend: the 12-dimensional latent space separates the
+diachronic drift in tablet form (encoded in X2: bounding-box fill efficiency) from
+the categorical identity of diplomatic traditions (encoded in X7: height/width ratio
+directly), establishing that scribal-tradition identity and temporal position are,
+in the language of the learned feature space, largely orthogonal sources of variation.
+
+The methodology demonstrated here — distant viewing of document silhouettes,
+combined with VAE-based interpretable feature extraction and geographic disaggregation
+— is transferable to any ancient document corpus where material form encodes
+cultural history. Papyrus roll dimensions in the Hellenistic world, parchment quire
+proportions in medieval codex production, and oracle bone formats in Shang-dynasty
+China are all candidates for this style of analysis as their respective corpora
+become digitally accessible at comparable scale. The specific contribution of this
+study to cuneiform scholarship is to demonstrate that diplomatic analysis, the
+systematic study of document format as historical evidence, can now be conducted at
+a scale — nearly 100,000 objects, 21 historical periods, 3,300 years — that was
+previously available only to computational methods. The implicit, individually
+exercised expertise of the traditional diplomat becomes, in this framework, explicit,
+reproducible, and scalable.
+
+<!-- ============================================================
+     PART 7 — MATERIALS AND METHODS
+     ============================================================ -->
+
+## Materials and Methods
+
+**Dataset.** The working corpus of 94,936 tablet images was assembled from the CDLI
+catalogue [@cdliContributors2024], filtering to entries with photographic documentation
+of sufficient image quality, confirmed period assignments in the CDLI metadata taxonomy,
+and a minimum of 50 specimens per period class. Period labels follow the CDLI standard
+taxonomy of 21 categories. Genre labels were used for genre-stratified analyses
+(Administrative, Literary, Legal) and for the CV standardization sub-analysis;
+these also follow CDLI metadata fields. The dataset, including all extracted ratio
+measurements, VAE encodings, and period/genre metadata, is publicly available
+[@zenodoDataset].
+
+**Silhouette extraction.** Each image was converted to grayscale, subjected to Otsu's
+thresholding [@otsuThresholdSelectionMethod1979], and processed with morphological
+closing to fill surface-engraving holes. The largest connected component was extracted
+as the tablet silhouette. Height-to-width ratios were derived from the bounding box
+of this silhouette. Full pipeline details and code are available in the project
+repository.
+
+**Classification models.** The decision tree operates on scalar h/w ratio alone.
+The CNN and ResNet50 [@heResNet2016] were trained with standard cross-entropy loss
+and evaluated on a held-out test set. ResNet50 was fine-tuned from ImageNet pretrained
+weights. All models use the same train/test split (80/20, stratified by period).
+Macro-averaged F1 is reported for comparability across imbalanced 21-class settings.
+
+**VAE.** The Variational Autoencoder [@kingmaVAE2013] was trained on 94,936 masked
+silhouettes (80×80 pixels, grayscale) with a 12-dimensional bottleneck and a combined
+reconstruction plus KL-divergence loss, augmented with a classification auxiliary
+loss over the 21 period categories to encourage period-discriminative structure in
+the latent space. The trained model checkpoint is publicly available [@zenodoModels].
+Latent encodings for all 94,936 tablets are available as part of the dataset release
+[@zenodoDataset].
+
+**VAE traversal analysis.** For each of the three statistically significant
+diachronic dimensions (X2, X7, X8), a traversal was constructed by fixing all other
+dimensions at the genre-specific global mean and varying the target dimension across
+its ±2σ range in 11 equally spaced steps. Five geometric descriptors (h/w ratio,
+area fraction, solidity, compactness, eccentricity) were measured on the decoded
+binary silhouette at each step, normalized 0–1 per traversal, and used to identify
+the primary descriptor as the one with the highest monotonic association with the
+traversal axis (assessed via Spearman ρ). Three genre baselines (Administrative,
+Literary, Legal) were traversed separately to assess genre consistency.
+
+**Statistical methods.** Period-level significance for VAE dimensions was assessed
+with the Kruskal-Wallis H test; effect size η² = (H − k + 1) / (N − k).
+Diachronic trend was assessed with Spearman rank correlation of period mean values
+against chronological rank order. Adjacent-period and millennium-level h/w comparisons
+used the Mann-Whitney *U* test with Cliff's *δ* as effect size.
+For geographic site-level comparisons, Bonferroni correction was applied within
+the set of tested sites.
+
+**Geographic region assignment.** Provenience strings from the CDLI catalogue were
+matched against the CDLI Linked Open Data geographic ontology (`places.nt`;
+CDLI Network), which encodes 737 provenience entities and site-to-region
+containment relationships for 245 of them, derived from the Pleiades ancient world
+gazetteer. Five sites absent from the automated lookup but present in the 2nd–1st
+millennium corpus were assigned manually by the authors following standard
+historical-geographic references. Full documentation and the supplementary site
+table (Table S-Geo) are provided in the Supplementary Information.

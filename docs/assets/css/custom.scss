@@ -1,0 +1,217 @@
+/*-- scss:defaults --*/
+
+// Shaping History — Custom Quarto Theme
+// Colour palette
+$clay-dark:    #2c2c3a;
+$clay-warm:    #f8f5ef;
+$clay-accent:  #b5622e;
+$clay-light:   #e8ddd0;
+$text-primary: #1a1a2e;
+
+// Bootstrap variable overrides
+$link-color: $clay-accent;
+$navbar-dark-color: #f0ede4;
+
+/*-- scss:rules --*/
+
+/*-- Body --*/
+body {
+  font-family: "Lora", "Georgia", serif;
+  color: $text-primary;
+  background: #ffffff;
+}
+
+h1, h2, h3, h4, .navbar-brand {
+  font-family: "Source Sans Pro", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+}
+
+/*-- Navbar --*/
+.navbar {
+  background-color: $clay-dark !important;
+  border-bottom: 3px solid $clay-accent;
+}
+
+.navbar-brand, .nav-link {
+  color: #f0ede4 !important;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.nav-link:hover {
+  color: #f0c080 !important;
+}
+
+/*-- Sidebar --*/
+#quarto-sidebar {
+  background: $clay-warm;
+  border-right: 1px solid $clay-light;
+}
+
+.sidebar-item-text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.92rem;
+}
+
+.sidebar-item-text:hover {
+  color: $clay-accent;
+}
+
+/*-- Hero banner on index --*/
+.hero-banner {
+  background: linear-gradient(135deg, $clay-dark 0%, #4a3728 100%);
+  color: #f0ede4;
+  padding: 4rem 2rem;
+  margin: -1rem -1rem 2rem -1rem;
+  border-radius: 0 0 8px 8px;
+
+  h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #f0ede4;
+    margin-bottom: 0.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+    opacity: 0.85;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-stats {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+
+    .stat-box {
+      background: rgba(255,255,255,0.12);
+      border-radius: 8px;
+      padding: 1rem 1.5rem;
+      text-align: center;
+
+      .stat-number {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: #f0c080;
+        display: block;
+      }
+
+      .stat-label {
+        font-size: 0.8rem;
+        opacity: 0.8;
+        font-family: "Source Sans Pro", sans-serif;
+      }
+    }
+  }
+}
+
+/*-- Analysis cards on index --*/
+.analysis-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.analysis-card {
+  background: $clay-warm;
+  border: 1px solid $clay-light;
+  border-left: 4px solid $clay-accent;
+  border-radius: 6px;
+  padding: 1.25rem 1.5rem;
+  text-decoration: none;
+  color: $text-primary;
+  transition: box-shadow 0.2s, border-left-color 0.2s;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    border-left-color: #d4801a;
+    text-decoration: none;
+  }
+
+  .card-icon {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .card-title {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 1.0rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .card-desc {
+    font-size: 0.85rem;
+    color: #555;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+}
+
+/*-- Interactive callout --*/
+.interactive-callout {
+  background: #fff8e8;
+  border: 1px solid #f0c080;
+  border-left: 5px solid $clay-accent;
+  border-radius: 6px;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  font-family: "Source Sans Pro", sans-serif;
+
+  .callout-title {
+    font-weight: 700;
+    color: $clay-accent;
+    margin-bottom: 0.3rem;
+  }
+}
+
+/*-- Binder badge --*/
+.binder-badge {
+  display: inline-block;
+  margin: 0.5rem 0;
+}
+
+/*-- Figures --*/
+figure {
+  margin: 1.5rem 0;
+  text-align: center;
+
+  figcaption {
+    font-size: 0.85rem;
+    color: #666;
+    font-style: italic;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 0.5rem;
+  }
+}
+
+/*-- Tables --*/
+table {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.88rem;
+}
+
+th {
+  background-color: $clay-dark;
+  color: #f0ede4;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: $clay-warm;
+}
+
+/*-- Code blocks --*/
+pre, code {
+  font-size: 0.82rem;
+}
+
+/*-- Footer --*/
+footer {
+  background: $clay-dark;
+  color: #aaa;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.85rem;
+  padding: 1rem 2rem;
+}

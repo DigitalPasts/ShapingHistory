@@ -1,0 +1,714 @@
+---
+title: "Supplementary Information for: Shaping History at Scale: Computational
+  Diplomatics and the Diachronic Evolution of Cuneiform Tablet Morphology over
+  Three Millennia"
+subtitle: "Gordin, Kapon Epshtain, and Fire"
+
+format:
+  pdf:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    geometry: margin=1in
+    fontsize: 10pt
+    include-in-header:
+      text: |
+        \usepackage{booktabs}
+        \usepackage{longtable}
+        \usepackage{array}
+        \usepackage{multirow}
+
+bibliography:
+  - Library300326.bib
+  - deeplomatics.bib
+---
+
+\newpage
+
+# Statistical Methods {#sec-stats}
+
+## Height-to-width ratio analysis
+
+Height-to-width (h/w) ratios are computed from the bounding box of the largest
+connected component of the binary silhouette mask (see §S2). For the physical
+pixel-ratio analysis (used in the main paper ratio figures), ratios are derived
+directly from image pixel dimensions. A separate pixel-ratio dataset drawn from
+the CDLI preprocessed image archive (a larger subsample) provides corroboration.
+
+All ratio analyses use the **natural log of the h/w ratio** (log-ratio) as the
+primary analysis variable for statistical tests and diachronic trend estimation.
+The log-ratio transformation is appropriate for proportional data because it is
+symmetric around 0 (log-ratio of 0 corresponds to a square tablet), it corrects
+the asymmetry inherent in raw ratio distributions (the portrait side spans 1 to ∞
+while the landscape side spans 0 to 1), and it permits additive decomposition of
+ratio shifts across multiplicative transformations of scale. Medians and IQR reported
+in all tables are in the **original ratio scale** (not log-transformed) for readability.
+
+**Diachronic trend** is assessed with Spearman rank correlation of period median
+log-ratios against their chronological rank order (Uruk IV = rank 1,
+Hellenistic = rank 21). Spearman ρ is used rather than Pearson *r* because
+chronological rank, not calendar years, is the appropriate ordering variable:
+the periods span very unequal time intervals, and the quantity of interest is
+whether successive periods show monotonically decreasing h/w ratios, not the
+rate of change per century.
+
+**Between-period tests** use the Mann-Whitney *U* test (Wilcoxon rank-sum test)
+for pairwise comparisons and the Kruskal-Wallis H test for omnibus evaluation.
+These non-parametric tests are appropriate because h/w ratio distributions within
+periods are substantially non-normal (right-skewed in portrait periods, left-skewed
+in landscape periods). Effect sizes for pairwise comparisons are reported as
+**Cliff's *δ*** (the probability that a randomly selected tablet from one group
+has a higher h/w ratio than one from the other group, minus the reverse probability),
+which has the advantage of being interpretable without assumptions about distributional
+form and ranges from −1 (all group-2 values exceed group-1) to +1 (all group-1
+values exceed group-2). By convention: |δ| < 0.147 = negligible; 0.147–0.330 = small;
+0.330–0.474 = medium; > 0.474 = large.
+
+**Standardization** is assessed via the **coefficient of variation** (CV = σ/μ)
+of the h/w ratio within each period, following Eerkens & Bettinger [@eerkensStandardizationArtifact2000].
+CV normalizes dispersion to the mean, permitting comparison of standardization
+across periods with different absolute ratio levels. For the genre-stratified
+standardization analysis (administrative tablets only), the same CV formula is
+applied to the subset of tablets with CDLI genre label "Administrative."
+
+**Confidence intervals** for period medians are bootstrap 95% CIs (10,000
+resamples with replacement).
+
+## VAE latent-space statistics
+
+For each of the 12 VAE bottleneck dimensions, period discrimination is assessed
+via the **Kruskal-Wallis H test** over the 21-period distribution of per-tablet
+latent coordinates. Effect size is computed as:
+$$\eta^2 = \frac{H - k + 1}{N - k}$$
+where *H* is the Kruskal-Wallis statistic, *k* is the number of period groups,
+and *N* is the total sample size. By convention: η² < 0.01 = small; 0.01–0.06 = medium;
+> 0.06 = large.
+
+Diachronic trend per VAE dimension is assessed with Spearman rank correlation
+of per-period mean latent coordinates against chronological rank order (same ranks
+as for ratio analysis). Significance is assessed at α = 0.05, two-tailed.
+
+**Latent traversal analysis.** For each of three target dimensions (X2, X7, X8),
+a traversal is constructed by:
+
+1. Computing the genre-specific global mean vector over all tablets in the target
+   genre (Administrative, Literary, or Legal).
+2. Constructing 11 synthetic vectors that vary the target dimension from
+   −2σ to +2σ (where σ is the global standard deviation of that dimension across
+   all tablets), holding all other dimensions at the genre mean.
+3. Decoding each synthetic vector through the VAE decoder to produce an 80×80
+   pixel binary silhouette.
+4. Measuring five geometric descriptors on each decoded image:
+   - **h/w ratio**: height divided by width of the bounding box.
+   - **Area fraction**: foreground pixel count divided by bounding-box area.
+   - **Solidity**: foreground pixel count divided by convex hull area.
+   - **Compactness**: 4π × area / perimeter².
+   - **Eccentricity**: eccentricity of the ellipse fitted to the largest connected component.
+5. Normalizing each descriptor 0–1 over the 11 traversal steps.
+6. Identifying the **primary descriptor** as the one with the highest absolute
+   Spearman ρ between descriptor value and traversal step index.
+
+The traversal is run separately for each of three genre baselines
+(Administrative, Literary, Legal) to assess whether the dimension's physical
+interpretation is consistent across scribal traditions.
+
+## Geographic analysis
+
+**Zone assignment.** Each tablet with a non-uncertain provenience string is
+matched to an archaeological site via the CDLI catalogue provenience field.
+Site-to-region assignments are obtained from the CDLI Linked Open Data geographic
+ontology (see §S5 for full methodology). The 19 CDLI-defined regions are
+aggregated into 5 analytical zones: Southern Mesopotamia; Central/Northern
+Babylonia; Assyria/Upper Mesopotamia; Elam/Western Iran; Periphery.
+Tablets with the provenience string "uncertain (mod. uncertain)" or the flag
+`is_provenience_uncertain = True` in the CDLI catalogue are excluded from all
+geographic analyses but retained in all other analyses.
+
+**Variance decomposition.** The overall log-ratio shift between the 2nd-millennium
+and 1st-millennium subsamples is decomposed into:
+$$\text{Overall shift} = \underbrace{\sum_z \frac{n_{z,2}}{N_2} \cdot \Delta_z}_{\text{within-zone}} + \underbrace{\text{Overall} - \text{Within}}_{\text{compositional}}$$
+where $\Delta_z$ is the within-zone log-ratio shift for zone *z*, $n_{z,2}$
+is the 2nd-millennium tablet count in zone *z*, and $N_2$ is the total
+2nd-millennium tablet count with zone assignment. The within-zone component
+captures real change in h/w ratio at production sites active in both millennia;
+the compositional component captures how much of the overall shift would result
+from the changing geographic composition of the corpus even if h/w ratios had
+not changed at all within zones.
+
+**Site-level tests.** Sites with a minimum of 30 tablets in both the 2nd-millennium
+(Early Old Babylonian, Old Babylonian, Old Assyrian, Middle Assyrian, Middle
+Babylonian, Middle Elamite, Hittite) and 1st-millennium (Neo-Assyrian, Neo-Babylonian,
+Achaemenid, Hellenistic) subsamples are included in the site-level panel. Pairwise
+comparisons use Mann-Whitney *U* with Cliff's *δ* as effect size. Bonferroni
+correction is applied across the set of tested sites (*n* = 10; corrected α = 0.005).
+
+\newpage
+
+# Silhouette Extraction Pipeline {#sec-pipeline}
+
+## Image preprocessing
+
+Raw CDLI photographs vary substantially in background colour, illumination angle,
+scale bar presence, and resolution. The following preprocessing pipeline was
+applied uniformly to all 94,936 images:
+
+1. **Grayscale conversion.** All images are converted to single-channel grayscale
+   (weighted sum: 0.299R + 0.587G + 0.114B).
+
+2. **Colorbar removal.** CDLI images frequently include a colour reference bar
+   (grayscale or Munsell colour scale) along one edge. These are detected and
+   removed using a template-matching procedure that identifies the characteristic
+   horizontal stripe pattern. Code: notebook `1.1 preprocess - remove colorbar.ipynb`.
+
+3. **Otsu thresholding** [@otsuThresholdSelectionMethod1979]. A globally optimal
+   binary threshold is computed from the grayscale histogram using Otsu's
+   criterion, which maximizes inter-class variance between foreground (tablet)
+   and background pixels. The resulting binary mask separates the clay body from
+   the photographic background.
+
+4. **Morphological closing.** A 3×3 structuring element is applied with morphological
+   closing (dilation followed by erosion) to fill small holes caused by surface
+   engraving, clay damage, or high-frequency texture. This prevents fragmentation
+   of the tablet silhouette in heavily inscribed areas.
+
+5. **Largest connected component.** The connected components of the binary mask are
+   extracted. The component with the largest foreground pixel count is retained as
+   the tablet silhouette; all smaller components (scale bars, reflections, label
+   tags) are discarded.
+
+6. **Bounding box and ratio.** The height-to-width ratio is computed from the
+   bounding box of the retained component. For classifier training, the silhouette
+   is rescaled to 80×80 pixels.
+
+## Known limitations of the pipeline
+
+**Composite images.** A subset of CDLI photographs shows multiple tablet faces
+(obverse, reverse, and lateral edges) on a single canvas in a composite layout.
+For such images, the largest connected component may capture either a single face
+or a merged shape spanning multiple faces, depending on the gap between faces.
+This introduces a potential systematic bias in the h/w ratio of composite images
+(the merged silhouette is wider than any individual face), and may contribute to
+the VAE X8 dimension's apparent decrease over time (composite multi-face photography
+is more prevalent in later CDLI submissions). This confound is explicitly discussed
+in the main text (§3.3, X8 interpretation).
+
+**Scale-dependent ratio stability.** Because the pipeline works with pixel ratios
+rather than physical dimensions, the computed h/w ratio is invariant to camera
+distance and image resolution — a property required for the analysis. However,
+it is also insensitive to actual tablet size, meaning a 3 cm letter and a 30 cm
+archival record that share the same proportions are indistinguishable by this
+measure.
+
+\newpage
+
+# Model Architectures and Training {#sec-models}
+
+## Decision tree baseline
+
+A single CART decision tree is trained on the scalar h/w ratio as its only feature,
+predicting 21-class period labels. Training uses the same 80/20 stratified split
+as all other classifiers. This model establishes the minimum performance achievable
+with the simplest possible shape descriptor.
+
+## Convolutional Neural Network (CNN)
+
+Architecture: three convolutional blocks (Conv2D → BatchNorm → ReLU → MaxPool),
+followed by two fully connected layers (512 → 256 → 21), trained on masked
+80×80 binary silhouettes. Cross-entropy loss, Adam optimiser (lr = 0.001),
+batch size 64, 30 epochs. Training code: notebooks `6–7.1`.
+
+## ResNet50
+
+Architecture: ResNet50 [@heResNet2016] with ImageNet pretrained weights, final
+fully connected layer replaced with a 21-class classification head. Fine-tuned
+end-to-end. Input: 3-channel 224×224 images (grayscale images replicated across
+channels; masked silhouettes similarly replicated). Cross-entropy loss, Adam
+optimiser with cosine learning rate schedule, batch size 32, 30 epochs.
+
+**Two experimental conditions:**
+- *Grayscale condition*: full photographic image, normalized with ImageNet statistics.
+- *Masked silhouette condition*: binary mask replicated to 3 channels, normalized
+  with binary-image statistics.
+
+Training code: notebooks `8–9.1`. The shape information retention fraction
+(61%/71% ≈ 0.86) is computed as the ratio of masked to grayscale macro-F1.
+
+## DINOv2 feature extraction and classification
+
+A pretrained DINOv2 ViT-B/14 model [@oquabDINOv22023] was used for visual feature
+extraction (1024-dimensional embedding per image), followed by an XGBoost classifier.
+This pipeline was evaluated on both grayscale and masked conditions. Training code:
+notebooks `3–4.1`. DINOv2+XGBoost performance is not the primary comparison in the
+main paper but provides an additional benchmark in the three-method comparison.
+
+## Variational Autoencoder (VAE)
+
+**Architecture:**
+
+- *Encoder*: three convolutional blocks (32 → 64 → 128 channels), followed by two
+  fully connected branches producing μ (12-dimensional) and log-σ² (12-dimensional).
+- *Bottleneck*: 12-dimensional Gaussian latent space; reparameterization trick.
+- *Decoder*: fully connected layer (12 → 512), followed by three transposed
+  convolutional blocks (128 → 64 → 32 → 1 channel), sigmoid output.
+- *Classification head*: fully connected branch from the 12-dimensional latent vector
+  to 21-class softmax output (auxiliary classification loss; weight β = 1.0 relative
+  to reconstruction loss).
+
+**Training:** 94,936 masked 80×80 binary silhouettes; batch size 8; Adam
+optimiser, lr = 0.0001; 30 epochs (best checkpoint at epoch 22, step 213,621).
+Combined loss: β-VAE reconstruction + KL divergence + classification cross-entropy.
+Class weights were computed from the inverse of per-period frequency to compensate
+for class imbalance, using equal-partition re-weighting.
+
+**Availability:** Trained model checkpoint and class weights are available on
+Zenodo (DOI: 10.5281/zenodo.11668219). Latent encodings for all 94,936 tablets
+are included in the main dataset release (DOI: 10.5281/zenodo.12787745).
+
+Training code: notebook `10. train_VAE model - masked tablets.ipynb`.
+Encoding extraction: notebook `10.1 extract VAE encodings.ipynb`.
+
+\newpage
+
+# VAE Latent-Space Results: All 12 Dimensions {#sec-vae-full}
+
+## Discrimination and trend statistics
+
+Table S1 provides Kruskal-Wallis η² (period discrimination) and Spearman ρ
+(diachronic trend) for all 12 VAE dimensions. Two dimensions reach significance
+for the trend statistic (α = 0.05): X2 (ρ = +0.655, *p* = 0.001) and X8
+(ρ = −0.573, *p* = 0.007). Four dimensions carry large-effect period discrimination
+(η² > 0.15): X7, X12, X6, X4. The dissociation between discrimination and trend
+— best discriminator (X7) ≠ best trend dimension (X2) — is the key structural
+finding discussed in the main text.
+
+| Dim | Kruskal-Wallis η² | Effect | Spearman ρ | *p* | Sig. |
+|---|---|---|---|---|---|
+| X7 | 0.435 | large | −0.430 | 0.052 | ns |
+| X12 | 0.388 | large | +0.210 | 0.360 | ns |
+| X6 | 0.242 | large | +0.046 | 0.845 | ns |
+| X4 | 0.199 | large | −0.103 | 0.658 | ns |
+| X10 | 0.172 | large | −0.362 | 0.106 | ns |
+| X2 | 0.078 | medium | **+0.655** | **0.001** | ** |
+| X5 | 0.071 | medium | +0.173 | 0.454 | ns |
+| X3 | 0.068 | medium | +0.160 | 0.489 | ns |
+| X1 | 0.065 | medium | −0.255 | 0.265 | ns |
+| X9 | 0.058 | small | +0.294 | 0.197 | ns |
+| X11 | 0.046 | small | −0.031 | 0.893 | ns |
+| X8 | 0.025 | small | **−0.573** | **0.007** | ** |
+
+: **Table S1.** Kruskal-Wallis η² and Spearman ρ for all 12 VAE dimensions
+  (21-period corpus). Significant trend dimensions (p < 0.05) in bold.
+  Effect-size thresholds: η² < 0.01 = small, 0.01–0.06 = medium, > 0.06 = large.
+
+## Period mean vectors (all 12 dimensions)
+
+Table S2 provides the complete 21 × 12 matrix of period mean latent coordinates.
+These vectors are the basis for hierarchical clustering (Fig. 5 in the main text)
+and the geographic zone trajectories (Fig. 6).
+
+| Period | X1 | X2 | X3 | X4 | X5 | X6 | X7 | X8 | X9 | X10 | X11 | X12 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Uruk IV | −0.53 | −1.39 | −0.09 | −0.82 | 1.23 | 0.61 | −0.28 | 0.60 | −1.00 | −0.34 | −0.39 | 0.77 |
+| Uruk III | −0.59 | −1.50 | 0.42 | 0.19 | 0.16 | 0.91 | −0.19 | 0.75 | −1.02 | −0.52 | −0.40 | 1.75 |
+| Proto-Elamite | 0.09 | −1.30 | 0.52 | −0.18 | −0.48 | 0.34 | −0.56 | 0.98 | −1.46 | −0.46 | −0.28 | 2.31 |
+| ED I-II | 0.54 | −0.13 | −0.70 | 0.20 | −0.65 | −1.72 | 1.86 | −1.25 | 0.20 | −0.59 | 1.74 | 0.44 |
+| ED IIIa | 0.06 | −0.25 | −0.24 | −0.83 | 1.02 | 0.74 | −1.78 | −0.26 | −0.17 | −0.57 | 0.24 | 1.71 |
+| ED IIIb | −0.69 | −0.51 | 0.57 | −0.44 | 0.71 | 0.78 | −1.14 | 0.45 | −0.76 | −0.75 | 0.23 | 1.66 |
+| Ebla | −0.28 | 0.90 | 2.19 | −0.46 | −0.15 | 1.55 | 0.36 | 0.21 | 0.17 | 0.14 | −1.03 | 1.24 |
+| Old Akkadian | −0.30 | −1.17 | 0.28 | −0.33 | 0.27 | 0.54 | −0.70 | 0.13 | −0.50 | −0.10 | −0.40 | 1.77 |
+| Lagash II | 3.21 | −1.10 | 0.64 | 0.94 | −0.73 | −0.52 | −0.11 | 1.39 | 1.01 | −2.69 | 0.95 | 0.12 |
+| Ur III | 0.14 | −1.00 | −0.35 | −1.18 | 1.28 | 0.75 | −0.61 | −0.19 | −0.72 | −0.87 | −0.54 | 2.74 |
+| Early Old Babylonian | 0.83 | −1.18 | −0.24 | −0.47 | 0.32 | 0.16 | −0.58 | −0.09 | 0.24 | −0.97 | 0.00 | 1.61 |
+| Old Babylonian | 0.03 | −1.16 | −0.65 | −0.70 | 0.70 | 0.35 | −0.86 | −0.45 | −0.05 | −0.22 | −0.09 | 1.81 |
+| Old Assyrian | 0.34 | −0.18 | 0.86 | −0.48 | 0.57 | 1.20 | −1.36 | −0.24 | −1.37 | −1.40 | −0.29 | 2.56 |
+| Middle Assyrian | −0.13 | −0.30 | 0.50 | −0.09 | 0.60 | 0.32 | −1.30 | −0.46 | −0.70 | −1.07 | −0.06 | 1.72 |
+| Middle Babylonian | −0.59 | −0.44 | −0.28 | −0.76 | 0.99 | 0.44 | −1.79 | −0.39 | 0.10 | −0.94 | 0.40 | 1.64 |
+| Middle Elamite | −0.13 | **+2.90** | 0.41 | −2.28 | 1.55 | −0.04 | **+1.77** | −0.72 | 1.09 | **+2.00** | −2.41 | −1.00 |
+| Hittite | −0.80 | −0.82 | 0.05 | 0.13 | 0.66 | 0.15 | −1.41 | 0.25 | −0.82 | −0.65 | −0.19 | 0.98 |
+| Neo-Assyrian | −0.37 | 0.02 | −0.34 | 0.58 | 0.22 | −1.36 | **+2.05** | −0.24 | −0.40 | 0.52 | 0.03 | 0.11 |
+| Neo-Babylonian | −0.72 | 0.75 | 0.78 | −0.23 | 0.69 | 0.70 | −1.51 | −0.41 | 0.42 | −0.88 | −0.24 | 1.74 |
+| Achaemenid | −0.78 | 1.04 | 0.45 | −0.48 | 1.02 | 0.74 | **−2.48** | −0.66 | 0.47 | −1.50 | 0.22 | 2.21 |
+| Hellenistic | 0.30 | 0.68 | 0.96 | −0.38 | 0.22 | 1.00 | −1.50 | −0.43 | −0.72 | −1.68 | −0.46 | **3.00** |
+
+: **Table S2.** Mean VAE latent coordinates for all 21 periods across all 12 dimensions.
+  Values highlighted in bold are notable outliers discussed in the main text.
+  Achaemenid X7 = −2.48 (most negative of any period); Middle Elamite X2 = +2.90
+  (highest of any period); Hellenistic X12 = +3.00 (highest X12).
+
+## Physical interpretation of the three significant dimensions
+
+**X7 — Height/Width ratio (diplomatic-tradition axis).** Confirmed as the
+primary descriptor for all three genre baselines (Administrative, Literary, Legal).
+Moving from high X7 (+4) to low X7 (−4), the decoded silhouette transitions from a
+tall, narrow portrait form to a wide, compact landscape form. The dimension
+discriminates scribal traditions non-monotonically in time: Neo-Assyrian (X7 = +2.05)
+and ED I-II (X7 = +1.86) are both portrait extremes; Achaemenid (X7 = −2.48) and
+Middle Babylonian (X7 = −1.79) are landscape extremes. The 3rd-millennium mean
+(periods 1–9) and 1st-millennium mean (periods 17–21) differ by only 0.075 on X7,
+confirming the absence of linear temporal trend.
+
+**X2 — Bounding-box fill efficiency (diachronic-drift axis).** Primary descriptor is
+area fraction for Administrative and Legal genres; solidity for Literary tablets.
+Moving from low X2 (−5) to high X2 (+4), the decoded silhouette transitions from
+a tall, narrow portrait shape with articulated outline to a wide, compactly rectangular
+form that fills its bounding box efficiently. The 3rd-millennium administrative mean
+(X2 = −0.995) differs from the 1st-millennium administrative mean (X2 = +0.652)
+by Δ = +1.647, representing the combined portrait-to-landscape rotation and outline
+regularization of the diachronic trend. The genre inconsistency of the primary
+descriptor (area fraction vs. solidity) reflects the different ways in which
+"efficient bounding-box use" manifests across scribal traditions.
+
+**X8 — Body unity / silhouette cohesion (secondary diachronic axis).** Primary
+descriptor is solidity for All tablets, Literary, and Legal; area fraction for
+Administrative. Moving from high X8 (+3) to low X8 (−3), the decoded silhouette
+transitions from a segmented, articulated outline to a unified, slab-like form.
+The 3rd-millennium mean (−0.099 all-tablet; −0.144 administrative) differs from
+the 1st-millennium mean (−0.291 all-tablet; −0.660 administrative), reflecting
+a progressive unification of tablet outlines across time. The 3rd- and 1st-millennium
+marks (−0.25 and −0.85 on the traversal axis) fall in the lower half of the ±2σ
+range, indicating that the historical variation in X8 represents a moderate fraction
+of the full dynamic range of this dimension.
+
+\newpage
+
+# Period and Pixel-Ratio Summary Statistics {#sec-ratio-tables}
+
+## Physical pixel-ratio statistics by period
+
+Table S3 provides median h/w ratio, 95% bootstrap confidence interval, IQR, and CV
+for all 21 periods, computed from physical pixel-ratio measurements.
+
+| Period | *N* | Median | 95% CI | IQR | CV | Orientation |
+|---|---|---|---|---|---|---|
+| Uruk IV | 1,808 | 1.276 | [1.258, 1.296] | 0.455 | 0.319 | Portrait |
+| Uruk III | 4,985 | 1.192 | [1.179, 1.208] | 0.559 | 0.502 | Portrait |
+| Proto-Elamite | 1,457 | 1.333 | [1.313, 1.343] | 0.415 | 0.279 | Portrait |
+| ED I-II | 457 | 1.733 | [1.657, 1.786] | 0.856 | 0.519 | Portrait |
+| ED IIIa | 414 | 1.559 | [1.500, 1.650] | 0.828 | 0.406 | Portrait |
+| ED IIIb | 1,895 | 1.033 | [1.025, 1.050] | 0.243 | 0.363 | Portrait |
+| Ebla | 3,229 | 1.026 | [1.016, 1.040] | 0.526 | 0.569 | Portrait |
+| Old Akkadian | 3,397 | 1.280 | [1.267, 1.292] | 0.476 | 0.321 | Portrait |
+| Lagash II | 274 | 1.305 | [1.170, 1.452] | 1.294 | 0.605 | Portrait |
+| Ur III | 22,504 | 1.125 | [1.125, 1.128] | 0.189 | **0.251** | Portrait |
+| Early Old Babylonian | 2,560 | 1.268 | [1.250, 1.284] | 0.391 | 0.274 | Portrait |
+| Old Babylonian | 15,884 | 1.282 | [1.273, 1.293] | 0.589 | 0.342 | Portrait |
+| Old Assyrian | 1,124 | 1.106 | [1.075, 1.130] | 0.515 | 0.536 | Portrait |
+| Middle Assyrian | 1,056 | 1.110 | [1.060, 1.143] | 0.645 | 0.500 | Portrait |
+| Middle Babylonian | 3,023 | 1.000 | [0.981, 1.021] | 0.581 | 0.460 | Landscape |
+| Middle Elamite | 601 | 0.863 | [0.814, 0.925] | 0.626 | 0.740 | Landscape |
+| Hittite | 161 | 1.000 | [0.956, 1.051] | 0.474 | 0.505 | Landscape |
+| Neo-Assyrian | 3,379 | 1.158 | [1.125, 1.182] | 0.973 | 0.539 | Portrait |
+| Neo-Babylonian | 7,133 | 0.741 | [0.739, 0.744] | 0.315 | **0.807** | Landscape |
+| Achaemenid | 1,718 | 0.786 | [0.779, 0.792] | 0.214 | 0.785 | Landscape |
+| Hellenistic | 453 | 0.900 | [0.889, 0.918] | 0.265 | 0.412 | Landscape |
+
+: **Table S3.** Physical pixel-ratio statistics by period. Bold CV values indicate
+  the most standardized (Ur III) and least standardized (Neo-Babylonian) periods.
+  Orientation is classified as Portrait (median > 1.0) or Landscape (median < 1.0).
+
+## Image-derived pixel-ratio statistics by period
+
+Table S4 provides the same statistics computed from the image-derived pixel-ratio
+analysis (a larger subsample using CDLI preprocessed images; notebook 2.3).
+
+| Period | *N* | Median | 95% CI | IQR | CV | Orientation |
+|---|---|---|---|---|---|---|
+| Uruk IV | 108 | 1.365 | [1.345, 1.390] | 0.157 | 0.146 | Portrait |
+| Uruk III | 817 | 1.320 | [1.280, 1.360] | 0.500 | 0.294 | Portrait |
+| Proto-Elamite | 800 | 1.100 | [1.070, 1.130] | 0.503 | 0.391 | Portrait |
+| ED I-II | 234 | 1.110 | [1.070, 1.135] | 0.370 | 0.291 | Portrait |
+| ED IIIa | 434 | 1.020 | [1.010, 1.030] | 0.068 | 0.203 | Portrait |
+| ED IIIb | 1,680 | 1.030 | [1.020, 1.030] | 0.190 | 0.315 | Portrait |
+| Ebla | 459 | 1.040 | [1.030, 1.060] | 0.370 | 0.486 | Portrait |
+| Old Akkadian | 2,788 | 1.150 | [1.140, 1.160] | 0.390 | 0.306 | Portrait |
+| Lagash II | 594 | 0.500 | [0.480, 0.530] | 0.598 | 0.631 | Landscape |
+| Ur III | 27,849 | 1.120 | [1.120, 1.120] | 0.180 | **0.242** | Portrait |
+| Early Old Babylonian | 1,937 | 1.110 | [1.090, 1.130] | 0.610 | 0.441 | Portrait |
+| Old Babylonian | 16,814 | 1.170 | [1.160, 1.180] | 0.540 | 0.346 | Portrait |
+| Old Assyrian | 1,502 | 0.980 | [0.960, 0.995] | 0.360 | 0.315 | Landscape |
+| Middle Assyrian | 1,507 | 0.970 | [0.950, 0.990] | 0.420 | 0.329 | Landscape |
+| Middle Babylonian | 6,047 | 0.980 | [0.970, 0.990] | 0.535 | 0.371 | Landscape |
+| Middle Elamite | 194 | 0.680 | [0.625, 0.740] | 0.508 | 0.511 | Landscape |
+| Hittite | 126 | 1.115 | [1.000, 1.170] | 0.465 | 0.333 | Portrait |
+| Neo-Assyrian | 23,406 | 1.080 | [1.080, 1.090] | 0.590 | 0.405 | Portrait |
+| Neo-Babylonian | 4,803 | 0.810 | [0.800, 0.810] | 0.440 | **0.424** | Landscape |
+| Achaemenid | 1,795 | 0.820 | [0.810, 0.820] | **0.150** | 0.307 | Landscape |
+| Hellenistic | 249 | 0.910 | [0.900, 0.930] | 0.210 | 0.507 | Landscape |
+
+: **Table S4.** Image-derived pixel-ratio statistics by period (notebook 2.3).
+  Bold IQR for Achaemenid (0.150) is the second-tightest in the dataset, indicating
+  strong central concentration around the landscape norm. Bold CV values mark
+  extremes of the standardization scale.
+
+\newpage
+
+# Geographic Region Methodology and Supplementary Table S-Geo {#sec-geo}
+
+## Data sources
+
+Geographic region assignments follow a three-source hierarchy:
+
+**1. CDLI catalogue (`artifacts.csv`).** Provenience information is taken directly
+from the CDLI catalogue export. Each tablet's provenience is recorded as a free-text
+string in canonical CDLI format, e.g., "Nippur (mod. Nuffar)". The ancient site
+name is extracted by stripping the modern-toponym parenthetical.
+
+**2. CDLI Linked Open Data — `places.nt`.** The file `places.nt` is an RDF
+N-Triples export from the CDLI Linked Open Data (LOD) infrastructure (cdli.network).
+It encodes 737 named provenience entities and, for 245 of them, an explicit region
+assignment via the CIDOC-CRM spatial containment predicate `P89_falls_within`.
+Each provenience entity is linked to one of 19 CDLI-defined geographic regions.
+The CDLI LOD geographic ontology is grounded in Pleiades — an open, peer-reviewed
+gazetteer of ancient places.
+
+**3. Manual supplement for unmatched sites.** A small number of high-frequency
+sites in the 2nd–1st millennium corpus are absent from the `places.nt` region
+assignments. These are assigned manually by the authors following standard
+historical-geographic references (Roaf 1990; Radner & Robson 2011).
+
+| Site (CDLI label) | Manual region | Authority |
+|---|---|---|
+| Puzriš-Dagan | Southern Mesopotamia | Steinkeller (1987); Sigrist (1992) |
+| Ḫattusa | Western and Central Anatolia | Bryce (2005) |
+| Ešnunna | Central Mesopotamia | Hamblin (2006) |
+| Garšana | Southern Mesopotamia | Owen & Mayr (2007) |
+| Pārśa (Persepolis) | Eastern Iran | Brosius (2006) |
+
+: **Table S5.** Manual region assignments for high-frequency sites absent from
+  the CDLI LOD region ontology.
+
+## The 19 CDLI regions and 5 analytical zones
+
+| Analytical Zone | CDLI Regions Included |
+|---|---|
+| Southern Mesopotamia | Southern Mesopotamia |
+| Central / N. Babylonia | Central Mesopotamia, Middle Euphrates |
+| Assyria / Upper Mesopotamia | Tigridian Region, Jazirah |
+| Elam / Western Iran | Western Iran, Eastern Iran |
+| Periphery | W. & C. Anatolia, N. Levant, S. Levant, Upper Euphrates |
+
+: **Table S6.** Aggregation of the 19 CDLI geographic regions into 5 analytical
+  zones. Zone boundaries follow historical-geographic reference works (Roaf 1990;
+  Radner & Robson 2011). The remaining 9 CDLI regions (Cyprus, Lower Egypt,
+  Upper Egypt, Eastern Arabia, Western Mediterranean, Eastern Mediterranean,
+  Arabian Peninsula, South Caucasus, and several minor regions) contribute fewer
+  than 100 tablets to the 2nd–1st millennium subsample and are classified as
+  Periphery if covered, or excluded otherwise.
+
+## Site-level panel: supplementary table S-Geo
+
+Table S7 provides full statistics for all ten sites included in the site-level
+panel (minimum 30 tablets in both millennia subsamples).
+
+| Site | Zone | CDLI Region | Source | *N* 2nd | *N* 1st | Median 2nd | Median 1st | Log Δ | Cliff's *δ* | *p* (MW) | Sig. |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Larsa | S. Mesopotamia | S. Mesopotamia | places.nt | 571 | 51 | 1.457 | 0.778 | −0.627 | −0.818 | <0.001 | *** |
+| Kalhu | Assyria | Tigridian Region | places.nt | 38 | 877 | 2.000 | 0.976 | −0.717 | −0.783 | <0.001 | *** |
+| Sippar-Yahrurum | C./N. Babylonia | C. Mesopotamia | places.nt | 89 | 1,034 | 1.388 | 0.768 | −0.592 | −0.700 | <0.001 | *** |
+| Dilbat | S. Mesopotamia | S. Mesopotamia | places.nt | 111 | 31 | 1.077 | 0.780 | −0.322 | −0.580 | <0.001 | *** |
+| Nippur | S. Mesopotamia | S. Mesopotamia | places.nt | 633 | 124 | 1.133 | 0.788 | −0.363 | −0.534 | <0.001 | *** |
+| Uruk | S. Mesopotamia | S. Mesopotamia | places.nt | 235 | 4,923 | 1.150 | 0.733 | −0.450 | −0.448 | <0.001 | *** |
+| Kish | S. Mesopotamia | S. Mesopotamia | places.nt | 297 | 96 | 1.306 | 1.088 | −0.182 | −0.135 | 0.048 | * |
+| Assur | Assyria | Tigridian Region | places.nt | 423 | 97 | 0.976 | 1.000 | +0.025 | −0.146 | 0.025 | * |
+| Nineveh | Assyria | Tigridian Region | places.nt | 37 | 983 | 1.143 | 1.025 | −0.109 | −0.136 | 0.160 | ns |
+| Ur | S. Mesopotamia | S. Mesopotamia | places.nt | 170 | 34 | 1.444 | 2.000 | +0.326 | **+0.333** | 0.002 | ** |
+
+: **Table S7 (S-Geo).** Site-level h/w ratio shifts from 2nd to 1st millennium.
+  Negative Cliff's *δ* = landscape shift; positive = portrait shift. Ur (bold)
+  is the only site showing a significant counter-trend (see main text §4.4).
+  Sig. codes: *** *p* < 0.001, ** *p* < 0.01, * *p* < 0.05 (uncorrected);
+  Bonferroni-corrected threshold for 10 comparisons: *p* < 0.005 (*** and ** survive).
+
+## Limitations of the geographic analysis
+
+1. **places.nt coverage**: Of 737 provenience entities in the CDLI LOD ontology,
+   only 245 carry region assignments (33%). Coverage is good for the major excavated
+   sites but sparse for smaller or uncertain proveniences. Tablets with unresolved
+   provenience are excluded from the geographic analysis.
+
+2. **2nd-millennium definition**: The 2nd-millennium subsample uses CDLI period
+   labels Early Old Babylonian, Old Babylonian, Old Assyrian, Middle Assyrian,
+   Middle Babylonian, Middle Elamite, and Hittite. The 1st-millennium subsample
+   uses Neo-Assyrian, Neo-Babylonian, Achaemenid, and Hellenistic. Periods
+   straddling the boundary (some Middle Babylonian tablets date to the late
+   12th–11th centuries BCE) are assigned by CDLI period label, not by exact date.
+
+3. **Uruk sampling imbalance**: Uruk contributes 235 tablets in the 2nd-millennium
+   subsample and 4,923 in the 1st millennium (a 21-fold ratio). The variance
+   decomposition is designed to test whether this imbalance drives the corpus-level
+   trend (see §S1.3 and main text §3.5).
+
+\newpage
+
+# Code Repository and Notebook Guide {#sec-notebooks}
+
+## Overview
+
+All analyses in this paper are implemented as Jupyter notebooks in Python.
+The full repository is available at:
+**https://github.com/DigitalPasts/ShapingHistory**
+
+The notebooks are organized into three groups:
+
+- **Data pipeline** (notebooks 0–2): acquire, preprocess, and explore the corpus
+- **Analysis** (notebooks 2.1–2.6, 2.4b): statistical and visual analyses
+  reported in the paper
+- **ML models** (notebooks 3–13): train, evaluate, and interpret machine learning models
+
+An interactive web companion to this paper — providing static rendered versions of
+all notebooks and live access to the VAE traversal and interpolation widgets — is
+available at:
+**https://digitalpasts.github.io/ShapingHistory**
+
+## Data pipeline notebooks
+
+| Notebook | Purpose |
+|---|---|
+| `0. get and preprocess CDLI tabular data.ipynb` | Download CDLI catalogue; extract physical dimensions, period/genre labels, and provenience strings; save to `artifacts.csv`. Run once only. |
+| `1. scrape tablet photos by era.ipynb` | Download CDLI tablet photographs by period. Requires CDLI API access. |
+| `1.1 preprocess - remove colorbar.ipynb` | Detect and remove CDLI colour reference bars from raw photographs using template matching. |
+
+## Analysis notebooks
+
+These notebooks are the primary computational outputs of the paper. They are designed
+to be run in sequence; notebooks 2.4 and later depend on data and figures produced
+by earlier notebooks.
+
+| Notebook | Paper section | Key outputs |
+|---|---|---|
+| `2.1 EDA - height-weight ratio of tablets.ipynb` | §Results 3.1 | Period-level h/w distributions, preliminary plots |
+| `2.2 Statistical Analysis and Figure Export.ipynb` | §Results 3.1–3.2 | Fig. 1–2 (ratio distribution, diachronic trend, CV standardization); `period_summary_stats.csv` |
+| `2.3 CV Pixel Ratio Analysis.ipynb` | §Results 3.1, SI §S4 | Image-derived pixel ratios; `pixel_ratio_summary_stats.csv`; SI Table S4 |
+| `2.4 VAE Shape Feature Analysis.ipynb` | §Results 3.3 | Fig. 3 (η² vs ρ); `vae_dim_stats.csv`; `vae_period_mean_vectors.csv`; genre trajectories |
+| `2.4b VAE Geometric Shape Analysis.ipynb` | §Results 3.3–3.4 | Fig. 4 (traversal filmstrips); Fig. 5 (dendrogram); descriptor trend figures; primary descriptor tables |
+| `2.5 Three-Method Comparison.ipynb` | §Results 3.1–3.3 | Side-by-side comparison of physical ratio, pixel ratio, and VAE top dimension; SI figures |
+| `2.6 Geographic Regional Analysis.ipynb` | §Results 3.5; SI §S5 | Fig. 6 (maps); zone-shift figures; variance decomposition; `supplementary_table_S_Geo.csv` |
+
+## Machine learning model notebooks
+
+| Notebook | Purpose |
+|---|---|
+| `5–5.1` | Decision tree on h/w ratio (baseline classifier) |
+| `6–6.1` | CNN period classifier, grayscale images |
+| `7–7.1` | CNN period classifier, masked silhouettes |
+| `8–8.1` | ResNet50 period classifier, grayscale images |
+| `9–9.1` | ResNet50 period classifier, masked silhouettes |
+| `3–3.1` | DINOv2 feature extraction + classification, grayscale |
+| `4–4.1` | DINOv2 feature extraction + classification, masked |
+| `10` | VAE training on masked tablets |
+| `10.1` | VAE encoding extraction (produces `vae_encodings_*.csv`) |
+| `11` | VAE analysis: period clustering, latent visualization |
+| `11.1` | Hierarchical clustering of tablet images via VAE encodings |
+
+## Interactive visualization notebooks
+
+Two notebooks provide the interactive VAE exploration tools described in
+§Results 3.4 (Widget case study):
+
+| Notebook | Description |
+|---|---|
+| `12. Traverse the VAE latent space.ipynb` | **Feature explorer widget.** Select a period and genre; the widget displays period mean vectors and per-dimension boxplots. Use the sliders to adjust individual dimensions and observe the decoded tablet silhouette in real time. Requires the trained VAE model (auto-downloaded from Zenodo on first run). |
+| `13. Traversing the latent space between two images.ipynb` | **Interpolation widget.** Select two tablets (or specify two latent vectors); the widget decodes and displays the morphological path between them in 11 steps. Supports the case study in §Results 3.4. |
+
+**Running the interactive widgets locally:**
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/DigitalPasts/ShapingHistory.git
+cd ShapingHistory
+
+# 2. Create environment
+pip install -r requirements.txt
+
+# 3. Launch Jupyter
+jupyter notebook
+
+# 4. Open notebook 12 or 13.
+#    On first run, the VAE model is downloaded automatically from Zenodo
+#    (DOI: 10.5281/zenodo.11668219, ~87 MB).
+#    VAE encodings are downloaded from Zenodo DOI: 10.5281/zenodo.12787745.
+```
+
+**Running via Binder (no local installation required):**
+
+Click the Binder badge on the repository landing page, or navigate to:
+`https://mybinder.org/v2/gh/DigitalPasts/ShapingHistory/HEAD`
+
+Note: Binder sessions are ephemeral; downloaded model files are not persisted
+between sessions.
+
+## Software dependencies
+
+| Package | Version | Purpose |
+|---|---|---|
+| Python | ≥ 3.9 | Core language |
+| PyTorch | ≥ 2.0 | VAE training and inference |
+| PyTorch Lightning | ≥ 2.0 | VAE training framework |
+| torchvision | ≥ 0.15 | ResNet50 and CNN models |
+| scikit-learn | ≥ 1.3 | Decision tree, metrics, PCA |
+| scikit-image | ≥ 0.21 | Silhouette descriptor computation |
+| scipy | ≥ 1.11 | Statistical tests |
+| pandas | ≥ 2.0 | Data management |
+| numpy | ≥ 1.24 | Numerical operations |
+| matplotlib | ≥ 3.7 | Figures |
+| seaborn | ≥ 0.12 | Statistical visualizations |
+| geopandas | ≥ 0.14 | Geographic maps (notebook 2.6) |
+| ipywidgets | ≥ 8.0 | Interactive sliders (notebooks 12–13) |
+| rdflib | ≥ 6.3 | Parsing `places.nt` RDF file |
+
+A full `requirements.txt` is provided in the repository.
+
+\newpage
+
+# Supplementary Figures {#sec-figures}
+
+The following supplementary figures accompany the analyses described in the main text.
+All figures are generated by the indicated notebooks and saved to `paper/figures/`.
+
+| Figure | File | Generated by | Description |
+|---|---|---|---|
+| SI Fig. S1 | `fig_ratio_linear_vs_log.pdf` | 2.2 | Comparison of linear-scale vs. log-scale h/w ratio distributions, illustrating why the log transformation is appropriate for proportional data |
+| SI Fig. S2 | `fig_pixel_diachronic_trend.pdf` | 2.3 | Diachronic trend from the image-derived pixel-ratio analysis (corroboration of Fig. 2 main text) |
+| SI Fig. S3 | `fig_comparison_diachronic_overlay.pdf` | 2.5 | Three-method overlay: physical ratio, pixel ratio, and VAE X2 normalized trends on the same axis, confirming convergence |
+| SI Fig. S4 | `fig_comparison_cv_three_methods.pdf` | 2.5 | CV standardization comparison across all three measurement methods by period |
+| SI Fig. S5 | `fig_vae_kw_per_dim.pdf` | 2.4 | Kruskal-Wallis η² per VAE dimension (bar chart) |
+| SI Fig. S6 | `fig_vae_spearman_per_dim.pdf` | 2.4 | Spearman ρ per VAE dimension (bar chart with significance markers) |
+| SI Fig. S7a | `fig_vae_traversal_X2_genre.pdf` | 2.4b | Latent traversal filmstrip for X2 with genre-stratified descriptor curves (Fig. 4a in main text) |
+| SI Fig. S7b | `fig_vae_traversal_X7_genre.pdf` | 2.4b | Latent traversal filmstrip for X7 with genre-stratified descriptor curves |
+| SI Fig. S7c | `fig_vae_traversal_X8_genre.pdf` | 2.4b | Latent traversal filmstrip for X8 with genre-stratified descriptor curves |
+| SI Fig. S8 | `fig_vae_mean_period_timeline_genre.pdf` | 2.4b | Genre-stratified mean latent coordinates for X2, X7, X8 across all 21 periods |
+| SI Fig. S9 | `fig_vae_descriptor_trends_genre.pdf` | 2.4b | Genre-stratified descriptor trend lines (area fraction, solidity, hw_ratio) across all traversed dimensions |
+| SI Fig. S10 | `fig_geo_zone_genre_control.pdf` | 2.6 | Zone-level h/w ratio shifts: all tablets vs. administrative genre only (side-by-side) |
+| SI Fig. S11 | `fig_geo_site_panel.pdf` | 2.6 | Full site-level panel: h/w ratio distribution boxplots for 2nd and 1st millennium at each of the 10 panel sites |
+| SI Fig. S12 | `fig_geo_vae_delta_heatmap.pdf` | 2.6 | Heatmap of per-zone, per-VAE-dimension mean vector deltas (2nd→1st millennium) |
+
+\newpage
+
+# Data and Code Availability {#sec-data}
+
+**CDLI Catalogue.** Provenience, period, genre, and physical dimension data are
+obtained from the CDLI catalogue (cdli.mpiwg-berlin.mpg.de), accessed 2024. The
+catalogue is freely available under the CC BY 4.0 licence.
+
+**Dataset release.** Extracted h/w ratios, image-derived pixel ratios, VAE latent
+encodings (all 94,936 tablets × 12 dimensions), and all period/genre metadata are
+available at:
+Zenodo, DOI: 10.5281/zenodo.12787745
+
+**Trained models.** The VAE model checkpoint (epoch 22, step 213,621) and training
+configuration are available at:
+Zenodo, DOI: 10.5281/zenodo.11668219
+
+**Code repository.** All Jupyter notebooks, analysis scripts, and this paper's
+Quarto source are available at:
+https://github.com/DigitalPasts/ShapingHistory
+
+**Geographic data.** The `places.nt` CDLI Linked Open Data export is distributed
+with the CDLI infrastructure (cdli.network) and is included in the code repository.
+Natural Earth 110m country boundaries used for map figures are available from
+Natural Earth (naturalearthdata.com) under the public domain.
+
+**Interactive companion website.** An interactive web companion providing rendered
+notebook outputs and live access to the VAE traversal and interpolation tools is
+available at:
+https://digitalpasts.github.io/ShapingHistory

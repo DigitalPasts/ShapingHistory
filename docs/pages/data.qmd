@@ -1,0 +1,126 @@
+---
+title: "Data & Code"
+subtitle: "All datasets, models, and notebooks are openly available"
+sidebar: analyses
+toc: true
+---
+
+## Datasets
+
+### CDLI Tablet Silhouettes and Encodings
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12787745.svg)](https://doi.org/10.5281/zenodo.12787745)
+
+The primary dataset contains:
+
+- **94,936 binary silhouettes** (80×80 pixels, PNG) derived from CDLI obverse photographs
+- **VAE latent encodings** (12-dimensional vectors) for each tablet
+- **Pixel-ratio measurements** (height/width ratio, bounding-box dimensions)
+- **Metadata**: CDLI ID, period, genre, provenience, composite flag
+
+**Format:** Zenodo archive with CSV index + compressed silhouette archive
+
+**Citation:** Gordin, S., Kapon Epshtain, D., & Fire, M. (2024). *Cuneiform tablet silhouettes and VAE encodings* [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.12787745
+
+### Trained VAE Model
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11668219.svg)](https://doi.org/10.5281/zenodo.11668219)
+
+The trained Variational Autoencoder checkpoint:
+
+- **Architecture:** 12-dimensional bottleneck VAE with auxiliary period-classification head
+- **Training:** 94,936 tablets × 22 epochs; checkpoint at step 213,621
+- **Size:** ~87 MB (PyTorch `.pt` file)
+- **Input:** 80×80 binary silhouette (3-channel)
+- **Output:** 12-dimensional latent vector (encoder) + 80×80 reconstructed silhouette (decoder)
+
+**Citation:** Gordin, S., Kapon Epshtain, D., & Fire, M. (2024). *Trained VAE model for cuneiform tablet morphology* [Software]. Zenodo. https://doi.org/10.5281/zenodo.11668219
+
+### CDLI Source Data
+
+The CDLI (Cuneiform Digital Library Initiative) catalogue and images are available
+under CC BY-SA 4.0 at [cdli.ucla.edu](https://cdli.ucla.edu).
+
+We use:
+- Tabular export via CDLI API (tablet metadata, period, genre, provenience)
+- Obverse photograph URLs for silhouette extraction
+- Linked Open Data graph (`places.nt`) for geographic assignment via CIDOC-CRM P89_falls_within
+
+## Code Repository
+
+The full analysis codebase is available on GitHub:
+
+```
+https://github.com/DigitalPasts/ShapingHistory
+```
+
+### Notebook guide
+
+All analyses are implemented as Jupyter notebooks, numbered by analysis stage:
+
+| Notebook | Stage | Key output |
+|---|---|---|
+| `0. get and preprocess CDLI tabular data.ipynb` | Data acquisition | CDLI metadata CSV |
+| `1. Download tablet images.ipynb` | Image collection | Raw photograph archive |
+| `2.1 h:w ratio analysis.ipynb` | Ratio analysis | `period_summary_stats.csv` |
+| `2.2 h:w ratio visualization.ipynb` | Visualization | `fig_ratio_by_period_log.pdf` |
+| `2.3 pixel ratio analysis.ipynb` | Pixel ratios | Cross-validation CSV |
+| `2.4 VAE latent space stats.ipynb` | VAE stats | `vae_dim_stats.csv` |
+| `2.4b VAE traversal genre.ipynb` | Traversal analysis | Filmstrip PDFs |
+| `2.6 geographic analysis.ipynb` | Geography | Zone trajectories, site panel |
+| `3–9` | Classification | Decision tree, CNN, ResNet50, DINOv2 |
+| `10, 10.1` | VAE period means | `vae_period_mean_vectors.csv` |
+| `11, 11.1` | VAE visualization | Dendrogram, heatmap |
+| `12. Traverse the VAE latent space.ipynb` | **Interactive** | Feature Explorer widget |
+| `13. Traversing the latent space between two images.ipynb` | **Interactive** | Interpolation widget |
+
+### Running the notebooks
+
+**Cloud (no installation):** Click the Binder badge on any interactive page.
+
+**Local:**
+
+```bash
+git clone https://github.com/DigitalPasts/ShapingHistory.git
+cd ShapingHistory
+pip install -r requirements.txt
+jupyter notebook
+```
+
+The VAE model (~87 MB) downloads automatically from Zenodo on first run of notebooks 10–13.
+
+### Requirements
+
+```
+torch>=2.0
+torchvision>=0.15
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+seaborn>=0.12
+scipy>=1.10
+scikit-learn>=1.3
+ipywidgets>=8.0
+jupyter>=1.0
+rdflib>=6.0
+Pillow>=10.0
+tqdm>=4.65
+```
+
+## License
+
+| Resource | License |
+|---|---|
+| Code (notebooks, scripts) | MIT |
+| Datasets (silhouettes, encodings) | CC BY 4.0 |
+| CDLI source images | CC BY-SA 4.0 (CDLI contributors) |
+| Paper text | © Authors (submitted to PNAS) |
+
+## Data availability statement
+
+All data and code supporting the results in this paper are openly available:
+
+- Dataset: Zenodo 10.5281/zenodo.12787745
+- VAE model: Zenodo 10.5281/zenodo.11668219
+- Code repository: github.com/DigitalPasts/ShapingHistory
+- Source data: CDLI (cdli.ucla.edu, CC BY-SA 4.0)

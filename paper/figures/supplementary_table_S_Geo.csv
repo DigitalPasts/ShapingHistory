@@ -1,0 +1,11 @@
+Site,Zone,CDLI_Region,Region_Source,n_2nd,n_1st,median_2nd,median_1st,shift_log,cliffs_d,p_MW,sig
+Ur,Southern Mesopotamia,Southern Mesopotamia,places.nt,170,34,1.444,2.0,0.3259,0.3332,0.00219,**
+Assur,Assyria / Upper Mesopotamia,Tigridian Region,places.nt,423,97,0.976,1.0,0.0247,-0.1456,0.025218,*
+Nineveh,Assyria / Upper Mesopotamia,Tigridian Region,places.nt,37,983,1.143,1.025,-0.1088,-0.1358,0.160101,ns
+Kish,Southern Mesopotamia,Southern Mesopotamia,places.nt,297,96,1.306,1.088,-0.1819,-0.1345,0.047551,*
+Dilbat,Southern Mesopotamia,Southern Mesopotamia,places.nt,111,31,1.077,0.78,-0.3219,-0.5801,1e-06,***
+Nippur,Southern Mesopotamia,Southern Mesopotamia,places.nt,633,124,1.133,0.788,-0.3628,-0.5338,0.0,***
+Uruk,Southern Mesopotamia,Southern Mesopotamia,places.nt,235,4923,1.15,0.733,-0.4499,-0.4479,0.0,***
+Sippar-Yahrurum,Central / N. Babylonia,Central Mesopotamia,places.nt,89,1034,1.388,0.768,-0.5921,-0.6996,0.0,***
+Larsa,Southern Mesopotamia,Southern Mesopotamia,places.nt,571,51,1.457,0.778,-0.6274,-0.8176,0.0,***
+Kalhu,Assyria / Upper Mesopotamia,Tigridian Region,places.nt,38,877,2.0,0.976,-0.7172,-0.7831,0.0,***

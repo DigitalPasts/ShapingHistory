@@ -1,0 +1,114 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Shaping History at Scale"
+  description: "Computational Diplomatics and the Diachronic Evolution of Cuneiform Tablet Morphology"
+  site-url: "https://digitalpasts.github.io/ShapingHistory"
+  repo-url: "https://github.com/DigitalPasts/ShapingHistory"
+  repo-actions: [edit, issue]
+  favicon: assets/img/favicon.png
+  open-graph: true
+  twitter-card:
+    image: assets/img/social-card.png
+    card-style: summary_large_image
+
+  navbar:
+    background: "#2c2c3a"
+    foreground: "#f0ede4"
+    logo: assets/img/logo.svg
+    title: false
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Analyses"
+        menu:
+          - text: "1 · Corpus & Ratios"
+            href: pages/01-ratios.qmd
+          - text: "2 · Standardization"
+            href: pages/02-standardization.qmd
+          - text: "3 · Classification"
+            href: pages/03-classification.qmd
+          - text: "4 · VAE Features"
+            href: pages/04-vae.qmd
+          - text: "5 · Shape Traversal"
+            href: pages/05-traversal.qmd
+          - text: "6 · Geography"
+            href: pages/06-geography.qmd
+      - text: "Interactive"
+        menu:
+          - text: "Feature Explorer"
+            href: pages/interactive-explorer.qmd
+          - text: "Interpolation Widget"
+            href: pages/interactive-interpolation.qmd
+      - text: "About"
+        menu:
+          - text: "The Project"
+            href: pages/about.qmd
+          - text: "Data & Code"
+            href: pages/data.qmd
+          - text: "How to Cite"
+            href: pages/cite.qmd
+    right:
+      - icon: github
+        href: "https://github.com/DigitalPasts/ShapingHistory"
+
+  sidebar:
+    - id: analyses
+      title: "Analyses"
+      style: "docked"
+      background: "#f8f5ef"
+      contents:
+        - section: "Getting Started"
+          contents:
+            - index.qmd
+            - pages/about.qmd
+            - pages/data.qmd
+        - section: "Corpus & Shape Analysis"
+          contents:
+            - pages/01-ratios.qmd
+            - pages/02-standardization.qmd
+        - section: "Classification Models"
+          contents:
+            - pages/03-classification.qmd
+        - section: "VAE Latent Space"
+          contents:
+            - pages/04-vae.qmd
+            - pages/05-traversal.qmd
+        - section: "Geographic Analysis"
+          contents:
+            - pages/06-geography.qmd
+        - section: "Interactive Tools"
+          contents:
+            - pages/interactive-explorer.qmd
+            - pages/interactive-interpolation.qmd
+        - section: "Reference"
+          contents:
+            - pages/cite.qmd
+
+  page-footer:
+    left: "© 2024–2025 Gordin, Kapon Epshtain & Fire · [DigitalPasts Lab](https://github.com/DigitalPasts)"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: [flatly, assets/css/custom.scss]
+    highlight-style: github
+    code-fold: true
+    code-tools: true
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    fig-align: center
+    fig-width: 9
+    fig-height: 5.5
+    html-math-method: mathjax
+
+execute:
+  freeze: auto
+  cache: true
+  echo: true
+  warning: false
+  message: false

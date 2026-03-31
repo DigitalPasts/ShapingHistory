@@ -1,0 +1,175 @@
+---
+title: "Shaping History at Scale"
+subtitle: "Computational Diplomatics and the Diachronic Evolution of Cuneiform Tablet Morphology"
+page-layout: full
+toc: false
+---
+
+::: {.hero-banner}
+# Shaping History at Scale
+
+::: {.subtitle}
+Computational Diplomatics and the Diachronic Evolution of Cuneiform Tablet Morphology over Three Millennia
+:::
+
+**Shai Gordin · Danielle Kapon Epshtain · Michael Fire**
+*Ariel University · Ben-Gurion University of the Negev · Open University of Israel*
+
+::: {.hero-stats}
+::: {.stat-box}
+[94,936]{.stat-number}
+[tablet images]{.stat-label}
+:::
+::: {.stat-box}
+[21]{.stat-number}
+[historical periods]{.stat-label}
+:::
+::: {.stat-box}
+[3,300]{.stat-number}
+[years (3500–64 BCE)]{.stat-label}
+:::
+::: {.stat-box}
+[86%]{.stat-number}
+[shape info retention]{.stat-label}
+:::
+:::
+:::
+
+## About this site
+
+This companion website provides interactive access to all analyses published in:
+
+> Gordin, S., Kapon Epshtain, D., & Fire, M. (2025). **Shaping History at Scale:
+> Computational Diplomatics and the Diachronic Evolution of Cuneiform Tablet
+> Morphology over Three Millennia.** *PNAS*. DOI: [pending]
+
+Each section corresponds to a section of the paper and a Jupyter notebook in the
+[code repository](https://github.com/DigitalPasts/ShapingHistory). The two
+**Interactive Tools** pages provide live access to the VAE feature explorer
+and interpolation widget via Binder — no installation required.
+
+---
+
+## Analyses
+
+::: {.analysis-grid}
+
+::: {.analysis-card}
+[📐]{.card-icon}
+
+::: {.card-title}
+[1 · Corpus & Ratios](pages/01-ratios.qmd)
+:::
+::: {.card-desc}
+Height-to-width ratios across 21 periods. The three-millennium portrait→landscape shift. Log-ratio methodology.
+:::
+:::
+
+::: {.analysis-card}
+[📊]{.card-icon}
+
+::: {.card-title}
+[2 · Standardization Scale](pages/02-standardization.qmd)
+:::
+::: {.card-desc}
+Coefficient of variation as a proxy for institutional control. From Ur III (CV = 0.251) to Neo-Babylonian (CV = 0.807).
+:::
+:::
+
+::: {.analysis-card}
+[🤖]{.card-icon}
+
+::: {.card-title}
+[3 · Period Classification](pages/03-classification.qmd)
+:::
+::: {.card-desc}
+Decision tree → CNN → ResNet50. Shape information retention fraction: 86%. Confusion matrices and per-period performance.
+:::
+:::
+
+::: {.analysis-card}
+[🧬]{.card-icon}
+
+::: {.card-title}
+[4 · VAE Latent Space](pages/04-vae.qmd)
+:::
+::: {.card-desc}
+12-dimensional VAE bottleneck. Discrimination (X7) vs. trend (X2, X8). Diplomatic genealogies in latent space.
+:::
+:::
+
+::: {.analysis-card}
+[🎞️]{.card-icon}
+
+::: {.card-title}
+[5 · Shape Traversal](pages/05-traversal.qmd)
+:::
+::: {.card-desc}
+What does each VAE dimension physically control? Filmstrip traversals with genre control and geometric descriptor analysis.
+:::
+:::
+
+::: {.analysis-card}
+[🗺️]{.card-icon}
+
+::: {.card-title}
+[6 · Geography](pages/06-geography.qmd)
+:::
+::: {.card-desc}
+Is the trend real or a sampling artifact? Variance decomposition, zone analysis, site-level panel, maps.
+:::
+:::
+
+:::
+
+---
+
+## Interactive Tools
+
+::: {.interactive-callout}
+::: {.callout-title}
+🎛️ Try it yourself — no installation required
+:::
+The two interactive widgets require only a browser. Click Launch Binder to start
+a cloud Jupyter session with the trained VAE model pre-loaded (~2 min to start).
+:::
+
+::: {.analysis-grid}
+
+::: {.analysis-card}
+[🎚️]{.card-icon}
+
+::: {.card-title}
+[Feature Explorer](pages/interactive-explorer.qmd)
+:::
+::: {.card-desc}
+Adjust individual VAE dimensions with sliders and watch the decoded tablet silhouette change in real time. Filter by period and genre.
+:::
+:::
+
+::: {.analysis-card}
+[↔️]{.card-icon}
+
+::: {.card-title}
+[Interpolation Widget](pages/interactive-interpolation.qmd)
+:::
+::: {.card-desc}
+Select two tablets or two latent vectors. Visualize the morphological path between them across 11 decoded waypoints.
+:::
+:::
+
+:::
+
+---
+
+## Data & Code
+
+All code, data, and the trained VAE model are publicly available:
+
+| Resource | Link |
+|---|---|
+| **Code repository** | [github.com/DigitalPasts/ShapingHistory](https://github.com/DigitalPasts/ShapingHistory) |
+| **Dataset** (VAE encodings, ratios) | [Zenodo DOI: 10.5281/zenodo.12787745](https://doi.org/10.5281/zenodo.12787745) |
+| **Trained VAE model** | [Zenodo DOI: 10.5281/zenodo.11668219](https://doi.org/10.5281/zenodo.11668219) |
+| **CDLI Catalogue** | [cdli.mpiwg-berlin.mpg.de](https://cdli.mpiwg-berlin.mpg.de) |
+| **DigitalPasts Lab** | [github.com/DigitalPasts](https://github.com/DigitalPasts) |

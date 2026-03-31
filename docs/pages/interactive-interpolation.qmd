@@ -1,0 +1,64 @@
+---
+title: "Interpolation Widget"
+subtitle: "Trace the morphological path between any two tablet latent vectors"
+sidebar: analyses
+toc: false
+---
+
+::: {.interactive-callout}
+::: {.callout-title}
+↔️ Interactive tool — runs in your browser via Binder
+:::
+Click **Launch Binder** below to open the interpolation notebook in a cloud session.
+:::
+
+## What this tool does
+
+The **Interpolation Widget** (notebook `13. Traversing the latent space between two images.ipynb`)
+decodes 11 evenly spaced points along a straight line in the 12-dimensional latent space
+between two tablets (or two manually specified vectors), producing a filmstrip of decoded
+silhouettes that visualizes the morphological path between them.
+
+This is the computational analogue of a diplomat's interpolation between two document
+traditions: the waypoints identify which features changed and which persisted.
+
+## The case study in the paper
+
+The paper uses this widget to trace the path between:
+
+- **Origin**: Mean Ur III administrative tablet vector
+  `[X2 = −0.995, X7 = −0.612, ...]`
+- **Destination**: Mean Achaemenid administrative tablet vector
+  `[X2 = +0.652, X7 = −2.484, ...]`
+
+The filmstrip shows the silhouette transition in 11 steps:
+
+1. Steps 1–4: gradual widening (X7 decreasing) while outline remains articulated
+2. Steps 5–7: outline regularizes (X2 increasing) while width holds
+3. Steps 8–11: final landscape, compact, rectangular Achaemenid form
+
+Each waypoint is historically coherent: they represent potential Middle Babylonian
+or Middle Elamite intermediate formats that actually appear in the corpus.
+
+## Launch
+
+[![Launch Binder](https://mybinder.org/badge_logo.svg){.binder-badge}](https://mybinder.org/v2/gh/DigitalPasts/ShapingHistory/HEAD?filepath=13.%20Traversing%20the%20latent%20space%20between%20teo%20images.ipynb)
+
+## Running locally
+
+```bash
+git clone https://github.com/DigitalPasts/ShapingHistory.git
+cd ShapingHistory
+pip install -r requirements.txt
+jupyter notebook "13. Traversing the latent space between teo images.ipynb"
+```
+
+## Suggested explorations
+
+| Comparison | Historical question |
+|---|---|
+| Ur III admin → Neo-Babylonian | How does the 2nd→1st millennium transition look step by step? |
+| Ur III admin → Neo-Assyrian | How different are the two 1st-millennium portrait traditions? |
+| Old Babylonian → Middle Elamite | What changed in Elamite scribal practice vs. Babylonian? |
+| Neo-Babylonian → Achaemenid | Is the Achaemenid tablet format a continuation or a shift? |
+| Any period → Middle Elamite | Why is Middle Elamite an outlier in the 2nd millennium? |

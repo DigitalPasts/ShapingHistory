@@ -1,0 +1,49 @@
+---
+title: "About the Project"
+sidebar: analyses
+---
+
+## Shaping History at Scale
+
+This project applies computational methods to the systematic study of cuneiform
+tablet shape across 3,300 years of writing history. It is part of the broader
+**DigitalPasts** research program at Ariel University and the Digital Humanities
+and Social Sciences Hub at the Open University of Israel.
+
+### What is computational diplomatics?
+
+*Diplomatics* is the scholarly discipline of studying the external, physical features
+of documents — their format, material, layout, and formulaic structure — as evidence
+for the historical context of their production. Founded by Jean Mabillon in the
+17th century for the authentication of medieval charters, it was applied to cuneiform
+scholarship by scholars including Charpin, Cancik-Kirschbaum, Hackl, and Jursa.
+
+**Computational diplomatics** extends this tradition through machine learning and
+computer vision: instead of a single expert examining hundreds of tablets, we apply
+systematic, reproducible algorithms to tens of thousands. The implicit knowledge of
+the trained diplomat becomes explicit, scalable, and verifiable.
+
+### The key finding
+
+The most consistent result across all measurement approaches is a **three-millennium
+shift from portrait to landscape tablet orientation**, from median h/w ≈ 1.1–1.3
+in the 3rd and early 2nd millennium BCE to h/w ≈ 0.75–0.85 in the Neo-Babylonian,
+Achaemenid, and Hellenistic periods. This shift is:
+
+- Present across all geographic zones
+- Confirmed at the individual site level (Larsa, Nippur, Uruk, Kalhu, Sippar, ...)
+- Not a sampling artifact (variance decomposition confirms within-site change dominates)
+- Captured independently by three measurement methods
+
+### Team
+
+- **Shai Gordin** — PI, Assyriology and computational history, Ariel University &
+  Open University of Israel
+- **Danielle Kapon Epshtain** — Machine learning and data science, Ben-Gurion University
+  of the Negev
+- **Michael Fire** — Computational methodology supervision, Ben-Gurion University
+
+### DigitalPasts Lab
+
+[DigitalPasts](https://github.com/DigitalPasts) is a research group dedicated to
+the application of digital and computational methods to ancient Near Eastern studies.

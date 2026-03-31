@@ -1,0 +1,69 @@
+---
+title: "Feature Explorer"
+subtitle: "Adjust VAE dimensions and watch decoded tablet silhouettes change in real time"
+sidebar: analyses
+toc: false
+---
+
+::: {.interactive-callout}
+::: {.callout-title}
+🎛️ Interactive tool — runs in your browser via Binder
+:::
+Click **Launch Binder** below to open a cloud Jupyter session with the trained VAE
+model pre-loaded. The session takes approximately 2 minutes to start.
+All computation happens in the cloud — no installation required.
+:::
+
+## What this tool does
+
+The **Feature Explorer** (notebook `12. Traverse the VAE latent space.ipynb`)
+lets you:
+
+1. **Select a period and genre** from a dropdown (e.g., Ur III — Administrative)
+2. The widget loads a random tablet from that period/genre and displays its mean
+   latent vector as 12 slider values
+3. **Adjust any slider** to change one VAE dimension while holding all others fixed
+4. **Watch the decoded tablet silhouette update** in real time
+5. Use this to empirically discover what each dimension physically controls
+
+This is the tool used in the paper to confirm that:
+- **X7** controls height/width ratio (portrait ↔ landscape)
+- **X2** controls bounding-box fill efficiency (articulated ↔ compact)
+- **X8** controls body unity (segmented ↔ slab-like)
+
+## Launch
+
+[![Launch Binder](https://mybinder.org/badge_logo.svg){.binder-badge}](https://mybinder.org/v2/gh/DigitalPasts/ShapingHistory/HEAD?filepath=12.%20Traverse%20the%20VAE%20latent%20space.ipynb)
+
+Or launch the full repository environment and navigate to notebook 12:
+
+[![Launch full environment](https://mybinder.org/badge_logo.svg){.binder-badge}](https://mybinder.org/v2/gh/DigitalPasts/ShapingHistory/HEAD)
+
+## Screenshot
+
+![Feature Explorer widget: dropdown selects period/genre, sliders control each VAE dimension, decoded silhouette updates in real time.](../assets/img/widget-explorer-screenshot.png){#fig-explorer-screenshot}
+
+*(Screenshot placeholder — replace with actual screenshot after first run)*
+
+## Running locally
+
+If you prefer to run locally with faster response times:
+
+```bash
+git clone https://github.com/DigitalPasts/ShapingHistory.git
+cd ShapingHistory
+pip install -r requirements.txt
+jupyter notebook "12. Traverse the VAE latent space.ipynb"
+```
+
+The VAE model (~87 MB) will be downloaded automatically from Zenodo on first run.
+
+## Suggested experiments
+
+| Experiment | What to do | What to look for |
+|---|---|---|
+| Confirm X7 = orientation | Set period to Neo-Assyrian; slide X7 from +4 to −4 | Portrait → landscape transition |
+| Confirm X2 = fill efficiency | Set period to Old Babylonian; slide X2 from −5 to +4 | Outline regularization + widening |
+| Genre comparison | Same period, switch Administrative ↔ Literary | Do the starting shapes differ? |
+| Interpolate Ur III → Achaemenid | Set X2 and X7 to Achaemenid admin means | How many steps to recognizable landscape form? |
+| Explore Middle Elamite | Select Middle Elamite period | Confirm already-landscape in X2 |

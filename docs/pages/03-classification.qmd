@@ -1,0 +1,134 @@
+---
+title: "3 · Period Classification"
+subtitle: "How much historical information survives in tablet silhouette alone?"
+sidebar: analyses
+---
+
+> **Paper section:** Results §3.2 · **Notebooks:** `3`, `4`, `5`, `6`, `7`, `8`, `9`
+
+## Overview
+
+Period classification benchmarks the **information content** of tablet silhouettes.
+If a classifier trained only on shape achieves high accuracy, shape carries strong
+historical signal. If accuracy is low but above chance, shape carries some signal
+but is noisy. The analysis uses four classifiers of increasing representational power,
+from a hand-crafted decision tree to a large pre-trained vision transformer.
+
+## The four classifiers
+
+| Model | Input | Accuracy | Notes |
+|---|---|---|---|
+| Decision tree | 3 hand-crafted ratios | 30.1% | Baseline — explicit shape features only |
+| CNN (shallow) | 80×80 silhouette pixels | 50.0% | Learns local texture + global form |
+| ResNet50 — silhouette | 80×80 silhouette (3ch) | 61.0% | Deep residual network, shape-only |
+| ResNet50 — full photo | 224×224 RGB photo | 71.0% | Same architecture + surface detail |
+
+All models classify into **21 historical periods** (chance = 4.8%).
+
+## The key ratio: 86% information retention
+
+The silhouette achieves **61%** versus the full photo's **71%**, giving:
+
+$$\text{retention} = \frac{61\%}{71\%} \approx 86\%$$
+
+**Shape alone carries ~86% of the period-classification signal present in the full photograph.**
+The remaining 14% is encoded in surface features — script density, impression depth,
+tablet colour, surface texture — that the binary silhouette discards.
+
+```{python}
+#| label: fig-classifier-comparison
+#| fig-cap: "Classification accuracy by model type, ordered by representational power. The gap between ResNet50-silhouette and ResNet50-photo quantifies what shape discards; the gap above chance quantifies what shape retains."
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+models = ['Decision\nTree\n(3 ratios)', 'CNN\n(silhouette)', 'ResNet50\n(silhouette)', 'ResNet50\n(full photo)']
+accs = [30.1, 50.0, 61.0, 71.0]
+colors = ['#ccc', '#4a6fa5', '#b5622e', '#2c6e49']
+
+fig, ax = plt.subplots(figsize=(7, 4))
+bars = ax.bar(models, accs, color=colors, alpha=0.9, edgecolor='white', lw=0.5, width=0.55)
+ax.axhline(4.8, color='grey', ls='--', lw=1.2, alpha=0.7, label='Chance (21 classes = 4.8%)')
+ax.axhline(61.0, color='#b5622e', ls=':', lw=1.0, alpha=0.6)
+ax.axhline(71.0, color='#2c6e49', ls=':', lw=1.0, alpha=0.6)
+
+# Annotate the 86% retention ratio
+ax.annotate('', xy=(3, 71), xytext=(3, 61),
+            arrowprops=dict(arrowstyle='<->', color='black', lw=1.5))
+ax.text(3.08, 66, '14%\n(surface\ndetail)', fontsize=7.5, va='center')
+ax.annotate('86% retention\n(shape alone)', xy=(2.5, 66), fontsize=8,
+            color='#b5622e', ha='center', style='italic')
+
+for bar, acc in zip(bars, accs):
+    ax.text(bar.get_x() + bar.get_width()/2, acc + 0.8, f'{acc}%',
+            ha='center', va='bottom', fontsize=9, fontweight='bold')
+
+ax.set_ylabel('21-class accuracy (%)', fontsize=10)
+ax.set_title('Period classification accuracy by model', fontsize=11)
+ax.set_ylim(0, 80)
+ax.legend(fontsize=8)
+plt.tight_layout()
+plt.show()
+```
+
+## What the confusion matrix reveals
+
+```{python}
+#| label: fig-confusion-sketch
+#| fig-cap: "Schematic of ResNet50-silhouette confusion patterns. Periods with the clearest shape signatures (Ur III, Neo-Assyrian) achieve the highest per-class recall; periods with high within-period variance (Neo-Babylonian, Hellenistic) are most often confused with adjacent periods."
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Representative per-class recall values from the paper
+periods = ['Ur III', 'Neo-Assyrian', 'Old Babylonian', 'Achaemenid',
+           'Neo-Babylonian', 'Hellenistic', 'Middle Elamite', 'Old Assyrian']
+recall = [0.87, 0.95, 0.68, 0.72, 0.41, 0.38, 0.64, 0.55]
+
+fig, ax = plt.subplots(figsize=(8, 4))
+colors = ['#b5622e' if r >= 0.70 else '#4a6fa5' if r >= 0.55 else '#aaa'
+          for r in recall]
+bars = ax.barh(periods[::-1], [r*100 for r in recall[::-1]],
+               color=colors[::-1], alpha=0.85, edgecolor='white', lw=0.5)
+ax.axvline(61.0, color='grey', ls='--', lw=1.0, alpha=0.7, label='Overall accuracy')
+for bar, r in zip(bars, recall[::-1]):
+    ax.text(r*100 + 0.5, bar.get_y() + bar.get_height()/2,
+            f'{r*100:.0f}%', va='center', fontsize=8.5)
+ax.set_xlabel('Per-class recall (%)', fontsize=10)
+ax.set_title('Selected per-class recall — ResNet50 (silhouette)', fontsize=10)
+ax.set_xlim(0, 105)
+ax.legend(fontsize=8)
+plt.tight_layout()
+plt.show()
+```
+
+## Period-level performance
+
+The two best-classified periods are:
+- **Neo-Assyrian (~95% recall)**: extreme portrait orientation (X7 = +2.05) with very
+  distinctive tall, narrow form makes it nearly unmistakable
+- **Ur III (~87% recall)**: the tightest standardized portrait corpus; the classifier
+  exploits low within-period variance
+
+The hardest periods:
+- **Neo-Babylonian (~41%)**: highest CV (80.7%), diverse genre mixture; tablets are
+  often mistaken for Achaemenid or Hellenistic
+- **Hellenistic (~38%)**: small corpus, format largely continuous with Achaemenid;
+  confused with Achaemenid and Neo-Babylonian
+
+## What this establishes
+
+The 86% retention figure serves as the methodological warrant for the rest of the
+analysis: if silhouette shape were uninformative, the VAE latent space, the h/w
+ratios, and the geographic comparisons would all be noise. The classification
+benchmark establishes that they are not.
+
+The decision-tree baseline (30.1% on 3 hand-crafted ratios vs. 4.8% chance) further
+confirms that **simple, interpretable shape features already carry substantial
+historical signal** — the deep models primarily improve on the long tail of
+confusable periods.
+
+::: {.callout-note}
+**Next:** [VAE Features →](04-vae.qmd) — the 12-dimensional latent space and the
+discrimination vs. trend dissociation.
+:::
