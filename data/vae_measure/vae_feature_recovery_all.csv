@@ -1,0 +1,13 @@
+feature,description,R2_well_preserved,R2_all,n_well_preserved,n_all,reliability
+hw,proportion (height ÷ width of the obverse),0.82,0.72,47714,76049,reliable
+thick_side,thickness at the sides ÷ width,0.71,0.61,47096,74265,reliable
+thick_end,thickness at top and bottom ÷ width,0.7,0.59,46297,73131,reliable
+rect,how rectangular the obverse is,0.51,0.54,47714,76049,partial
+corner_fill,squareness of the corners (obverse),0.46,0.45,47714,76049,partial
+rev_corner_fill,squareness of the corners (reverse),0.44,0.44,47714,76049,partial
+side_bulge,bulge of the long sides,0.39,0.33,47714,76049,not recovered
+end_bulge,bulge of the short sides,0.37,0.3,47714,76049,not recovered
+circ,roundness of the outline,0.22,0.14,47714,76049,not recovered
+taper,taper (top width ÷ bottom width),0.16,0.15,47714,76049,not recovered
+solidity,regularity of the outline (no notches or breaks),0.1,0.14,47714,76049,not recovered
+rev_obv,reverse larger than obverse,0.03,0.05,47714,76049,not recovered

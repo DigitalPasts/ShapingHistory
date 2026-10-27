@@ -1,0 +1,37 @@
+dim,q,id,Period_Name,Genre_Name
+X2,0.1,263891,Middle Babylonian,Literary
+X2,0.5,112310,Ur III,Administrative
+X2,0.9,270780,Old Babylonian,Administrative
+X12,0.1,265453,Middle Babylonian,uncertain
+X12,0.5,108248,Ur III,Administrative
+X12,0.9,405831,Ur III,Administrative
+X3,0.1,228579,Old Babylonian,Lexical
+X3,0.5,108196,Ur III,Administrative
+X3,0.9,113135,Ur III,Administrative
+X10,0.1,102294,Ur III,Administrative
+X10,0.5,108196,Ur III,Administrative
+X10,0.9,347521,Old Babylonian,School
+X11,0.1,406495,Ur III,Administrative
+X11,0.5,113588,Lagash II,Administrative
+X11,0.9,269146,Old Babylonian,Literary
+X9,0.1,373122,Old Babylonian,Administrative
+X9,0.5,107956,Ur III,Administrative
+X9,0.9,103575,Ur III,Administrative
+X7,0.1,266757,Middle Babylonian,Administrative
+X7,0.5,108248,Ur III,Administrative
+X7,0.9,101450,Ur III,Administrative
+X4,0.1,103716,Ur III,Administrative
+X4,0.5,107611,Ur III,Administrative
+X4,0.9,122722,Ur III,Administrative
+X6,0.1,349001,Neo-Babylonian,School
+X6,0.5,222249,ED IIIb,Administrative
+X6,0.9,137607,Ur III,Administrative
+X5,0.1,266261,Middle Babylonian,Letter
+X5,0.5,108261,Ur III,Administrative
+X5,0.9,221356,ED IIIb,Administrative
+X8,0.1,332052,Ur III,Administrative
+X8,0.5,108135,Ur III,Administrative
+X8,0.9,130899,Ur III,Administrative
+X1,0.1,120031,Ur III,Administrative
+X1,0.5,107956,Ur III,Administrative
+X1,0.9,135914,Ur III,Administrative
