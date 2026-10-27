@@ -36,6 +36,8 @@ website:
             href: pages/05-traversal.qmd
           - text: "6 · Geography"
             href: pages/06-geography.qmd
+          - text: "7 · Measuring Tablets"
+            href: pages/07-measure.qmd
       - text: "Interactive"
         menu:
           - text: "Feature Explorer"
@@ -76,6 +78,7 @@ website:
           contents:
             - pages/04-vae.qmd
             - pages/05-traversal.qmd
+            - pages/07-measure.qmd
         - section: "Geographic Analysis"
           contents:
             - pages/06-geography.qmd
