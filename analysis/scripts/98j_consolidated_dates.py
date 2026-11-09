@@ -50,6 +50,7 @@ def loose(v):
     return v.str.replace(r'(ii|2)$','2',regex=True).str[:6]
 X['conflict']=X.cdli_king.notna()&X.king.notna()&(loose(X.cdli_king)!=loose(X.king))
 use_db=X.king.notna()&(X.cdli_king.isna()|X.conflict) | (X.cdli_king.notna()&~X.conflict&X.cdli_year.isna()&(X.year.notna()|X.bce_abs.notna()))
+use_db=use_db | (X.king.isna()&X.bce_abs.notna()&X.cdli_king.isna())   # absolute year without a king name (e.g. Seleucid-era dates in Oracc)
 X['date_source']=np.where(use_db,X.source,np.where(X.cdli_king.notna(),'CDLI',None))
 X['king_final']=np.where(use_db,X.king,X.cdli_king)
 X['year_final']=np.where(use_db,X.year,X.cdli_year)
@@ -58,6 +59,6 @@ X['year_known']=pd.to_numeric(X.year_final,errors='coerce').notna()|(use_db&X.bc
 X['note']=np.where(X.conflict,'CDLI names '+X.cdli_king.astype(str)+'; '+X.source.astype(str)+' names '+X.king.astype(str)+' (database reading used)','')
 X=X.reset_index()[['id','period','site','genre','king_final','year_final','bce','year_known','date_source','conflict','cdli_king','cdli_year','source','king','year','note']]
 X.to_csv(f'{R}/turning/tablet_dates_consolidated.csv',index=False)
-print('dated',int(X.king_final.notna().sum()),'| with BCE year',int(X.bce.notna().sum()),'| conflicts',int(X.conflict.sum()),X[X.conflict].source.value_counts().to_dict())
+print('dated',int((X.king_final.notna()|X.bce.notna()).sum()),'| with BCE year',int(X.bce.notna().sum()),'| conflicts',int(X.conflict.sum()),X[X.conflict].source.value_counts().to_dict())
 print(X[X.king_final.notna()].date_source.value_counts().to_dict())
 print('kings without chronology (no BCE):',X[X.king_final.notna()&X.bce.isna()].king_final.value_counts().head(12).to_dict())

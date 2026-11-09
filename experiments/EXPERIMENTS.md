@@ -61,7 +61,7 @@ kept here so it is not repeated). Dates are 2026.
 |---|---|---|---|---|
 | F1 | Archibab (full table, 36,060 texts) | harvesters/archibab_table_v2.py, 19b, 98d | 2,714 OB links; OB dated 12.2% -> 15.8% | kept |
 | F2 | BDTNS, NaBuCCo, Prosobab, Oracc, eBL, Hethport | 37c-37g, 98e-98i | NA dated 3.0% -> 15.8%; Hellenistic 1.6% -> 49%; NB 16% -> 24%; Achaemenid 49% -> 56%; Ur III 76.5% -> 79% | kept |
-| F3 | One date per tablet; database wins on conflict | 98j | 31,757 dated; 362 conflicts flagged | SI dataset |
+| F3 | One date per tablet; database wins on conflict | 98j | 31,873 dated (116 Seleucid-era Oracc dates without a king name restored 9 Nov); 362 conflicts flagged | SI dataset |
 | F4 | Old Assyrian eponyms (OARE + REL) | 37h, 37i | 1,375 OA tablets in OARE; 47 dated to a year, 13 homonyms as ranges | SI dataset |
 
 ## G. Political turning points
