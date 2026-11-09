@@ -1,0 +1,18 @@
+period,n_tablets,example_cdli_id,n_closer_but_excluded
+Uruk III,301,325359,3
+ED IIIa,154,222317,0
+ED IIIb,1229,221323,0
+Ebla,424,227290,1
+Old Akkadian,2604,213287,1
+Lagash II,140,213124,2
+Ur III,27259,104315,1
+Early Old Babylonian,1428,262599,3
+Old Babylonian,16306,251073,5
+Old Assyrian,1482,357798,0
+Middle Assyrian,1405,282046,1
+Middle Babylonian,5901,408752,5
+Hittite,108,373715,3
+Neo-Assyrian,22207,334652,170
+Neo-Babylonian,4327,235098,6
+Achaemenid,1703,258798,0
+Hellenistic,243,342345,2

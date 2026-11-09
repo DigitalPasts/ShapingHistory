@@ -1,0 +1,38 @@
+case,question,classes,n_each,tier,acc,chance,p
+A Ur III,"province: Messenger Text, Harvard Museum of the Ancient Near East",Girsu | Umma,137,ratio,0.832,0.505,0.01
+A Ur III,"province: Messenger Text, Harvard Museum of the Ancient Near East",Girsu | Umma,137,ruler,0.864,0.496,0.01
+A Ur III,"province: Messenger Text, Harvard Museum of the Ancient Near East",Girsu | Umma,137,outline,0.932,0.501,0.01
+A Ur III,"province: Messenger Text, Harvard Museum of the Ancient Near East",Girsu | Umma,137,VAE,0.932,0.502,0.01
+A Ur III,"province: receipt (šu ba-ti), Harvard Museum of the Ancient Near East",Puzriš-Dagan | Girsu,45,ratio,0.447,0.506,0.822
+A Ur III,"province: receipt (šu ba-ti), Harvard Museum of the Ancient Near East",Puzriš-Dagan | Girsu,45,ruler,0.636,0.512,0.02
+A Ur III,"province: receipt (šu ba-ti), Harvard Museum of the Ancient Near East",Puzriš-Dagan | Girsu,45,outline,0.78,0.501,0.01
+A Ur III,"province: receipt (šu ba-ti), Harvard Museum of the Ancient Near East",Puzriš-Dagan | Girsu,45,VAE,0.829,0.51,0.01
+A Ur III,"province: receipt (šu ba-ti), Institute for the Study of Ancient Cultures West Asia & North Africa Museum",Puzriš-Dagan | Girsu,37,ratio,0.707,0.499,0.01
+A Ur III,"province: receipt (šu ba-ti), Institute for the Study of Ancient Cultures West Asia & North Africa Museum",Puzriš-Dagan | Girsu,37,ruler,0.949,0.508,0.01
+A Ur III,"province: receipt (šu ba-ti), Institute for the Study of Ancient Cultures West Asia & North Africa Museum",Puzriš-Dagan | Girsu,37,outline,0.803,0.511,0.01
+A Ur III,"province: receipt (šu ba-ti), Institute for the Study of Ancient Cultures West Asia & North Africa Museum",Puzriš-Dagan | Girsu,37,VAE,0.785,0.507,0.01
+A Ur III,"province: receipt (šu ba-ti), New York Public Library",Puzriš-Dagan | Umma,25,ratio,0.452,0.493,0.723
+A Ur III,"province: receipt (šu ba-ti), New York Public Library",Puzriš-Dagan | Umma,25,ruler,0.636,0.5,0.099
+A Ur III,"province: receipt (šu ba-ti), New York Public Library",Puzriš-Dagan | Umma,25,outline,0.836,0.495,0.01
+A Ur III,"province: receipt (šu ba-ti), New York Public Library",Puzriš-Dagan | Umma,25,VAE,0.684,0.496,0.02
+B Amarna,great kings vs vassals (Berlin),vassal | great king,13,ratio,0.77,0.522,0.005
+B Amarna,great kings vs vassals (Berlin),vassal | great king,13,outline,0.623,0.508,0.149
+B Amarna,great kings vs vassals (Berlin),vassal | great king,13,VAE,0.647,0.508,0.1
+B Amarna,Byblos vs other vassals (Berlin),other Levant | Byblos,38,ratio,0.67,0.497,0.005
+B Amarna,Byblos vs other vassals (Berlin),other Levant | Byblos,38,outline,0.763,0.506,0.005
+B Amarna,Byblos vs other vassals (Berlin),other Levant | Byblos,38,VAE,0.744,0.503,0.005
+B Amarna,"place of making, Goren et al. (Berlin)",Byblos | Gaza | Bashan | Beqa valley | unknown | Babylon | Gath | Sumur,6,ratio,0.215,0.128,0.08
+B Amarna,"place of making, Goren et al. (Berlin)",Byblos | Gaza | Bashan | Beqa valley | unknown | Babylon | Gath | Sumur,6,outline,0.222,0.12,0.085
+B Amarna,"place of making, Goren et al. (Berlin)",Byblos | Gaza | Bashan | Beqa valley | unknown | Babylon | Gath | Sumur,6,VAE,0.15,0.126,0.338
+C Eanna,Note: Nabopolassar-Nebuchadnezzar vs Nabonidus-Cambyses (all collections),Npl-Nbk | Nbn-Camb,52,ratio,0.624,0.489,0.025
+C Eanna,Note: Nabopolassar-Nebuchadnezzar vs Nabonidus-Cambyses (all collections),Npl-Nbk | Nbn-Camb,52,outline,0.655,0.501,0.01
+C Eanna,Note: Nabopolassar-Nebuchadnezzar vs Nabonidus-Cambyses (all collections),Npl-Nbk | Nbn-Camb,52,VAE,0.664,0.5,0.005
+C Eanna,List: Nabopolassar-Nebuchadnezzar vs Nabonidus-Cambyses (all collections),Npl-Nbk | Nbn-Camb,33,ratio,0.663,0.516,0.01
+C Eanna,List: Nabopolassar-Nebuchadnezzar vs Nabonidus-Cambyses (all collections),Npl-Nbk | Nbn-Camb,33,outline,0.66,0.5,0.01
+C Eanna,List: Nabopolassar-Nebuchadnezzar vs Nabonidus-Cambyses (all collections),Npl-Nbk | Nbn-Camb,33,VAE,0.703,0.502,0.005
+C Eanna,Debt: Nabopolassar-Nebuchadnezzar vs Nabonidus-Cambyses (all collections),Npl-Nbk | Nbn-Camb,26,ratio,0.679,0.494,0.01
+C Eanna,Debt: Nabopolassar-Nebuchadnezzar vs Nabonidus-Cambyses (all collections),Npl-Nbk | Nbn-Camb,26,outline,0.783,0.508,0.005
+C Eanna,Debt: Nabopolassar-Nebuchadnezzar vs Nabonidus-Cambyses (all collections),Npl-Nbk | Nbn-Camb,26,VAE,0.82,0.495,0.005
+C Eanna,List: Nbk to year 20 vs years 21-43,to Nbk 20 | Nbk 21-43,17,ratio,0.468,0.5,0.572
+C Eanna,List: Nbk to year 20 vs years 21-43,to Nbk 20 | Nbk 21-43,17,outline,0.738,0.497,0.005
+C Eanna,List: Nbk to year 20 vs years 21-43,to Nbk 20 | Nbk 21-43,17,VAE,0.558,0.492,0.318

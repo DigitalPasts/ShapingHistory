@@ -1,0 +1,30 @@
+Period_Name,g,account,expenditure,letter,list,loan,purchase,receipt,rental/lease,n
+Achaemenid,Administrative,0.06,0.01,0.03,0.26,0.34,0.02,0.27,0.01,441
+Achaemenid,Legal,0.02,0.02,0.02,0.41,0.2,0.01,0.31,0.01,264
+ED I-II,Administrative,0.02,0.06,0.11,0.15,0.29,0.17,0.15,0.06,66
+ED IIIa,Administrative,0.05,0.01,0.01,0.5,0.09,0.03,0.31,0.01,137
+ED IIIb,Administrative,0.02,0.01,0.02,0.77,0.09,0.02,0.08,0.0,1187
+Early Old Babylonian,Administrative,0.06,0.04,0.08,0.31,0.06,0.13,0.27,0.05,341
+Early Old Babylonian,Legal,0.03,0.05,0.12,0.2,0.05,0.22,0.15,0.2,172
+Ebla,Administrative,0.09,0.12,0.03,0.52,0.06,0.04,0.13,0.01,421
+Hellenistic,Legal,0.03,0.04,0.0,0.76,0.03,0.02,0.11,0.02,154
+Lagash II,Administrative,0.12,0.13,0.11,0.32,0.05,0.16,0.06,0.06,120
+Middle Assyrian,Administrative,0.08,0.01,0.07,0.54,0.12,0.07,0.1,0.01,301
+Middle Babylonian,Administrative,0.05,0.01,0.07,0.38,0.11,0.06,0.3,0.02,3920
+Middle Babylonian,Legal,0.11,0.01,0.16,0.24,0.07,0.14,0.24,0.03,300
+Middle Babylonian,Letter,0.12,0.02,0.16,0.3,0.09,0.12,0.15,0.04,257
+Neo-Assyrian,Administrative,0.02,0.05,0.19,0.13,0.1,0.4,0.08,0.03,448
+Neo-Assyrian,Legal,0.02,0.03,0.2,0.11,0.07,0.4,0.12,0.05,367
+Neo-Assyrian,Letter,0.02,0.05,0.15,0.11,0.04,0.56,0.05,0.03,2913
+Neo-Babylonian,Administrative,0.02,0.01,0.04,0.36,0.21,0.05,0.31,0.01,1322
+Neo-Babylonian,Legal,0.05,0.02,0.04,0.32,0.12,0.03,0.39,0.02,631
+Neo-Babylonian,Letter,0.05,0.01,0.01,0.17,0.1,0.48,0.15,0.02,92
+Old Akkadian,Administrative,0.1,0.03,0.16,0.4,0.07,0.12,0.1,0.02,2463
+Old Akkadian,Letter,0.12,0.0,0.3,0.47,0.0,0.12,0.0,0.0,43
+Old Assyrian,Administrative,0.03,0.0,0.0,0.76,0.03,0.07,0.11,0.01,76
+Old Assyrian,Legal,0.01,0.02,0.03,0.79,0.01,0.02,0.11,0.01,153
+Old Assyrian,Letter,0.02,0.02,0.12,0.76,0.01,0.02,0.04,0.0,647
+Ur III,Administrative,0.03,0.08,0.05,0.5,0.07,0.07,0.17,0.02,26048
+Ur III,Legal,0.03,0.04,0.12,0.58,0.04,0.08,0.07,0.05,192
+Ur III,Letter,0.02,0.04,0.04,0.72,0.09,0.01,0.05,0.0,204
+Uruk III,Administrative,0.19,0.01,0.24,0.34,0.03,0.12,0.05,0.01,292

@@ -1,0 +1,17 @@
+candidate,millennium,date_bce,status,before_8nov,after_8nov,before,after,from_new_sources,year_known,sites,testable
+Urukagina reform,3rd,2351,listed 8 Nov,440.0,349.0,440,349,0,710,Girsu,True
+Naram-Sin reform,3rd,2230,listed 8 Nov,3.0,1.0,3,1,0,4,Girsu,False
+Šulgi 21,3rd,2072,listed 8 Nov,48.0,1576.0,49,1575,43,1591,"Girsu, Nippur, Puzriš-Dagan, Umma",True
+"Puzriš-Dagān, Š39",3rd,2054,listed 8 Nov,1262.0,12512.0,1262,12620,329,13813,"Adab, Girsu, Nippur, Puzriš-Dagan, Umma, Ur",True
+"Ibbi-Suen 3, provinces lost",3rd,2024,listed 8 Nov,13574.0,646.0,13827,681,424,14411,"Garšana, Girsu, Irisagrig, Nippur, Puzriš-Dagan, Sippar-Yahrurum, Umma, Ur",True
+Hammurabi takes Larsa,2nd,1763,listed 8 Nov,56.0,199.0,63,288,95,341,"Babylon, Kish, Larsa, Nippur, Sippar-Yahrurum, Ur",True
+Samsu-iluna loses the south,2nd,1739,listed 8 Nov,247.0,122.0,298,146,79,433,"Babylon, Dilbat, Isin, Kish, Larsa, Nippur, Pī-Kasî, Sippar-Yahrurum, Ur",True
+"Nabopolassar, independence",1st,626,listed 8 Nov,0.0,0.0,4,51,31,51,"Babylon, Nippur, Uruk",False
+Cyrus takes Babylon,1st,539,listed 8 Nov,44.0,50.0,85,90,109,154,"Babylon, Borsippa, Nippur, Ur, Uruk",True
+Darius I reorganisation,1st,521,listed 8 Nov,24.0,27.0,90,37,68,110,"Babylon, Borsippa, Nippur, Ur, Uruk",True
+"Xerxes, end of archives",1st,484,listed 8 Nov,2.0,4.0,6,6,5,7,"Nippur, Ur",False
+Sargon II to Sennacherib (by reign),1st,705,listed 8 Nov,245.0,3.0,1095,155,1007,84,Nineveh,True
+"Tiglath-pileser III, provincial reform",1st,745,added,,,2,75,77,10,"Kalhu, Nineveh",False
+Esarhaddon accession,1st,681,added,,,99,1113,1209,185,"Nineveh, Sippar-Yahrurum",True
+Šamaš-šuma-ukīn revolt,1st,652,added,,,409,21,419,66,"Babylon, Nineveh, Ur, Uruk",False
+Parthian conquest of Babylonia,1st,141,added,,,0,0,0,0,,False

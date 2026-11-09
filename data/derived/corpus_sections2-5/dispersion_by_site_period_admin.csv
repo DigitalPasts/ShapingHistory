@@ -1,0 +1,36 @@
+site,period,n,latent_disp,lat_lo,lat_hi,hw_madlog
+Adab,Old Akkadian,824,3.278,2.876,3.564,0.124
+Assur,Middle Assyrian,265,2.941,2.763,3.152,0.188
+Ebla,Ebla,242,4.455,4.067,4.757,0.254
+Ešnunna,Old Akkadian,125,1.802,1.742,1.857,0.176
+Garšana,Ur III,929,1.891,1.655,2.132,0.074
+Gasur/Nuzi,Middle Babylonian,579,1.97,1.827,2.172,0.137
+Girsu,ED IIIb,811,1.6,1.461,1.776,0.029
+Girsu,Lagash II,106,1.733,1.682,1.762,0.166
+Girsu,Old Akkadian,110,1.93,1.896,1.971,0.197
+Girsu,Ur III,3354,1.714,1.561,1.836,0.117
+Larsa,Old Babylonian,253,2.006,1.85,2.214,0.197
+Nerebtum,Old Babylonian,158,2.091,1.969,2.215,0.197
+Nineveh,Neo-Assyrian,404,3.05,2.819,3.299,0.297
+Nippur,ED IIIb,185,2.371,2.165,2.633,0.148
+Nippur,Early Old Babylonian,106,2.136,2.078,2.181,0.157
+Nippur,Middle Babylonian,3190,2.905,2.74,3.163,0.228
+Nippur,Old Akkadian,518,2.529,2.287,2.753,0.187
+Nippur,Old Babylonian,722,2.551,2.342,2.841,0.227
+Nippur,Ur III,1783,2.103,1.906,2.343,0.095
+Puzriš-Dagan,Ur III,8288,1.423,1.304,1.559,0.048
+Pārśa,Achaemenid,281,1.834,1.662,2.037,0.081
+Sippar-Yahrurum,Old Babylonian,127,2.003,1.93,2.088,0.095
+Tuttul,Old Babylonian,233,2.109,1.856,2.406,0.093
+Umma,Old Akkadian,206,1.695,1.555,1.82,0.185
+Umma,Ur III,9448,1.691,1.571,1.807,0.078
+Ur,Old Babylonian,189,2.388,2.188,2.579,0.198
+Ur,Ur III,594,2.127,1.853,2.411,0.076
+Uruk,Neo-Babylonian,693,1.825,1.658,2.029,0.069
+uncertain,Achaemenid,126,2.387,2.253,2.549,0.118
+uncertain,Ebla,179,1.759,1.6,1.961,0.034
+uncertain,Neo-Babylonian,573,2.862,2.618,3.145,0.16
+uncertain,Old Akkadian,412,2.099,1.878,2.429,0.174
+uncertain,Old Babylonian,2217,2.179,1.947,2.441,0.195
+uncertain,Ur III,1583,1.96,1.766,2.203,0.121
+uncertain,Uruk III,263,2.526,2.281,2.75,0.141

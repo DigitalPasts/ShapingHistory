@@ -1,0 +1,53 @@
+site,lat,lon,source,name
+Byblos,34.1192487924,35.6461246598,Pleiades 668216,Byblos
+Tyre,33.2693355,35.201829,Pleiades 678437,Tyrus/Col. Septimia Severa
+Sidon,33.56194725,35.3727895,Pleiades 678393,Sidon/Col. Aurelia Pia
+Beirut,33.8985935,35.511241,Pleiades 678060,Beirut
+Beirut?,33.8985935,35.511241,Pleiades 678060,Beirut
+Qatna,34.8346712181,36.8663053869,Pleiades 412342122,Qatna
+Lachish,31.5655212,34.8491898,Pleiades 687951,Lachish
+Hazor,33.019181064,35.566768588,Pleiades 779967430,Tel Hazor
+Akhetaten,27.6440995973,30.8981820375,Pleiades 149576487,Amarna
+Egypt,27.6440995973,30.8981820375,Pleiades 149576487,Amarna
+Nuzi,35.3707987844,44.2547698467,Pleiades 894054,[Nuzi]
+Hattusa,40.0149132097,34.6171576225,Pleiades 283602441,Hattusa
+Jerusalem,31.7771895,35.234978,Pleiades 687928,Ierusalem/Hierosolyma/Col. Aelia Capitolina
+Gezer,31.85979075,34.9209931,Pleiades 687904,Gazara
+Ashkelon,31.6647972122,34.5505214667,Pleiades 687839,Ashqelon/Ascalon
+Shechem,32.2135284,35.2821112,Pleiades 678403,Sychem
+Kumidi,33.6237320759,35.82105123,Pleiades 10481849,Kumidi
+Yokneam,32.6643757169,35.1089361358,Pleiades 180354033,Tel Yokneam
+Pella,32.4495013404,35.6149158139,Pleiades 678326,Pella/Berenice/Philippeia
+Kadesh,34.5570749357,36.5193778642,Pleiades 668291,Laodicea ad Libanum
+Amurru,34.7084831043,35.9862205324,Pleiades 668372,Simyra?
+Sumur,34.7084831043,35.9862205324,Pleiades 668372,Simyra?
+Babylon,32.53729695,44.42497815,Pleiades 893951,Babylon
+Mittani,36.25,38.25,Pleiades 641191178,Mitanni
+Arzawa,37.2550425793,32.3484461457,Pleiades 35475912,Arzawa
+Assur,35.4555731618,43.2613012876,Pleiades 893945,Ashur/‘Lamban’?/‘Liba(nai)’?
+Alashiya,34.9954356825,33.2224668079,Pleiades 707498,Cyprus (island)
+Gaza,31.5202095,34.451719,Pleiades 687902,Gaza
+Beth-Shean,32.5036976,35.5030916333,Pleiades 678378,Scythopolis/Nysa
+Damascus,33.511612,36.309102,Pleiades 678106,Damascus
+Ashdod,31.7559372333,34.6580570667,Pleiades 687838,Ashdod/Azotos (Mesogeios)
+Ugarit,35.6021,35.7853,CDLI location 562,Rās Shamrah
+Alalakh,36.2377,36.3842,CDLI location 13,Tall al-‘Aṭshānah
+Megiddo,32.5822,35.1828,CDLI location 332,Megiddo
+Tunip,35.2877,36.3959,CDLI location 537,Tall al-A‘shārnah
+Kar-Tukulti-Ninurta,35.4944,43.2793,CDLI location 306,Tulūl al-‘Aqir
+Akko,32.921,35.084,approximate,Tel Akko
+Gath,31.7,34.846,approximate,Tell es-Safi
+Yurza,31.389,34.432,approximate,Tell Jemmeh
+Ginti-kirmil,32.4,35.033,approximate,Jatt in the Sharon
+Irqata,34.537,36.044,approximate,Tell Arqa
+Ardata,34.395,35.886,approximate,Ardé
+Nuhasse,35.7,36.9,approximate,"region, approximate"
+Mt Lebanon,34.3,36.05,approximate,"slopes E of Tripoli, approximate"
+Ullasa?,34.45,35.85,approximate,"Tripoli area, approximate"
+Beqa valley,33.85,35.95,approximate,"region, approximate"
+Bashan,32.85,36.05,approximate,"region, approximate"
+Anaharath,32.66,35.46,approximate,"Tel Rekhesh, approximate"
+Akshapa,32.86,35.16,approximate,"Tel Keisan, approximate"
+Sharuna,32.62,35.52,approximate,approximate
+Nii,35.42,36.39,approximate,approximate
+Nippur,32.127,45.231,Pleiades 912910,Pleiades 912910

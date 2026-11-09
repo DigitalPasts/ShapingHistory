@@ -1,0 +1,14 @@
+period,n,rho_lines_height,rho_lines_width,width_q10_q90,height_q10_q90
+ED IIIa,111,0.8,0.77,31-90,34-92
+ED IIIb,1547,0.77,0.79,31-80,35-84
+Early Old Babylonian,1197,0.75,0.61,30-47,33-75
+Ebla,1476,0.71,0.75,27-93,34-100
+Middle Babylonian,126,0.81,0.69,35-83,31-116
+Neo-Assyrian,149,0.69,0.71,30-141,30-147
+Old Akkadian,2235,0.7,0.61,25-51,28-73
+Old Assyrian,702,0.7,0.57,36-56,32-69
+Old Babylonian,1970,0.57,0.43,32-57,32-95
+Proto-Elamite,1418,0.43,0.6,28-59,32-74
+Ur III,15435,0.43,0.33,25-49,27-68
+Uruk III,3817,0.64,0.64,22-63,23-79
+Uruk IV,1748,0.47,0.49,23-54,24-69

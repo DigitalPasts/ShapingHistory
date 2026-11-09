@@ -1,0 +1,13 @@
+candidate,millennium,date_bce,before,after,sites,year_known,testable
+Urukagina reform,3rd,2351,440,349,Girsu,710,True
+Naram-Sin reform,3rd,2230,3,1,Girsu,4,False
+Šulgi 21,3rd,2072,48,1576,"Girsu, Nippur, Puzriš-Dagan, Umma",1590,True
+"Puzriš-Dagān, Š39",3rd,2054,1262,12512,"Adab, Girsu, Nippur, Puzriš-Dagan, Umma, Ur",13700,True
+"Ibbi-Suen 3, provinces lost",3rd,2024,13574,646,"Garšana, Girsu, Irisagrig, Nippur, Puzriš-Dagan, Sippar-Yahrurum, Umma, Ur",14120,True
+Hammurabi takes Larsa,2nd,1763,56,199,"Kish, Larsa, Nippur, Sippar-Yahrurum",244,True
+Samsu-iluna loses the south,2nd,1739,247,122,"Dilbat, Isin, Kish, Larsa, Nippur, Pī-Kasî, Sippar-Yahrurum, Ur",357,True
+"Nabopolassar, independence",1st,626,0,0,,0,False
+Cyrus takes Babylon,1st,539,44,50,"Babylon, Borsippa, Ur, Uruk",48,True
+Darius I reorganisation,1st,521,24,27,"Babylon, Borsippa, Nippur, Ur",39,False
+"Xerxes, end of archives",1st,484,2,4,Nippur,2,False
+Sargon II to Sennacherib (by reign),1st,705,245,3,Nineveh,0,False

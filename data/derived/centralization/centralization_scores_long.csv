@@ -1,0 +1,205 @@
+period,param,score,conf,evidence,refs
+ED IIIa,TERR,1,M,"Šuruppak belongs to a league of Sumerian cities (the ""Kengir league""), with troop lists from several cities in its archive.",pomponioVisicato1994; bartash2020
+ED IIIa,HIER,1,L,City institutions with dependent settlements; no royal provincial officials.,bartash2020
+ED IIIa,FISC,1,L,Contributions among league cities; no tax archive.,pomponioVisicato1994
+ED IIIa,COMM,1,L,Messengers among league cities.,pomponioVisicato1994
+ED IIIa,PAL,2,M,The great household (é-gal) of Šuruppak dominates the administrative archive.,pomponioVisicato1994; visicato2000
+ED IIIa,TEMP,1,L,Temples present; the archive is mostly of the central household.,bartash2020
+ED IIIa,TCTL,1,L,Not documented in detail.,bartash2020
+ED IIIa,PRIV,1,M,House and field sale contracts on clay and stone.,gelbSteinkellerWhiting1991
+ED IIIa,BUR,2,M,Hundreds of named scribes and standardized ration and personnel lists.,visicato2000
+ED IIIa,SCHOOL,2,M,Lexical and literary texts shared by Fara and Abu Salabikh; scribes trained in institutional settings.,visicato2000; veldhuis2014
+ED IIIa,LAW,0,M,No law collection or royal edicts.,bartash2020
+ED IIIa,STD,1,L,Local metrology; no royal dating system.,bartash2020
+ED IIIb,TERR,1,H,"The state of Lagaš (Girsu, Lagaš, Nina) and its rival Umma: multi-city city-states.",bartash2020
+ED IIIb,HIER,1,M,Ruler (ensi2) with dependent towns; no provinces.,bartash2020
+ED IIIb,FISC,1,M,Dues collected by the ruler; Urukagina reform text complains of officials' levies.,bartash2020
+ED IIIb,COMM,1,L,Messengers in the Bau archive.,beld2002
+ED IIIb,PAL,2,M,Ruler's household (é-gal) beside the household of his wife.,beld2002; bartash2020
+ED IIIb,TEMP,3,H,"The é-mí / é-dBa-ú archive of Girsu, a temple household of about 1,200 dependants, is the main archive of the period.",beld2002; maekawa1973
+ED IIIb,TCTL,3,H,The household was run by the ruler's wife; Urukagina renamed it after the goddess but kept it in the ruling family.,maekawa1973; beld2002
+ED IIIb,PRIV,1,M,Few private documents; some sales of land and houses.,gelbSteinkellerWhiting1991
+ED IIIb,BUR,2,H,Monthly ration lists with fixed formulary and closing sections.,beld2002
+ED IIIb,SCHOOL,1,L,Little school material from Girsu; training within the household.,veldhuis2014
+ED IIIb,LAW,1,M,Urukagina's reform inscriptions; no law collection.,bartash2020
+ED IIIb,STD,1,M,Local month names and regnal-year dating within Lagaš only.,bartash2020
+Ebla,TERR,2,M,A regional kingdom of northern Syria with dependent towns and treaties with neighbours.,archi2015; matthiaeMarchetti2013
+Ebla,HIER,2,M,"King, vizier and lords (lugal) over dependent centres.",archi2015
+Ebla,FISC,2,M,Annual deliveries (mu-DU) of silver and textiles from dependent centres.,archi2015
+Ebla,COMM,2,M,"Messengers and gift exchange with Mari, Nagar, Kiš.",archi2015
+Ebla,PAL,3,H,The archive is the palace's own; the palace dominates the economy.,archi2015
+Ebla,TEMP,1,M,Temples receive offerings from the palace; no temple archive.,archi2015
+Ebla,TCTL,2,M,Offerings to gods recorded as palace expenditures.,archi2015
+Ebla,PRIV,0,H,No private archives.,archi2015
+Ebla,BUR,2,M,Annual textile and metal accounts with fixed formulary.,archi2015
+Ebla,SCHOOL,2,M,Palace school: lexical lists from the Kiš tradition and bilingual vocabularies.,archi2015; veldhuis2014
+Ebla,LAW,1,L,Some legal decisions and treaties; no law collection.,archi2015
+Ebla,STD,1,M,Local metrology and month names; no dating by year names.,archi2015
+Old Akkadian,TERR,3,H,"First empire uniting Babylonia with campaigns to Syria, Elam and the Gulf.",schrakamp2020; foster2016
+Old Akkadian,HIER,2,H,"Governors (ensi2) appointed in Sumerian cities, Akkadian officials and garrisons.",schrakamp2020; foster2016
+Old Akkadian,FISC,2,M,Royal estates and levies; no integrated tax archive.,schrakamp2020
+Old Akkadian,COMM,2,M,Royal messengers; Seshat codes couriers and postal stations present.,foster2016; seshat2020
+Old Akkadian,PAL,2,M,Royal estates (e.g. the Mesag archive of Umma) and governors' households.,foster2016
+Old Akkadian,TEMP,1,M,Temples continue but are not the main archive holders.,schrakamp2020
+Old Akkadian,TCTL,2,M,Royal daughters as high priestesses (Enheduana at Ur); royal patronage at Nippur.,foster2016
+Old Akkadian,PRIV,1,M,Private and kin-group land sales (Maništušu obelisk records royal purchases from kin groups).,gelbSteinkellerWhiting1991
+Old Akkadian,BUR,2,M,Sargonic administrative reforms: standard formats of accounts in several cities.,foster2016; schrakamp2020
+Old Akkadian,SCHOOL,2,L,"Sargonic orthography and script are uniform across Babylonia, implying shared training.",foster2016
+Old Akkadian,LAW,1,L,No law collection survives; royal judgements.,schrakamp2020
+Old Akkadian,STD,3,M,Standard units (the gur of Akkade) and Akkadian as a language of administration across cities; year names.,foster2016; schrakamp2020
+Ur III,TERR,3,H,Core provinces of Babylonia and a taxed periphery to the east and north.,steinkeller1987; garfinkle2022
+Ur III,HIER,3,H,"Grand vizier (sukkal-mah), provincial governors (ensi2), military governors in the periphery, temple and estate managers.",steinkeller1987; sharlach2004
+Ur III,FISC,3,H,"bala rotation of the core provinces and gun2 ma-da tax of the periphery, centralised at Puzriš-Dagan.",sharlach2004; steinkeller1987
+Ur III,COMM,3,H,"Messenger texts of Girsu, Umma and Irisagrig record travellers and road stations.",manderMessengerTextsGirsu2008; dagostinoUmmaMessengerTexts2008
+Ur III,PAL,3,H,"Crown and provincial households dominate the economy and its record (about 100,000 administrative tablets).",steinkeller2003archival; garfinkle2022
+Ur III,TEMP,2,H,Provincial temple households (e.g. Šara at Umma) form the units of provincial administration.,steinkeller1987
+Ur III,TCTL,3,M,Temple households run as provincial units under the governor; disputed by those who stress household autonomy.,steinkeller1987; garfinkle2008
+Ur III,PRIV,1,M,Private loans and the archive of SI.A-a show a small private sector.,garfinkle2012
+Ur III,BUR,3,H,"Balanced accounts, standard text types and seals of officials across provinces.",englund1990; molinaArchivesBookkeepingSouthern2016
+Ur III,SCHOOL,2,L,"A uniform script and bookkeeping suggest institutional training, but the evidence is indirect (the claim of royal schools comes from a royal hymn).",michalowski2011; veldhuis2014
+Ur III,LAW,3,H,"Laws of Ur-Namma, royal courts and case records (di-til-la).",roth1997; molina2000ditilla
+Ur III,STD,2,M,The royal gur and standard metrology everywhere; local calendars persisted (Widell 2004 argues against an imposed state calendar).,widellCalendarNeoSumerianUr2004
+Early Old Babylonian,TERR,1,H,"Competing kingdoms: Isin, Larsa, Ešnunna, Uruk, Babylon.",wagensonner2022
+Early Old Babylonian,HIER,1,M,Kings with governors in a few cities.,wagensonner2022
+Early Old Babylonian,FISC,1,M,Palace income from crown land and dues; little central record.,wagensonner2022
+Early Old Babylonian,COMM,1,L,Royal messengers between kingdoms.,wagensonner2022
+Early Old Babylonian,PAL,2,M,Palace households (e.g. the Isin craft archive).,vandemieroop1987crafts
+Early Old Babylonian,TEMP,1,M,Temples present; temple archives rarer.,wagensonner2022
+Early Old Babylonian,TCTL,2,L,Kings appoint priests and endow temples.,wagensonner2022
+Early Old Babylonian,PRIV,2,H,"Private archives grow (Ur, Nippur, Larsa).",vandemieroop1992
+Early Old Babylonian,BUR,1,M,Local conventions in each kingdom.,wagensonner2022
+Early Old Babylonian,SCHOOL,1,H,"Schooling in private houses (Nippur House F, Ur No. 7 Quiet Street) with a shared curriculum.",robsonTabletHouseScribal2001; veldhuis2014
+Early Old Babylonian,LAW,2,H,Laws of Lipit-Ištar and of Ešnunna.,roth1997
+Early Old Babylonian,STD,1,M,Year names per kingdom; local calendars.,wagensonner2022
+Old Babylonian,TERR,2,H,"Hammurabi unified Babylonia and the middle Euphrates (1763-1739 BCE); before and after, regional kingdoms.",boivin2022; charpinMesopotamienAltbabylonische2004
+Old Babylonian,HIER,2,H,"Royal agents in conquered cities (Šamaš-hazir and Sin-iddinam at Larsa), city mayors and assemblies.",charpinMesopotamienAltbabylonische2004; seri2005
+Old Babylonian,FISC,2,H,"ilkum service fields, biltum on palace land, palace commerce through merchants.",stol2004
+Old Babylonian,COMM,2,M,Royal letters to agents in the provinces.,charpinMesopotamienAltbabylonische2004
+Old Babylonian,PAL,2,H,Palace estates leased out; the palace works through entrepreneurs.,stol2004; renger1994
+Old Babylonian,TEMP,1,M,Temples reduced in economic weight; cloister of nadītus at Sippar.,stol2004
+Old Babylonian,TCTL,2,M,Kings appoint temple officials and control temple land.,charpinMesopotamienAltbabylonische2004
+Old Babylonian,PRIV,3,H,"Family archives of sales, loans and leases dominate the legal record.",charpinMesopotamienAltbabylonische2004; goddeerisShapeSizeArchival2023
+Old Babylonian,BUR,2,M,Standard document types and formulary across cities; palace accounts.,charpinMesopotamienAltbabylonische2004
+Old Babylonian,SCHOOL,1,H,Schooling in houses with a shared curriculum and model contracts.,robsonTabletHouseScribal2001; spadaSumerianModelContracts2018
+Old Babylonian,LAW,3,H,"Laws of Hammurabi, royal judges, mīšarum edicts (Ammi-ṣaduqa).",charpin2010writing; roth1997
+Old Babylonian,STD,2,M,Babylonian year names imposed after conquest; the Babylonian calendar spreads.,charpinMesopotamienAltbabylonische2004
+Old Assyrian,TERR,0,H,The city-state of Assur; the Anatolian trading colonies were not provinces.,larsenAncientKanesh2015; barjamovic2022
+Old Assyrian,HIER,1,H,"City Hall (bēt ālim), assembly, kārum courts in Anatolia.",larsenAncientKanesh2015
+Old Assyrian,FISC,1,H,Export and import taxes of the City and of Anatolian rulers.,larsenAncientKanesh2015
+Old Assyrian,COMM,2,M,"Regular caravans and messengers between Assur and Kanesh, under treaties.",barjamovic2022
+Old Assyrian,PAL,0,H,The ruler (iššiak Aššur) has a minor economic role.,larsenAncientKanesh2015
+Old Assyrian,TEMP,1,M,The Aššur temple holds funds and weights; no temple archive.,larsenAncientKanesh2015
+Old Assyrian,TCTL,0,L,Not applicable in the Kanesh record.,larsenAncientKanesh2015
+Old Assyrian,PRIV,3,H,"About 23,000 tablets from merchants' houses; private letters and contracts.",larsenAncientKanesh2015; michel2020women
+Old Assyrian,BUR,1,M,"Merchant conventions (envelopes, sealed witnessed contracts), not state procedure.",veenhof2003
+Old Assyrian,SCHOOL,0,H,"Writing learned in merchant families, including women.",michel2020women; larsenAncientKanesh2015
+Old Assyrian,LAW,2,M,"The ""words of the stele"" in Assur; verdicts of the City and the kārum.",veenhof1995stele
+Old Assyrian,STD,2,M,Eponym (līmum) dating and standard weights of the City.,larsenAncientKanesh2015
+Middle Babylonian,TERR,2,H,Kassite kings ruled all of Babylonia for four centuries.,paulus2022
+Middle Babylonian,HIER,2,M,Provinces (pīḫatu) under governors; the governor of Nippur (šandabakku).,paulus2022
+Middle Babylonian,FISC,2,M,Redistribution through the governor's office; royal land grants (kudurrus) exempt holders from levies.,paulus2022; paulus2014kudurru
+Middle Babylonian,COMM,2,M,International messengers (Amarna letters); internal messengers.,paulus2022
+Middle Babylonian,PAL,3,M,The archive of the governor of Nippur is the bulk of the record.,paulus2022
+Middle Babylonian,TEMP,2,M,Temple of Enlil at Nippur linked to the governor's office.,paulus2022
+Middle Babylonian,TCTL,2,M,The šandabakku combined civil and temple functions.,paulus2022
+Middle Babylonian,PRIV,1,M,"Few private archives (Ur, Nippur).",paulus2022
+Middle Babylonian,BUR,2,M,Highly regular redistribution accounts at Nippur.,paulus2022
+Middle Babylonian,SCHOOL,2,L,Scribal families with ancestor names; school texts from Nippur.,veldhuis2014
+Middle Babylonian,LAW,1,M,No law collection; royal judgements and kudurru grants.,paulus2014kudurru
+Middle Babylonian,STD,2,H,Dating by regnal years replaces year names across Babylonia.,paulus2022
+Middle Assyrian,TERR,3,H,From city-state to empire with provinces from the Zagros to the Euphrates.,reculeau2022
+Middle Assyrian,HIER,3,H,Provinces (pāḫutu) under governors; vizier and great households.,postgate2013; reculeau2022
+Middle Assyrian,FISC,3,H,ginā'u offerings delivered by every province to the Aššur temple; ilku service.,postgate2013
+Middle Assyrian,COMM,3,M,Road stations and messengers between capital and provincial centres (Dur-Katlimmu).,reculeau2022; postgate2013
+Middle Assyrian,PAL,3,H,Palace and great households dominate the archives.,postgate2013
+Middle Assyrian,TEMP,1,M,The Aššur temple receives provincial offerings managed by state officials.,postgate2013
+Middle Assyrian,TCTL,3,M,Offerings to Aššur organised by the provincial administration.,postgate2013
+Middle Assyrian,PRIV,1,M,"Some family archives at Assur (Urad-Šerua, Babu-aha-iddina).",postgate2013
+Middle Assyrian,BUR,3,H,Bureaucratic record-keeping across ten government archives (Postgate); Palace Decrees.,postgate2013; postgateMiddleAssyrianTablets1986
+Middle Assyrian,SCHOOL,2,M,Royal scribes and scholarly libraries at Assur.,reculeau2022
+Middle Assyrian,LAW,3,H,Middle Assyrian Laws and Palace Decrees.,roth1997
+Middle Assyrian,STD,2,H,Eponym dating and Assyrian calendar across provinces.,reculeau2022
+Middle Elamite,TERR,2,M,Kingdom of Susa and Anšan.,mofidiNasrabadi2022
+Middle Elamite,HIER,1,L,"Royal centres at Susa, Kabnak, Anšan.",mofidiNasrabadi2022
+Middle Elamite,FISC,1,L,Little evidence.,mofidiNasrabadi2022
+Middle Elamite,COMM,1,L,Little evidence.,mofidiNasrabadi2022
+Middle Elamite,PAL,3,M,Royal (and royal tomb-temple) administration at Kabnak and Anšan.,herreroHaftTepeChoix1990; stolperTextsTalliMalyan1984
+Middle Elamite,TEMP,2,L,Temple-tomb complex of Tepti-ahar at Haft Tepe.,mofidiNasrabadi2022
+Middle Elamite,TCTL,2,L,Cult sites founded by kings.,mofidiNasrabadi2022
+Middle Elamite,PRIV,0,M,Almost no private archives.,mofidiNasrabadi2022
+Middle Elamite,BUR,2,L,Uniform administrative records at each site.,stolperTextsTalliMalyan1984
+Middle Elamite,SCHOOL,1,L,School texts at Haft Tepe and Susa; little known.,mofidiNasrabadi2022
+Middle Elamite,LAW,1,L,Legal documents from Susa; no law collection.,mofidiNasrabadi2022
+Middle Elamite,STD,1,L,Little evidence.,mofidiNasrabadi2022
+Hittite,TERR,3,H,An empire of Anatolia and northern Syria with vassal treaties.,weeden2022
+Hittite,HIER,3,M,"Provincial lords (bēl madgalti), viceroys at Karkamiš and Aleppo, vassal kings.",weeden2022
+Hittite,FISC,2,M,"Service and tax obligations (šaḫḫan, luzzi) and royal storehouses (""seal houses"").",weeden2022
+Hittite,COMM,2,M,Royal correspondence with provinces (Maşat) and abroad.,weeden2022
+Hittite,PAL,3,H,Palace and royal storehouses dominate the record.,weeden2022
+Hittite,TEMP,2,M,Temples as large institutions in the capital; cult inventories.,weeden2022
+Hittite,TCTL,3,M,The king as chief priest; cult inventories reorganised by Tudḫaliya IV.,weeden2022
+Hittite,PRIV,0,H,Private documents almost absent.,weeden2022
+Hittite,BUR,3,M,"Instruction texts for officials (many from Arnuwanda I) and standard land-donation tablets that ""standardize and parcel out the Anatolian landscape""; Weeden doubts how effective the instructions were as instruments of control.","miller2013instructions; weeden2022 (pp. 564, 568-569)"
+Hittite,SCHOOL,2,M,Palace and temple scribes trained with Mesopotamian lexical lists at Ḫattuša.,weeden2022
+Hittite,LAW,3,H,"Hittite Laws, treaties, royal courts.",roth1997; weeden2022
+Hittite,STD,1,L,Little evidence for imposed measures or dating.,weeden2022
+Neo-Assyrian,TERR,3,H,"The largest empire of its time, from Egypt to western Iran.",baker2023; radner2014network
+Neo-Assyrian,HIER,3,H,"Provinces under governors, magnates, a royal household of officials.",baker2023
+Neo-Assyrian,FISC,3,H,"Provincial taxes, tribute of vassals, labour and military service.",baker2023
+Neo-Assyrian,COMM,3,H,The king's road with relay stations (bēt mardēti) and royal messengers (kalliu).,radner2014network
+Neo-Assyrian,PAL,3,H,"Palace archives of Nineveh, Kalḫu; the royal household as the state.",baker2023
+Neo-Assyrian,TEMP,1,M,Temples dependent on the crown.,baker2023
+Neo-Assyrian,TCTL,3,M,Temples subordinated and supplied by provinces.,baker2023
+Neo-Assyrian,PRIV,2,M,"Legal archives of officials and families at Assur, Nineveh and Kalḫu.",radnerRelationFormat1995; baker2023
+Neo-Assyrian,BUR,2,M,"Standard formats per document type (letters, legal, administrative), but much business in Aramaic on perishable media.",radnerRelationFormat1995; baker2023
+Neo-Assyrian,SCHOOL,2,M,Palace scribes and scholars; Aramaic scribes beside cuneiform scribes.,baker2023
+Neo-Assyrian,LAW,1,M,No law collection; royal justice. Seshat codes formal legal code absent.,seshat2020
+Neo-Assyrian,STD,2,H,"Eponym dating and the ""mina of the king"" across the empire.",baker2023
+Neo-Babylonian,TERR,3,H,Empire from the Gulf to the Levant.,jursa2023
+Neo-Babylonian,HIER,2,M,Provinces and governors; less documented than Assyria.,jursa2023
+Neo-Babylonian,FISC,2,H,"Taxes and service on temples and land (ilku, urāšu); royal demands on temple estates.",jursa2010; jursa2011taxation
+Neo-Babylonian,COMM,2,M,Royal messengers; canals and roads.,jursa2023
+Neo-Babylonian,PAL,2,M,Palace economy known indirectly; royal estates.,jursa2010
+Neo-Babylonian,TEMP,3,H,Eanna and Ebabbar are the largest archives.,jursa2010; kleberTempelUnd2008
+Neo-Babylonian,TCTL,3,H,"Royal officials (qīpu, ša rēš šarri bēl piqitti) run Eanna from about 584 BCE; Nabonidus imposes Esangila norms.",kleberTempelUnd2008; jursaUrukeanPriestsNeoBabylonian2019
+Neo-Babylonian,PRIV,3,H,Family archives of entrepreneurs (Egibi) and priests.,jursa2010; waerzeggers_marduk-remanni_2014
+Neo-Babylonian,BUR,2,H,Standard temple bookkeeping; uniform legal formulary.,jursa2004accounting; jursaDiplomaticsLateBabylonian2021
+Neo-Babylonian,SCHOOL,1,H,Training in priestly and scribal families within temple communities; shared curriculum.,gesche2001
+Neo-Babylonian,LAW,1,M,A fragment of Neo-Babylonian laws; royal judges.,roth1997
+Neo-Babylonian,STD,3,H,Regnal-year dating and a standard calendar; standard silver (ginnu) marks.,jursa2010
+Achaemenid (Babylonia),TERR,3,H,The largest empire yet; Babylonia a satrapy.,heller2023; potts2023
+Achaemenid (Babylonia),HIER,3,H,"Satrap, governors, royal officials, the ḫaṭru system.",heller2023
+Achaemenid (Babylonia),FISC,3,H,"Land-for-service (bow fiefs, ḫaṭru) and taxes in silver.",jursaAspectsTaxationAchaemenid2009; heller2023
+Achaemenid (Babylonia),COMM,3,M,Royal road and messengers (documented best at Persepolis).,henkelmanAchaemenidHeartland2012
+Achaemenid (Babylonia),PAL,2,M,Crown estates and royal officials in Babylonia.,heller2023
+Achaemenid (Babylonia),TEMP,2,H,Temples continue until the end of central archives after 484 BCE.,waerzeggers2003end
+Achaemenid (Babylonia),TCTL,3,H,Temples under royal control; northern temple archives end after the revolts of 484 BCE.,waerzeggers2003end; jursa2010
+Achaemenid (Babylonia),PRIV,3,H,"Private archives (Egibi, Murašû) dominate.",jursa2010; heller2023
+Achaemenid (Babylonia),BUR,2,M,Neo-Babylonian procedures continue.,jursaDiplomaticsLateBabylonian2021
+Achaemenid (Babylonia),SCHOOL,1,H,Babylonian scribal families as before.,gesche2001
+Achaemenid (Babylonia),LAW,1,M,"Royal ""law of the king"" (dātu); no law collection.",heller2023
+Achaemenid (Babylonia),STD,3,M,Regnal-year dating and standard measures across the satrapy.,heller2023
+Achaemenid (Persepolis),TERR,3,H,Imperial heartland.,potts2023; basello2023
+Achaemenid (Persepolis),HIER,3,H,"Director (Parnakka), regional and local officials in Fārs.",henkelmanAchaemenidHeartland2012
+Achaemenid (Persepolis),FISC,3,H,Collection and redistribution of commodities across Fārs.,henkelmanAchaemenidHeartland2012
+Achaemenid (Persepolis),COMM,3,H,Travel rations at road stations along the royal road.,henkelmanAchaemenidHeartland2012
+Achaemenid (Persepolis),PAL,3,H,The royal economy of Fārs is the archive.,henkelmanAchaemenidHeartland2012
+Achaemenid (Persepolis),TEMP,0,H,Offerings issued by the administration; no temple archive.,henkelmanAchaemenidHeartland2012
+Achaemenid (Persepolis),TCTL,3,H,Cults supplied by the crown administration.,henkelmanAchaemenidHeartland2012
+Achaemenid (Persepolis),PRIV,0,H,No private archives.,henkelmanAchaemenidHeartland2012
+Achaemenid (Persepolis),BUR,3,H,"Standard memoranda, journals and accounts with seals of officials.",henkelmanAchaemenidHeartland2012
+Achaemenid (Persepolis),SCHOOL,2,M,"Elamite scribes of the administration, an Elamite tradition from Anšan.",henkelmanAchaemenidHeartland2012; basello2023
+Achaemenid (Persepolis),LAW,1,L,Not documented in the archive.,basello2023
+Achaemenid (Persepolis),STD,3,H,"Standard rations, measures and regnal-year dating.",henkelmanAchaemenidHeartland2012
+Hellenistic,TERR,3,H,Seleucid empire.,clancierMonerie2014
+Hellenistic,HIER,3,M,"Satraps, royal officials, city institutions.",clancierMonerie2014
+Hellenistic,FISC,2,M,"Royal taxes, recorded mostly in Greek.",clancierMonerie2014
+Hellenistic,COMM,2,L,Not documented in cuneiform.,clancierMonerie2014
+Hellenistic,PAL,1,M,The crown is largely invisible in cuneiform.,clancierMonerie2014
+Hellenistic,TEMP,3,H,Cuneiform survives in the temple communities of Uruk (Rēš) and Babylon (Esagil).,clancierMonerie2014
+Hellenistic,TCTL,1,M,Temples governed by their own assemblies and officials.,clancierMonerie2014
+Hellenistic,PRIV,2,H,Private legal archives of the temple elite (prebend sales).,clancierMonerie2014
+Hellenistic,BUR,1,M,Cuneiform administration limited to the temples.,clancierMonerie2014
+Hellenistic,SCHOOL,2,H,Scholarly families in the temples train scribes.,clancierMonerie2014
+Hellenistic,LAW,1,L,Royal law in Greek; no cuneiform law collection.,clancierMonerie2014
+Hellenistic,STD,3,H,"The Seleucid era as a single, continuous dating system.",clancierMonerie2014

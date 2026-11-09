@@ -1,0 +1,16 @@
+bdtns_type,province,n,median_hw,h,w,MAD
+Messenger Text,Girsu,369,1.44,43.0,30.0,0.13
+Messenger Text,Umma,1798,1.074,28.0,28.0,0.104
+Messenger Text,unprovenanced,37,1.231,50.0,39.0,0.172
+Letter-order,Girsu,51,1.163,42.0,37.0,0.063
+Letter-order,Umma,34,1.077,42.0,39.5,0.078
+Letter-order,unprovenanced,46,1.091,40.0,37.0,0.054
+Loan Document,Girsu,114,0.914,36.5,39.0,0.072
+Loan Document,Nippur,59,1.128,42.0,38.0,0.043
+Loan Document,Umma,63,1.071,39.0,37.0,0.069
+Loan Document,unprovenanced,55,1.125,44.0,40.0,0.065
+Legal Text: court record,Umma,35,1.458,70.0,46.0,0.176
+Tablet and Envelope,Girsu,77,1.129,37.0,33.0,0.046
+Tablet and Envelope,Puzriš-Dagan,22,1.095,35.5,33.0,0.031
+Tablet and Envelope,Umma,28,1.113,37.0,33.0,0.066
+Tablet and Envelope,unprovenanced,278,1.091,45.0,43.0,0.055

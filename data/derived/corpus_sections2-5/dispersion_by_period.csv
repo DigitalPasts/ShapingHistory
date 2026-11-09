@@ -1,0 +1,32 @@
+scope,period,n,latent_disp,lat_lo,lat_hi,hw_madlog
+all,Uruk III,301,2.609,2.363,2.889,0.154
+all,ED IIIa,154,2.335,2.171,2.473,0.044
+all,ED IIIb,1229,1.901,1.664,2.281,0.052
+all,Ebla,424,3.826,3.466,4.279,0.125
+all,Old Akkadian,2604,2.665,2.257,3.035,0.161
+all,Lagash II,140,1.857,1.787,1.989,0.221
+all,Ur III,27259,1.737,1.574,1.919,0.076
+all,Early Old Babylonian,1428,2.467,2.196,2.699,0.163
+all,Old Babylonian,16306,2.65,2.38,2.89,0.216
+all,Old Assyrian,1482,1.878,1.694,2.075,0.183
+all,Middle Assyrian,1405,2.858,2.642,3.091,0.203
+all,Middle Babylonian,5901,2.849,2.586,3.075,0.244
+all,Hittite,108,3.123,3.0,3.19,0.234
+all,Neo-Assyrian,22207,3.602,3.381,3.834,0.269
+all,Neo-Babylonian,4327,2.953,2.551,3.263,0.161
+all,Achaemenid,1703,2.611,2.386,2.893,0.087
+all,Hellenistic,243,2.55,2.208,2.875,0.104
+admin,Uruk III,293,2.584,2.403,2.845,0.144
+admin,ED IIIa,136,2.28,2.137,2.408,0.04
+admin,ED IIIb,1187,1.883,1.65,2.233,0.05
+admin,Ebla,421,3.835,3.478,4.252,0.132
+admin,Old Akkadian,2470,2.683,2.309,3.024,0.159
+admin,Lagash II,120,1.749,1.665,1.818,0.158
+admin,Ur III,26088,1.724,1.582,1.867,0.073
+admin,Early Old Babylonian,341,2.082,1.931,2.23,0.121
+admin,Old Babylonian,4166,2.311,2.058,2.564,0.194
+admin,Middle Assyrian,281,2.93,2.738,3.156,0.196
+admin,Middle Babylonian,3864,2.844,2.626,3.046,0.226
+admin,Neo-Assyrian,446,3.067,2.864,3.303,0.301
+admin,Neo-Babylonian,1415,2.359,2.083,2.704,0.103
+admin,Achaemenid,470,2.602,2.229,2.953,0.093

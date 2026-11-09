@@ -1,0 +1,8 @@
+sub,n,median_hw,MAD
+"promissory note, with interest",17,0.76,0.076
+promissory note,91,0.81,0.077
+receipt,131,0.82,0.048
+"promissory note, with pledge and without interest",80,0.83,0.037
+lease contract (ana sūti),36,0.835,0.043
+dispute-related,16,0.845,0.087
+broken/uncertain,18,0.95,0.406

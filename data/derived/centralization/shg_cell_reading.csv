@@ -1,0 +1,37 @@
+period,param,your_score,status,conf,source_to_add,comment,row
+ED IIIa,TERR,1,Evidence of presence,M,"Gelb, Jacobsen, and Adams, at least in name somewhere",Note detailed comments in evidence tab,2
+ED IIIa,HIER,1,Evidence of presence,L,,,3
+ED IIIa,FISC,2,Evidence of presence,M,"Yoffee 2005, myths of the archaic state",,4
+ED IIIa,COMM,1,Evidence of presence,L,,"There are statements both in Barthash himself and elsewhere that in Ebla the messenger service was quite central and it is possibly linked to the northern polity theory (Kish state, Gelb), but also requires another pass on the literature please",5
+ED IIIa,PAL,2,Evidence of presence,M,"Yoffee 2005, myths of the archaic state","It seems that the palace was much stronger in the north, check Ebla and Kish",6
+ED IIIa,TEMP,3,Evidence of presence,H,"Yoffee 2005, myths of the archaic state","The temple may have been much weaker in the north conversly, please check the available materials more in depth",7
+ED IIIa,TCTL,1,Evidence of presence,L,"Yoffee 2005, myths of the archaic state and check other related articles and books",,8
+ED IIIa,PRIV,0,Insufficient evidence,M,Check Yoffee 2005 as well,"but the private sector seems to be encompassed in the large households and state archives are family archives to the effect they are the royal members household, and the temple is an institution",9
+ED IIIa,BUR,2,Evidence of presence,H,,,10
+ED IIIa,SCHOOL,1,Evidence of presence,H,,,11
+ED IIIa,LAW,1,Evidence of presence,H,Check Yoffee 2005 as well,,12
+ED IIIa,STD,1,Evidence of presence,H,Check Yoffee 2005 as well,,13
+ED IIIb,TERR,1,Evidence of presence,M,Check Yoffee 2005 as well,This is a classic 1-2 score,14
+ED IIIb,HIER,1,Evidence of presence,H,Check Yoffee 2005 as well,See remarks on changing one of the statements,15
+ED IIIb,FISC,2,Evidence of presence,H,Check Yoffee 2005 as well; I added to the literature now more papers on taxation,,16
+ED IIIb,COMM,1,Evidence of absence,L,Added more papers that mention letters in ED IIIb,This need the reading of more papers in the literature,17
+ED IIIb,PAL,2,Evidence of presence,H,Find Schrakamp!,,18
+ED IIIb,TEMP,2,Evidence of presence,M,,"Generally speaking the situation is a classic 2-3 with closer to the 2 than 3 if one has to decide, but its not a clear 3 as now stated; Check what evidence does schrakamp has!",19
+ED IIIb,TCTL,3,Evidence of presence,M,,It still seems 2-3 though,20
+ED IIIb,PRIV,1,Evidence of presence,M,,"It seems to support more 1 than 0, even though actual private archives do not exist? Unless I missed something in the literature - shouldn't this be checked?",21
+ED IIIb,BUR,2,Evidence of presence,M,New source required or better ones,"I agree with the score, but as it stands the citation you brought isn't convincing enough or clear",22
+ED IIIb,SCHOOL,1,Evidence of presence,L,Another source would help,It seems like the situation is 1-2 and not a clear 1. Please look again in the literature carefuly.,23
+ED IIIb,LAW,1,Evidence of presence,M,,,24
+ED IIIb,STD,1,Evidence of presence,H,,,25
+Ebla,TERR,2,Evidence of presence,M,"Archi's book on Ebla, please find it",,26
+Ebla,HIER,2,Evidence of presence,M,"Archi's book on Ebla, please find it",,27
+Ebla,FISC,2,Evidence of presence,M,"Archi's book on Ebla, please find it",,28
+Ebla,COMM,2,Evidence of presence,M,Maybe more in Archi or someone who write about this important issue??,,29
+Ebla,PAL,3,Evidence of presence,H,,We have to be aware that all of our evidence comes almost exclusively from the palace archive! So we should mitigate for some bias here?!,30
+Ebla,TEMP,0,Insufficient evidence,L,Archi's book and other relevant materials check the Ebla digital archives,Not good enough,31
+Ebla,TCTL,1,Insufficient evidence,L,More evidence please (see previous remarks),,32
+Ebla,PRIV,1,Evidence of presence,M,Maybe more evidence?,,33
+Ebla,BUR,2,Evidence of presence,M,,,34
+Ebla,SCHOOL,2,Evidence of presence,M,With more citations could be High confidence even,,35
+Ebla,LAW,1,Evidence of presence,L,More citations,,36
+Ebla,STD,1,Evidence of presence,M,,,37

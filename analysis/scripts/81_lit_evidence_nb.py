@@ -1,0 +1,38 @@
+"""Literature evidence for the centralization codebook: Neo-Babylonian (626-539 BC). Format as 81_lit_evidence_ur3.py."""
+P='Neo-Babylonian'
+J='jursaNeoBabylonianEmpire2023'  # Jursa, M. 2023. The Neo-Babylonian Empire. OHANE V, ch. 50, 91-173.
+E=[
+ dict(param='TERR',score=3,stance='supports',key=J,where='OHANE V, ch. 50, §50.4, p. 108',
+  quote="direct Babylonian administration and of semi-independent, tribute paying vassal states."),
+ dict(param='TERR',score=2,stance='qualifies',key=J,where='OHANE V, ch. 50, §50.4, p. 110',
+  quote="Royal inscriptions do not promote an expansionist ideology that would have prompted kings to seek legitimacy by expanding the realm subjected to the authority of Marduk",
+  note='Jursa calls it "an accidental empire" (title of §50.7).'),
+ dict(param='HIER',score=3,stance='supports',key=J,where='OHANE V, ch. 50, §50.4, p. 118',
+  quote="Ultimately, even the chief priests and city governors, regardless of their local connections, were appointed by the king. Still, it was considered necessary to keep them in check by the constant presence of royal commissioners (qīpu, bēl piqitti) placed by the central government in key positions"),
+ dict(param='HIER',score=2,stance='contests',key=J,where='OHANE V, ch. 50, §50.4, p. 113',
+  quote="In Babylonia, the highest-ranking palace officials were not at the same time in charge of important provinces, in contrast to Assyrian practice. Local power was more decentralized. It tended to lie, not in the hand of officials directly beholden to the king, but with dignitaries of local, particularly tribal origin."),
+ dict(param='FISC',score=3,stance='supports',key=J,where='OHANE V, ch. 50, §50.5, p. 138',
+  quote="Taxation was the principal source of state revenue in Babylonia ... Taxes levied on the income of temple estates were collected by a royal official attached to the Esagil temple in Babylon. The principal temple of Babylonia served as a collection point for this type of agricultural income; it probably served as the empire’s treasure house in general."),
+ dict(param='PAL',score=2,stance='supports',key=J,where='OHANE V, ch. 50, §50.2, p. 93',
+  quote="What remains of the Neo-Babylonian state archives is not comparable to the plethora of texts recovered from Assyria that shed light on the Neo-Assyrian court and state bureaucracy: a few hundred administrative records dealing with the provisioning of royal palaces in Babylon have survived",
+  note='Palace documentation is thin; this is a preservation bias, not necessarily a weak palace.'),
+ dict(param='TEMP',score=3,stance='supports',key=J,where='OHANE V, ch. 50, §50.4, pp. 116-117',
+  quote="We owe this to the information provided by the vast tablet archives of two Babylonian temples, in the peripheral cities of Sippar in northern Babylonia and Uruk in the far south ... The temples were a focus of local administration: the highest-ranking priests always took a central place."),
+ dict(param='TCTL',score=3,stance='supports',key=J,where='OHANE V, ch. 50, §50.4, p. 119',
+  quote="By the end of Nebuchadnezzar’s reign, the crown had sufficient power to harness these resources for its own purposes with very few constraints ... a process of centralized institution-building increased the power of the crown at the expense of the cities."),
+ dict(param='TCTL',score=3,stance='supports',key=J,where='OHANE V, ch. 50, §50.4, p. 122',
+  quote="Beginning in the last years of Nebuchadnezzar’s reign, outside contractors were frequently brought into the temples to manage (in the entrepreneurial, income-farming sense) their agrarian affairs ... These contractors, especially on the highest level, were often royal protégés"),
+ dict(param='PRIV',score=3,stance='supports',key=J,where='OHANE V, ch. 50, §50.4, p. 117; §50.6.2, p. 158',
+  quote="the archives of propertied urban families, most often either priests with a temple affiliation, or entrepreneurs working at the interface of temple, palace, and “private” economy ... At this interface, opportunities for entrepreneurial activity opened up: agrarian management, especially in the institutional sector: wholesale trade in staples; tax farming"),
+ dict(param='BUR',score=3,stance='supports',key=J,where='OHANE V, ch. 50, §50.4, p. 121',
+  quote="This period also saw the introduction of a standard oath formula sworn by the gods Bel and Nabû and by the king, as well as the introduction of centralized record-keeping through notaries. The latter was linked to the crown’s interest in monitoring property transfers in order to tax them: the state’s reach into local society increased significantly in the second half of Nebuchadnezzar’s reign."),
+ dict(param='SCHOOL',score=2,stance='supports',key=J,where='OHANE V, ch. 50, §50.7, p. 161',
+  quote="The Neo-Babylonian Empire’s core experienced a distinct flowering of Babylonian culture, and intensive scribal, scholarly, and literary production.",
+  note='Shared first-millennium curriculum: Gesche 2001 (Schulunterricht in Babylonien).'),
+ dict(param='LAW',score=3,stance='supports',key=J,where='OHANE V, ch. 50, §50.4, p. 121',
+  quote="Characteristic of the Neo-Babylonian Empire was the important role held by royal judges from the third decade of Nebuchadnezzar’s reign onward ... They worked from a centralized court of law (bīt dīni) in Babylon, which was created around the same time."),
+ dict(param='STD',score=3,stance='supports',key=J,where='OHANE V, ch. 50, §50.4, p. 124, citing Jursa and Gordin 2019: 46-48',
+  quote="It seems that, just as in the realm of agricultural contracting, cultic common standards were insistently imposed throughout the country"),
+]
+GAPS={'COMM':'royal messengers and the road system in NB Babylonia: Jursa 2010 (AOAT 377); Kleber 2008',
+      'SCHOOL':'Gesche 2001; Jursa & Gordin 2019 on Urukean priests','PAL':'Jursa 2010 on the royal sector'}

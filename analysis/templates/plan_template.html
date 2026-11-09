@@ -1,0 +1,377 @@
+<title>Centralization and Tablet Form</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column (~68ch) with wide breakout panels for tables and charts; a sticky contents rail on wide screens. */
+:root{
+  --bg:#f7f8f9; --panel:#ffffff; --fg:#16181c; --muted:#5a6170; --rule:#d9dde3; --accent:#1c5cab; --accent-soft:#e3edf9;
+  --s0:#e6eef8; --s1:#b7d3f6; --s2:#5598e7; --s3:#184f95; --ink-on-dark:#ffffff; --ink-on-light:#16181c;
+  --warn:#9a5b00; --warn-soft:#fbf1df; --good:#1f6b3a;
+  --f-display:"Newsreader", Georgia, "Times New Roman", serif;
+  --f-body:"Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --f-mono:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#121417; --panel:#1a1d22; --fg:#eceef1; --muted:#a5adba; --rule:#2e333b; --accent:#86b6ef; --accent-soft:#1d2a3b;
+  --s0:#22303f; --s1:#2f5a8f; --s2:#3f7fd0; --s3:#9ec5f4; --ink-on-dark:#0d1117; --ink-on-light:#eceef1;
+  --warn:#e3b05c; --warn-soft:#2d2416; --good:#7bcf95; color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#121417; --panel:#1a1d22; --fg:#eceef1; --muted:#a5adba; --rule:#2e333b; --accent:#86b6ef; --accent-soft:#1d2a3b;
+  --s0:#22303f; --s1:#2f5a8f; --s2:#3f7fd0; --s3:#9ec5f4; --ink-on-dark:#0d1117; --ink-on-light:#eceef1;
+  --warn:#e3b05c; --warn-soft:#2d2416; --good:#7bcf95; color-scheme:dark }
+body{background:var(--bg);color:var(--fg);font:16px/1.6 var(--f-body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+main{max-width:1100px;margin:0 auto;padding-block:32px 80px;display:grid;grid-template-columns:minmax(0,1fr);gap:0}
+.col{max-width:70ch}
+h1,h2,h3{font-family:var(--f-display);font-weight:600;text-wrap:balance;line-height:1.2}
+h1{font-size:2.3rem;margin:0 0 6px}
+h2{font-size:1.55rem;margin:48px 0 10px;padding-top:14px;border-top:1px solid var(--rule)}
+h3{font-size:1.15rem;margin:26px 0 6px}
+p{margin:0 0 12px} ul,ol{margin:0 0 12px;padding-left:22px} li{margin-bottom:6px}
+a{color:var(--accent)} a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.meta{color:var(--muted);font-size:.92rem}
+.eyebrow{font-family:var(--f-mono);font-size:.74rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.lede{font-size:1.12rem;max-width:70ch}
+.panel{background:var(--panel);border:1px solid var(--rule);border-radius:6px;padding:18px 20px;margin:16px 0}
+.ask{background:var(--warn-soft);border-left:3px solid var(--warn);padding:14px 18px;margin:16px 0;border-radius:0 6px 6px 0}
+.ask h3{margin-top:0}
+.num{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;font-size:.88rem;width:100%}
+th,td{padding:6px 8px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}
+th{font-weight:600;color:var(--muted);font-size:.78rem;letter-spacing:.03em}
+td.n{font-family:var(--f-mono);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.points{display:grid;gap:14px}
+.point{background:var(--panel);border:1px solid var(--rule);border-radius:6px;padding:14px 18px}
+.point .k{font-family:var(--f-mono);font-size:.78rem;color:var(--accent);letter-spacing:.06em}
+.point h3{margin:2px 0 8px}
+.status{display:inline-block;font-family:var(--f-mono);font-size:.72rem;padding:1px 7px;border-radius:10px;border:1px solid var(--rule);color:var(--muted);margin-left:6px;vertical-align:2px}
+.status.done{color:var(--good);border-color:var(--good)}
+.hm td.c{width:34px;text-align:center;font-family:var(--f-mono);cursor:pointer;border:2px solid var(--panel);padding:5px 0}
+.hm td.c.L{background-image:repeating-linear-gradient(45deg,transparent 0 5px,rgba(127,127,127,.35) 5px 6px)}
+.hm th.p{white-space:nowrap}
+.hm th.v{writing-mode:vertical-rl;transform:rotate(180deg);height:210px;white-space:nowrap;vertical-align:bottom;text-align:left}
+.hm td.idx{font-family:var(--f-mono);text-align:right;padding:5px 8px;white-space:nowrap}
+#ev{min-height:72px}
+.legend{display:flex;flex-wrap:wrap;gap:12px;align-items:center;font-size:.82rem;color:var(--muted);margin:8px 0}
+.sw{display:inline-block;width:16px;height:16px;border-radius:3px;vertical-align:-3px;margin-right:4px}
+.chart{position:relative}
+.chart svg{display:block;width:100%;height:auto}
+.chart text{fill:var(--muted);font:12px var(--f-body)}
+.chart .lab{fill:var(--fg);font-size:11.5px}
+.tip{position:absolute;pointer-events:none;background:var(--panel);border:1px solid var(--rule);border-radius:4px;padding:6px 9px;font-size:.82rem;box-shadow:0 2px 8px rgba(0,0,0,.12);max-width:260px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,430px),1fr));gap:18px}
+.grid2>*{min-width:0}
+details{margin:8px 0} summary{cursor:pointer;font-weight:600}
+code{font-family:var(--f-mono);font-size:.86em}
+.refs li{font-size:.88rem}
+.small{font-size:.86rem;color:var(--muted)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<main>
+<header class="col">
+  <div class="eyebrow">Deeplomatics · rewrite plan · draft of 29 October 2026</div>
+  <h1>Centralization and tablet form</h1>
+  <p class="meta">A plan that works through ShG's nine points, an SI table of twelve centralization parameters scored for seventeen period rows, and five pilot analyses run from reproducible code. For reading and correcting in the morning.</p>
+</header>
+
+<section class="col">
+  <p class="lede">The article asks whether the state made the document, but it never says what "the state" was in each period or how strong it was, so its answer cannot be tested. This plan makes centralization a measured variable. Twelve parameters, drawn from established state-capacity and household-economy frameworks and scored from the current literature, place each period on a scale. The pilots then ask whether these scores predict how uniform, how tall and how shaped the tablets are.</p>
+  <div class="panel">
+    <h3 style="margin-top:0">What the pilots say so far</h3>
+    <ul id="headline"></ul>
+    <p class="small" style="margin:0">All numbers come from scripts 70 to 79 (see Reproducibility). They are pilots: with 15 periods that have enough photographed archival tablets, every period-level test has little power.</p>
+  </div>
+</section>
+
+<section class="col">
+  <div class="ask">
+    <h3>Questions for the morning</h3>
+    <ol>
+      <li><b>The scores are mine and need your correction.</b> Can you go through the table below (click any cell for its evidence) and mark the scores you disagree with? For the final SI I suggest two more independent coders (for example one third-millennium and one first-millennium specialist) so that we can report agreement between coders.</li>
+      <li><b>Which periods?</b> I scored 17 rows: your twelve classifier periods plus ED IIIa, Middle Elamite, Hittite and Hellenistic, with Achaemenid split into Babylonia and Persepolis because the archives differ so much. Keep 17, or cut to the 14 that have enough archival photographs?</li>
+      <li><b>Point 6.</b> I read it in two ways and ran both: the VAE vector as what the model predicts (instead of the ratio alone), and the VAE vector as what predicts a period's centralization score. Which did you mean?</li>
+      <li><b>Point 9.</b> Which Hammurabi reform do you have in mind: the conquest of Larsa in 1763 BCE and the Babylonian administration that followed, the Laws (about Hammurabi 39 to 42), or the mīšarum edicts? The pilot uses the conquest, because the Laws were not applied as statute.</li>
+      <li><b>OHANE chapters.</b> Only Volume IV is in your Drive and it is too large to read through the connector. Weeden's Hittite chapter is open access and I read it in full; for the others I used the published abstracts and tables of contents. If you can upload PDFs of Garfinkle (ch. 13), Boivin (18), Reculeau (32), Paulus (33), Baker (38), Jursa (50) and Heller (59), I will check every score against them.</li>
+      <li><b>A citation problem.</b> Sections 4, 5 and the Discussion say the Ur III provinces were bound by "the state calendar" and cite Widell 2004. Widell argues the opposite: the Ur III administration accepted local calendars throughout. That sentence needs to change.</li>
+    </ol>
+  </div>
+</section>
+
+<section class="col" id="points">
+  <h2>The nine points, one by one</h2>
+  <p>Each point gets how I understood it, what the rewrite does with it, and where it stands after tonight.</p>
+  <div class="points">
+    <div class="point"><div class="k">POINT 1</div><h3>A theoretical framework and a comparative setting <span class="status done">framework drafted</span></h3>
+      <p>The article now has diplomatics and distant viewing as its frame, which are methods, not a theory of why documents should be uniform. The rewrite sets out four competing explanations of uniformity, each from an established literature, and makes the corpus decide between them (see "The new central line").</p>
+      <ul>
+        <li><b>The state</b> (Weber's bureaucracy; Scott's legibility; Mann's infrastructural power): the more a polity extracts, counts and communicates in writing, the more uniform its documents.</li>
+        <li><b>The institution that trains and checks scribes</b> (Schloen's patrimonial household; Gelb, Diakonoff and Renger on palace, temple and house sectors; Garfinkle on Ur III): uniformity follows the household or office, whatever the size of the polity.</li>
+        <li><b>The organisation of production</b> (the "standardization hypothesis" of craft studies: Costin, Rice, Blackman, Stein and Vandiver at Tell Leilan, Roux): uniformity follows the intensity of production and the number of producers, not political control. Tablets are craft products, so this literature applies directly, and it already contains the warning that standardization is a weak index of centralization unless time and place are tightly controlled.</li>
+        <li><b>The function of the document</b> (Radner; Veenhof; Steinkeller on archival practice): form follows document type, so a period looks uniform when it writes few types.</li>
+      </ul>
+      <p>The comparative setting: Seshat's coding of world polities (Turchin et al. 2018 in PNAS, the natural point of comparison for a PNAS readership), the political-science measures of state capacity and information capacity (Hanson and Sigman 2021; Brambor et al. 2020), and two documentary parallels to cite briefly: quantitative codicology of medieval manuscripts (Bozzolo and Ornato 1980) and the early Islamic Qur'an page (George 2010, already cited). A short paragraph on Qin and Han administrative documents would add a case where the state is known to have regulated document format, but I could not verify the slip-length regulations tonight and have left it out.</p>
+    </div>
+    <div class="point"><div class="k">POINT 2</div><h3>Why it is historically significant <span class="status done">argument drafted</span></h3>
+      <p>The significance is that tablet form gives an independent, material and corpus-wide measure of how far an institution reached into the practice of its scribes. That bears on three live debates:</p>
+      <ul>
+        <li>Whether Mesopotamian states were bureaucracies (Steinkeller 1987), patrimonial households writ large (Schloen 2001; Garfinkle 2008, 2022) or "low-power" states that claimed more than they could do (Richardson 2012, 2017). These positions rest on texts that the state itself wrote. Form is a trace the state did not compose.</li>
+        <li>Whether schooling or administration made the scribe: what school texts say against what scribes did (already in the Introduction).</li>
+        <li>Beyond Assyriology: Scott's claim that early states made the world legible through standardized records has never been tested on the longest written record of early states. A negative or conditional answer is as publishable as a positive one, if the measurement is sound.</li>
+      </ul>
+    </div>
+    <div class="point"><div class="k">POINT 3</div><h3>A centralization scale for each regime, and a statistic of how form correlates with it <span class="status done">scale scored · pilot run</span></h3>
+      <p>Twelve parameters in three dimensions (polity reach; institutional economy; control of writing and norms), each on a 0 to 3 scale with written anchors, are scored in the SI table below. They combine into three dimension scores and one overall index (first principal component, 46% of the variance). The pilot correlates each score with three properties of each period's archival tablets: uniformity of proportion, uniformity of the whole VAE silhouette, and the share of tall tablets, each also measured within museum.</p>
+    </div>
+    <div class="point"><div class="k">POINT 4</div><h3>At least ten parameters of centralization, in an SI table <span class="status done">12 parameters × 17 rows</span></h3>
+      <p>Strong temple, palatial sector, scribal school and house sector are all parameters (TEMP, PAL, SCHOOL, PRIV), joined by territorial scope, administrative tiers, written taxation, communication infrastructure, crown control of temples, standardized procedure, codified law and imposed standards. Each cell has a score, a confidence level, one sentence of evidence and references. 204 cells: 83 high, 92 medium and 29 low confidence.</p>
+    </div>
+    <div class="point"><div class="k">POINT 5</div><h3>Ratio per genre group: logistic regression on all parameters, by genre, archive and place <span class="status" id="st5">running</span></h3>
+      <p>Two levels. Cells of period × findspot × genre group (administrative, legal, letters; 97 cells with at least 25 tablets) carry the uniformity outcomes. Tablets carry the binary outcome (tall or not) in a logistic regression with genre group and damage as controls. Because the parameters change only between periods, significance is judged by permuting the parameter rows across periods, which is the honest test with 15 periods.</p>
+    </div>
+    <div class="point"><div class="k">POINT 6</div><h3>Predict the whole VAE vector, not only the ratio <span class="status" id="st6">running</span></h3>
+      <p>Read one way: the outcome becomes the twelve VAE dimensions (multivariate regression; the share of VAE variance a parameter explains beyond genre). Read the other way: train on all periods but one, predict the held-out period's centralization score from its tablets' VAE vectors, and ask whether the predictions rank the periods correctly.</p>
+    </div>
+    <div class="point"><div class="k">POINT 7</div><h3>Which parameter goes with which element of form <span class="status done">pilot run</span></h3>
+      <p>Elements are proportion and four features recovered from the VAE (thickness at the sides and ends, rectangularity, corner fill; cross-validated R² 0.78, 0.72, 0.40, 0.41), each as a period median and a period spread. Of 170 parameter-element pairs, two reach p &lt; 0.05 (palace weight with rounder, less rectangular outlines), about what chance would give. At the period level, no parameter has a clear signature in form.</p>
+    </div>
+    <div class="point"><div class="k">POINT 8</div><h3>Regime type and changes in tablet production, reproducibly <span class="status done">pilot run</span></h3>
+      <p>Production is counted from the whole CDLI catalogue (411,729 records, dated tablets per year or reign), and format from the photographs. Three scales: Ur III year by year and province by province; Neo-Babylonian and Achaemenid reign by reign; and periods (catalogued tablets per century). Regime milestones are marked: Puzriš-Dagan founded (Šulgi 39), the last two Ur III reigns, the Eanna takeover (about 584 BCE), Nabonidus, Cyrus (539), the revolts against Xerxes (484).</p>
+    </div>
+    <div class="point"><div class="k">POINT 9</div><h3>Legal texts before and after Hammurabi <span class="status done">pilot run</span></h3>
+      <p>A difference-in-differences design: legal documents from the former kingdom of Larsa (Larsa, Ur, Nippur, Isin) against those of the kingdom of Babylon (Sippar, Kish, Dilbat, Babylon), before and after the conquest of 1763 BCE, dated by Archibab or by CDLI ruler and year (527 tablets). If the conquest brought a Babylonian norm, the south should move towards the north and the gap between them should close.</p>
+    </div>
+  </div>
+</section>
+
+<section class="col" id="line">
+  <h2>The new central line</h2>
+  <p>Proposed question: <b>What made cuneiform documents uniform: the reach of the state, the institution that trained and checked the scribe, the scale of production, or the type of document?</b> The four answers make different predictions that the corpus can test.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Explanation</th><th>Framework</th><th>Prediction</th><th>Test in our data</th><th>Pilot verdict</th></tr></thead>
+    <tbody id="hyp"></tbody>
+  </table></div>
+  <p style="margin-top:12px">The likely shape of the paper's answer, if the full analysis confirms the pilots: uniformity does not rise with the reach of the polity. It appears where a single institution made most of the tablets (Šuruppak's great household, Girsu's Bau household, Puzriš-Dagan, Persepolis), and it changes when that institution changes (the Ur III provinces in the last two reigns, Eanna under Nabonidus). That is a precise and testable version of the current conclusion, "the state made the document where it also made the scribe", and it can be stated against named alternatives.</p>
+  <h3>The identification problem, and how the rewrite solves it</h3>
+  <p>Centralization scores change only between periods, so any period-level test has as many observations as periods. Three remedies, in order of strength:</p>
+  <ol>
+    <li><b>Within-period natural experiments</b>, where the regime changed and the scribal milieu can be held constant. This is where the three case studies move: they stop being illustrations and become the main tests, with the parameters scored before and after each event (table below).</li>
+    <li><b>Place-level scores</b> where one period contains different regimes (Persepolis and Babylonia under the Achaemenids; Puzriš-Dagan against the provinces in Ur III; capital and provinces in Assyria).</li>
+    <li><b>Period-level tests with permutation inference</b>, reported as the comparative frame, with their low power stated.</li>
+  </ol>
+  <div class="scroll"><table>
+    <thead><tr><th>Event</th><th>Date</th><th>What changed</th><th>Prediction</th><th>Data</th></tr></thead>
+    <tbody id="events"></tbody>
+  </table></div>
+</section>
+
+<section id="si">
+  <div class="col"><h2>SI Table: centralization parameters by period</h2>
+  <p>Scores 0 to 3 (anchors in the codebook below). Hatched cells are low confidence. Click a cell for its evidence and references. PRIV is shown as scored and enters the indices reversed. Index columns: A polity reach, B institutional economy, C control of writing and norms, PC1 overall.</p></div>
+  <div class="legend"><span><span class="sw" style="background:var(--s0)"></span>0</span><span><span class="sw" style="background:var(--s1)"></span>1</span><span><span class="sw" style="background:var(--s2)"></span>2</span><span><span class="sw" style="background:var(--s3)"></span>3</span><span><span class="sw" style="background:repeating-linear-gradient(45deg,var(--s1) 0 5px,rgba(127,127,127,.5) 5px 6px)"></span>low confidence</span></div>
+  <div class="panel scroll"><table class="hm" id="heat"></table></div>
+  <div class="panel" id="ev" aria-live="polite"><span class="small">Click a cell to see its evidence.</span></div>
+  <details class="panel"><summary>Codebook: the twelve parameters, their anchors and frameworks</summary><div class="scroll"><table id="codebook"></table></div></details>
+  <details class="panel"><summary>All 204 scores with evidence (table view)</summary><div class="scroll"><table id="longtable"></table></div></details>
+  <details class="panel"><summary>Comparison with Seshat (Equinox-2020)</summary>
+    <p>Seshat codes 15 of our rows through matching polities. Its territory agrees well with our territorial scores (Spearman 0.87, 13 rows), but its institutional variables cannot separate ancient Near Eastern periods: full-time bureaucrats, couriers and calendar are coded "present" for every matching polity, and its administrative levels put the Ur III state (4) below the Old Babylonian (6) and Neo-Assyrian below both (3.5). This is why the article needs its own codebook, built on Seshat's protocol (anchored scales, confidence, evidence per cell) but graded for the distinctions that matter within ancient Western Asia. The codebook could be offered back to Seshat as a contribution.</p>
+    <div class="scroll"><table id="seshat"></table></div></details>
+</section>
+
+<section id="pilots">
+  <div class="col"><h2>Pilot results</h2>
+  <p>Archival documents only (administrative, legal, letters, accounts, receipts), photographed, with ratios between one third and three. Uniformity is the median absolute deviation of log height-to-width (MAD) and, for the whole silhouette, the median distance to the period's median VAE vector. "Within museum" averages these over museums holding at least 30 tablets of the period, which addresses the museum confound.</p></div>
+
+  <h3 class="col">1. Period-level: centralization against uniformity</h3>
+  <div class="grid2">
+    <div class="panel chart" id="sc1"></div>
+    <div class="panel chart" id="sc2"></div>
+  </div>
+  <div class="col"><p id="p1text"></p></div>
+  <details class="panel"><summary>Spearman correlations of every parameter with every outcome (15 periods; p from 20,000 permutations)</summary><div class="scroll"><table id="sp1"></table></div></details>
+
+  <h3 class="col">2. Cells and tablets: genre, place, logistic regression and the VAE vector</h3>
+  <div class="col"><p id="p2text"></p></div>
+  <details class="panel" open><summary>Tablet level: logistic regression (tall) and multivariate regression (VAE), and the held-out-period prediction</summary><div class="scroll"><table id="p2b"></table></div></details>
+  <details class="panel"><summary>Cell level: period × findspot × genre group (OLS with genre effects and controls; permutation across periods)</summary><div class="scroll"><table id="p2a"></table></div></details>
+
+  <h3 class="col">3. Parameters against elements of form</h3>
+  <div class="col"><p>The two pairs below p = 0.05 out of 170 tested are about what chance gives (8.5 expected). No parameter has a clear signature in proportion, thickness, rectangularity or corners at the period level.</p></div>
+  <details class="panel"><summary>Correlation matrix (Spearman, 15 periods)</summary><div class="scroll"><table id="p3"></table></div></details>
+
+  <h3 class="col">4. Regime and production</h3>
+  <div class="grid2">
+    <div class="panel chart" id="ur3prod"></div>
+    <div class="panel chart" id="nbprod"></div>
+  </div>
+  <div class="col"><p id="p4text"></p></div>
+  <details class="panel"><summary>Ur III: uniformity against production, province by province</summary><div class="scroll"><table id="p4a"></table></div></details>
+
+  <h3 class="col">5. Legal documents before and after the conquest of Larsa</h3>
+  <div class="panel chart" id="hmb"></div>
+  <div class="col"><p id="p5text"></p></div>
+</section>
+
+<section class="col" id="rewrite">
+  <h2>The rewrite</h2>
+  <h3>Structure (PNAS research article, about 4,500 words of main text)</h3>
+  <div class="scroll"><table>
+    <thead><tr><th>Part</th><th>Content</th><th>Words</th><th>From the current draft</th></tr></thead>
+    <tbody id="outline"></tbody>
+  </table></div>
+  <h3>Work plan to the 13 November draft for Morris</h3>
+  <div class="scroll"><table>
+    <thead><tr><th>Dates</th><th>Step</th><th>Needs from ShG</th></tr></thead>
+    <tbody id="workplan"></tbody>
+  </table></div>
+  <h3>What stays, what moves, what goes</h3>
+  <ul>
+    <li><b>Stays and gains a role:</b> the three case studies (now the natural experiments), the museum control (now part of every test), the VAE measures (now the multivariate outcome), Fig. 1 and Fig. 5.</li>
+    <li><b>Moves to SI:</b> most of the period-identification section (Figs. 2 to 4) shrinks to one validation paragraph: silhouettes carry period, place and museum, so they can carry institutional signals. Format and storage, fixed balance and the genealogy lines become SI sections.</li>
+    <li><b>New:</b> the centralization codebook and table (SI Dataset), Fig. A (the parameter heatmap with the uniformity of each period beside it), Fig. B (the natural experiments in one panel), Methods for scoring, inter-coder agreement and permutation inference.</li>
+  </ul>
+  <h3>Corrections found tonight</h3>
+  <ul>
+    <li>Widell 2004 does not support "the state calendar" (Sections 4 and 5, Discussion). Replace with taxation (Sharlach 2004) and standard bookkeeping (Molina 2016) as the evidence of integration, or with royal measures (the gur lugal).</li>
+    <li>Seshat codes the Neo-Assyrian empire without a formal legal code, which matches our LAW score but is worth a sentence, because readers outside Assyriology will expect empires to have codified law.</li>
+    <li>Weeden (OHANE III, 568-569) reads the Hittite instruction texts as reactions to instability whose effect is doubtful. If the Hittite tablets stay in the paper, their standardization should not be cited as evidence of strong control without that caveat.</li>
+  </ul>
+</section>
+
+<section class="col" id="repro">
+  <h2>Reproducibility</h2>
+  <p>Scripts in <code>repro/scripts/</code> of the project folder; outputs in <code>repro/centralization/</code>. Inputs: Zenodo 12787746 (VAE codes and ratios), the CDLI catalogue export used throughout the project (<code>artifacts.csv</code>), the damage index (script 06), cleaned catalogue dimensions (script 38), the Archibab link table (script 19), and the Seshat Equinox-2020 release.</p>
+  <ul id="scripts"></ul>
+</section>
+
+<section class="col" id="refs">
+  <h2>References for the codebook and plan</h2>
+  <p class="small">"(bib)" = already in the article's bibliography. "[check]" = detail not verified tonight. OHANE = K. Radner, N. Moeller and D. T. Potts (eds.), The Oxford History of the Ancient Near East, 5 vols., Oxford: OUP 2020-2023.</p>
+  <ol class="refs" id="reflist"></ol>
+</section>
+</main>
+<div class="tip" id="tip" hidden></div>
+
+<script>
+const D = __DATA__;
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const f3 = v => (v===null||v===undefined||Number.isNaN(v)) ? '' : (+v).toFixed(3);
+const f2 = v => (v===null||v===undefined||Number.isNaN(v)) ? '' : (+v).toFixed(2);
+
+// headline
+$('#headline').innerHTML = D.headline.map(h => `<li>${h}</li>`).join('');
+$('#p1text').innerHTML = D.text.p1; $('#p2text').innerHTML = D.text.p2; $('#p4text').innerHTML = D.text.p4; $('#p5text').innerHTML = D.text.p5;
+if (D.text.st5) { $('#st5').textContent = D.text.st5; $('#st5').classList.add('done'); }
+if (D.text.st6) { $('#st6').textContent = D.text.st6; $('#st6').classList.add('done'); }
+
+// hypotheses, events, outline, workplan
+$('#hyp').innerHTML = D.hyp.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`).join('');
+$('#events').innerHTML = D.events.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`).join('');
+$('#outline').innerHTML = D.outline.map(r => `<tr>${r.map((c,i) => `<td${i===2?' class="n"':''}>${c}</td>`).join('')}</tr>`).join('');
+$('#workplan').innerHTML = D.workplan.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`).join('');
+$('#scripts').innerHTML = D.scripts.map(s => `<li><code>${esc(s[0])}</code> ${esc(s[1])}</li>`).join('');
+$('#reflist').innerHTML = D.refs.map(r => `<li id="ref-${esc(r[0])}"><span class="small num">${esc(r[0])}</span> · ${esc(r[1])}</li>`).join('');
+
+// heatmap
+const P = D.params, rows = D.rows, S = D.scores;
+const shade = s => ['var(--s0)','var(--s1)','var(--s2)','var(--s3)'][s];
+const ink = s => s>=2 ? 'var(--ink-on-dark)' : 'var(--ink-on-light)';
+let h = '<thead><tr><th></th>' + P.map(p => `<th class="v" title="${esc(D.pname[p])}">${p} · ${esc(D.pname[p].split(' (')[0].replace(' under royal appointees','').replace(' recorded in writing','').replace(' infrastructure','').replace(' administrative procedure',' procedure'))}</th>`).join('') +
+        '<th class="v">A polity reach</th><th class="v">B institutional</th><th class="v">C writing and norms</th><th class="v">PC1 overall</th></tr></thead><tbody>';
+rows.forEach(r => {
+  h += `<tr><th class="p">${esc(r)}</th>`;
+  P.forEach(p => { const c = S[r][p]; h += `<td class="c ${c.conf}" tabindex="0" data-r="${esc(r)}" data-p="${p}" style="background-color:${shade(c.score)};color:${ink(c.score)}" aria-label="${esc(r)} ${p} ${c.score}">${c.score}</td>`; });
+  const I = D.indices[r];
+  h += `<td class="idx">${f2(I.A_polity_reach)}</td><td class="idx">${f2(I.B_institutional_economy)}</td><td class="idx">${f2(I.C_control_of_writing)}</td><td class="idx">${f2(I.PC1_all)}</td></tr>`;
+});
+$('#heat').innerHTML = h + '</tbody>';
+const showEv = el => {
+  const r = el.dataset.r, p = el.dataset.p, c = S[r][p];
+  const refs = c.refs.split(';').map(x => x.trim()).filter(Boolean).map(k => { const key = k.split(' ')[0]; return `<a href="#ref-${esc(key)}">${esc(k)}</a>`; }).join('; ');
+  $('#ev').innerHTML = `<div class="eyebrow">${esc(r)} · ${p} · ${esc(D.pname[p])}</div><p style="margin:6px 0"><b class="num">${c.score}</b> (confidence ${c.conf}) · ${esc(c.evidence)}</p><p class="small" style="margin:0">Anchors: ${esc(D.anchors[p])}</p><p class="small" style="margin:4px 0 0">${refs}</p>`;
+};
+document.querySelectorAll('#heat td.c').forEach(td => { td.addEventListener('click', () => showEv(td)); td.addEventListener('keydown', e => { if (e.key==='Enter'||e.key===' ') { e.preventDefault(); showEv(td); } }); });
+
+// codebook + long table + seshat
+$('#codebook').innerHTML = '<thead><tr><th>Parameter</th><th>Dimension</th><th>Name</th><th>Anchors (0 to 3)</th><th>Framework</th><th>Measurable proxy</th></tr></thead><tbody>' +
+  D.codebook.map(c => `<tr><td class="num">${c.param}</td><td>${c.dimension}</td><td>${esc(c.name)}</td><td>${esc(c.anchors)}</td><td>${esc(c.framework)}</td><td>${esc(c.proxy)}</td></tr>`).join('') + '</tbody>';
+$('#longtable').innerHTML = '<thead><tr><th>Period</th><th>Parameter</th><th>Score</th><th>Conf.</th><th>Evidence</th><th>References</th></tr></thead><tbody>' +
+  D.long.map(c => `<tr><td>${esc(c.period)}</td><td class="num">${c.param}</td><td class="n">${c.score}</td><td>${c.conf}</td><td>${esc(c.evidence)}</td><td class="small">${esc(c.refs)}</td></tr>`).join('') + '</tbody>';
+const tbl = (el, cols, data, fmt={}) => { $(el).innerHTML = '<thead><tr>' + cols.map(c => `<th>${esc(c[1])}</th>`).join('') + '</tr></thead><tbody>' +
+  data.map(r => '<tr>' + cols.map(c => { const v = r[c[0]]; const isN = typeof v === 'number'; return `<td${isN?' class="n"':''}>${isN ? (fmt[c[0]] ? fmt[c[0]](v) : f3(v)) : esc(v)}</td>`; }).join('') + '</tr>').join('') + '</tbody>'; };
+tbl('#seshat', D.seshatCols, D.seshat, {'Polity territory': v => Math.round(v).toLocaleString('en')});
+tbl('#sp1', D.sp1Cols, D.sp1);
+tbl('#p2a', D.p2aCols, D.p2a); tbl('#p2b', D.p2bCols, D.p2b); tbl('#p3', D.p3Cols, D.p3); tbl('#p4a', D.p4aCols, D.p4a);
+
+// ---------- charts (inline SVG, hover tooltips)
+const tip = $('#tip');
+const showTip = (e, html, host) => { tip.innerHTML = html; tip.hidden = false; const b = host.getBoundingClientRect(); const x = e.clientX - b.left + 12, y = e.clientY - b.top + 12; tip.style.left = Math.min(x, b.width - 270) + 'px'; tip.style.top = y + 'px'; host.appendChild(tip); };
+const hideTip = () => { tip.hidden = true; };
+function scatter(el, pts, xl, yl, title, note) {
+  const W = 520, H = 360, m = {l:56, r:16, t:36, b:46};
+  const xs = pts.map(p => p.x), ys = pts.map(p => p.y);
+  const xr = Math.max(...xs) - Math.min(...xs), x0 = Math.min(...xs) - xr*0.04, x1 = Math.max(...xs) + xr*0.04, y0 = 0, y1 = Math.max(...ys) * 1.1;
+  const X = v => m.l + (v - x0) / (x1 - x0 || 1) * (W - m.l - m.r), Y = v => H - m.b - (v - y0) / (y1 - y0) * (H - m.t - m.b);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(title)}"><text x="${m.l}" y="18" style="fill:var(--fg);font-weight:600;font-size:13px">${esc(title)}</text>`;
+  for (let i = 0; i <= 4; i++) { const v = y0 + (y1 - y0) * i / 4; s += `<line x1="${m.l}" x2="${W - m.r}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--rule)" stroke-width="1"/><text x="${m.l - 6}" y="${Y(v) + 4}" text-anchor="end">${v.toFixed(2)}</text>`; }
+  for (let i = 0; i <= 4; i++) { const v = x0 + (x1 - x0) * i / 4; s += `<text x="${X(v)}" y="${H - m.b + 16}" text-anchor="middle">${v.toFixed(1)}</text>`; }
+  s += `<text x="${(m.l + W - m.r) / 2}" y="${H - 8}" text-anchor="middle">${esc(xl)}</text><text transform="translate(14 ${(m.t + H - m.b) / 2}) rotate(-90)" text-anchor="middle">${esc(yl)}</text>`;
+  const LAB = new Set(D.labelled);
+  pts.forEach((p, i) => { s += `<circle cx="${X(p.x)}" cy="${Y(p.y)}" r="5.5" fill="var(--accent)" stroke="var(--panel)" stroke-width="2" data-i="${i}"/>`;
+    if (LAB.has(p.name)) { const right = X(p.x) > W*0.72; s += `<text class="lab" x="${X(p.x) + (right ? -9 : 9)}" y="${Y(p.y) + 4 + (p.dy||0)}" text-anchor="${right ? 'end' : 'start'}">${esc(p.short)}</text>`; }
+    s += `<circle cx="${X(p.x)}" cy="${Y(p.y)}" r="13" fill="transparent" data-i="${i}" class="hit"/>`; });
+  s += '</svg>' + (note ? `<p class="small" style="margin:6px 0 0">${note}</p>` : '');
+  const host = $(el); host.innerHTML = s;
+  host.querySelectorAll('.hit').forEach(c => { c.addEventListener('mousemove', e => { const p = pts[+c.dataset.i]; showTip(e, `<b>${esc(p.name)}</b><br>${esc(xl)}: ${p.x.toFixed(2)}<br>${esc(yl)}: ${p.y.toFixed(3)}<br>tablets: ${p.n}`, host); }); c.addEventListener('mouseleave', hideTip); });
+}
+scatter('#sc1', D.sc1, 'Overall centralization (PC1)', 'Proportion spread, within museum (MAD log h/w)', 'Proportion: centralization does not make tablets uniform', D.sc1note);
+scatter('#sc2', D.sc2, 'Polity reach (dimension A)', 'Silhouette spread, within museum (VAE distance)', 'Whole silhouette: wider polities, more varied tablets', D.sc2note);
+
+function lines(el, series, xlab, ylab, title, marks, reverseX, note) {
+  const W = 520, H = 320, m = {l:56, r:16, t:36, b:46};
+  const all = series.flatMap(s => s.pts);
+  let x0 = Math.min(...all.map(p => p[0])), x1 = Math.max(...all.map(p => p[0])); const y1 = Math.max(...all.map(p => p[1])) * 1.08;
+  const X = v => reverseX ? m.l + (x1 - v) / (x1 - x0) * (W - m.l - m.r) : m.l + (v - x0) / (x1 - x0) * (W - m.l - m.r);
+  const Y = v => H - m.b - v / y1 * (H - m.t - m.b);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(title)}"><text x="${m.l}" y="18" style="fill:var(--fg);font-weight:600;font-size:13px">${esc(title)}</text>`;
+  for (let i = 0; i <= 4; i++) { const v = y1 * i / 4; s += `<line x1="${m.l}" x2="${W - m.r}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--rule)"/><text x="${m.l - 6}" y="${Y(v) + 4}" text-anchor="end">${Math.round(v)}</text>`; }
+  const step = (x1 - x0) / 5; for (let i = 0; i <= 5; i++) { const v = x0 + step * i; s += `<text x="${X(v)}" y="${H - m.b + 16}" text-anchor="middle">${Math.round(v)}</text>`; }
+  s += `<text x="${(m.l + W - m.r) / 2}" y="${H - 8}" text-anchor="middle">${esc(xlab)}</text><text transform="translate(14 ${(m.t + H - m.b) / 2}) rotate(-90)" text-anchor="middle">${esc(ylab)}</text>`;
+  (marks || []).forEach(mk => { s += `<line x1="${X(mk[0])}" x2="${X(mk[0])}" y1="${m.t}" y2="${H - m.b}" stroke="var(--muted)" stroke-dasharray="3 3"/><text x="${X(mk[0]) + 3}" y="${m.t + 10}" style="font-size:10.5px">${esc(mk[1])}</text>`; });
+  const cols = ['var(--accent)', '#eb6834', '#1baf7a', '#6250d6'];
+  series.forEach((se, k) => { const d = se.pts.slice().sort((a, b) => a[0] - b[0]).map((p, i) => `${i ? 'L' : 'M'}${X(p[0]).toFixed(1)} ${Y(p[1]).toFixed(1)}`).join(''); s += `<path d="${d}" fill="none" stroke="${cols[k]}" stroke-width="2"/>`; });
+  s += '</svg><div class="legend">' + series.map((se, k) => `<span><span class="sw" style="background:${cols[k]}"></span>${esc(se.name)}</span>`).join('') + '</div>' + (note ? `<p class="small" style="margin:0">${note}</p>` : '');
+  $(el).innerHTML = s;
+}
+lines('#ur3prod', D.ur3series, 'Year BCE', 'Dated tablets in CDLI', 'Ur III production by province, year by year', D.ur3marks, true, D.ur3note);
+function bars(el, data, title, note) {
+  const W = 520, H = 320, m = {l:56, r:16, t:36, b:70};
+  const y1 = Math.max(...data.map(d => d.v)) * 1.1, bw = (W - m.l - m.r) / data.length;
+  const Y = v => H - m.b - v / y1 * (H - m.t - m.b);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(title)}"><text x="${m.l}" y="18" style="fill:var(--fg);font-weight:600;font-size:13px">${esc(title)}</text>`;
+  for (let i = 0; i <= 4; i++) { const v = y1 * i / 4; s += `<line x1="${m.l}" x2="${W - m.r}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--rule)"/><text x="${m.l - 6}" y="${Y(v) + 4}" text-anchor="end">${Math.round(v)}</text>`; }
+  data.forEach((d, i) => { const x = m.l + i * bw + 2; s += `<rect x="${x}" y="${Y(d.v)}" width="${bw - 4}" height="${H - m.b - Y(d.v)}" rx="3" fill="${d.persian ? '#eb6834' : 'var(--accent)'}" class="b" data-i="${i}"/><text transform="translate(${x + bw / 2 - 2} ${H - m.b + 10}) rotate(45)" style="font-size:10.5px">${esc(d.k)}</text>`; });
+  s += `<text transform="translate(14 ${(m.t + H - m.b) / 2}) rotate(-90)" text-anchor="middle">Dated tablets per regnal year</text></svg>` +
+       `<div class="legend"><span><span class="sw" style="background:var(--accent)"></span>Neo-Babylonian kings</span><span><span class="sw" style="background:#eb6834"></span>Achaemenid kings</span></div>` + (note ? `<p class="small" style="margin:0">${note}</p>` : '');
+  const host = $(el); host.innerHTML = s;
+  host.querySelectorAll('.b').forEach(r => { r.addEventListener('mousemove', e => { const d = data[+r.dataset.i]; showTip(e, `<b>${esc(d.k)}</b> (from ${d.start} BCE)<br>${d.v.toFixed(1)} dated tablets per year<br>tall share of photographed archival tablets: ${d.tall===null?'n/a':(100*d.tall).toFixed(0)+'%'}`, host); }); r.addEventListener('mouseleave', hideTip); });
+}
+bars('#nbprod', D.nb, 'Production by reign, 626 to 405 BCE', D.nbnote);
+function dots(el, data, title, note) {
+  const W = 1040, H = 250, m = {l:180, r:170, t:36, b:40};
+  const x0 = 1.0, x1 = 1.8; const X = v => m.l + (v - x0) / (x1 - x0) * (W - m.l - m.r);
+  const rowsY = data.map((d, i) => m.t + 18 + i * 44);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(title)}"><text x="${m.l}" y="18" style="fill:var(--fg);font-weight:600;font-size:13px">${esc(title)}</text>`;
+  for (let v = 1.0; v <= 1.81; v += 0.2) s += `<line x1="${X(v)}" x2="${X(v)}" y1="${m.t}" y2="${H - m.b}" stroke="var(--rule)"/><text x="${X(v)}" y="${H - m.b + 16}" text-anchor="middle">${v.toFixed(1)}</text>`;
+  s += `<text x="${(m.l + W - m.r) / 2}" y="${H - 6}" text-anchor="middle">Median height-to-width ratio of legal documents</text>`;
+  data.forEach((d, i) => { const y = rowsY[i]; s += `<text x="${m.l - 10}" y="${y + 4}" text-anchor="end" class="lab">${esc(d.k)}</text>`;
+    s += `<line x1="${X(d.pre)}" x2="${X(d.post)}" y1="${y}" y2="${y}" stroke="var(--muted)" stroke-width="2"/>`;
+    s += `<circle cx="${X(d.pre)}" cy="${y}" r="6" fill="var(--panel)" stroke="var(--accent)" stroke-width="2"/><circle cx="${X(d.post)}" cy="${y}" r="6" fill="var(--accent)" stroke="var(--panel)" stroke-width="2"/>`;
+    s += `<text x="${X(Math.max(d.pre, d.post)) + 12}" y="${y + 4}" style="font-size:11px">${d.pre.toFixed(2)} → ${d.post.toFixed(2)} (n ${d.npre} → ${d.npost})</text>`; });
+  s += `</svg><div class="legend"><span><span class="sw" style="background:var(--panel);border:2px solid var(--accent)"></span>before 1763 BCE</span><span><span class="sw" style="background:var(--accent)"></span>1763 to 1712 BCE</span></div>` + (note ? `<p class="small" style="margin:0">${note}</p>` : '');
+  $(el).innerHTML = s;
+}
+dots('#hmb', D.hmb, 'Legal documents, kingdom of Larsa (south) and kingdom of Babylon (north)', D.hmbnote);
+</script>

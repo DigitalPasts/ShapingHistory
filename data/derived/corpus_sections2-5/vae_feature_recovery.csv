@@ -1,0 +1,13 @@
+feature,description,R2_from_VAE
+hw,"proportion (height ÷ width, obverse)",0.84
+thick_side,thickness at the sides ÷ width,0.76
+thick_end,thickness at top and bottom ÷ width,0.71
+rect,rectangularity of the obverse,0.41
+corner_fill,squareness of the corners (obverse),0.4
+rev_corner_fill,squareness of the corners (reverse),0.4
+taper,taper (top width ÷ bottom width),0.3
+end_bulge,bulge of the short sides,0.3
+side_bulge,bulge of the long sides,0.28
+circ,roundness of the outline,0.1
+solidity,regularity of the outline (no notches or breaks),0.06
+rev_obv,reverse larger than obverse,0.04

@@ -1,0 +1,12 @@
+region,phase,type,n,med_hw
+north,post,achat,12,1.66
+north,post,embauche,6,1.24
+north,pre,achat,10,1.75
+south,post,achat,14,1.625
+south,post,estimation forfaitaire,13,1.35
+south,post,fermage,8,1.625
+south,post,prêt autre,5,1.36
+south,pre,achat,22,1.625
+south,pre,dépense,6,0.795
+south,pre,héritage,5,2.26
+south,pre,prêt autre,5,1.26

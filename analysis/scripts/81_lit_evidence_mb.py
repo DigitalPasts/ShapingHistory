@@ -1,0 +1,38 @@
+"""Literature evidence for the centralization codebook: Middle Babylonian / Kassite (c. 1475-1155 BC). Format as 81_lit_evidence_ur3.py."""
+P='Middle Babylonian'
+K='paulusKassiteBabylonia2022'  # Paulus, S. 2022. Kassite Babylonia. OHANE III, ch. 33, 801-868.
+E=[
+ dict(param='TERR',score=2,stance='supports',key=K,where='OHANE III, ch. 33, §33.6, p. 857',
+  quote="the inclusion of individual Kassite groups in the Babylonian armies during the later Old Babylonian period was followed by their conquest of Babylonia, the Zagros regions, and the Sealand."),
+ dict(param='TERR',score=3,stance='qualifies',key=K,where='OHANE III, ch. 33, §33.4, pp. 844-845',
+  quote="In addition, Babylonia may have exercised some level of control over the strategically important areas further up the Euphrates, including Suhu. There is also evidence that Babylonia controlled the island of Dilmun (modern Bahrain) in the Persian Gulf, at least until the Middle Kassite period."),
+ dict(param='HIER',score=2,stance='supports',key=K,where='OHANE III, ch. 33, §33.4, p. 844',
+  quote="As an innovation of the Kassite period, the territories of the kingdom were organized into provinces. These administrative units were under the control of a governor (šakin māti) and often were created around an established city as its center ... In the east, entirely new administrative structures seem to have been created"),
+ dict(param='HIER',score=3,stance='qualifies',key=K,where='OHANE III, ch. 33, §33.4, p. 844',
+  quote="it is possible to identify several key members of the royal court beyond the royal family: these include the sukkalmahhu (the highest-ranking official in the state administration, whose title is often translated as “vizier”), the herald of the land, the sakrumaš ... various officials with the title sukkallu ... and various royal courtiers with the title ša rēši.",
+  note='Paulus also stresses that "precious little is revealed about the administration of the kingdom" (p. 843).'),
+ dict(param='FISC',score=2,stance='supports',key=K,where='OHANE III, ch. 33, §33.4, pp. 845-846',
+  quote="the provincial administration managed the agricultural production, administered large herds of sheep, goats, and cattle, and collected the dues from dependent villages, taxing principally the agricultural production, especially grain, sesame, dates, and livestock ... The inhabitants of the villages owed the provincial administration also additional duties called ilku and tupšikku, which consisted of public work and military service."),
+ dict(param='PAL',score=2,stance='supports',key=K,where='OHANE III, ch. 33, §33.1, p. 805',
+  quote="excavations have yielded over 15,000 archival documents of economic and legal content, including letters and memos, dating to the Kassite period. Written by the scribes of palatial, temple, and provincial administrations, such documents have been found primarily in Nippur, but also in the northern royal residence city of Dur-Kurigalzu"),
+ dict(param='TEMP',score=2,stance='supports',key=K,where='OHANE III, ch. 33, §33.4, p. 843',
+  quote="The southern city of Nippur, as the seat of the god Enlil, was of great religious and also economic importance, as were Akkad and Ešnunna in the north."),
+ dict(param='TCTL',score=1,stance='supports',key=K,where='OHANE III, ch. 33, §33.4, p. 843',
+  quote="Legitimized by the gods, the king was the ultimate earthly authority in Babylonia. He served as the highest judge and as the most important provider for the gods, as made visible in a multitude of building projects and donations."),
+ dict(param='PRIV',score=1,stance='supports',key=K,where='OHANE III, ch. 33, §33.1, p. 805',
+  quote="These texts from institutional contexts give valuable information about the provincial administration, taxation, agriculture, craft production, and trade. They are complemented by private archives from Babylon, Nippur, Ur, Tell Imlihiye, and Tell Muhammad"),
+ dict(param='PRIV',score=2,stance='qualifies',key=K,where='OHANE III, ch. 33, §33.1, p. 805; §33.6, p. 857',
+  quote="The monuments typically called kudurru are stone steles that were created to protect real estate property rights ... the system of land donations and the connected kudurru inscriptions survived until the end of the seventh century bc."),
+ dict(param='BUR',score=2,stance='supports',key=K,where='OHANE III, ch. 33, §33.6, p. 857',
+  quote="Babylonia was divided into provinces—a novel administrative system that helped to overcome the power structures of the old cities. The provincial administration controlled artificial irrigation and agricultural production, and collected taxes from villages to finance craft production and a large labor force."),
+ dict(param='SCHOOL',score=2,stance='supports',key=K,where='OHANE III, ch. 33, §33.1, p. 807; §33.6, p. 857',
+  quote="Scholarly compositions and school texts are well attested during the Kassite period and have recently received renewed scholarly attention ... From what we know, literature, science, and education flourished, and Babylonian scholars were valued as experts all over the Middle East."),
+ dict(param='LAW',score=1,stance='supports',key=K,where='OHANE III, ch. 33, §33.4, p. 843',
+  quote="He served as the highest judge and as the most important provider for the gods",
+  note='No Kassite law collection.'),
+ dict(param='STD',score=2,stance='supports',key=K,where='OHANE III, ch. 33, §33.1, p. 804',
+  quote="The practice of assigning to each year a name that commemorates an important event ... was abandoned under Burna-Buriaš II (1359–1333 bc) in favor of a continuous count of regnal years"),
+]
+GAPS={'BUR':'Brinkman 2004 (Administration and society in Kassite Babylonia, JAOS 124); Sassmannshausen 2001 (Beiträge zur Verwaltung ... Babyloniens in der Kassitenzeit); Devecchi 2020',
+      'SCHOOL':'Bartelmus 2016 (Fragmente einer großen Sprache)','COMM':'no statement in OHANE III ch. 33',
+      'TCTL':'the governor of Nippur (šandabakku) and the temple economy: Sassmannshausen 2001'}

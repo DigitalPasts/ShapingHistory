@@ -1,0 +1,9 @@
+period,label,n,groups,eta2,null95,p
+Old Babylonian,type,2064,29,0.169,0.018,0.0
+Old Babylonian,archive,293,6,0.061,0.038,0.0
+Old Babylonian,city,1862,19,0.102,0.015,0.0
+Old Babylonian,reign,872,16,0.04,0.03,0.0
+Neo-Babylonian/Achaemenid,sub,389,7,0.029,0.033,0.09
+Neo-Babylonian/Achaemenid,Type,571,3,0.037,0.009,0.0
+Neo-Babylonian/Achaemenid,arch,486,5,0.057,0.019,0.0
+Neo-Babylonian/Achaemenid,place,515,6,0.051,0.021,0.0

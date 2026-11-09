@@ -1,0 +1,51 @@
+period,param,region,region_score_band,region_lo,region_hi,cell_score_final,cell_status
+ED IIIa,TERR,north (Kiš),2,2.0,2.0,1.0,agreed
+ED IIIa,TERR,south,1-1.5,1.0,1.5,1.0,agreed
+ED IIIa,HIER,south,1.5,1.5,1.5,1.5,agreed
+ED IIIa,FISC,north (Kiš),2,2.0,2.0,2.0,agreed
+ED IIIa,FISC,south,2,2.0,2.0,2.0,agreed
+ED IIIa,PAL,north (Kiš),2.5,2.5,2.5,2.0,agreed
+ED IIIa,TEMP,north (Kiš),1.5,1.5,1.5,2.5,agreed
+ED IIIa,PRIV,north (Kiš),1-2,1.0,2.0,1.0,agreed
+ED IIIb,HIER,Lagaš,2,2.0,2.0,2.0,agreed
+Middle Babylonian,TERR,Zagros,2-2.5,2.0,2.5,2.0,agreed
+Achaemenid,TERR,Asia Minor,2.5,2.5,2.5,3.0,agreed
+Achaemenid,TERR,Cyprus,2.5,2.5,2.5,3.0,agreed
+Achaemenid,HIER,Babylonia,2-3,2.0,3.0,3.0,agreed
+Achaemenid,HIER,Persepolis,3,3.0,3.0,3.0,agreed
+Achaemenid,FISC,Babylonia,3,3.0,3.0,2.5,adjudicated
+Achaemenid,COMM,Persepolis,3,3.0,3.0,3.0,agreed
+Achaemenid,PAL,Babylonia,1.5-2,1.5,2.0,3.0,agreed
+Achaemenid,PAL,Persepolis,3,3.0,3.0,3.0,agreed
+Achaemenid,TEMP,Babylonia,2-2.5,2.0,2.5,2.0,agreed
+Achaemenid,TEMP,Persepolis,1,1.0,1.0,2.0,agreed
+Achaemenid,TCTL,Babylonia,2.5-3,2.5,3.0,3.0,agreed
+Achaemenid,TCTL,Persepolis,3,3.0,3.0,3.0,agreed
+Achaemenid,PRIV,Babylonia,2-3,2.0,3.0,2.0,agreed
+Achaemenid,BUR,Babylonia,2,2.0,2.0,3.0,agreed
+Achaemenid,BUR,Bactria,3,3.0,3.0,3.0,agreed
+Achaemenid,BUR,Persepolis,3,3.0,3.0,3.0,agreed
+Achaemenid,SCHOOL,Babylonia,1-1.5,1.0,1.5,1.5,agreed
+Achaemenid,SCHOOL,Bactria,2.5,2.5,2.5,1.5,agreed
+Achaemenid,LAW,Babylonia,2.5-3,2.5,3.0,2.5,agreed
+Achaemenid,LAW,Egypt,2.5,2.5,2.5,2.5,agreed
+Achaemenid,STD,Babylonia,2.5,2.5,2.5,2.5,agreed
+Achaemenid,STD,Bactria,2.5,2.5,2.5,2.5,agreed
+Achaemenid,STD,Persepolis,2,2.0,2.0,2.5,agreed
+Hellenistic,FISC,Uruk,3,3.0,3.0,3.0,agreed
+Hellenistic,TCTL,Babylon,2,2.0,2.0,2.0,agreed
+Hellenistic,TCTL,Uruk,2.5,2.5,2.5,2.0,agreed
+Hellenistic,SCHOOL,Uruk,1-1.5,1.0,1.5,2.0,adjudicated
+Hittite,TERR,Empire,3,3.0,3.0,3.0,agreed
+Hittite,TERR,Old Kingdom,2,2.0,2.0,3.0,agreed
+Hittite,HIER,Empire,2.5-3,2.5,3.0,2.5,agreed
+Hittite,HIER,Old Kingdom,1,1.0,1.0,2.5,agreed
+Hittite,FISC,Empire,2,2.0,2.0,2.0,agreed
+Hittite,FISC,Old Kingdom,2.5,2.5,2.5,2.0,agreed
+Hittite,PAL,Empire,2.5,2.5,2.5,2.5,agreed
+Hittite,TEMP,Empire,1.5,1.5,1.5,2.0,agreed
+Hittite,TCTL,Empire,2.5,2.5,2.5,2.5,agreed
+Hittite,BUR,Empire,2,2.0,2.0,1.0,agreed
+Hittite,BUR,Old Kingdom,1-2,1.0,2.0,1.0,agreed
+Hittite,LAW,Empire,2.5,2.5,2.5,3.0,agreed
+Hittite,STD,Empire,2,2.0,2.0,2.0,agreed

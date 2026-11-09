@@ -1,0 +1,25 @@
+space,label,group,n,n_museums,ratio,p
+cos,archive,Larsa/?/Hammu-rabi/Šamaš-hazir,62,3,0.839,0.000
+cos,date,1792-1750 (Hammurabi),214,7,0.957,0.006
+cos,date,1810-1793,96,3,0.982,0.298
+cos,date,before 1810,173,5,0.985,0.230
+cos,date,after 1750,552,9,0.988,0.102
+cos,site,larsa,135,5,0.923,0.002
+cos,site,kish,100,4,0.982,0.278
+cos,site,sippar,424,5,0.992,0.290
+cos,site,dilbat,41,3,1.071,0.872
+cos,type,prêt à intérêt,47,2,0.776,0.000
+cos,type,quittance,19,2,0.786,0.020
+cos,type,prêt autre,92,3,0.797,0.000
+cos,type,reçu,155,5,0.829,0.000
+cos,type,location,79,3,0.857,0.000
+cos,type,liste de personnes,72,3,0.857,0.004
+cos,type,quantités + noms propres,43,3,0.903,0.058
+cos,type,achat,116,6,0.935,0.030
+cos,type,fermage,24,2,0.953,0.306
+cos,type,lettre,396,8,0.955,0.002
+cos,type,apport,35,2,0.969,0.348
+cos,type,compte récapitulatif,69,4,0.982,0.352
+cos,type,dépense,189,7,1.003,0.532
+cos,type,attribution de ration,37,2,1.104,0.898
+cos,type,gestion de personnel,35,2,1.299,1.000

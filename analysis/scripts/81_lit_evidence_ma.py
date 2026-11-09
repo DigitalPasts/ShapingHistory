@@ -1,0 +1,40 @@
+"""Literature evidence for the centralization codebook: Middle Assyrian (c. 1400-1050 BC). Format as 81_lit_evidence_ur3.py.
+Postgate 2001 entries for this period are in 81_lit_evidence_cross.py."""
+P='Middle Assyrian'
+R='reculeauAssyriaLateBronze2022'  # Reculeau, H. 2022. Assyria in the Late Bronze Age. OHANE III, ch. 32, 707-800.
+E=[
+ dict(param='TERR',score=3,stance='supports',key=R,where='OHANE III, ch. 32, §32.5.2, pp. 751-752',
+  quote="The integration of Hanigalbat into Assyria led to the systematic organization of the kingdom into a provincial system that would become the “backbone of [its] administrative organisation.” ... Thanks to the integration of Mittani into Assyria, the number of provinces drastically expanded in the west under Shalmaneser."),
+ dict(param='TERR',score=2,stance='contests',key=R,where='OHANE III, ch. 32, §32.7, p. 784',
+  quote="Debates focus on the nature of Middle Assyrian dominion in the Syrian Jezirah: either as a “network empire” of interconnected Assyrian strongholds embedded in a local “Hurrian” native population; a “territorial empire” with complete control of the land through a hierarchy of provinces; or a “patchwork empire” ... In many respects, though, the idea of “proto-imperialism” appears anachronistic",
+  note='Explicit three-way scholarly debate (network vs territorial vs patchwork empire).'),
+ dict(param='HIER',score=3,stance='supports',key=R,where='OHANE III, ch. 32, §32.5.2, pp. 751-754',
+  quote="the terminology used to describe “provinces” (pāhutu) or “districts” (halṣu) and their officials-in-charge (the bēl pāhete and halṣuhlu/hassihlu, respectively, to which would be added the “prefect,” šaknu) does not appear in texts before the reign of Adad-nerari I ... Another innovation of Shalmaneser I was the creation of the office of grand vizier (sukkallu rabiʾu) ... In the west, local viziers ... were subordinated to the grand vizier"),
+ dict(param='HIER',score=3,stance='supports',key=R,where='OHANE III, ch. 32, §32.7, p. 785',
+  quote="At the lowest echelon of cities, towns, and villages, the royal administration was served by the haziʾānu (poorly translated as “mayor”) who, contrary to what the etymology of the term might suggest, did not represent local interests to the king, but the other way around."),
+ dict(param='HIER',score=2,stance='qualifies',key=R,where='OHANE III, ch. 32, §32.5.2, p. 754; §32.7, p. 784',
+  quote="attests to an unprecedented degree of personalization of power ... it was also the heir to a long Upper Mesopotamian tradition that privileged man-to-man relations of power over territorial control."),
+ dict(param='FISC',score=2,stance='supports',key=R,where='OHANE III, ch. 32, §32.7, p. 785',
+  quote="The same applies to the relationship of Assyrian subjects to their king through service to the crown (ilku) ... It is, however, better understood as part of a contractual relationship, in which service is contributed in exchange for land and/or provisions"),
+ dict(param='FISC',score=3,stance='supports',key=R,where='OHANE III, ch. 32, §32.5, p. 736',
+  quote="Some thirteenth-century documents also form the earliest texts of archives which are better documented for later periods, such as the archive of the House of Offerings to the god Aššur, that of the chief steward (abarakku rabiʾu)—an office responsible for provisioning the court with raw materials",
+  note='The provincial ginā’u offerings to Aššur (Postgate) are the centrally recorded levy; specialist source needed.'),
+ dict(param='COMM',score=2,stance='supports',key=R,where='OHANE III, ch. 32, §32.5.2, p. 755',
+  quote="These and the king’s representatives supervised stocks and personnel, and acted as messengers for the local officials in charge."),
+ dict(param='PAL',score=3,stance='supports',key=R,where='OHANE III, ch. 32, §32.5.2, p. 755',
+  quote="the king” (qēpūtu ša šarre) controlled activities of direct interest to the crown, such as agrarian production ... The entire kingdom was the king’s royal household, inside of which the households of vassal kings and courtiers were “nested,” while having their own legal and practical autonomy."),
+ dict(param='TCTL',score=3,stance='supports',key=R,where='OHANE III, ch. 32, §32.5.2, p. 751; §32.7, p. 785',
+  quote="possibly related to the role of the king as high priest of Aššur ... coupled with its unique status as a city (later kingdom) coterminous with a god"),
+ dict(param='PRIV',score=2,stance='supports',key=R,where='OHANE III, ch. 32, §32.4, p. 721; §32.5, p. 736',
+  quote="For the first time, cuneiform archives recovered in private houses shed some light on the life of the urban elites ... the archive of Aššur-kašid and his son Sin-apla-eriš, who successively acted as governor (hassihlu) of Šibanibe (modern Tell Billa), and whose archive shows them acting both in a public and private capacity."),
+ dict(param='BUR',score=3,stance='supports',key=R,where='OHANE III, ch. 32, §32.5, p. 736',
+  quote="From the reign of Tukulti-Ninurta I, official archives have also been recovered in his new, eponymous city, Kar-Tukulti-Ninurta, as well as in various provincial centers."),
+ dict(param='LAW',score=3,stance='supports',key=R,where='OHANE III, ch. 32, §32.4, p. 721',
+  quote="eleventh-century copies preserve fourteenth-century laws covering various legal matters, grouped by subject on fourteen tablets ... Another compilation preserves palace decrees regulating life at the Assyrian court, most prominently that of the women of the royal harem"),
+ dict(param='STD',score=2,stance='supports',key=R,where='OHANE III, ch. 32, §32.2, p. 710',
+  quote="the Assyrian official year, which was named after an eponym (limmu) who changed every year, followed the solar cycle, whereas the administrative calendar followed the lunar cycle",
+  note='Eponym dating polity-wide; whether the calendar was purely lunar is debated (Reculeau p. 711).'),
+]
+GAPS={'SCHOOL':'Middle Assyrian scribal training at Assur and Dur-Katlimmu: Wiggermann 2008; Jakob 2003 (Mittelassyrische Verwaltung und Sozialstruktur)',
+      'BUR':'Postgate 2013 (Bronze Age Bureaucracy) chs on Middle Assyria; Jakob 2003',
+      'FISC':'ginā’u offerings to Aššur: Postgate 2013; Freydank 1997','TEMP':'temple of Aššur as institution: Postgate 2013'}

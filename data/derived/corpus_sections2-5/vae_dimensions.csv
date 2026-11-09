@@ -1,0 +1,13 @@
+dim,R2_from_descriptors,top
+X1,0.27,"hw +0.48, rect +0.30, side_bulge -0.27"
+X2,0.79,"hw -0.90, thick_side -0.27, thick_end -0.14"
+X3,0.56,"thick_side -0.67, thick_end -0.62, hw -0.45"
+X4,0.28,"thick_side -0.45, thick_end -0.40, corner_fill -0.30"
+X5,0.18,"thick_end +0.28, thick_side +0.27, circ +0.23"
+X6,0.16,"thick_end -0.27, thick_side -0.26, rect +0.18"
+X7,0.48,"hw +0.67, side_bulge -0.31, rect +0.29"
+X8,0.35,"hw +0.41, thick_end -0.30, thick_side -0.22"
+X9,0.5,"hw -0.46, thick_end +0.38, thick_side +0.22"
+X10,0.48,"thick_side +0.59, thick_end +0.54, hw +0.48"
+X11,0.33,"hw -0.38, rect -0.37, side_bulge +0.33"
+X12,0.58,"rev_corner_fill +0.66, corner_fill +0.65, rect +0.65"

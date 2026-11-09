@@ -1,0 +1,8 @@
+model,acc,macroF1_all,macroF1_collapsed
+tree depth 4,0.389,0.057,0.09
+tree depth 6,0.389,0.06,0.094
+tree depth 8,0.389,0.067,0.099
+tree depth 10,0.389,0.067,0.1
+tree depth None,0.391,0.068,0.102
+majority (Ur III),0.301,0.021,0.033
+"random, train frequencies",0.191,0.043,0.071

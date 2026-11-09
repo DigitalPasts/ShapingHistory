@@ -1,0 +1,9 @@
+outcome,index,b_per_sd,se_cluster,t,p_wcr,mean_outcome,n_tablets
+dev_period,A_polity_reach,-0.00643,0.00922,-0.69808,0.5426,0.19195,51420
+dev_period,B_institutional_economy,-0.02489,0.00823,-3.02571,0.124,0.19195,51420
+dev_period,C_control_of_writing,-0.01587,0.00862,-1.84022,0.233,0.19195,51420
+dev_period,mean_all,-0.01662,0.00901,-1.84489,0.2036,0.19195,51420
+dev_pm,A_polity_reach,-0.005,0.00905,-0.55298,0.6338,0.18591,51420
+dev_pm,B_institutional_economy,-0.02186,0.00779,-2.80415,0.1754,0.18591,51420
+dev_pm,C_control_of_writing,-0.01399,0.00839,-1.66648,0.2644,0.18591,51420
+dev_pm,mean_all,-0.01434,0.00876,-1.63731,0.2485,0.18591,51420

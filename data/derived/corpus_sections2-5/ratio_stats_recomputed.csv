@@ -1,0 +1,83 @@
+source,genre,period,n,median,IQR,CV,rel_IQR,MAD_log,share_portrait
+physical,all,Uruk IV,1808,1.276,0.455,0.319,0.356,0.164,0.743
+physical,admin,Uruk IV,1795,1.276,0.455,0.319,0.356,0.164,0.743
+physical,all,Uruk III,4985,1.192,0.559,0.502,0.469,0.236,0.675
+physical,admin,Uruk III,4299,1.231,0.575,0.504,0.467,0.231,0.704
+physical,all,Proto-Elamite,1457,1.333,0.415,0.279,0.311,0.15,0.806
+physical,admin,Proto-Elamite,1335,1.341,0.399,0.275,0.298,0.142,0.817
+physical,all,ED I-II,457,1.733,0.856,0.519,0.494,0.243,0.941
+physical,admin,ED I-II,417,1.75,0.824,0.513,0.471,0.231,0.957
+physical,all,ED IIIa,414,1.559,0.828,0.406,0.531,0.259,0.754
+physical,admin,ED IIIa,356,1.65,0.866,0.395,0.525,0.196,0.775
+physical,all,ED IIIb,1895,1.033,0.243,0.363,0.235,0.093,0.575
+physical,admin,ED IIIb,1736,1.031,0.233,0.318,0.226,0.086,0.569
+physical,all,Ebla,3229,1.026,0.526,0.569,0.513,0.204,0.523
+physical,admin,Ebla,3199,1.026,0.535,0.57,0.521,0.206,0.524
+physical,all,Old Akkadian,3397,1.28,0.476,0.321,0.372,0.178,0.831
+physical,admin,Old Akkadian,3026,1.29,0.474,0.312,0.367,0.172,0.851
+physical,all,Lagash II,274,1.305,1.294,0.605,0.991,0.462,0.668
+physical,admin,Lagash II,65,1.462,0.885,0.44,0.605,0.281,0.923
+physical,all,Ur III,22504,1.125,0.189,0.251,0.168,0.083,0.805
+physical,admin,Ur III,21655,1.125,0.185,0.244,0.165,0.081,0.806
+physical,all,Early Old Babylonian,2560,1.268,0.391,0.274,0.309,0.142,0.886
+physical,admin,Early Old Babylonian,1918,1.25,0.348,0.233,0.278,0.125,0.905
+physical,all,Old Babylonian,15884,1.282,0.589,0.342,0.459,0.221,0.787
+physical,admin,Old Babylonian,11493,1.267,0.565,0.313,0.446,0.208,0.804
+physical,all,Old Assyrian,1124,1.106,0.515,0.536,0.465,0.207,0.594
+physical,admin,Old Assyrian,556,1.167,0.877,0.374,0.752,0.306,0.631
+physical,all,Middle Assyrian,1056,1.11,0.645,0.5,0.581,0.278,0.562
+physical,admin,Middle Assyrian,285,1.923,1.067,0.377,0.555,0.223,0.818
+physical,all,Middle Babylonian,3023,1.0,0.581,0.46,0.581,0.264,0.488
+physical,admin,Middle Babylonian,2282,0.945,0.552,0.471,0.584,0.239,0.421
+physical,all,Middle Elamite,601,0.863,0.626,0.74,0.726,0.292,0.398
+physical,admin,Middle Elamite,440,0.765,0.376,0.552,0.492,0.206,0.255
+physical,all,Hittite,161,1.0,0.474,0.505,0.474,0.236,0.484
+physical,admin,Hittite,21,1.078,0.518,0.328,0.48,0.156,0.667
+physical,all,Neo-Assyrian,3379,1.158,0.973,0.539,0.841,0.394,0.586
+physical,admin,Neo-Assyrian,832,2.125,0.753,0.361,0.355,0.166,0.844
+physical,all,Neo-Babylonian,7133,0.741,0.315,0.807,0.425,0.106,0.242
+physical,admin,Neo-Babylonian,5995,0.732,0.131,0.768,0.179,0.082,0.188
+physical,all,Achaemenid,1718,0.786,0.214,0.785,0.272,0.092,0.233
+physical,admin,Achaemenid,1039,0.788,0.298,0.642,0.378,0.089,0.252
+physical,all,Hellenistic,453,0.9,0.265,0.412,0.295,0.095,0.325
+physical,admin,Hellenistic,37,1.167,0.231,0.265,0.198,0.095,0.73
+pixel,all,Uruk IV,108,1.365,0.157,0.146,0.115,0.06,0.926
+pixel,admin,Uruk IV,108,1.365,0.157,0.146,0.115,0.06,0.926
+pixel,all,Uruk III,817,1.32,0.5,0.294,0.379,0.182,0.77
+pixel,admin,Uruk III,783,1.33,0.495,0.286,0.372,0.172,0.78
+pixel,all,Proto-Elamite,800,1.1,0.503,0.391,0.457,0.235,0.601
+pixel,admin,Proto-Elamite,800,1.1,0.503,0.391,0.457,0.235,0.601
+pixel,all,ED I-II,234,1.11,0.37,0.291,0.333,0.158,0.62
+pixel,admin,ED I-II,220,1.11,0.36,0.29,0.324,0.158,0.618
+pixel,all,ED IIIa,434,1.02,0.068,0.203,0.066,0.034,0.636
+pixel,admin,ED IIIa,334,1.02,0.06,0.162,0.059,0.03,0.662
+pixel,all,ED IIIb,1680,1.03,0.19,0.315,0.184,0.093,0.618
+pixel,admin,ED IIIb,1369,1.03,0.11,0.216,0.107,0.057,0.654
+pixel,all,Ebla,459,1.04,0.37,0.486,0.356,0.151,0.651
+pixel,admin,Ebla,456,1.04,0.37,0.487,0.356,0.151,0.651
+pixel,all,Old Akkadian,2788,1.15,0.39,0.306,0.339,0.168,0.719
+pixel,admin,Old Akkadian,2507,1.16,0.375,0.29,0.323,0.159,0.736
+pixel,all,Lagash II,594,0.5,0.598,0.631,1.195,0.357,0.242
+pixel,admin,Lagash II,120,1.135,0.39,0.277,0.344,0.158,0.683
+pixel,all,Ur III,27849,1.12,0.18,0.242,0.161,0.077,0.823
+pixel,admin,Ur III,26442,1.12,0.17,0.238,0.152,0.074,0.828
+pixel,all,Early Old Babylonian,1937,1.11,0.61,0.441,0.55,0.253,0.62
+pixel,admin,Early Old Babylonian,353,1.14,0.32,0.277,0.281,0.124,0.81
+pixel,all,Old Babylonian,16814,1.17,0.54,0.346,0.462,0.221,0.705
+pixel,admin,Old Babylonian,4522,1.1,0.46,0.334,0.418,0.205,0.666
+pixel,all,Old Assyrian,1502,0.98,0.36,0.315,0.367,0.178,0.464
+pixel,admin,Old Assyrian,77,0.91,0.35,0.305,0.385,0.193,0.403
+pixel,all,Middle Assyrian,1507,0.97,0.42,0.329,0.433,0.213,0.465
+pixel,admin,Middle Assyrian,304,0.955,0.402,0.332,0.421,0.194,0.431
+pixel,all,Middle Babylonian,6048,0.98,0.54,0.383,0.551,0.243,0.478
+pixel,admin,Middle Babylonian,3965,0.94,0.5,0.35,0.532,0.226,0.433
+pixel,all,Middle Elamite,194,0.68,0.508,0.511,0.746,0.365,0.18
+pixel,admin,Middle Elamite,19,0.51,0.245,0.377,0.48,0.243,0.053
+pixel,all,Hittite,126,1.115,0.465,0.333,0.417,0.228,0.579
+pixel,all,Neo-Assyrian,23406,1.08,0.59,0.405,0.546,0.274,0.579
+pixel,admin,Neo-Assyrian,477,1.21,0.77,0.401,0.636,0.318,0.642
+pixel,all,Neo-Babylonian,4803,0.81,0.44,0.424,0.543,0.19,0.329
+pixel,admin,Neo-Babylonian,1391,0.75,0.2,0.402,0.267,0.101,0.214
+pixel,all,Achaemenid,1795,0.82,0.15,0.307,0.183,0.089,0.153
+pixel,admin,Achaemenid,473,0.79,0.15,0.3,0.19,0.093,0.118
+pixel,all,Hellenistic,249,0.91,0.21,0.507,0.231,0.104,0.293

@@ -1,0 +1,438 @@
+<title>Centralization Assessment Desk</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a reading desk. Sticky top bar (views + periods), left rail = the period's 12 cells as a matrix, right = the open cell with its evidence. Everything wraps; nothing scrolls sideways. */
+:root{
+  --bg:#f3f4f6; --panel:#ffffff; --ink:#1d2330; --muted:#5b6475; --rule:#d9dde5; --soft:#e9ecf2;
+  --lapis:#2c4f9e; --lapis-soft:#e3e9f7; --ochre:#9a6a12; --ochre-soft:#f6ecd6;
+  --ok:#2f7a4a; --ok-soft:#e1f1e6; --bad:#a3392f; --bad-soft:#f6e1de;
+  --r-south:#2c4f9e; --r-north:#b0582a; --r-3:#3f8a7c; --r-4:#7a4e9e; --r-none:#6b7385;
+  --serif:"Literata", Georgia, "Times New Roman", serif; --sans:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; --mono:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#12151b; --panel:#1a1e26; --ink:#e6e9ef; --muted:#9aa3b5; --rule:#2e3442; --soft:#232835;
+  --lapis:#8eaaf0; --lapis-soft:#22304f; --ochre:#e0b35c; --ochre-soft:#3a2f18;
+  --ok:#7cc796; --ok-soft:#1d3426; --bad:#ec8a80; --bad-soft:#3d2220;
+  --r-south:#8eaaf0; --r-north:#ec9b6c; --r-3:#7fcfbf; --r-4:#c3a0ea; --r-none:#9aa3b5; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#12151b; --panel:#1a1e26; --ink:#e6e9ef; --muted:#9aa3b5; --rule:#2e3442; --soft:#232835;
+  --lapis:#8eaaf0; --lapis-soft:#22304f; --ochre:#e0b35c; --ochre-soft:#3a2f18;
+  --ok:#7cc796; --ok-soft:#1d3426; --bad:#ec8a80; --bad-soft:#3d2220;
+  --r-south:#8eaaf0; --r-north:#ec9b6c; --r-3:#7fcfbf; --r-4:#c3a0ea; --r-none:#9aa3b5; color-scheme:dark}
+*{box-sizing:border-box}
+html,body{background:var(--bg);color:var(--ink)}
+body{font-family:var(--sans);font-size:14px;line-height:1.5;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 48px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+a{color:var(--lapis)}
+button,select,textarea,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
+.top{background:var(--bg);padding-block:12px 8px;border-bottom:1px solid var(--rule);display:grid;gap:8px}
+.brand{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 16px}
+.brand h1{font-family:var(--serif);font-weight:600;font-size:20px;margin:0;text-wrap:balance}
+.brand .sub{color:var(--muted);font-size:13px}
+.views{display:flex;flex-wrap:wrap;gap:6px}
+.views button,.pchip{border:1px solid var(--rule);background:var(--panel);border-radius:6px;padding:4px 10px;cursor:pointer}
+.views button[aria-pressed="true"],.pchip[aria-pressed="true"]{background:var(--lapis);border-color:var(--lapis);color:var(--panel)}
+.periods{display:flex;flex-wrap:wrap;gap:4px}
+.pchip{font-size:12.5px;padding:3px 8px;display:inline-flex;gap:6px;align-items:center}
+.pchip .prog{font-family:var(--mono);font-size:11px;opacity:.75}
+.pchip.si{border-style:dashed}
+.status{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12.5px;color:var(--muted);align-items:center}
+.status b{color:var(--ink);font-weight:600}
+.save-ok{color:var(--ok)} .save-local{color:var(--ochre)}
+main{display:grid;gap:16px;margin-top:16px}
+main[hidden]{display:none}
+main>*{min-width:0}
+.band{background:var(--panel);border:1px solid var(--rule);border-radius:8px;padding:14px 16px;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:16px}
+.band h2{font-family:var(--serif);font-size:22px;margin:0 0 2px;font-weight:600}
+.band .span{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.band p{margin:.4em 0 0;max-width:68ch}
+.inv{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:8px}
+.inv td,.inv th{border-top:1px solid var(--rule);padding:4px 6px;text-align:left;vertical-align:top}
+.inv th{font-weight:500;color:var(--muted);font-size:11.5px;text-transform:uppercase;letter-spacing:.04em}
+.kind{font-family:var(--mono);font-size:11.5px}
+.map svg{width:100%;height:auto;display:block;max-width:100%}
+.map .cap{font-size:11.5px;color:var(--muted)}
+.desk{display:grid;grid-template-columns:270px minmax(0,1fr);gap:16px;align-items:start}
+.rail{position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px);max-height:calc(100vh - 24px);overflow-y:auto;display:grid;gap:10px}
+.dim{background:var(--panel);border:1px solid var(--rule);border-radius:8px;padding:8px}
+.dim h3{margin:0 0 6px;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}
+.cellbtn{display:grid;grid-template-columns:58px 1fr auto;gap:8px;align-items:center;width:100%;text-align:left;border:1px solid transparent;background:none;border-radius:6px;padding:5px 6px;cursor:pointer}
+.cellbtn:hover{background:var(--soft)}
+.cellbtn[aria-current="true"]{border-color:var(--lapis);background:var(--lapis-soft)}
+.cellbtn .code{font-family:var(--mono);font-size:12px;font-weight:500}
+.cellbtn .nm{font-size:12px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sc{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums;display:inline-flex;gap:4px;align-items:center}
+.conf{font-family:var(--mono);font-size:10.5px;border-radius:3px;padding:0 4px;border:1px solid var(--rule)}
+.conf.H{background:var(--ok-soft);color:var(--ok);border-color:transparent}
+.conf.M{background:var(--soft)}
+.conf.L{background:var(--bad-soft);color:var(--bad);border-color:transparent}
+.flag{color:var(--ochre);font-size:11px}
+.tick{color:var(--ok);font-size:12px;width:12px;display:inline-block}
+.cell{background:var(--panel);border:1px solid var(--rule);border-radius:8px;padding:16px;display:grid;gap:14px;min-width:0}
+.cellhead{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 16px;align-items:start}
+.cellhead h2{font-family:var(--serif);font-size:21px;margin:0;font-weight:600;text-wrap:balance}
+.cellhead .code{font-family:var(--mono);color:var(--muted);font-size:13px}
+.bigscore{text-align:right}
+.bigscore .n{font-family:var(--serif);font-size:34px;line-height:1;font-variant-numeric:tabular-nums}
+.bigscore .meta{font-size:12px;color:var(--muted)}
+.anchors{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+.anchor{border:1px solid var(--rule);border-radius:6px;padding:6px 8px;font-size:12.5px;line-height:1.35}
+.anchor b{font-family:var(--mono);font-size:12px;display:block;color:var(--muted)}
+.anchor.in{border-color:var(--lapis);background:var(--lapis-soft)}
+.strip-wrap svg{width:100%;height:auto;display:block}
+.strip-wrap{min-width:0;max-width:760px}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+.callout{border-left:3px solid var(--ochre);background:var(--ochre-soft);padding:8px 12px;border-radius:0 6px 6px 0;font-size:13px}
+.callout.blue{border-color:var(--lapis);background:var(--lapis-soft)}
+.callout h4{margin:0 0 2px;font-size:12px;text-transform:uppercase;letter-spacing:.05em}
+.regs{display:flex;flex-wrap:wrap;gap:6px}
+.reg{border:1px solid var(--rule);border-radius:12px;padding:2px 10px;font-size:12.5px}
+.reg i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px}
+.form{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:end;background:var(--soft);border-radius:8px;padding:10px 12px}
+.form label{display:grid;gap:2px;font-size:11.5px;color:var(--muted)}
+.form select,.form textarea,.st textarea{background:var(--panel);border:1px solid var(--rule);border-radius:5px;padding:4px 6px;color:var(--ink)}
+.form textarea{width:min(520px,100%);min-height:34px}
+.form .grow{flex:1 1 260px}
+.form .grow textarea{width:100%}
+h3.sec{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:4px 0 0;font-weight:600}
+.st{border:1px solid var(--rule);border-radius:8px;padding:10px 12px;display:grid;gap:6px;min-width:0}
+.arch td{vertical-align:top}.arch .q{margin:4px 0;font-style:italic}.archp{max-width:min(1100px,100%);box-sizing:border-box;margin:18px auto;padding:0 16px}.archp .tablewrap{overflow-x:auto;max-width:100%}.arch details summary{cursor:pointer}
+.st[data-v="accept"]{border-color:var(--ok);box-shadow:inset 3px 0 0 var(--ok)}
+.st[data-v="reject"]{border-color:var(--bad);box-shadow:inset 3px 0 0 var(--bad);opacity:.8}
+.st.focus{outline:2px solid var(--lapis);outline-offset:1px}
+.st .row1{display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center;font-size:12.5px}
+.pill{font-family:var(--mono);font-size:11.5px;border-radius:4px;padding:1px 6px;background:var(--soft);white-space:nowrap}
+.pill.sup{background:var(--ok-soft);color:var(--ok)} .pill.qua{background:var(--ochre-soft);color:var(--ochre)} .pill.con{background:var(--bad-soft);color:var(--bad)}
+.pill.auto{border:1px dashed var(--muted);background:none}
+.src{font-weight:600}
+.q{font-family:var(--serif);font-size:14.5px;line-height:1.55;margin:0;max-width:78ch}
+.q::before{content:"“"} .q::after{content:"”"}
+.note{font-size:12.5px;color:var(--muted);max-width:78ch}
+.ctx{font-family:var(--serif);font-size:13px;line-height:1.55;background:var(--soft);border-radius:6px;padding:8px 10px;max-width:84ch;overflow-wrap:anywhere}
+.ctx mark{background:var(--lapis-soft);color:inherit;padding:0 1px}
+.acts{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.acts button{border:1px solid var(--rule);background:var(--panel);border-radius:5px;padding:2px 10px;cursor:pointer;font-size:12.5px}
+.acts button.on.acc{background:var(--ok);border-color:var(--ok);color:var(--panel)}
+.acts button.on.rej{background:var(--bad);border-color:var(--bad);color:var(--panel)}
+.acts select{font-size:12.5px;padding:1px 4px;background:var(--panel);border:1px solid var(--rule);border-radius:5px}
+.st textarea{width:100%;min-height:30px;font-size:12.5px}
+.prev{font-size:12px;color:var(--muted)}
+.callout.r8{border-left-color:var(--lapis);background:var(--lapis-soft)}.callout.r8 h4{margin:6px 0 2px}.yn{font-style:italic;margin:4px 0}details.callout summary{cursor:pointer}
+.rtab td{vertical-align:top;padding:6px 8px;font-size:13px}.rtab td.note{font-style:italic;color:var(--muted);max-width:34ch}.rtab tr.rc td{background:var(--ochre-soft)}.rfil{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}
+.prev b{color:var(--ink)}
+.kb{font-size:12.5px;display:grid;gap:4px}
+.kb ul{margin:0;padding-left:18px}
+.newb{background:var(--accent,#2f6f9f);color:#fff;border-radius:999px;padding:0 7px;font-size:11px}
+.fbar{height:7px;border-radius:4px;display:block;margin:2px 0}
+.fbar.f{background:#8a8f98}.fbar.o{background:var(--accent,#2f6f9f)}
+table.ftab td,table.ftab th{padding:4px 8px;vertical-align:top}
+table.ftab td.bars{min-width:140px}
+.prose{background:var(--panel);border:1px solid var(--rule);border-radius:8px;padding:16px 20px}
+.prose h2{font-family:var(--serif);font-weight:600;font-size:21px;margin:0 0 8px;text-wrap:balance}
+.prose h3{font-size:14px;margin:14px 0 4px}
+.prose p,.prose li{max-width:72ch}
+.prose ol li{margin-bottom:6px}
+.pdef{border-top:1px solid var(--rule);padding-top:10px;margin-top:12px}
+.pdef h3{font-family:var(--serif);font-size:16px;margin:0 0 4px}
+.diff{width:100%;border-collapse:collapse;font-size:12.5px}
+.diff td,.diff th{border-top:1px solid var(--rule);padding:4px 6px;text-align:left}
+.diff td.n{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.tablewrap{overflow-x:auto}
+.kbd{font-family:var(--mono);font-size:11px;border:1px solid var(--rule);border-bottom-width:2px;border-radius:4px;padding:0 4px}
+.hint{font-size:12px;color:var(--muted)}
+.empty{color:var(--muted);font-style:italic}
+@media (max-width:900px){.band{grid-template-columns:1fr}.desk{grid-template-columns:1fr}.rail{position:static;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}.anchors{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.cellhead{grid-template-columns:1fr}.bigscore{text-align:left}.anchors{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+
+<header class="top">
+  <div class="brand"><h1>Centralization Assessment Desk</h1><span class="sub">Scoring v2.2 for the Shaping History paper · round 4, 9 Nov 2026</span></div>
+  <div class="views" role="toolbar" aria-label="Views">
+    <button id="v-assess" aria-pressed="true">Assess</button>
+    <button id="v-remarks" aria-pressed="false">Your remarks</button>
+    <button id="v-codebook" aria-pressed="false">Codebook (SI)</button>
+    <button id="v-changes" aria-pressed="false">What changed</button>
+    <button id="v-field" aria-pressed="false">Field literature</button>
+    <button id="v-archives" aria-pressed="false">Archives</button>
+  </div>
+  <div class="periods" id="periods" aria-label="Periods"></div>
+  <div class="status" id="status"></div>
+</header>
+
+<main id="assess"></main>
+<main id="codebook" hidden><!--__CODEBOOK__--></main>
+<main id="changes" hidden></main>
+<main id="remarks" hidden></main>
+<main id="field" hidden></main>
+<main id="archives" hidden></main>
+
+<script type="application/json" id="data">/*__DATA__*/</script>
+<script>
+const D=JSON.parse(document.getElementById('data').textContent);
+const PARAMS=['TERR','HIER','FISC','COMM','PAL','TEMP','TCTL','PRIV','BUR','SCHOOL','LAW','STD'];
+const DIMN={A:'A. Polity reach',B:'B. Institutional economy',C:'C. Control of writing and norms'};
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmt=x=>x==null?'–':(Math.round(x*2)/2).toString();
+let st={view:'assess',period:D.periods[0].name,param:'TERR',focus:0};
+try{const s=JSON.parse(localStorage.getItem('desk-pos')||'{}');Object.assign(st,s);}catch(e){}
+function savePos(){try{localStorage.setItem('desk-pos',JSON.stringify({period:st.period,param:st.param,view:st.view}))}catch(e){}}
+// ---------- persistence: shared store when available, this browser otherwise
+const V={stm:{},cell:{}}; let db=null, mode='local';
+function h(s){let x=2166136261;for(const c of s){x^=c.codePointAt(0);x=Math.imul(x,16777619)>>>0}return x.toString(36)}
+function loadLocal(){try{const s=JSON.parse(localStorage.getItem('desk-verdicts')||'{}');V.stm=s.stm||{};V.cell=s.cell||{}}catch(e){}}
+function saveLocal(){try{localStorage.setItem('desk-verdicts',JSON.stringify(V))}catch(e){}}
+loadLocal();
+async function initDb(){
+  try{ if(!window.claude||!window.claude.use) return; db=await window.claude.use('db'); }catch(e){db=null}
+  if(!db){renderStatus();return}
+  mode='shared';
+  let first=true;
+  const timer=setTimeout(()=>{if(first){mode='local';renderStatus();}},10000);
+  db.collection('stmverdicts').onSnapshot(s=>{clearTimeout(timer);first=false;s.docs.forEach(d=>{const x=d.data();if(x&&x.sid)V.stm[x.sid]=x});mode='shared';renderAll(false)},e=>{mode='local';renderStatus()});
+  db.collection('cellverdicts').onSnapshot(s=>{s.docs.forEach(d=>{const x=d.data();if(x&&x.cid)V.cell[x.cid]=x});renderAll(false)},e=>{});
+}
+async function putStm(sid,patch){
+  const cur=Object.assign({sid},V.stm[sid]||{},patch,{at:new Date().toISOString()});V.stm[sid]=cur;saveLocal();
+  if(db&&mode==='shared'){try{await db.collection('stmverdicts').doc(h(sid)).set(cur)}catch(e){mode='local';renderStatus()}}
+  renderRail();renderStatus();renderPeriods();
+}
+async function putCell(cid,patch){
+  const cur=Object.assign({cid},V.cell[cid]||{},patch,{at:new Date().toISOString()});V.cell[cid]=cur;saveLocal();
+  if(db&&mode==='shared'){try{await db.collection('cellverdicts').doc(h(cid)).set(cur)}catch(e){mode='local';renderStatus()}}
+  renderRail();renderStatus();renderPeriods();
+}
+// ---------- helpers
+const key=(p,q)=>p+'|'+q;
+const cellOf=(p,q)=>D.cells[key(p,q)]||null;
+const stmOf=(p,q)=>D.stm[key(p,q)]||[];
+function regColor(r,regions){if(!r)return 'var(--r-none)';const i=regions.indexOf(r);return ['var(--r-south)','var(--r-north)','var(--r-3)','var(--r-4)'][i>=0?i%4:0]}
+function done(p,q){const c=V.cell[key(p,q)];return !!(c&&(c.agree||c.score!=null))}
+function stmDone(p){let n=0,t=0;PARAMS.forEach(q=>{stmOf(p,q).forEach(s=>{t++;if(V.stm[s.id]&&V.stm[s.id].v)n++})});return [n,t]}
+// ---------- evidence strip (the worked-example figure)
+function strip(p,q,w){
+  const S=stmOf(p,q),c=cellOf(p,q),P=D.periods.find(x=>x.name===p);const regions=(P&&P.regions)||[];
+  w=w||640;const H=110,L=34,R=18,x=v=>L+(w-L-R)*v/3;
+  let g=`<svg viewBox="0 0 ${w} ${H}" role="img" aria-label="Evidence strip for ${esc(q)} in ${esc(p)}">`;
+  for(let v=0;v<=3;v+=0.5){g+=`<line x1="${x(v)}" x2="${x(v)}" y1="18" y2="${H-24}" stroke="var(--rule)" stroke-width="${v%1?0.5:1}"/>`;if(v%1===0)g+=`<text x="${x(v)}" y="${H-8}" text-anchor="middle" font-size="11" fill="var(--muted)" font-family="IBM Plex Mono, monospace">${v}</text>`}
+  if(c){g+=`<rect x="${x(c.lo)-4}" y="${H/2-9}" width="${x(c.hi)-x(c.lo)+8}" height="18" rx="9" fill="var(--lapis-soft)"/>`;}
+  const lanes={supports:30,qualifies:H/2,contests:H-38};
+  const used={};
+  S.forEach(s=>{const y0=lanes[s.st];const k=s.st+'|'+s.s;used[k]=(used[k]||0)+1;const n=used[k];const y=y0+((n%2?1:-1)*Math.floor(n/2))*7;const r=3+4*Math.sqrt(s.wt/1.5);
+    g+=`<circle cx="${x(s.s)}" cy="${y}" r="${r.toFixed(1)}" fill="${regColor(s.reg,regions)}" fill-opacity="${s.st==='supports'?0.85:0.45}" stroke="var(--panel)" stroke-width="1.5"><title>${esc(s.lab)} ${esc(s.w)}: ${s.s} (${s.st}, ${s.b}, weight ${s.wt})</title></circle>`});
+  if(c){g+=`<circle cx="${x(c.score)}" cy="${H/2}" r="11" fill="none" stroke="var(--ink)" stroke-width="2"/>`;}
+  g+=`<text x="2" y="${lanes.supports+4}" font-size="10" fill="var(--muted)">sup</text><text x="2" y="${lanes.qualifies+4}" font-size="10" fill="var(--muted)">qual</text><text x="2" y="${lanes.contests+4}" font-size="10" fill="var(--muted)">cont</text></svg>`;
+  const lg=regions.length?regions.map(r=>`<span><i style="background:${regColor(r,regions)}"></i>${esc(r)}</span>`).join('')+`<span><i style="background:var(--r-none)"></i>whole period</span>`:'';
+  return `<div class="strip-wrap">${g}</div><div class="legend">${lg}<span>dot size = weight · ring = score · bar = band</span></div>`;
+}
+// ---------- map
+function map(P){
+  if(!P.sites.length) return '';
+  const lat0=28.5,lat1=39.5,lon0=34.5,lon1=53.5,W=360,Hh=230;
+  const X=lon=>(lon-lon0)/(lon1-lon0)*W, Y=lat=>(lat1-lat)/(lat1-lat0)*Hh;
+  // zoom to sites (and route), keeping room for labels
+  const pts=P.sites.map(s=>[s.lat,s.lon]).concat(P.route||[]).concat(P.pad||[]);
+  const la=pts.map(p=>p[0]),lo=pts.map(p=>p[1]);let a0=Math.min(...lo)-1.0,a1=Math.max(...lo)+1.0,b0=Math.min(...la)-0.8,b1=Math.max(...la)+0.8;
+  if((a1-a0)<4){const m=(a0+a1)/2;a0=m-2;a1=m+2} if((b1-b0)<2.6){const m=(b0+b1)/2;b0=m-1.3;b1=m+1.3}
+  let vx=X(a0),vy=Y(b1),vw=X(a1)-X(a0),vh=Y(b0)-Y(b1);
+  const sw=vw/360, fs=10.5*sw, cw=fs*0.62;
+  // label placement: try right, left, above, below; avoid other labels and dots; then widen the box to fit every label
+  const dots=P.sites.map(s=>({x:X(s.lon),y:Y(s.lat)})), boxes=[], lab=[];
+  const hit=(b)=>boxes.some(o=>b.x<o.x+o.w&&b.x+b.w>o.x&&b.y<o.y+o.h&&b.y+b.h>o.y)||dots.some(d=>d.x>b.x-5*sw&&d.x<b.x+b.w+5*sw&&d.y>b.y-5*sw&&d.y<b.y+b.h+5*sw);
+  P.sites.forEach((s,i)=>{const x=X(s.lon),y=Y(s.lat),w=s.n.length*cw,h=fs*1.05;
+    const cand=[{x:x+6*sw,y:y-h*0.62,a:'start'},{x:x-6*sw-w,y:y-h*0.62,a:'end'},{x:x-w/2,y:y-h-5*sw,a:'middle'},{x:x-w/2,y:y+4*sw,a:'middle'},{x:x+5*sw,y:y-h-3*sw,a:'start'},{x:x+5*sw,y:y+2*sw,a:'start'},{x:x-5*sw-w,y:y-h-3*sw,a:'end'},{x:x-5*sw-w,y:y+2*sw,a:'end'}];
+    let c=cand.find(c=>!hit({x:c.x,y:c.y,w,h}))||cand[0]; const b={x:c.x,y:c.y,w,h}; boxes.push(b); lab.push({s,b,c,x,y});});
+  boxes.forEach(b=>{const p=8*sw; if(b.x-p<vx){vw+=vx-(b.x-p);vx=b.x-p} if(b.x+b.w+p>vx+vw){vw=b.x+b.w+p-vx} if(b.y-p<vy){vh+=vy-(b.y-p);vy=b.y-p} if(b.y+b.h+p>vy+vh){vh=b.y+b.h+p-vy}});
+  let g=`<svg viewBox="${vx.toFixed(1)} ${vy.toFixed(1)} ${vw.toFixed(1)} ${vh.toFixed(1)}" role="img" aria-label="Schematic map of ${esc(P.name)}">`;
+  g+=`<polygon points="${D.gulf.map(([la,lo])=>X(lo).toFixed(1)+','+Y(la).toFixed(1)).join(' ')}" fill="var(--lapis-soft)" stroke="none"/>`;
+  Object.values(D.rivers).forEach(r=>{g+=`<polyline points="${r.map(([la,lo])=>X(lo).toFixed(1)+','+Y(la).toFixed(1)).join(' ')}" fill="none" stroke="var(--lapis)" stroke-opacity=".45" stroke-width="${(1.6*sw).toFixed(2)}"/>`});
+  if(P.route&&P.route.length) g+=`<polyline points="${P.route.map(([la,lo])=>X(lo).toFixed(1)+','+Y(la).toFixed(1)).join(' ')}" fill="none" stroke="var(--ink)" stroke-opacity=".45" stroke-dasharray="${(4*sw).toFixed(2)} ${(3*sw).toFixed(2)}" stroke-width="${(1.2*sw).toFixed(2)}"/>`;
+  const arch=(P.inv||[]).map(i=>i.archive.toLowerCase());
+  lab.forEach(({s,b,c,x,y})=>{const nm=s.n.toLowerCase().replace(/ \(.*\)/,'');const isA=arch.some(a=>a.includes(nm.slice(0,5)));const col=s.r==='other'?'var(--r-none)':regColor(s.r,P.regions);
+    g+=`<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${((isA?5:3.2)*sw).toFixed(2)}" fill="${col}" stroke="var(--panel)" stroke-width="${(1*sw).toFixed(2)}"/>`;
+    const ta=c.a==='end'?'end':c.a==='middle'?'middle':'start',tx=ta==='end'?b.x+b.w:ta==='middle'?b.x+b.w/2:b.x;
+    g+=`<text x="${tx.toFixed(1)}" y="${(b.y+b.h*0.8).toFixed(1)}" text-anchor="${ta}" font-size="${fs.toFixed(2)}" fill="var(--ink)" font-family="IBM Plex Sans, sans-serif" ${isA?'font-weight="600"':''}>${esc(s.n)}</text>`});
+  g+=`<rect x="${vx.toFixed(1)}" y="${vy.toFixed(1)}" width="${vw.toFixed(1)}" height="${vh.toFixed(1)}" fill="none" stroke="var(--rule)" stroke-width="${(1.5*sw).toFixed(2)}"/>`;
+  g+='</svg>';
+  return `<div class="map">${g}<div class="cap">Schematic: modern coastline, rivers approximate${P.route&&P.route.length?', dashed line = route (schematic)':''}. Colours = regional entities; bold = archive sites.</div></div>`;
+}
+// ---------- renderers
+function renderPeriods(){
+  const el=document.getElementById('periods');
+  el.innerHTML=D.periods.map(P=>{const n=PARAMS.filter(q=>done(P.name,q)).length;return `<button class="pchip ${P.group==='SI'?'si':''}" aria-pressed="${P.name===st.period}" data-p="${esc(P.name)}">${esc(P.name)}<span class="prog">${n}/12</span></button>`}).join('');
+  el.querySelectorAll('.pchip').forEach(b=>b.onclick=()=>{st.period=b.dataset.p;st.focus=0;if(st.view!=='assess')setView('assess');renderAssess();renderPeriods();savePos();window.scrollTo({top:0})});
+}
+function renderStatus(){
+  let cells=0,cd=0,sv=0,stot=0;D.periods.forEach(P=>PARAMS.forEach(q=>{if(cellOf(P.name,q)){cells++;if(done(P.name,q))cd++;}stmOf(P.name,q).forEach(s=>{stot++;if(V.stm[s.id]&&V.stm[s.id].v)sv++})}));
+  document.getElementById('status').innerHTML=`<span><b>${cd}</b>/${cells} cells assessed</span><span><b>${sv}</b>/${stot} statements marked</span><span class="${mode==='shared'?'save-ok':'save-local'}">${mode==='shared'?'Saved to the shared record (Claude reads it)':'Saving in this browser only'}</span><span class="hint"><span class="kbd">j</span>/<span class="kbd">k</span> statement · <span class="kbd">a</span> accept · <span class="kbd">r</span> reject · <span class="kbd">c</span> passage · <span class="kbd">n</span>/<span class="kbd">p</span> cell · <span class="kbd">]</span>/<span class="kbd">[</span> period</span><button id="copytsv" class="pchip">Copy my verdicts (TSV)</button>`;
+  document.getElementById('copytsv').onclick=copyTSV;
+}
+function renderRail(){
+  const el=document.getElementById('rail'); if(!el) return;
+  const p=st.period;
+  el.innerHTML=['A','B','C'].map(dm=>`<div class="dim"><h3>${DIMN[dm]}</h3>${PARAMS.filter(q=>D.params[q].dim===dm).map(q=>{const c=cellOf(p,q);if(!c)return '';const lc=c.score!==c.v1&&c.v1!=null;return `<button class="cellbtn" data-q="${q}" aria-current="${q===st.param}"><span class="code"><span class="tick">${done(p,q)?'✓':''}</span>${q}</span><span class="nm">${esc(D.params[q].name)}</span><span class="sc">${c.band===String(c.score)||c.band===fmt(c.score)?fmt(c.score):fmt(c.score)+' <span style="color:var(--muted)">('+esc(c.band)+')</span>'}<span class="conf ${c.conf}">${c.conf}</span>${c.af?'<span class="flag" title="archive may inflate or hide this parameter">▲</span>':''}${c.r8&&c.r8.rc?'<span class="flag" title="the literature score moved away from your reading: please recheck">↻</span>':''}</span></button>`}).join('')}</div>`).join('');
+  el.querySelectorAll('.cellbtn').forEach(b=>b.onclick=()=>{st.param=b.dataset.q;st.focus=0;renderCell();renderRail();savePos()});
+}
+function renderAssess(){
+  const P=D.periods.find(x=>x.name===st.period);
+  const inv=(P.inv||[]).map(i=>`<tr><td>${esc(i.archive)}</td><td class="kind">${esc(i.kind)}</td><td class="kind">${Math.round(i.share*100)}%</td><td>${i.lab?esc(i.lab)+', ':''}${esc(i.where)}</td></tr>`).join('');
+  document.getElementById('assess').innerHTML=`<section class="band"><div><h2>${esc(P.name)}</h2><div class="span">${esc(P.span)}${P.group==='SI'?' · SI period':''}${P.kbn?' · '+P.kbn+' works in KeiBi and eBL':''}</div><p>${esc(P.text)||'<span class="empty">No summary yet.</span>'}</p>${P.regions.length?`<p class="hint">${P.name==='Hittite'?'Phases':'Regional entities'} scored separately: ${P.regions.map(esc).join(', ')}.</p>`:''}${inv?`<table class="inv"><tr><th>Archive</th><th>Kept by</th><th>Share</th><th>Source</th></tr>${inv}</table>`:''}</div>${map(P)}</section><section class="desk"><nav class="rail" id="rail" aria-label="Cells"></nav><article class="cell" id="cell"></article></section>`;
+  renderRail();renderCell();
+}
+function cellForm(p,q,c){
+  const cv=V.cell[key(p,q)]||{};const opts=v=>['','0','0.5','1','1.5','2','2.5','3'].map(o=>`<option value="${o}" ${String(v??'')===o?'selected':''}>${o===''?'–':o}</option>`).join('');
+  return `<div class="form" id="cellform"><label for="cf-agree">My reading<select id="cf-agree"><option value="">–</option><option value="agree" ${cv.agree==='agree'?'selected':''}>Agree with ${fmt(c.score)} (${esc(c.band)})</option><option value="change" ${cv.agree==='change'?'selected':''}>Change the score</option></select></label><label for="cf-score">My score<select id="cf-score">${opts(cv.score)}</select></label><label for="cf-lo">Band from<select id="cf-lo">${opts(cv.lo)}</select></label><label for="cf-hi">to<select id="cf-hi">${opts(cv.hi)}</select></label><label for="cf-conf">Confidence<select id="cf-conf">${['','H','M','L'].map(o=>`<option ${cv.conf===o?'selected':''} value="${o}">${o||'–'}</option>`).join('')}</select></label><label class="grow" for="cf-note">Note or source to add<textarea id="cf-note" rows="1">${esc(cv.note||'')}</textarea></label></div>`;
+}
+function renderCell(){
+  const p=st.period,q=st.param,c=cellOf(p,q),el=document.getElementById('cell');if(!el)return;
+  if(!c){el.innerHTML='<p class="empty">No score for this cell.</p>';return}
+  const PD=D.params[q],P=D.periods.find(x=>x.name===p);const S=stmOf(p,q);
+  const anchors=PD.anchors.map((a,i)=>`<div class="anchor ${i>=Math.floor(c.lo)&&i<=Math.ceil(c.hi)?'in':''}"><b>${esc(a.split(' ')[0])}</b>${esc(a.replace(/^\d\s*/,''))}</div>`).join('');
+  const regs=Object.entries(c.reg||{}).map(([r,b])=>`<span class="reg"><i style="background:${regColor(r,P.regions)}"></i>${esc(r)}: <b>${esc(b)}</b></span>`).join('');
+  const r8=c.r8||{};const fin=r8.fin!=null&&r8.fin!==c.score;
+  const sh8=(r8.note||r8.status==='adjudicated'||r8.status==='pending'||r8.ans)?`<div class="callout r8"><h4>Your reading, 8 Nov</h4>${esc(r8.status||'')}${r8.shg!=null?' · your score <b>'+fmt(r8.shg)+'</b>':''}${r8.shown!=null?' · shown then '+fmt(r8.shown)+' ('+esc(r8.shown_band)+')':''}${r8.note?'<div class="yn">“'+esc(r8.note)+'”</div>':''}${r8.ans?'<h4>What I did</h4><div>'+esc(r8.ans)+'</div>':''}<div class="hint">Literature score now ${fmt(c.score)} (${esc(c.band)})${r8.fin!=null?' · score used in the analysis <b>'+fmt(r8.fin)+'</b>'+(r8.status==='adjudicated'?' (yours)':''):''}${r8.rc?' · <span class="flag">↻ please recheck</span>':''}</div></div>`:'';
+  const sh=c.shg?`<details class="callout"><summary><b>Your reading, 3 Nov</b></summary>${c.shg.your_score!=null?'Score '+esc(c.shg.your_score)+' · ':''}${esc(c.shg.status||'')}${c.shg.conf?' · '+esc(c.shg.conf):''}${c.shg.comment?'<br>'+esc(c.shg.comment):''}${c.shg.source_to_add?'<br><i>Source to add:</i> '+esc(c.shg.source_to_add):''}</details>`:'';
+  const af=c.af?`<div class="callout"><h4>Archive flag</h4>The period's dominant archive (${esc((P.inv[0]||{}).archive||'')}${P.inv.length>1?' and others':''}) was kept by an institution that can inflate or hide this parameter, so confidence is capped at M.</div>`:'';
+  const kb=D.kb[key(p,q)];
+  const kbh=kb?`<div class="kb"><h3 class="sec">Field literature (KeiBi 1997-2024 and eBL)</h3><div>${kb.n} works on ${esc(p)} match this parameter by title words (${kb.s10} since 2010${kb.rv?', '+kb.rv+' review'+(kb.rv>1?'s':'')+' of them in KeiBi':''}).${kb.top?' Most productive authors: '+esc(cap(kb.top))+'.':''} ${kb.covn?'We cite '+kb.cov+' of the '+kb.covn+' most productive authors for this period.':''}</div>${kb.items.length?'<div>Not yet read (most reviewed, then most recent):</div><ul>'+kb.items.map(t=>`<li>${esc(t.a)} ${t.y||''}, <i>${esc(t.t)}</i> <span class="hint">${esc(t.id)}${t.rv?' · '+t.rv+' review'+(t.rv>1?'s':''):''}</span></li>`).join('')+'</ul>':''}</div>`:'';
+  const rj=(D.rej[key(p,q)]||[]);const rjh=rj.length?`<details><summary class="hint">${rj.length} statement${rj.length>1?'s':''} you rejected on 3 Nov (left out of the score)</summary>${rj.map(r=>`<div class="note"><b>${esc(r.lab)}</b>, ${esc(r.w)}: “${esc(r.q)}” <br><i>Your comment:</i> ${esc(r.c||'')}</div>`).join('')}</details>`:'';
+  el.innerHTML=`<div class="cellhead"><div><div class="code">${esc(p)} · ${q} · dimension ${PD.dim}</div><h2>${esc(PD.name)}</h2></div><div class="bigscore"><div class="n">${fmt(c.score)}</div><div class="meta">band ${esc(c.band)} · <span class="conf ${c.conf}">${c.conf}</span> · ${c.nw} work${c.nw===1?'':'s'}, ${c.n} statement${c.n===1?'':'s'}${c.prev&&(c.prev.s!==c.score||c.prev.c!==c.conf)?'<br>before 4 Nov: '+fmt(c.prev.s)+' ('+esc(c.prev.b)+', '+esc(c.prev.c)+')':''}${c.v1!=null&&c.v1!==c.score?'<br>v1 was '+fmt(c.v1):''}${c.src==='prior'?'<br>earlier coding, no literature yet':''}</div></div></div>
+  <div class="anchors">${anchors}</div>${strip(p,q)}${regs?`<div class="regs">${regs}</div>`:''}${sh8}${sh}${af}${cellForm(p,q,c)}
+  <h3 class="sec">Statements (${S.length})</h3><div id="stms" style="display:grid;gap:10px">${S.map((s,i)=>stmCard(s,i,P)).join('')||'<p class="empty">No statements; the score is the earlier coding.</p>'}</div>${rjh}${kbh}
+  <details><summary class="hint">Definition and coding rules for ${q}</summary>${pdef(q)}</details>`;
+  bindCell(p,q);focusStm(st.focus,false);
+}
+function stmCard(s,i,P){
+  const v=V.stm[s.id]||{};const cls={supports:'sup',qualifies:'qua',contests:'con'}[s.st];
+  const opts=['','0','0.5','1','1.5','2','2.5','3'].map(o=>`<option value="${o}" ${String(v.rescore??'')===o?'selected':''}>${o===''?'rescore…':o}</option>`).join('');
+  const pv=(s.pv?`<div class="prev">3 Nov: <b>${esc(s.pv)}</b>${s.pc?' · '+esc(s.pc):''}</div>`:'')+(s.c8?`<div class="prev">8 Nov, you: “${esc(s.c8)}”${s.a8?'<br><b>My answer:</b> '+esc(s.a8):''}</div>`:'');
+  return `<div class="st" data-i="${i}" data-v="${esc(v.v||'')}" id="st-${i}"><div class="row1">${s.nw?'<span class="newb">new '+s.nw+'</span>':''}<span class="pill">${fmt(s.s)}</span><span class="pill ${cls}">${s.st}</span><span class="src">${esc(s.lab)}</span><span>${esc(s.w)}</span><span class="pill ${s.bs==='auto'?'auto':''}" title="${s.bs==='auto'?'basis from the text rule, not yet read':s.bs==='read'?'basis set in the systematic reading pass of 4 Nov (your L/M/H rubric)':'basis read by hand with the source open'}">${esc(s.b)}${s.bs==='auto'?'?':''}</span><span class="pill">${esc(s.g)}</span>${s.ar?`<span class="pill">${esc(s.ar)}</span>`:''}${s.reg?`<span class="pill" style="color:${regColor(s.reg,P.regions)}">${esc(s.reg)}</span>`:''}<span class="pill" title="weight in the median">w ${s.wt}</span>${s.af?`<span class="flag">▲ ${esc(s.af)}</span>`:''}</div>
+  <p class="q">${esc(s.q)}</p>${s.n?`<div class="note">${esc(s.n)}</div>`:''}${pv}
+  <div class="acts"><button class="acc ${v.v==='accept'?'on':''}" data-a="accept">Accept</button><button class="rej ${v.v==='reject'?'on':''}" data-a="reject">Reject</button><select aria-label="Rescore" data-a="rescore">${opts}</select>${s.cx?`<button data-a="ctx" aria-expanded="false">Show passage</button>`:''}${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">Open PDF${s.pg?' at PDF p. '+s.pg:''}</a>`:'<span class="hint">not located in the text copy; use the citation</span>'}</div>
+  <div class="ctx" hidden></div><textarea aria-label="Comment" placeholder="Comment" rows="1" data-a="comment">${esc(v.comment||'')}</textarea></div>`;
+}
+function hl(cx,q){
+  let out=esc(cx);const words=String(q).replace(/[“”"‘’]/g,'').split(/\s*(?:\.\.\.|…)\s*/).filter(x=>x.length>20).map(x=>x.slice(0,60));
+  words.forEach(wd=>{const parts=wd.split(/\s+/).slice(0,6).map(t=>t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'));if(parts.length<3)return;try{const re=new RegExp(parts.join('\\W+'),'i');out=out.replace(re,m=>'<mark>'+m+'</mark>')}catch(e){}});
+  return out;
+}
+function bindCell(p,q){
+  const S=stmOf(p,q);
+  document.querySelectorAll('#stms .st').forEach(card=>{const i=+card.dataset.i,s=S[i];
+    card.addEventListener('click',()=>{st.focus=i;focusStm(i,false)});
+    card.querySelectorAll('[data-a]').forEach(b=>{const a=b.dataset.a;
+      if(a==='accept'||a==='reject')b.onclick=e=>{e.stopPropagation();const cur=(V.stm[s.id]||{}).v;putStm(s.id,{v:cur===a?'':a,period:p,param:q});card.dataset.v=cur===a?'':a;card.querySelectorAll('.acc,.rej').forEach(x=>x.classList.toggle('on',x.dataset.a===(cur===a?'':a)))};
+      if(a==='rescore')b.onchange=()=>putStm(s.id,{rescore:b.value===''?null:+b.value,period:p,param:q});
+      if(a==='comment')b.onchange=()=>putStm(s.id,{comment:b.value,period:p,param:q});
+      if(a==='ctx')b.onclick=e=>{e.stopPropagation();toggleCtx(card,s)};
+    })});
+  const f=id=>document.getElementById(id);
+  const upd=()=>putCell(key(p,q),{agree:f('cf-agree').value,score:f('cf-score').value===''?null:+f('cf-score').value,lo:f('cf-lo').value===''?null:+f('cf-lo').value,hi:f('cf-hi').value===''?null:+f('cf-hi').value,conf:f('cf-conf').value,note:f('cf-note').value,period:p,param:q});
+  ['cf-agree','cf-score','cf-lo','cf-hi','cf-conf','cf-note'].forEach(id=>{const x=f(id);if(x)x.onchange=upd});
+}
+function toggleCtx(card,s){const box=card.querySelector('.ctx'),b=card.querySelector('[data-a="ctx"]');if(!box||!s.cx)return;if(box.hidden){box.innerHTML=hl(s.cx,s.q)+`<div class="hint" style="margin-top:4px">${esc(s.fn||'')}, PDF p. ${s.pg||'?'}</div>`;box.hidden=false;b&&(b.textContent='Hide passage',b.setAttribute('aria-expanded','true'))}else{box.hidden=true;b&&(b.textContent='Show passage',b.setAttribute('aria-expanded','false'))}}
+function focusStm(i,scroll=true){const cards=[...document.querySelectorAll('#stms .st')];if(!cards.length)return;i=Math.max(0,Math.min(cards.length-1,i));st.focus=i;cards.forEach((c,j)=>c.classList.toggle('focus',j===i));if(scroll)cards[i].scrollIntoView({block:'nearest'})}
+function pdef(q){const d=D.params[q];return `<div class="pdef"><h3>${q} · ${esc(d.name)}</h3><p><b>What it measures.</b> ${esc(d.what)}</p><p><b>Why.</b> ${esc(d.why)}</p><p><b>Origin.</b> ${esc(d.origin)} <span class="hint">(${esc(d.framework)})</span></p><ol start="0">${d.anchors.map((a,i)=>`<li><b>${esc(a.replace(/^\d\s*/,''))}.</b> ${esc(d.tests[i]||'')}</li>`).join('')}</ol>${d.rules&&d.rules.length?'<p><b>Coding rules.</b></p><ul>'+d.rules.map(r=>`<li>${esc(r)}</li>`).join('')+'</ul>':''}${d.cross?`<p><b>Cross-period check.</b> ${esc(d.cross)}</p>`:''}</div>`}
+function renderCodebook(){const el=document.getElementById('param-defs');if(el&&!el.dataset.done){el.innerHTML=PARAMS.map(pdef).join('');el.dataset.done=1}
+  const ws=document.getElementById('worked-strip');if(ws&&!ws.dataset.done){ws.innerHTML=strip('ED IIIa','TERR',640);ws.dataset.done=1}}
+function oldChanges(){
+  const rows=[],old=[];D.periods.forEach(P=>PARAMS.forEach(q=>{const c=cellOf(P.name,q);if(!c)return;if(c.prev&&(c.prev.s!==c.score||c.prev.c!==c.conf||c.prev.b!==c.band))rows.push([P.name,q,c.prev,c.score,c.band,c.conf]);if(c.v1!=null&&c.v1!==c.score)old.push([P.name,q,c.v1,c.score,c.band,c.conf])}));
+  const s=D.stats;const tr=r=>`<tr><td><a href="#" data-p="${esc(r[0])}" data-q="${r[1]}">${esc(r[0])}</a></td><td>${r[1]}</td>`;
+  return `<details><summary><b>Round 2 changes (4 Nov)</b></summary><ol>
+<li><b>The missing works are read.</b> ${s.new} new statements from Schrakamp (2013, 2015, 2017, 2018, 2025), the RlA article "Steuer" (Schrakamp and Paoletti), Kienast &amp; Volk 1995 (FAOS 19), Archi 2015 on the Ebla temples, and the taxation chapters of Jursa (2009, 2011), Jursa &amp; Moreno García 2015, Richardson 2020 and De Graef 2020. They carry a "new 4 Nov" badge.</li>
+<li><b>ED IIIb temples settled.</b> Schrakamp 2013 and 2025 place the Girsu temples under the ruler's household: ED IIIb TEMP is now 2 and PAL 3. The Urukagina reform is attested in the archive (Ukg. E1), and the colophons change in the same year (Schrakamp 2013, pp. 456-457), which matters for turning point T1.</li>
+<li><b>Ebla temples.</b> Archi 2015, p. 20: the temples "did not derive income from direct ownership of land" and were part of the palace organisation. TEMP is 0 with low confidence, because all of it comes from the palace archive.</li>
+<li><b>Old Akkadian reform.</b> Schrakamp 2017, p. 83: Naram-Sin's administrative reform brought "reichsweite Einheitlichkeit der Urkunden". BUR is now 3; STD stays 2 (band 2-3), because royal and local measures were used side by side (p. 98). Both statements are flagged as format statements.</li>
+<li><b>Taxation.</b> Old Babylonian FISC drops to 2 (Richardson 2020 contests a regular system; De Graef 2020 documents igisûm and biltum). Jursa 2009 and 2011 and Jursa &amp; Moreno García 2015 find no fiscal break at 539 or under Darius, which agrees with the null for that turning point.</li>
+<li><b>Systematic basis pass.</b> All ${s.readpass} statements that had their basis from the text rule were read under your rubric (L: none, fragmentary or reconstructed; M: texts, finds or results support it; H: large numbers relative to the corpus and the Sitz im Leben). ${s.hand} more were read by hand; ${s.auto} remain on the rule.</li>
+<li><b>Archive inventory.</b> Shares now cite a source where one is published (Vita 2021 for Kaneš; Jursa 2010 for the Neo-Babylonian and Hellenistic archives; Schrakamp 2017 and CDLN 2014:23 for Adab; Schrakamp 2013 and 2025 for Girsu). Seven entries are still our estimate and say so.</li>
+<li><b>Field literature.</b> A new view compares our evidence base with the whole field (KeiBi 1997-2024 and eBL), and every cell lists the field's leading authors and the most reviewed unread works.</li>
+<li><b>Quotes in context:</b> ${s.located} statements are now located in the full texts (a second search window catches OCR ligature losses).</li></ol>
+<h3>Cells changed in this version (${rows.length})</h3><div class="tablewrap"><table class="diff"><tr><th>Period</th><th>Param</th><th>Before</th><th>Now</th><th>Band</th><th>Conf.</th></tr>${rows.map(r=>tr(r)+`<td class="n">${fmt(r[2].s)} <span class="conf ${r[2].c}">${r[2].c}</span></td><td class="n">${fmt(r[3])}</td><td class="n">${esc(r[4])}</td><td><span class="conf ${r[5]}">${r[5]}</span></td></tr>`).join('')}</table></div>
+<details><summary class="hint">Changes from v1 to v2 (the version of 3 Nov, ${old.length} cells)</summary><div class="tablewrap"><table class="diff"><tr><th>Period</th><th>Param</th><th>v1</th><th>Now</th><th>Band</th><th>Conf.</th></tr>${old.map(r=>tr(r)+`<td class="n">${fmt(r[2])}</td><td class="n">${fmt(r[3])}</td><td class="n">${esc(r[4])}</td><td><span class="conf ${r[5]}">${r[5]}</span></td></tr>`).join('')}</table></div></details></details>`;
+}
+function renderChanges(){
+  const s=D.stats,rows=[];D.periods.forEach(P=>PARAMS.forEach(q=>{const c=cellOf(P.name,q);if(!c||!c.r8||c.r8.shown==null)return;if(c.r8.shown!==c.score)rows.push([P.name,q,c])}));
+  const tr=r=>`<tr class="${r[2].r8.rc?'rc':''}"><td><a href="#" data-p="${esc(r[0])}" data-q="${r[1]}">${esc(r[0])}</a></td><td>${r[1]}</td><td class="n">${fmt(r[2].r8.shown)}</td><td class="n">${fmt(r[2].score)} <span class="hint">(${esc(r[2].band)})</span></td><td class="n">${fmt(r[2].r8.fin)}${r[2].r8.status==='adjudicated'?' <span class="hint">yours</span>':''}</td><td>${r[2].r8.rc?'↻ recheck':''}</td></tr>`;
+  document.getElementById('changes').innerHTML=`<section class="prose"><h2>What changed in round 4 (9 Nov)</h2><ol>
+<li><b>Your verdicts of 9 Nov are read.</b> 175 statement verdicts (all accepts) and your cell decisions: every cell that was pending is now agreed except Middle Elamite COMM and TEMP. Where a cell was on the recheck list and you accepted the new statements in it and clicked agree again, I count it as confirmed, because the desk keeps the earlier agree when the button is pressed a second time. Tell me if you meant otherwise for any of them. ${s.recheck} cell${s.recheck===1?' is':'s are'} still flagged ↻.</li>
+<li><b>Middle Elamite sources.</b> For your three notes: TERR has Mofidi-Nasrabadi 2018 and 2022 and its median is now 2, as you scored it; COMM has three works (Mofidi-Nasrabadi 2022, Glassner 1991, Basello and Giovinazzo 2018) and TEMP four statements from Mofidi-Nasrabadi 2022. Both come out at 2 and wait for your decision.</li>
+<li><b>New view: Archives.</b> The archives and tablet collections known for each period, with sizes and quoted passages, mainly from the corpus chapters of Vita (ed.) 2021 and from period surveys, set against where our photographed tablets come from. Main gaps: our Old Babylonian photos are 41% Nippur against about 5% of the published record, with Mari and the Sippar region almost absent; Girsu is under-represented in Ur III; Persepolis in the Achaemenid sample; our Middle Elamite tablets are all late Malyan, none from Haft Tepe.</li></ol>
+<h2>What changed in round 3b (9 Nov)</h2><ol>
+<li><b>Tonight's library read.</b> ${s.new9} new statements from ${s.works9} works, badged "new 9 Nov": Matessi 2023, Burgin 2022, Francia 2019 (on Waal 2015), Genz 2011 and Weeden 2011 (Hittite); Brinkman, Fuchs and Heeßel in Karduniaš 1, Paulus 2017, Devecchi 2020 and Powell, RlA "Masse und Gewichte" (Middle Babylonian, and metrology in other periods); Llop 2012 (provinces; letters) and Fales 2010 (Middle Assyrian); Groß 2020, Mattila 2018, Gaspa 2014 and Itach et al. 2023 (Neo-Assyrian); Jursa 2014, Holtz 2014, Veldhuis 2003 and Graslin-Thomé 2016 (Neo-Babylonian); van der Spek 2014 (Hellenistic); Middeke-Conlin 2020 (Larsa under Rim-Sin, so Old Babylonian) and Barjamovic 2011 (Old Assyrian). Every quote is located in its source text.</li>
+<li><b>Incomplete library copies.</b> Bilgin 2018 and Waal 2015 contain front matter only (Francia's review is cited for Waal); Mattila 2018 has pages 253-254 of 253-258. The library had nothing new tonight for Achaemenid PAL, TEMP, LAW and STD, Hittite TEMP and STD, or Hellenistic COMM.</li>
+<li><b>Recheck list.</b> ${s.recheck} cells are flagged ↻ now. Four are new because the median moved away from the score you agreed with (Old Assyrian TERR, Middle Assyrian FISC, Neo-Babylonian TERR and BUR); two left the list because the median came back to what you saw (Old Babylonian BUR, Middle Assyrian COMM).</li></ol>
+<h2>What changed in round 3 (8 Nov)</h2><ol>
+<li><b>Every note answered.</b> ${s.notes8} cell notes and the statement comments now carry my answer (in the cell, and all together under <i>Your remarks</i>).</li>
+<li><b>Field literature read.</b> ${s.new8} new statements, badged "new 8 Nov", from the works you added and named: for example Larsen 2015, Veenhof 2010, Beyer 2019, Dercksen 2008 and Forlanini 2009 (Old Assyrian); Charpin 2004 (new French OCR), Van De Mieroop 2005, Fiette 2018, Charpin 2010, 2014 and 2017, Leemans and Stol 2023 (Old Babylonian); Postgate 2013, Wiggermann 2008 and Jakob 2003 (Middle Assyrian); Mattila 2000, Radner 2014, Postgate 1974, Robson 2019 and Démare-Lafont 2011 (Neo-Assyrian); Sassmannshausen 2001, Devecchi 2020, Paulus 2020 and Bartelmus 2016 (Middle Babylonian); the Achaemenid Companion, Tuplin 2015 and Young 2024; Kosmin 2014, Monerie and Doty 1977 (Hellenistic); Hoffner 1997 and 2009, Bilgin 2018 and van den Hout 2020 (Hittite).</li>
+<li><b>Period mixing fixed.</b> Boivin 2024 (first-millennium Larsa) left Early Old Babylonian; Turowski 2026 (first-millennium Uruk) left Old Assyrian; Fiette 2018 (Larsa under Hammurabi) is coded under Old Babylonian. The ${s.rej8} statements you rejected are out of the scores.</li>
+<li><b>STD, 2 against 3.</b> 2 = one polity-wide standard in one domain (metrology or calendar); 3 = both, imposed by the crown, with local variants displaced. See the codebook.</li>
+<li><b>Hittite phases.</b> TERR and HIER are scored for the Old Kingdom and the Empire separately, as you noted.</li>
+<li><b>Maps.</b> Kaneš (not Kaniš), with the other Old Assyrian find spots; Kiš and Babylon no longer collide; Persepolis is no longer cut.</li>
+<li><b>Your scores in the analysis.</b> Where you adjudicated (${s.adjud} cells), your score is the one used; ${s.pending} cells are still pending. A cell is flagged ↻ when the new literature moved the median away from what you saw or scored (${s.recheck} cells).</li>
+<li><b>Not in the library.</b> Works you named that I could not read are listed in the next-stage guide, with the cell each one serves.</li></ol>
+<h3>Cells whose literature score moved since you saw them (${rows.length})</h3><div class="tablewrap"><table class="diff"><tr><th>Period</th><th>Param</th><th>You saw</th><th>Now</th><th>Used</th><th></th></tr>${rows.map(tr).join('')}</table></div>
+${oldChanges()}</section>`;
+  document.querySelectorAll('#changes a[data-p]').forEach(a=>a.onclick=e=>{e.preventDefault();st.period=a.dataset.p;st.param=a.dataset.q;setView('assess')});
+}
+let rfil='all';
+function renderRemarks(){
+  const rows=[];D.periods.forEach(P=>PARAMS.forEach(q=>{const c=cellOf(P.name,q);if(!c||!c.r8)return;const r=c.r8;if(!(r.note||r.ans||r.status==='adjudicated'||r.status==='pending'||r.rc))return;rows.push([P.name,q,c,r])}));
+  const keep=x=>rfil==='all'||(rfil==='rc'&&x[3].rc)||(rfil==='pending'&&x[3].status==='pending')||(rfil==='adj'&&x[3].status==='adjudicated')||(rfil==='lib'&&/acquisition list/.test(x[3].ans||''));
+  const n=f=>{const o=rfil;rfil=f;const k=rows.filter(keep).length;rfil=o;return k};
+  const btn=(f,l)=>`<button class="pchip" data-f="${f}" aria-pressed="${rfil===f}">${l} (${n(f)})</button>`;
+  document.getElementById('remarks').innerHTML=`<section class="prose"><h2>Your remarks of 8 Nov and what I did</h2><p>Each row is a cell you commented on, adjudicated or left pending. "You saw" is the score on the desk when you read it; "Now" is the literature score after this round; "Used" is the score that goes into the analysis (yours where you adjudicated). Click a cell to open it.</p>
+<div class="rfil">${btn('all','All')}${btn('rc','↻ Recheck')}${btn('pending','Pending')}${btn('adj','Adjudicated')}${btn('lib','Needs a work not in the library')}</div>
+<div class="tablewrap"><table class="rtab diff"><tr><th>Cell</th><th>Your note</th><th>What I did</th><th>You saw</th><th>Now</th><th>Used</th></tr>${rows.filter(keep).map(([p,q,c,r])=>`<tr class="${r.rc?'rc':''}"><td><a href="#" data-p="${esc(p)}" data-q="${q}">${esc(p)} · ${q}</a><br><span class="hint">${esc(r.status)}${r.rc?' · ↻':''}</span></td><td class="note">${r.note?esc(r.note):(r.shg!=null?'(score '+fmt(r.shg)+')':'')}</td><td>${esc(r.ans||'')}</td><td class="n">${fmt(r.shown)}</td><td class="n">${fmt(c.score)}</td><td class="n">${fmt(r.fin)}</td></tr>`).join('')}</table></div></section>`;
+  document.querySelectorAll('#remarks a[data-p]').forEach(a=>a.onclick=e=>{e.preventDefault();st.period=a.dataset.p;st.param=a.dataset.q;st.focus=0;setView('assess');window.scrollTo({top:0})});
+  document.querySelectorAll('#remarks .rfil button').forEach(b=>b.onclick=()=>{rfil=b.dataset.f;renderRemarks()});
+}
+function cap(x){return String(x).replace(/(^|; )([a-z'])/g,(m,a,b)=>a+b.toUpperCase()).replace(/\b(Na'aman|D'agostino)\b/g,m=>m.replace("'a","'a"))}
+function renderField(){
+  const B=D.bib,S=B.summary,mx=Math.max(...B.periods.map(r=>Math.max(r.field_share,r.our_share)));
+  const w=x=>(100*x/mx).toFixed(1)+'%';
+  document.getElementById('field').innerHTML=`<section class="prose"><h2>Our evidence base against the field</h2>
+<p>The bibliography merges KeiBi volumes 57 to 82 (literature of 1997 to 2024; ${S.keibi_entries.toLocaleString()} entries, of which ${S.keibi_reviews.toLocaleString()} are reviews) with the eBL bibliography (${S.ebl_entries.toLocaleString()} entries, ${S.ebl_matched_keibi.toLocaleString()} also in KeiBi): ${S.merged_works.toLocaleString()} works, ${S.period_tagged.toLocaleString()} of which name one of our periods in the title. Titles are tagged with a multilingual period lexicon and the parameter keyword lists. A KeiBi review is not counted as a work; it is credited to the book it reviews, as a rough measure of influence.</p>
+<p><b>Field share</b> is the period's share of works that name the period and touch at least one parameter; <b>our share</b> is the period's share of our statements. The rank correlation between the two is ${S.rho_field_vs_ours} (Spearman). We read the third millennium much more closely than the field writes about it, and the Old Babylonian and Neo-Assyrian periods much less. That is deliberate where the paper's turning points lie, but the Neo-Assyrian cells rest on a thin share of a large literature, and the unread lists in those cells are the place to start.</p>
+<div class="tablewrap"><table class="ftab"><tr><th>Period</th><th>Works</th><th>Since 2010</th><th>On our parameters</th><th class="bars">Field share <span class="fbar f" style="width:40px;display:inline-block"></span> · our share <span class="fbar o" style="width:40px;display:inline-block"></span></th><th>Ratio</th><th>Most productive authors</th><th>Of whom we cite</th></tr>
+${B.periods.map(r=>`<tr><td><a href="#" data-p="${esc(r.period)}">${esc(r.period)}</a></td><td class="n">${r.works}</td><td class="n">${r.since2010}</td><td class="n">${r.with_param}</td><td class="bars" title="field ${(100*r.field_share).toFixed(1)}%, ours ${(100*r.our_share).toFixed(1)}%"><span class="fbar f" style="width:${w(r.field_share)}"></span><span class="fbar o" style="width:${w(r.our_share)}"></span><span class="hint">${(100*r.field_share).toFixed(1)}% · ${(100*r.our_share).toFixed(1)}%</span></td><td class="n">${r.ratio}</td><td>${esc(cap(r.top_authors||''))}</td><td class="n">${r.top_cited} of 10</td></tr>`).join('')}</table></div>
+<p class="hint">Limits: title words miss works whose titles name neither a period nor a topic, and OCR damage loses entries in some KeiBi volumes (per-volume yields are in biblio/summary.json). The counts measure where the field's attention lies, not evidence for any score. Script: 97_bibliometrics.py.</p></section>`;
+  document.querySelectorAll('#field a[data-p]').forEach(a=>a.onclick=e=>{e.preventDefault();st.period=a.dataset.p;setView('assess')});
+}
+
+function renderArchives(){
+  const N=n=>n==null?'':n.toLocaleString('en-US');
+  const pct=x=>x==null?'':Math.round(x*100)+'%';
+  const blocks=D.arch.map(A=>{
+    const rows=A.e.map(e=>`<tr><td><b>${esc(e.a)}</b>${e.s?'<br><span class="hint">'+esc(e.s)+'</span>':''}</td><td class="kind">${esc(e.k)}</td><td class="n">${N(e.n)}</td><td class="kind">${esc(e.sp)}</td><td><details><summary>${esc(e.lab)}, ${esc(e.w)}</summary><div class="q">“${esc(e.q)}”</div>${e.nt?'<div class="hint">'+esc(e.nt)+'</div>':''}${e.loc?'':'<div class="hint">Quote not matched in our text copy (OCR); checked by hand.</div>'}</details></td><td class="n">${e.ls!=null?pct(e.ls):''}</td><td class="n">${e.ss!=null?pct(e.ss)+' <span class="hint">('+N(e.sn)+')</span>':''}</td></tr>`).join('');
+    const d=A.d?`<p class="hint">Our photographs: ${N(A.d.n)} tablets in ${A.d.museums} collections; ${A.d.museums_80} hold 80% of them; the largest is ${esc(A.d.top)} (${pct(A.d.top_share)}).</p>`:'';
+    return `<section class="archp" id="arch-${esc(A.p).replace(/\W+/g,'-')}"><h3>${esc(A.p)}</h3><p>${esc(A.sum)}</p>${d}<div class="tablewrap"><table class="diff arch"><tr><th>Archive or group</th><th>Kept by</th><th>Size</th><th>Date</th><th>Source (click for the quote)</th><th title="share of the corpus, among the sites the literature counts">Share in literature</th><th title="share of our photographed tablets of this period from that site">Share in our photos</th></tr>${rows}</table></div></section>`}).join('');
+  document.getElementById('archives').innerHTML=`<section class="prose"><h2>Archives and known tablet collections</h2>
+<p>For each period: the archives and tablet groups the period surveys describe, who kept them, how many texts they hold, and the quoted passage with its page. The main source is the corpus chapters of Vita (ed.) 2021, <i>History of the Akkadian Language</i> (Sommerfeld, Kogan and Krebernik, Streck, Kouwenberg, van Soldt, Jakob, Fales, Hackl), with period surveys where Vita has no corpus section: Bramanti 2020 and Foster 1982 (third millennium), Archi 2015 (Ebla), Molina 2016 (Ur III), Charpin 2014 (Old Babylonian), Jursa 2010 (Neo-Babylonian), Henkelman 2012, Stolper 1985 and Monerie 2018 (Achaemenid and Hellenistic), Doty 1977 (Hellenistic Uruk), van den Hout 2020 (Hittite), Basello and Giovinazzo 2018 and Glassner 1991 (Middle Elamite). ${D.stats.arch_entries} entries from ${D.stats.arch_works} works.</p>
+<p>The last two columns set the literature's numbers against our photographed tablets, site by site, where the survey gives a count. They show where our sample over- or under-represents the record: Mari and the Sippar region are almost absent from our Old Babylonian photos while Nippur is eight times its share; Girsu is under-represented in Ur III; Persepolis is under-represented in the Achaemenid sample; our 22 Middle Elamite tablets are all from Malyan at the very end of the period. These shares are of the sites counted, not of the whole corpus.</p>
+<p class="hint">How this feeds the scores: the archive inventory on each period page (the "Kept by" and "Share" table) sets which statements are down-weighted when one archive dominates (85b). I have not changed those shares in this round. Where a survey count differs from our estimate (Middle Babylonian Nippur about 90% rather than 80%; Neo-Assyrian Nineveh "the vast majority"; Mari about a third of the Old Babylonian record) it is listed here for your decision, since moving a share across 50% changes which statements are down-weighted.</p></section>${blocks}`;
+}
+function setView(v){st.view=v;['assess','remarks','codebook','changes','field','archives'].forEach(x=>{document.getElementById(x).hidden=x!==v;document.getElementById('v-'+x).setAttribute('aria-pressed',x===v)});
+  if(v==='assess'){renderAssess();renderPeriods()} if(v==='codebook')renderCodebook(); if(v==='changes')renderChanges(); if(v==='field')renderField(); if(v==='remarks')renderRemarks(); if(v==='archives')renderArchives(); savePos()}
+['assess','remarks','codebook','changes','field','archives'].forEach(v=>document.getElementById('v-'+v).onclick=()=>setView(v));
+function renderAll(full=true){renderPeriods();renderStatus();if(st.view==='assess'){if(full)renderAssess();else{renderRail();refreshCards()}}}
+function refreshCards(){const S=stmOf(st.period,st.param);document.querySelectorAll('#stms .st').forEach(card=>{const s=S[+card.dataset.i];const v=V.stm[s.id]||{};card.dataset.v=v.v||'';card.querySelectorAll('.acc,.rej').forEach(x=>x.classList.toggle('on',x.dataset.a===v.v));const t=card.querySelector('textarea');if(t&&document.activeElement!==t)t.value=v.comment||'';const sel=card.querySelector('select');if(sel&&document.activeElement!==sel)sel.value=v.rescore??''})}
+function copyTSV(){const L=[['type','period','param','statement','verdict','rescore','score','band_lo','band_hi','conf','comment'].join('\t')];
+  Object.values(V.cell).forEach(c=>L.push(['cell',c.period,c.param,'',c.agree||'','',c.score??'',c.lo??'',c.hi??'',c.conf||'',(c.note||'').replace(/\s+/g,' ')].join('\t')));
+  Object.values(V.stm).forEach(s=>L.push(['statement',s.period||'',s.param||'',s.sid.split('|').slice(2).join('|'),s.v||'',s.rescore??'','','','','',(s.comment||'').replace(/\s+/g,' ')].join('\t')));
+  const t=L.join('\n');const b=document.getElementById('copytsv');
+  try{navigator.clipboard.writeText(t).then(()=>{b.textContent='Copied'},()=>{b.textContent='Copy failed'})}catch(e){b.textContent='Copy failed'}}
+document.addEventListener('keydown',e=>{if(st.view!=='assess'||/TEXTAREA|SELECT|INPUT/.test(document.activeElement.tagName)||e.metaKey||e.ctrlKey||e.altKey)return;
+  const S=stmOf(st.period,st.param);const cards=document.querySelectorAll('#stms .st');
+  if(e.key==='j'){focusStm(st.focus+1)} else if(e.key==='k'){focusStm(st.focus-1)}
+  else if((e.key==='a'||e.key==='r')&&cards[st.focus]){cards[st.focus].querySelector(e.key==='a'?'.acc':'.rej').click();focusStm(st.focus+1)}
+  else if(e.key==='c'&&cards[st.focus]){toggleCtx(cards[st.focus],S[st.focus])}
+  else if(e.key==='n'||e.key==='p'){const i=PARAMS.indexOf(st.param)+(e.key==='n'?1:-1);if(i>=0&&i<12){st.param=PARAMS[i];st.focus=0;renderCell();renderRail();savePos();document.getElementById('cell').scrollIntoView({block:'start'})}}
+  else if(e.key===']'||e.key==='['){const i=D.periods.findIndex(x=>x.name===st.period)+(e.key===']'?1:-1);if(i>=0&&i<D.periods.length){st.period=D.periods[i].name;st.focus=0;renderAssess();renderPeriods();savePos()}}
+  else return; e.preventDefault()});
+setView(st.view||'assess');renderStatus();initDb();
+</script>

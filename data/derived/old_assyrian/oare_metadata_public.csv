@@ -1,0 +1,1376 @@
+id,oare_ids,oare_genre,objects,tablet_and_envelope,cdli_genre
+216609,6cb31042-ffbe-4aec-a150-31fb49f38c05 | fec695d2-c75d-4ddd-8eba-91d4ed5a163e,inheritance suit,envelope + tablet,True,Legal
+249250,a288af4d-da04-4eca-a63c-544a48a4b0e1,letter,tablet,False,Letter
+260347,a767b2b3-ccb4-4f15-8244-77b104cd465d,letter,tablet,False,
+260348,3ee1fb39-7be1-48c8-b689-d468b8a7eec4,legal writing(s),tablet,False,
+260350,be4042cc-d7be-470f-8d0e-6f31247b407a,letter,tablet,False,
+260351,bfa515ec-1d2e-4d95-a3c9-c2911660e40a,letter,tablet,False,
+260352,654b743e-1213-4146-8623-b65ea60a9058,letter,tablet,False,Letter
+260355,ede3e1af-02f3-402a-a415-2f9fff20f2fa,school text,tablet,False,
+260357,487fc555-cfd6-414b-b5b9-5950a6b3f3de,purchase guarantee,tablet,False,Letter
+260358,fbd01f01-a6c3-4da2-863c-d002c13af683,settlement of accounts,tablet,False,
+260360,975941bd-ee8e-4ba5-b614-c0c19ed92d9f,debt note,tablet,False,
+260362,4711469b-1829-4024-933e-b8d22f8ab71e,unknown,tablet,False,
+260363,5434724a-f7c5-47ef-b8e3-8d301d6f35f3,administrative regulation,tablet,False,Letter
+260364,acfb708d-92ed-4f34-8770-7e0dff832f6e,letter,tablet,False,
+260365,0dacc375-85e2-4659-8cd5-49a7c4e64030,letter,tablet,False,
+260366,9d09ae73-c041-4d7d-9d36-f5e44189e51d,letter,tablet,False,Letter
+260367,4648315c-674e-4829-b0d2-08be6f2b7958,"statute (regulation, decision)",tablet,False,Legal
+260368,c58a4a58-733b-4c44-bafa-35306532975f,judgement,tablet,False,
+260371,52429053-85db-462b-ac5e-a724fcdee23a,letter,tablet,False,
+260372,b62f55a7-1f4f-441b-b3dd-1fbe500d0916,"statute (regulation, decision)",tablet,False,
+260375,57be10de-b5b5-4f21-92bf-324898298763,letter,tablet,False,
+260376,90df3436-8d65-49b6-b1f1-fa6de8d507a4,letter,tablet,False,Letter
+260377,3a990f61-d6f0-412d-a353-460061ef7752,testimony,tablet,False,
+260378,0cc15cdc-28ce-45cf-a074-4af1da37c9d3,unknown,tablet,False,
+260379,a7e8ae29-5612-4750-a067-b8517e7eab3b,legal writing(s),tablet,False,
+260381,0600be70-a772-42b5-8a4c-13dfd9f1bce9,unknown,tablet,False,
+260383,443beee9-2241-4c3f-ac3f-9de300d37860,unknown,tablet,False,
+260384,82aedf8f-10e0-46d9-96e2-4d25e257f34c,judgement,tablet,False,
+260385,11274ab9-e001-4d71-a452-5ab97d02de78,debt note,tablet,False,
+260386,ffc2503c-639f-4c20-be57-8617dfea814f,letter,tablet,False,
+260397,b74aee87-0a5b-414d-a208-25416dffe101,unknown,tablet,False,
+260398,9d1f9614-fc7a-4279-be3a-6a8a1e87124d,letter,tablet,False,
+261858,b7d2fde4-1765-4f91-86b8-a5f772ddb351,letter,tablet,False,Letter
+261859,f794681d-ca0a-4ce4-b0ce-e209e6827133,unknown,tablet,False,
+261860,ec0b2bb6-3072-46cf-bf44-528db037e787,unknown,tablet,False,
+261864,1a273738-ed87-40ea-ab07-2473df724c6d,note,tablet,False,
+261866,61124abb-8e5c-4ace-8a17-68df0273dee1,unknown,tablet,False,
+261869,ac1fff03-cf98-46a2-ae2a-a34fcf7012f5,debt note,tablet,False,
+261873,70259a3a-24a0-4ad7-8174-515c05b007e9,administrative regulation,tablet,False,Letter
+261874,54c0dc77-2234-4164-9472-e560115f33ea,letter,tablet,False,Letter
+272898,387b73a2-384b-4859-bdb4-3d83fc89785c,letter,tablet,False,Letter
+272899,c61442e7-1f47-4477-a320-8dc6149ca7e1,letter,tablet,False,Letter
+272900,dc789a2c-e717-4a60-bf82-0b7078188490,legal writing(s),tablet,False,Legal
+272901,6ab7a132-a42b-431e-ac29-269378715646,legal writing(s),tablet,False,Letter
+272902,1168bda3-2d10-4f89-8052-0e881fadde33,administrative regulation,tablet,False,Letter
+332204,41603d1a-dc4c-42c5-a970-d0666fdb0ee3,letter,tablet,False,Letter
+332982,f1ec5d65-7ca9-c18f-09ff-b0d0c7cf195e,list,tablet,False,
+332983,33933254-5f5d-de32-13dc-9af5e080ac65,memo,tablet,False,
+332984,6094985e-d042-4a93-af06-2b489bdcb3f5,unknown,tablet,False,
+333881,d49d8c1c-ed3c-8f90-7637-5a54bfe75226,unknown,tablet,False,
+333882,68897c7e-6949-c359-7827-8ee18f89a557,letter,tablet,False,Letter
+333883,b7a9f9d1-7a5c-4d64-59b2-ac4595cf2fea,letter,tablet,False,Letter
+333884,e9ae5a83-2392-d9c0-f487-88c29124c464,contract of sale,tablet,False,
+333885,1041307c-36f3-71d5-9034-f05a43d985b3,testimony,tablet,False,
+333886,ca1a21d4-cc13-1578-05ad-eee95cbd5268,judgement,tablet,False,
+333887,da5a6126-e324-2cd0-363a-13b9e955fb78,letter,tablet,False,Letter
+333888,3c10547e-4f06-b273-bd1b-92347dd6ee0f,letter,tablet,False,Letter
+333889,6256f658-5bcb-8a2c-b7be-d630ea99c666,letter,tablet,False,
+333890,26af8b64-7fa6-162a-9e4c-5c4c00634932 | ae5a8ece-c080-239d-d322-1ecacdecca35,debt note,tablet,False,
+333891,8dc94bd3-23ee-2e31-239e-4f61e51004c0,letter,tablet,False,Letter
+333892,68ac49be-52ce-727a-6e18-e5ba35ba98e5,letter,tablet,False,Letter
+333893,5d4b7a27-c215-8b9c-abae-374c17be1e70,letter,tablet,False,
+333894,2662f6f7-f5cd-b855-84aa-64c03ccae277,letter,tablet,False,Letter
+333895,81b0b932-bcb4-4836-a36a-fb958ce60d38,letter,tablet,False,
+333896,5b29f97d-095b-fe29-638d-10fb333b0edf | 870b089a-dc42-965e-9602-c7b8e474a410,testimony,envelope + tablet,True,
+333897,42ab7acd-1b44-3642-1c32-3f03e182545e,letter,tablet,False,
+333898,753bc087-34f0-7971-c1b9-2a038fabe14c,letter,tablet,False,
+333899,6a998979-c372-e298-04a2-31038984461a,letter,tablet,False,
+333900,a2cd52f3-f128-aa62-e8df-69fbac96e7ff,letter,tablet,False,Letter
+333901,83b9f944-3c43-5de7-c963-a940e422db88,letter,tablet,False,Letter
+333902,af4ee6d0-9fba-618e-5ddf-690a87d05ae1,letter,tablet,False,
+333903,408f7529-f35b-c781-cef9-214f4ef70bb7,letter,tablet,False,
+333904,2e404530-a96f-2920-da84-869f902449a9 | 81e63aed-3487-70ca-117f-2b5000cbc202,letter,envelope + tablet,True,
+333905,0890a642-8c2d-ad16-e1dc-1a8011d7c707 | e1c36aba-58a7-d19f-5865-6152cc026a10,debt note,envelope + tablet,True,
+333906,a75a80c7-b6f4-5db4-9057-bfc684fe3c2d,letter,tablet,False,Letter
+333907,12b684c9-17fc-5a8b-20d2-f819f0783ea7,unknown,tablet,False,
+333908,cfce3e29-0cf7-b6c2-0ac3-daeb38238d12,letter,tablet,False,
+333915,63bea17d-2b58-6603-2c06-9f6850ed6aa1,unknown,tablet,False,
+333916,7d176b14-7d31-b53b-8dc2-44968d6f5d18,unknown,tablet,False,
+333917,78429c3b-e31f-b09c-5db3-bf8289a73e82,unknown,tablet,False,
+333918,33eb41ab-deca-5a7e-bfc9-1f5594312720,letter,tablet,False,
+333919,7383aa92-3d21-17d4-f74c-43bb92815144,unknown,tablet,False,
+333920,2526d991-2fb8-08a6-c094-8f446ea6a16d,letter,tablet,False,
+333921,7f017188-7751-19ff-26b5-80c7554d8e3d,agreement (contract),tablet,False,
+333922,bfd3ef8a-69fd-2d25-b92f-ad646713310d,letter,tablet,False,Letter
+333923,b8f14471-4cd5-85b4-1021-3e1cd3117f10,testimony,tablet,False,
+333924,f351df44-835c-1ba6-5c11-a88d08406b0b,letter,tablet,False,
+333925,7b0d3f98-74ea-638d-994f-2c50ca65cfae,unknown,tablet,False,
+333926,a6137831-9ffa-834a-ad07-cc075e9ac160,letter,tablet,False,Letter
+333927,0360bc60-29d4-9a5a-5cf5-3e671c9517b6,letter,tablet,False,
+333928,e0e69f66-478a-830e-337b-3d388e676140,letter,tablet,False,
+333929,4d10292a-d82a-d1a6-6639-372b13084bd6,unknown,tablet,False,
+333930,12a7be5a-1d03-6996-f76e-1ff1ef4067a2,unknown,tablet,False,
+333931,7636d7eb-8764-3e85-16df-ef6315de758c,letter,tablet,False,
+333932,ac294fb0-c9ab-84e0-5a4e-9c8726ec04a7,unknown,tablet,False,
+333933,71da2879-2d2c-2905-83b5-47e94b77d7de,note,tablet,False,
+333934,a1946b03-c9a6-ef47-0cbb-4e053de2ded7,unknown,tablet,False,
+333935,74a50b22-2148-d51e-00bc-fb06fcfed5a1,letter,tablet,False,
+333936,049e7360-c5c6-4eb4-b79b-62c6ba25902c,letter,tablet,False,Letter
+333937,3e177a22-4106-0620-b750-d355e8bcef0d,unknown,tablet,False,
+333938,e2daecbd-854c-87a6-8eb9-563cab3b412b,unknown,tablet,False,
+333939,b6feb106-2303-a2df-7eb9-b4e28f5da735,letter,tablet,False,
+333940,1a549535-a5b7-fbbe-9f44-d47a40f0f978,agreement (contract),tablet,False,
+333941,ecb81e62-06b0-3ba0-6d4f-9372415c786d,debt note,tablet,False,
+333942,010099d0-3c67-1d62-161e-5723a5114b66,unknown,tablet,False,
+333943,7d2eb16d-6f1d-378f-dc7d-5927d52d4b05,letter,tablet,False,
+333944,ef9bd958-ff4a-45fc-8c7b-fc7ffc826593,letter,tablet,False,
+333945,f533092f-e001-6003-5e0d-93d087b5ca9d,unknown,tablet,False,
+357337,0ca61ada-6b00-6431-4cb7-ad0104018903,letter,tablet,False,Letter
+357338,51ca2050-d5f7-dbc6-0e9a-db2202d6f724,letter,tablet,False,Letter
+357339,2a482d61-0c54-f55b-ed94-3705d66c8b5b,letter,tablet,False,Letter
+357340,f902aa44-e727-a430-6a1f-661677e0e1fd,letter,tablet,False,Letter
+357341,f72b4ebe-a9a0-e788-8709-fac902d755b5,letter,tablet,False,Letter
+357342,312e0e16-9bef-3064-5299-a9569634ae39,letter,tablet,False,Letter
+357343,d54d6fb9-bd08-d1d0-8058-f376f9098c5b,letter,tablet,False,Letter
+357344,904001be-03ff-e5b8-82dd-005839288ba8,letter,tablet,False,Letter
+357345,93ea77f8-e41d-85ec-cd59-38805099aa66,letter,tablet,False,Letter
+357346,763dcb84-51b3-e168-c168-c63f47fd0943,letter,tablet,False,Letter
+357347,b036e36a-2e1e-3c72-3efc-0d7bc4b2e0de,letter,tablet,False,Letter
+357348,00d3e185-e117-9cef-68e9-db0ea0aa2007,letter,tablet,False,Letter
+357349,eaa52099-9a80-cc55-6849-a22ddaea9bb6,letter,tablet,False,Letter
+357350,6515933f-25a7-2ca7-9168-ea1cd39f5f2c,letter,tablet,False,Letter
+357351,0159ebd1-046b-3b0e-8aed-3a2497b66bbb,letter,tablet,False,Letter
+357352,db307380-fd2a-aa29-e5bc-572029ae1201,letter,tablet,False,Letter
+357354,80964059-22d8-b331-0c68-40edc626f1aa,letter,tablet,False,Letter
+357355,1ff5afdc-ce21-005e-4174-5afede5c7e0c,letter,tablet,False,Letter
+357356,f02e2000-4da9-ab96-df48-4033032ee20f,letter,tablet,False,Letter
+357358,88b2a3fd-8817-5a20-ed91-3c0ca2fd4346,letter,tablet,False,Letter
+357359,2e7970f4-6254-ec90-d3a9-d712efcdc4a9,letter,tablet,False,Letter
+357360,1ab593b5-6fac-2bf9-e15d-8d5bdd1fef29,letter,tablet,False,Letter
+357361,51a85c73-6914-1e87-6f91-946ec91d9bdd,letter,tablet,False,Letter
+357362,009f8736-8a1c-2846-a9bc-33d2c23279a4,letter,tablet,False,Letter
+357363,c71205a0-28d8-7151-0e81-ac0ce22ada2b,letter,tablet,False,Letter
+357364,dcbd8141-b666-9c91-2359-1e6a9dc8ce00,letter,tablet,False,Letter
+357365,e4b063d0-4dc3-2d99-f30b-7d8d00bd5d85,letter,tablet,False,Letter
+357366,418b239b-355a-901b-159b-e17f51dee2e4,letter,tablet,False,Letter
+357367,94e21125-5f07-d7ca-a508-8fc8742888e0,administrative regulation,tablet,False,Letter
+357368,f67d1d39-fc8e-61ef-f629-be340a12088a,letter,tablet,False,Letter
+357370,6a78f93f-5c99-537a-ad37-790fd8553d23,administrative regulation,tablet,False,Letter
+357372,b7761e06-fbfa-e627-195c-82e3e0ce06ca,letter,tablet,False,Letter
+357374,73af931d-d2f3-7c0b-69bb-6b6c1d98dee2,letter,tablet,False,Letter
+357376,8864788a-052b-d22c-ceff-bc0acd6af8fd,letter,tablet,False,Letter
+357377,6c4dc9ce-8aa0-7e5c-f541-5653414f23d7,letter,tablet,False,Letter
+357378,e553be94-a7e7-9441-6512-f4c97c89181e,letter,tablet,False,Letter
+357379,06d3ded8-1b4e-4cc4-0ab9-9a6bbbb00270,letter,tablet,False,Letter
+357381,d02a5c63-2f61-5f78-2abd-66a9f6431cf9,letter,tablet,False,Letter
+357382,4573de40-3986-633e-8697-05d967238095,letter,tablet,False,Letter
+357383,04dd078f-ee77-ceb9-d24c-10c4dab96b3b,letter,tablet,False,Letter
+357384,75901ee7-09ba-44a9-4f33-51476b8b696f,letter,tablet,False,Letter
+357387,0cccb04c-c544-877f-3446-b6f6c62a5a1f,letter,tablet,False,Letter
+357390,5f661008-9a2c-965e-c8b2-cb6e376bd0f6,letter,tablet,False,Letter
+357391,452106bb-b39e-71cc-40a7-1f908088ab6c,letter,tablet,False,Letter
+357395,1672cbbe-cf87-7bd5-574e-ac9a8e0bae45,letter,tablet,False,Letter
+357396,f386ebae-a2e4-f5eb-36ad-e19901cb78a0,letter,tablet,False,Letter
+357400,da8d6b06-cd57-d57e-0c8a-139178403bdb,debt note,tablet,False,Letter
+357401,29ef00e6-a688-d210-1a22-1f1514a84827,letter,tablet,False,Letter
+357403,82c1b95a-c63a-93b3-e4b2-25a89d7529d7,debt note,tablet,False,Letter
+357404,3627efaf-f8f6-274e-2bf0-ae82a11299c3,letter,tablet,False,Letter
+357405,e2a8b561-b28e-19be-df1b-0785edeb5761,memo,tablet,False,Letter
+357407,d68acc2e-9ee7-5bcb-f402-8bf13bacae3d,letter,tablet,False,Letter
+357410,61b23c32-882a-4cc4-326b-2680cb40a229,debt note,tablet,False,Letter
+357411,d6356898-048b-f89e-e09f-c601b53185b8,agreement (contract),tablet,False,Letter
+357412,52dbe6d8-bf73-008b-e629-4045098d009c,judgement,tablet,False,Letter
+357413,1e9da354-86d8-0317-5e13-20789cad7b04,letter,tablet,False,Letter
+357414,84d888ef-9d9e-fc3f-6559-357d4afbf411,agreement (contract),tablet,False,Letter
+357415,e02682c0-2cc4-d770-fed1-e5a3272abae5,note,tablet,False,Letter
+357416,e2dcdbee-bf52-e9ed-b1a1-b5e43e47519b,memo,tablet,False,Letter
+357417,3ec32bdd-6354-676f-dff3-36df2d0b3ce5,testimony,tablet,False,Letter
+357418,de6cad3e-ac64-7aa5-a5f1-14f0ccd52342,note,tablet,False,Letter
+357419,1fa3586b-cee8-ec1b-e85a-3ecc25f9628f,note,tablet,False,Letter
+357420,d1857121-b0c3-4a69-90ce-64308d6826b1,letter,tablet,False,Letter
+357421,178dcb00-1d0d-6927-d5a2-a7aeb0c7bbae,legal writing(s),tablet,False,Letter
+357423,3bfd35d9-d836-a9de-f914-df277df73ae9,contract of sale,tablet,False,Letter
+357424,738ed25e-9096-4353-5520-c0824f8a1beb,letter,tablet,False,Letter
+357425,166e4e5f-255d-d6c3-53e1-050a95bc4cae | e9b96b6f-a71a-0d08-a639-a00660e8b81e,debt note,tablet,False,Letter
+357427,9e11e6c3-67b8-7bf7-7820-220da5f7966f,letter,tablet,False,Letter
+357430,a7c73fa0-6e96-529c-5dfe-a36f08f3b59e,testimony,tablet,False,Letter
+357431,5ce53a70-152b-d25a-2e2e-1d7d77fa1671,testimony,tablet,False,Letter
+357432,bca96721-f465-3698-8895-3e7179219c4e,letter,tablet,False,Letter
+357437,375569ef-0d8c-fa9a-b866-36cb4ae58b25,letter,tablet,False,Letter
+357438,6406f570-dc80-807c-51f9-dd248a686804,agreement (contract),tablet,False,Letter
+357439,c47eb1a6-0e9d-e80a-af2a-b0e069c5ebee,letter,tablet,False,Letter
+357442,dd867636-4011-c26e-adf9-c35b8a7804a5 | 3d4e219a-5fae-a053-2b18-99dbf7b20f0c,testimony,tablet,False,Letter
+357443,5aeba9c4-297f-bfbe-93f4-b8b591e24e0d,letter,tablet,False,Letter
+357444,8bee2691-b171-002f-6058-d4e5e60fd159,letter,tablet,False,Letter
+357449,ca0af495-0c94-cb82-6e0c-23e690fd13cc,letter,tablet,False,Letter
+357458,957116d6-f49d-e8b6-5165-79d0fcdddcba,"statute (regulation, decision)",tablet,False,Letter
+357461,1d729d05-a867-4e44-8154-f36ff948e740,letter,tablet,False,Letter
+357469,b5b5c8dc-c31e-4cfc-ae66-ee16c4217ede,letter,tablet,False,Letter
+357477,861e5a50-3f55-4824-b2c9-9e6d148b197e,administrative regulation,tablet,False,Letter
+357479,7a090674-9401-451b-9cce-1dfd7f2783e0,letter,tablet,False,Letter
+357480,248e3896-3903-4a70-a4ab-8139a37ecb5a,letter,tablet,False,Letter
+357482,a74f1be2-d200-4418-aefb-1c106b071912,letter,tablet,False,Letter
+357491,16ff1636-0d5a-14a1-80b0-452fc9df74f3,letter,tablet,False,Letter
+357492,f8acf3e3-dd2c-ed40-e759-5de38faa2876,letter,tablet,False,Letter
+357493,0987a3e0-64a7-531f-92c3-400fbc599d1f,letter,tablet,False,Letter
+357494,1889c8c1-d4c9-784d-96bb-af08a7e7c5fa,letter,tablet,False,Letter
+357495,3efd5922-30d7-4d8d-a7e9-7991f9bd7579,letter,tablet,False,Letter
+357496,c010f9e6-c663-6ccd-590a-fdd8284d5ae8,letter,tablet,False,Letter
+357497,2918bdfd-f8b6-4a10-224c-8c499e1fb222,letter,tablet,False,Letter
+357498,92f4c360-a96b-838d-a9ea-72c6edc4b911,letter,tablet,False,Letter
+357499,77145317-1c90-9870-96dc-91fd36d83767,letter,tablet,False,Letter
+357500,34eea180-ab53-038b-23f8-2bb5f1a6347d,letter,tablet,False,Letter
+357501,f8abbe34-7efb-3fb1-d5cc-876fae9329b4,letter,tablet,False,Letter
+357502,085b578b-43e6-2c3d-1743-72d39939bf43,letter,tablet,False,Letter
+357503,f9bbfdd8-7e6d-6be3-bb7f-5e2e2b9d7ece,letter,tablet,False,Letter
+357504,b442b658-192a-247c-1b8a-63ee5b132b5b,letter,tablet,False,Letter
+357505,60949893-43bb-328e-8ea5-e6a244c3bfbe,letter,tablet,False,Letter
+357506,3226fe3c-f355-9ade-a8c5-07f776b1b75d,letter,tablet,False,Letter
+357507,62e6744c-19c6-bce5-5ddf-6b77881444b6,letter,tablet,False,Letter
+357508,f82be7a5-548a-4176-69ae-91f52edec93f,letter,tablet,False,Letter
+357509,87b30bc2-c5ac-0959-38b6-9e0b606702d5,letter,tablet,False,Letter
+357510,31d82b4b-580d-f81d-e178-83df15eec93e,letter,tablet,False,Letter
+357511,8ba6e3bb-c4c3-6ca5-1c4f-96ed2fbab652,letter,tablet,False,Letter
+357512,a78670e2-3087-12ab-db75-35755e42a13f,letter,tablet,False,Letter
+357513,1e0c6794-9664-72a8-6435-79b96ba744e8,letter,tablet,False,Letter
+357514,a03c75a7-b9ea-aeb9-1172-be1eb572eaf2,letter,tablet,False,Letter
+357515,769f415b-4e3a-fb7d-fd7a-cbca8c569914,letter,tablet,False,Letter
+357516,564395c6-0ca7-df90-670f-d922b3688b17,letter,tablet,False,Letter
+357517,14c696bb-1ef6-9c97-2c2d-a00022968771,letter,tablet,False,Letter
+357518,1ae328e2-fa6e-a8bd-f69c-c834075bda58,letter,tablet,False,Letter
+357519,cd278b2b-1555-af90-738c-38411a6baa24,letter,tablet,False,Letter
+357520,55c57e18-8ccb-391e-989f-695c5bce8a6e,letter,tablet,False,Letter
+357521,25309f27-d90d-dd36-8404-69112bb7357a,letter,tablet,False,Letter
+357522,f39f4207-efd9-8c61-ab8c-92abb1ff1c35,letter,tablet,False,Letter
+357523,5abc2cf2-057f-fef0-6d9d-0e0d8ff9d884,letter,tablet,False,Letter
+357524,f1d84630-4457-d61d-daf3-99777640e373,letter,tablet,False,Letter
+357525,a689ad1f-2400-cd2a-f68d-b07f58c725b8,letter,tablet,False,Letter
+357528,c14cd994-03f9-ae7b-96fb-b9d94468bd67,letter,tablet,False,Letter
+357530,42573a0e-f5c9-510f-b37f-eb55d8da5e5f,letter,tablet,False,Letter
+357531,841c132c-2a01-edad-b89f-45887eb74e49,letter,tablet,False,Letter
+357532,7ec6bec7-9f4c-1dca-b813-5f7be02981de,letter,tablet,False,Letter
+357533,d7296f05-d4a6-d831-7690-4d92c9e9d7c3,letter,tablet,False,Letter
+357534,5d0ff484-95f9-fdf2-3c06-ca08c633bba2,letter,tablet,False,Letter
+357535,348afcdf-6f18-4e28-66fd-923377d20584,letter,tablet,False,Letter
+357537,9a51b51d-b0dc-2a86-809b-0cf413824b8a,letter,tablet,False,Letter
+357538,95026147-a6df-c8a4-cf5a-e4ed19d27b6e,letter,tablet,False,Letter
+357539,9c931a36-f86e-fab3-b649-c07af7e415b4,oath,tablet,False,Letter
+357540,71f2ff54-fd03-1aef-0857-960a71ff4450,letter,tablet,False,Letter
+357542,781999c0-8b73-32bb-ddbe-aaa7d66b7386,note,tablet,False,Letter
+357543,445a7783-f248-7ab2-6975-7cb725e9f622,note,tablet,False,Letter
+357544,86692afd-1767-d1b4-af0e-a23cfee0e8f7,list,tablet,False,Letter
+357545,dc608cd6-ceb9-fe2f-0e10-f6dfdc060976,list,tablet,False,Letter
+357546,ce12bd94-bdd4-52db-0571-f68da5ba6cd4,memo,tablet,False,Letter
+357547,8f923ec7-2919-8e41-4899-3ca1dd29647e,letter,tablet,False,Letter
+357548,d77736b8-5650-81ae-0880-e093f38fd212,list,tablet,False,Letter
+357549,7050dbc0-e1a8-9ea8-40ea-4a0028e64566,note,tablet,False,Letter
+357550,f1f27232-6692-06ec-293b-90e87abed3df,letter,tablet,False,Letter
+357551,b0400a20-1c56-77f3-3d28-a340fa855ab7,letter,tablet,False,Letter
+357552,1646d263-6c20-0cb4-235f-36a3dfb655db,note,tablet,False,Letter
+357554,d05bf16e-84d7-4122-f35c-05f6587b7d88,debt note,tablet,False,Letter
+357559,e988937c-0438-a20e-a499-616baf61bf10,settlement of accounts,tablet,False,Letter
+357560,099a0176-c580-2ec4-1843-ee43381faf8d,contract of sale,tablet,False,Letter
+357561,cce19a9f-d5f3-bec9-f2d7-517eaf118ff7,note,tablet,False,Letter
+357562,78baaefc-856f-37fa-5612-1a5b3e28f0a5,contract of sale,tablet,False,Letter
+357563,ee66f5ce-34a4-c356-8ff8-48c26e8fc089 | 0f111709-c8ed-2592-2642-2bfbcd2bdb00,letter,tablet,False,Letter
+357566,a1da895a-896b-24dc-e8c6-a54befba7900,agreement (contract),tablet,False,Oaths
+357567,f1c8e3e1-c3ea-480e-582e-8c3be109efb9,judgement,tablet,False,Letter
+357568,bf58b9d4-3570-a176-a165-3677987126bd,letter,tablet,False,Letter
+357570,50f8ee73-aa81-b308-2740-946a3ee1d44f,letter,tablet,False,Letter
+357572,d58fc1b9-b696-ecd8-f091-6ab2b121fbed,letter,tablet,False,Letter
+357573,55fd7d11-dd99-e7e1-98e9-1e9d0cf1feab,letter,tablet,False,Letter
+357574,1be5f154-e4d7-71b9-3fe5-c00068005098,letter,tablet,False,Letter
+357575,cd1642a5-4470-c6d2-33e0-fe2723b52a23,letter,tablet,False,Letter
+357576,b83f533e-4f23-6296-47c9-0b053c864e79,letter,tablet,False,Letter
+357577,56cc0eb0-ed25-30be-21b8-79f89018d638,letter,tablet,False,Letter
+357578,bea5cbab-8d79-280b-3334-50352a3584c5,letter,tablet,False,Letter
+357579,6701f38d-a68e-8571-b61d-f65b44dcd1a0,letter,tablet,False,Letter
+357580,3df7acad-e920-743f-5e94-ab408222a409,letter,tablet,False,Letter
+357581,65cc5a42-00c5-27a2-19da-9e357dd6802b,letter,tablet,False,Letter
+357582,ccedd763-2742-0147-d964-4ce6ad04b58e,letter,tablet,False,Letter
+357583,a9439ffa-3df5-ad81-061d-690656530db9,letter,tablet,False,Letter
+357584,0b2c29a6-7951-dc2c-5f8f-4685195f1843,letter,tablet,False,Letter
+357585,c724c40c-be0b-e020-90d2-0f166d897bec,letter,tablet,False,Letter
+357586,62e130e1-774a-bd4f-7cbf-87a12905287b,letter,tablet,False,Letter
+357587,2b522ff0-1a78-d404-439c-a4bb6f4962cc,letter,tablet,False,Letter
+357588,390743de-bf06-ee27-b03e-efc538f3112d,letter,tablet,False,Letter
+357589,2d0c56bb-c8b8-e438-d115-b9ff50e1aad2,letter,tablet,False,Letter
+357590,060f609d-36ae-16d2-f3b3-2db864a8d034,letter,tablet,False,Letter
+357591,85a45589-23d0-3bfc-36b3-ebf6314792ed,letter,tablet,False,Letter
+357592,06f26425-39f7-2977-f7c5-70317195ecde,letter,tablet,False,Letter
+357593,1033b400-652a-2a91-0d76-38757521a3e2,letter,tablet,False,Letter
+357594,cc94d833-8db3-0989-e22a-e23aae89daac,letter,tablet,False,Letter
+357595,b418d4e3-1ce5-243c-1afd-da7c74fcc7c3,letter,tablet,False,Letter
+357596,bd4f3195-9b66-be2e-ff2b-b58548aa5167,letter,tablet,False,Letter
+357597,91290182-26f4-a5d5-dbe1-69cda2d4d334,letter,tablet,False,Letter
+357598,2027f673-edc1-b3af-c0cd-b05a9a865307,letter,tablet,False,Letter
+357599,fccb4d69-5ca0-e152-6d50-a85033819522,letter,tablet,False,Letter
+357600,75edf89e-29a3-7983-aab6-f46004873544,letter,tablet,False,Letter
+357601,b2b6d8b2-a19c-ccf9-5df0-25665e52d7df,letter,tablet,False,Letter
+357602,c9ef2bee-c618-e10f-88d9-f5e13c274ec9,letter,tablet,False,Letter
+357603,63e153c7-3bd6-1987-0489-763746008065,letter,tablet,False,Letter
+357604,f53ec7cb-de45-a293-6cd3-a55511b81e75,letter,tablet,False,Letter
+357605,40a77697-dbdb-df67-42e3-a6a8dc0b29f6,letter,tablet,False,Letter
+357606,3f17b751-14d3-a1e5-d9d3-2a6aaaddf5f3,letter,tablet,False,Letter
+357607,4621f430-0767-7518-a305-9d522b8e4464,letter,tablet,False,Letter
+357608,4277ef48-a8a6-4ac2-4b62-9bd09ed1db0d,letter,tablet,False,Letter
+357609,cc752709-db34-4071-1e49-18cafcadf068,letter,tablet,False,Letter
+357611,654c0a1c-6d21-3a6e-a0f4-913a3f54b1a2,letter,tablet,False,Letter
+357612,5afe5add-3591-bc51-9a5f-08f243cc44ea,letter,tablet,False,Letter
+357613,40dc03b8-594c-fc5f-9a7b-bbeb7e95885f,letter,tablet,False,Letter
+357614,345e3b90-2ea9-e57f-6b3c-1a39d765a4d2,letter,tablet,False,Letter
+357616,87dcb963-8658-6f43-b1be-bdb5be7cb9fa,letter,tablet,False,Letter
+357617,d7d95f27-d8af-ed0f-fd6b-6a44b0dc32bd,letter,tablet,False,Letter
+357618,e12bd3e9-684b-66c3-01de-176ec16d537b,letter,tablet,False,Letter
+357619,f27b6762-6fb3-a4c5-f2f6-9319bea28969,letter,tablet,False,Letter
+357620,a142fb4f-495b-76c3-934c-0d873b6abf15,letter,tablet,False,Letter
+357621,a94a30e7-3ab2-b89e-6801-afc9092a4f2f,letter,tablet,False,Letter
+357623,7170cf1d-a7be-890e-c523-fc4d30e01e4c,letter,tablet,False,Letter
+357625,656e6b7c-8802-664d-75fa-37e357b29d83,letter,tablet,False,Letter
+357628,d5478ade-c5d8-7338-5b61-b90379adb03e,letter,tablet,False,Letter
+357629,6f81768c-b862-a081-e7e6-940db1a3a4e7,letter,tablet,False,Letter
+357630,99ffc70e-07f9-8b2b-a733-421b863b1834,letter,tablet,False,Letter
+357631,9cde72b1-4a87-dc70-e7ac-4c596a3f3a46,letter,tablet,False,Letter
+357632,059ccf75-34e5-824c-9b3e-b9466bbd23b4,letter,tablet,False,Letter
+357633,d25850d7-2c4f-35c9-a071-442a6e786ede,letter,tablet,False,Letter
+357634,c0b813d7-6dca-8dc8-1d5b-6d0fb6b0cb42,letter,tablet,False,Letter
+357635,9dd41b01-f02b-c95a-b314-82ad9ea3a07b,letter,tablet,False,Letter
+357636,a27cc52e-e80d-87bf-a1ac-551931fa0274,letter,tablet,False,Letter
+357637,10615d92-5bf8-198f-0a99-3cd3b2f85d8c,letter,tablet,False,Letter
+357638,41ac1bf2-142b-2733-c16c-1ffaee8c1e38,letter,tablet,False,Letter
+357639,a9077c17-43e0-df7d-f50b-7d0e7c0ee678,letter,tablet,False,Letter
+357640,e70b4bf7-2fea-6b06-19ae-d207cc8989d4,letter,tablet,False,Letter
+357641,a59d6092-cc73-2298-2e7a-1cf7e73598fb,letter,tablet,False,Letter
+357643,3169f2dd-3ac2-79d3-256b-94b96a810d4e,letter,tablet,False,Letter
+357644,71968ad6-050c-d6a1-69f2-44ab766ff1d4,letter,tablet,False,Letter
+357645,17f075a6-3e11-e36b-d70f-8fd1934f0a96,letter,tablet,False,Letter
+357647,708a477e-a93a-42a0-3861-52bcf6ad4c50,letter,tablet,False,Letter
+357648,9d85a45b-d8a2-a852-fe1a-08de9db88655,letter,tablet,False,Letter
+357649,451fdf86-49cd-7f45-5663-0504a9bd27d3,letter,tablet,False,Letter
+357650,d101ab4b-e0f2-c9d7-f3b3-c0197e5cf921,letter,tablet,False,Letter
+357651,8830f8f2-b8bb-e0e2-2146-48e708aedd82,letter,tablet,False,Letter
+357653,03b8ed5b-a5b5-d101-7329-30903d13e939,letter,tablet,False,Letter
+357654,d3fa75fa-75bb-cbed-971b-63d781d1eb06,letter,tablet,False,Letter
+357655,27fe87a4-d063-c70f-325f-4283f70af3e7,letter,tablet,False,Letter
+357656,af4edbba-744c-0376-0482-299a6f3e287a,letter,tablet,False,Letter
+357657,fee00b3b-fb3b-cb1b-b361-8dcc6b3183a8,letter,tablet,False,Letter
+357658,5714da19-2a0a-5c00-4b40-2b6fd729b4b2,letter,tablet,False,Letter
+357659,033a163a-4b61-58d2-c916-d47a41212305,letter,tablet,False,Letter
+357660,bdd8fd66-38cd-749e-aea7-bb7cf0b9576b,letter,tablet,False,Letter
+357661,2cb3d8ef-f49f-8419-6238-684ea925da30,letter,tablet,False,Letter
+357662,94ac8294-3c21-53f7-24ed-d634cd2e4b12,letter,tablet,False,Letter
+357665,c3fcbe71-c447-0be2-a9a6-77f92a661a1a,letter,tablet,False,Letter
+357666,c3884e64-3df2-36ba-3b29-694de1232e1e,letter,tablet,False,Letter
+357667,83c4e351-d83a-9051-1a8f-cb54e17de4e6,letter,tablet,False,Letter
+357668,116c35cf-2142-5f06-1e18-4c790a7272ae,letter,tablet,False,Letter
+357669,32ae172d-e58b-6941-4f66-8b3389fa2e56,letter,tablet,False,Letter
+357671,a5f841cf-0880-39c0-ba73-8c9c8cbfcd0e,letter,tablet,False,Letter
+357672,779b2ade-34c1-c95c-6616-088626c7194d,letter,tablet,False,Letter
+357673,21054f1d-87c3-fe3a-2dc6-b2f88ae855b6,letter,tablet,False,Letter
+357674,e525f127-24d0-120d-f037-5ad5df72a0c8,letter,tablet,False,Letter
+357675,1ddcf9fe-f1ba-dcab-7628-e6cf62d134a4,letter,tablet,False,Letter
+357676,0b95376b-bf4a-462d-e871-13495925f05e,letter,tablet,False,Letter
+357677,605b9432-3699-6c4d-9a9b-a0bbb4f4096c,letter,tablet,False,Letter
+357679,c2c1745c-ea45-170e-2367-92a0e5548327,letter,tablet,False,Letter
+357680,6bef2a7d-1b5f-a141-76e5-7d38348b9034,letter,tablet,False,Letter
+357681,ec1dd133-2ebe-b031-3d61-41ea107a55f4,letter,tablet,False,Letter
+357682,39f642b7-9d96-1692-4ab8-bffe2ea81c2e,letter,tablet,False,Letter
+357684,991e903a-2d9d-3501-4ce3-c03e1d2ef43d,letter,tablet,False,Letter
+357685,a437e717-68d4-6b6e-a0dd-2f3c922b17ce,letter,tablet,False,Letter
+357686,70dcde08-306a-57ff-b566-d3d0f940cf62,letter,tablet,False,Letter
+357687,0e4f7532-6089-2fd6-76bc-5b401a4aaa3f,letter,tablet,False,Letter
+357688,381fd16d-ce1f-acd9-2b9f-20a26217e68e,letter,tablet,False,Letter
+357689,bb18f2f7-530d-2ce9-017e-eb795d5a565f,letter,tablet,False,Letter
+357690,9f8ced6b-3872-c3fa-1e91-b01a5cd5ec32,letter,tablet,False,Letter
+357692,1872822a-b31b-d3db-587b-2270dc346223,letter,tablet,False,Letter
+357693,502c8df0-7206-9da3-a102-63e682028f34,letter,tablet,False,Letter
+357694,88612daa-52ae-1d69-65d0-4ba158ea9811 | 42d4fbb4-f7fe-408c-91e5-e257a23bf6ad,letter,envelope + tablet,True,Letter
+357695,0218ec3f-ce71-85d6-e731-1f95ec3e285b,letter,tablet,False,Letter
+357696,1d662d96-49ea-237f-aa30-bae91fb91faa,letter,tablet,False,Letter
+357697,291b25dc-9ac4-a230-f094-4d230297680a,letter,tablet,False,Letter
+357698,ea0ebfed-dd08-e206-b4e7-2691eabba042,letter,tablet,False,Letter
+357699,d9320d7d-c4e2-a5ae-7f4b-0037cc2046a3,letter,tablet,False,Letter
+357700,ef0ba4c1-4d4e-5338-30cd-bbeae7d30aa8,letter,tablet,False,Letter
+357701,e69663ac-441c-d9ea-218c-1d291adf9f18,letter,tablet,False,Letter
+357702,ae33b4b1-e8c3-a1ec-0dc3-fdf08e0b1bf6,letter,tablet,False,Letter
+357703,cf1f0fc5-84ca-affa-5769-990f39fbbb7b,letter,tablet,False,Letter
+357705,38b59006-c768-f6ec-c7c3-ac25778fbba0,letter,tablet,False,Letter
+357708,c3417c53-917b-5606-66d5-24313ceb5378,letter,tablet,False,Letter
+357709,2d173b80-102d-56ed-0c46-a79767bf40bc,letter,tablet,False,Letter
+357715,fa31ee89-834a-18d6-31c7-d4ebe3023bb2,letter,tablet,False,Letter
+357719,1861cce3-0e54-7f29-36e9-f7e344919a88,contract of sale,tablet,False,Letter
+357720,9a7769f2-341d-fb27-4157-5961481cdffd,letter,tablet,False,Letter
+357721,d8a41cfa-bb17-9132-2bd1-0237fc8222e7,letter,tablet,False,Letter
+357723,36c7bc7f-72b1-56f3-a3ce-25216123bf29,letter,tablet,False,Letter
+357724,519dd450-6afe-d551-a937-747a7c85a861,letter,tablet,False,Letter
+357725,3fb60a9f-a507-26df-f631-a2673d9dbb96,note,tablet,False,Letter
+357726,d2b9b6b9-f8fb-94df-5fd4-193d93d24bcc,letter,tablet,False,Letter
+357728,52809943-4f99-fb1e-123b-ff10b0028bbc,note,tablet,False,Letter
+357729,2f9ad17b-e7b7-7f2f-4732-dd1eb97a630a,letter,tablet,False,Letter
+357731,fa29d5f8-121e-54f5-3b43-a82fafe84a70,note,tablet,False,Letter
+357732,88d3d186-af44-3643-69f5-393624b2dab8,letter,tablet,False,Letter
+357733,e3121134-cd64-77c2-97bc-c897fe97adae,note,tablet,False,Letter
+357734,fe257a66-5023-1114-676b-f89cb57317b9,memo,tablet,False,Letter
+357735,2313a9ef-018c-fe7e-34a7-1dbf32ec3961,memo,tablet,False,Letter
+357737,b88c97a1-e84f-f8b9-d489-4922f28c711a,note,tablet,False,Letter
+357738,d6b94bda-787a-9a08-85c7-bb0ac176b335,receipt,tablet,False,Letter
+357739,166ef228-cb98-63ab-6a41-65bfa1dc19b6,letter,tablet,False,Letter
+357740,7ff92d36-7bed-fcdb-3ad5-facaa3a0e33c,letter,tablet,False,Letter
+357741,6ecb2e0a-3c9f-d293-2ac4-692aba7ca939,letter,tablet,False,Letter
+357742,89a50f2a-614e-60cd-fd4f-f0a589aa3d44,letter,tablet,False,Letter
+357743,6c2a4db2-4153-19f9-eac9-b7b83de1d747,note,tablet,False,Letter
+357744,bb20fa47-31f5-c83a-d28a-bcfc9ed96e51,list,tablet,False,Letter
+357745,70b7c2a1-a139-e182-7696-c782f807df90,list,tablet,False,Letter
+357746,ebe4433d-7d75-1b0c-360e-1f152fc42427,note,tablet,False,Letter
+357747,d81982eb-8b12-fa1a-0ec4-74a56f14a83a,memo,tablet,False,Letter
+357748,5a79f52a-f94f-7522-e09f-1ee46c7d7743,note,tablet,False,Letter
+357750,b6320e4a-b64f-aba6-8dfb-865285906d12,letter,tablet,False,Letter
+357751,e2907f68-0ef9-9c8b-8b56-14c3f5239d72,letter,tablet,False,Letter
+357753,5e290059-d99a-0f57-eacb-13168d0b004f,note,tablet,False,Letter
+357756,18f2edad-695b-2802-15fc-d13990beaf68,list,tablet,False,Letter
+357757,f97cedce-864a-04e3-f57b-43107cd7f715,letter,tablet,False,Letter
+357758,d8c6b6d2-ab6c-d02b-1ff2-f7155c2d8b31,list,tablet,False,Letter
+357759,f9bdb054-287a-f12a-f705-c5c4039cdbc2,note,tablet,False,Letter
+357760,5f6f3566-6b78-5664-6703-1a37b20e2f1c,list,tablet,False,Letter
+357761,cd5197f3-536f-6088-bc29-655b5ca078c1,letter,tablet,False,Letter
+357762,0e7e1de2-3d65-a0af-f121-9b6a4058b794,unknown,tablet,False,
+357763,c1b0924c-3306-8216-40c7-49a2ec5b02b9,note,tablet,False,
+357764,1ec94fad-d3e6-624e-1edc-60ccdeb29bb5,legal writing(s),tablet,False,
+357765,8f754052-fa28-e1ca-784b-56af1c4490fc,agreement (contract),tablet,False,
+357766,a2cb1d34-df50-df59-294c-eb3a6ab369d0,debt note,tablet,False,
+357767,3a9a28ff-b2fb-930e-1a09-24ed9d64fe18,debt note,tablet,False,
+357768,007b23c5-6711-2e5b-52ae-0684a06f6917,debt note,tablet,False,
+357769,dd66eba2-f0e6-71c1-17a8-9ab9a768dbb2,contract of sale,tablet,False,
+357770,5af54d80-aaf7-c7c2-869a-35333ac305ed,unknown,tablet,False,
+357771,5a68c2a3-1632-d5db-8caa-8ed544e2dd2b,unknown,tablet,False,
+357772,f482046a-adc2-ba42-aac5-6d7eb59530f3,note,tablet,False,
+357774,7e970cdd-eea0-3705-4c22-6466cc9e62e3,unknown,tablet,False,
+357776,214680a4-6b88-0072-8fc0-d4a29818fa74,unknown,tablet,False,
+357777,66db46ea-114c-314a-efc9-ae63d0afe8e6,note,tablet,False,
+357778,c39f5ab6-0d3b-ce3a-4f2e-e1094792ad92,memo,tablet,False,
+357779,c851b7d7-4332-1679-cbed-3b210c0983a2,memo,tablet,False,
+357780,9acd8144-3638-e2fb-c01f-3a3748c4be47 | bef66f3b-74d9-8926-361a-cea50a43024a,divorce suit,envelope + tablet,True,Divorce Documents
+357782,6488ee74-b2f4-9f8d-6cc1-dd214f6f74f5 | 7a1d80ca-d47c-dbe7-ac76-46910068faa6,agreement (contract),tablet,False,
+357783,d8b11d59-de68-8cad-175f-0bc4f1dba645,debt note,tablet,False,
+357784,cdc6fcc2-33b0-9cc4-db19-e7459e07290f | f77f59b3-e424-a64e-1131-b18429453a50,debt note,envelope + tablet,True,
+357785,71c7ffe7-e45c-f1a9-8d85-a0eb50ec5893 | ba7ea42c-e71a-f933-b906-95d2d5f20212,debt note,tablet,False,
+357788,c8822218-cc19-95e9-cabf-565ff06aebab,debt note,tablet,False,
+357790,fbda2bda-ec56-1fbc-0920-d0c0d86ad3c6,debt note,tablet,False,
+357792,ad62afdf-6a7c-075f-e466-bd1f94906242 | a91bbb19-f0d0-dfa9-bd03-27bb80011c8a,debt note,envelope + tablet,True,
+357793,b28c0b25-561b-9807-f5a1-3dc794f1ca82,debt note,tablet,False,
+357794,26cff8e7-cc1b-5a11-0b8e-a331af09f0fd | 5261f2f9-1473-3500-8838-9317191c0428,debt note,envelope + tablet,True,
+357795,ae9dd167-b859-27e3-a3b4-502cdb111726,debt note,tablet,False,
+357796,bd01f876-3f46-3e69-4234-e10591acc654,unknown,tablet,False,
+357798,bbc44d8b-1e25-5a56-c403-fbec3fb7b191,debt note,tablet,False,
+357800,3f6cfbde-03fb-2070-75e3-1d7042cfbe0a,unknown,tablet,False,
+357802,fb149900-40bc-1878-d7ce-861b61ff595a,debt note,tablet,False,
+357803,886a61f4-73ea-f8b7-1f10-287901e07382,debt note,tablet,False,
+357804,22598a7e-adc0-9d26-103a-5a9d9c7d9447 | c88516dd-bd89-5e63-0a38-af8823f6f478,debt note,envelope + tablet,True,
+357805,bf091ac7-9384-00e0-b1b0-e8435af7c849,debt note,tablet,False,
+357812,1ecf1aa4-b12f-42f6-9862-beac85039240 | c6195f1f-531d-4462-ae40-3ac3d4502b26,contract of sale | loan agreement,tablet,False,
+357813,ab131361-bc13-5ece-906a-95e403b82807,note,tablet,False,
+357814,05f802c5-9e92-953e-967e-7ac4b7ffd2fa,agreement (contract),tablet,False,
+357815,89ab9190-9ba2-2254-f3c2-74039af18ba2,agreement (contract),tablet,False,
+357816,0863009e-19fc-e293-de55-767484f4286c,debt note,tablet,False,
+357817,ad307b2f-7d36-af2a-2bba-510f6eb48176 | fdf1cbe7-5c25-8616-c94b-981b0e9c37f5,unknown,envelope + tablet,True,
+357819,c613d4dd-5843-789c-4d3c-05b303a3a1ab,purchase guarantee,tablet,False,
+357821,078a776b-d144-57c6-9756-0993fd8fb67e | 208c4c63-e31f-cb62-f4d0-bb7037c92b22,purchase guarantee,envelope + tablet,True,
+357822,80f5bf7d-77f0-dcaa-47e5-c3eda644e5fd,debt note,tablet,False,
+357823,642eefa1-96c5-8c37-469a-ddd1f6a7f69a,loan agreement,tablet,False,
+357825,03f48e43-c09c-4c37-109a-5244ba55afd9 | d0b6140d-9d8f-c89a-5599-d45bf5f1adfa,unknown,envelope + tablet,True,
+357826,beba2f1f-2d68-4a38-5062-2d5586ec803c,debt note,tablet,False,
+357827,b2ddc320-2772-e2a8-3d92-ede5257df73d,debt note,tablet,False,
+357829,890cca4c-1808-7ef0-0dbb-52434c9115eb,agreement (contract),tablet,False,
+357830,a6783a4c-9738-84c2-c913-cf0c35b7c752 | cd370780-f785-a6fa-8792-c966c3a4dbe5,agreement (contract),tablet,False,
+357831,e9d7f922-6591-e390-f409-d5609de9465b,legal writing(s),tablet,False,
+357835,a62b395e-c3da-9523-d261-8c60402b0202,unknown,tablet,False,
+357836,f0966890-1d33-937d-85e6-fc44254aac86,unknown,tablet,False,
+357837,e632c629-1778-ad40-c51d-adf5c1cfc28c,legal writing(s),tablet,False,
+357839,79cbf96e-dba2-7a3f-3bfa-26c3095905be,unknown,tablet,False,
+357840,4038fb06-2808-d3d6-356f-48bc1262bc57,unknown,tablet,False,
+357841,9fb81ee2-4e05-8f32-c6aa-12b6766f3cec,unknown,tablet,False,
+357894,46ec85ef-f278-43a9-b57d-39504e76ab73,letter,tablet,False,Letter
+357896,d9f507a1-1f0c-41fd-b797-4d9a784f93f0,letter,tablet,False,Letter
+357897,d5570115-6d64-40dd-a208-083a08cf20cb,letter,tablet,False,Letter
+357898,c8f8d5da-207e-4a97-8913-4f482ed66892,list,tablet,False,Administrative
+357899,8e1886dc-4ca8-4f99-8132-593e3918b0f5,letter,tablet,False,Letter
+357900,744b8e29-67f7-424e-bd72-2de2c316833b,letter,tablet,False,Letter
+357901,d4ac2adb-1aba-41cd-881d-67350f5793ec,letter,tablet,False,Letter
+357903,4c013c59-8884-48a9-859a-ff6901d00a05,letter,tablet,False,Letter
+357953,a0d6ba21-1e9f-49bd-b91f-9f377b76e8bb,unknown,tablet,False,
+357956,9235e5ef-3349-4819-b391-747282208813,unknown,tablet,False,
+357958,a25c6905-8292-4201-b563-477abdf9837d,unknown,tablet,False,
+357963,9c92a06f-08ee-4516-aa89-0c06b504742d,unknown,tablet,False,
+357964,dc1650d4-b8eb-489a-abd5-2ffd297f7aa5,unknown,tablet,False,
+357965,4fc075e8-0ddc-48df-a39f-ac70130d85f9,unknown,tablet,False,
+357966,bb00ed21-d793-411e-9290-d3a16a2a0a0c,unknown,tablet,False,
+357968,d5d1a06a-04ff-4ea2-b81b-543324154aeb,unknown,tablet,False,
+357969,5efd21f4-e5b6-47b5-b121-0f1825ef918b,unknown,tablet,False,
+357971,f3376b5e-0007-4367-a1ce-dcb5cbee40a0,unknown,tablet,False,
+357976,19b6069f-79fc-46b3-98b0-f91cb678e0c1 | 64ade10a-32d9-46a2-b1b4-4c90dc2e5a56,testimony,tablet,False,Legal
+357977,4b52216d-4786-4115-acfd-06b31eeeddf5,unknown,tablet,False,
+358030,3ef163ec-2a01-d315-1135-0e8ad786aba9,letter,tablet,False,Letter
+358031,6d65a8a9-bc08-433b-b41c-c709590996e4,unknown,tablet,False,
+358044,e515d61c-cbb0-c12d-7dbd-030fb96d5009,unknown,tablet,False,
+358186,e91a4d6e-847f-923e-a18e-8340d949f42b,letter,tablet,False,
+358187,116bf36d-69fd-d24d-c573-59b5b661d810,letter,tablet,False,
+358188,831f12e4-e1d6-d392-e08a-1b612ce6973c,letter,tablet,False,
+358189,5e896615-f953-2592-e028-b291b57bf32b,letter,tablet,False,Letter
+358190,5c5f2ec9-5dd3-aa81-cd93-23aee23853f5,letter,tablet,False,
+358191,d764bf76-e956-4326-ff68-def94471e2e5,letter,tablet,False,Letter
+358192,676bdd7e-0994-8e0f-8786-c0446da10a5d,letter,tablet,False,
+358194,d0693a9e-ccea-54da-a602-acb7e233aa2f,letter,tablet,False,Letter
+358195,e333a4ba-2ca8-ec21-1c9f-d3a3343cdc74,letter,tablet,False,
+358196,7928b1e6-81a0-084f-0301-2d1ff3d747b0,letter,tablet,False,Letter
+358197,25857f18-92c1-fb12-2454-13051902034b,letter,tablet,False,
+358198,1342cbc6-31e7-1901-7b2c-d27c91757cc8,letter,tablet,False,
+358199,f7e15cfd-9389-8895-4877-d5fe5cb9ead1,letter,tablet,False,
+358200,aabe6681-8a4a-ca58-2a5a-c9fc683217d2,letter,tablet,False,
+358201,3b73f144-7c92-df14-5e0f-f3b0a0b898f6,letter,tablet,False,
+358202,19f01b8a-1dd5-957a-7813-188ea033d2a7,letter,tablet,False,
+358203,a6d6d6b8-a0fa-570b-f256-1024681e741d,letter,tablet,False,Letter
+358204,678a176f-feef-a61e-efaf-53e1a6879931,letter,tablet,False,
+358205,9cfe482b-fe46-523c-a863-55c29b789424,letter,tablet,False,
+358206,cb1594d3-7865-1508-ac51-e565d7988f6b,letter,tablet,False,Letter
+358207,a7c8d5c2-5ca5-68ed-6bac-cdbaf38dd9b8,letter,tablet,False,Letter
+358208,1dcab0ac-ab5c-90c4-9455-5474e3bc0a96,letter,tablet,False,
+358209,722c177a-bcd6-671f-a60e-61cd16d60e28,letter,tablet,False,
+358210,95c1f1dc-d48a-3778-cb60-308848911c0e,letter,tablet,False,
+358211,dac934a0-7ef7-ea7a-1a12-9f3f903b3e53,letter,tablet,False,
+358212,e50b8db6-b392-0382-d09e-5f639e174e71,letter,tablet,False,
+358213,b3e54e85-f0b1-9e2b-46a4-61d73edd9985,letter,tablet,False,Letter
+358214,4e62d047-c1f1-0125-5110-48fd42c59f77,letter,tablet,False,
+358215,e02c103c-3c8b-e22d-2077-0e09e8db869a,letter,tablet,False,
+358216,704dea51-6b10-b139-b3c5-64ff7279c5e3,letter,tablet,False,Letter
+358217,d12ca312-131f-6fc9-bb31-b51c268d7b7b,letter,tablet,False,
+358218,c3b351a5-0c87-567e-4e0e-1f32fac41d72,letter,tablet,False,
+358219,a448c4e8-e8e7-df43-b793-375583361a94,letter,tablet,False,Letter
+358220,c8691d2b-90f5-4b78-daa5-1434b72363f8,letter,tablet,False,Letter
+358221,18d15355-c18f-90dd-e386-3d0891d44c4d,letter,tablet,False,
+358222,51594d5c-dc17-8aef-c9d1-8d74effc1edb,letter,tablet,False,
+358223,f7f127e9-366e-0e9e-f27b-d2d38e59475b,letter,tablet,False,
+358224,fc3de9fb-ef9e-f45b-178b-d149f7a78a71,letter,tablet,False,
+358225,854c9cd3-c175-2150-eadf-e4f2d653db99,letter,tablet,False,
+358226,666546af-69cc-af94-d843-62450377f611,letter,tablet,False,Letter
+358227,52f98ff3-5c4e-c8e5-f320-3f0cccf5c0e9,letter,tablet,False,
+358228,1a47963a-1a1f-0318-929f-d67f912b4cdd,legal writing(s),tablet,False,
+358229,c6580261-408a-eff7-5d3c-45f1a3d9117a,letter,tablet,False,
+358230,4a3355a1-5aa2-7b47-4037-de79fd954e9f,legal writing(s),tablet,False,
+358231,1e365eb9-c8fa-bd8b-322c-3119d882b222,unknown,tablet,False,
+358232,2bb2cef3-8bfa-467f-73e7-a27a6094769a,unknown,tablet,False,
+358233,da5e9bc2-6cef-648a-f2b7-3e128f94fdd0,letter,tablet,False,
+358234,53a72c1f-48f9-d0c9-f01a-332a7e57b248,letter,tablet,False,
+358235,0f9e41b2-117b-81a0-1232-65c61a6bd5ec,letter,tablet,False,
+358236,5742f5ca-eedf-919b-9544-2f507ecab110,letter,tablet,False,
+358237,841909fe-77d1-b8a7-b7be-e0a1c52c698a,letter,tablet,False,
+358238,47220645-5f2c-de34-8bb8-cb29cd4c3724,letter,tablet,False,
+358239,34f9fe58-65c8-3875-0e87-dd69cfcab646,unknown,tablet,False,
+358241,edc55271-58cd-c3cf-6316-1c5b3f41a29e,debt note,tablet,False,
+358243,f4a08131-02d9-47ed-3845-f63d73957762,debt note,tablet,False,
+358244,8d2e0ab5-e25e-481e-8fa4-77e65b8dc5ae | deeb9bdd-76d5-8351-d124-4f328d61424f,debt note,envelope + tablet,True,
+358246,8f67033f-cacb-9a5b-9a25-2de54cabe37e,purchase guarantee,tablet,False,
+358247,237086c0-d4bb-edbb-02f2-16f202711f48,purchase guarantee,tablet,False,
+358248,0488b1af-0b9b-8e2d-9d3f-9c8019afc6e6,contract of sale,tablet,False,
+358249,6cd10afe-897f-b45a-6871-33126f911a96,legal writing(s),tablet,False,
+358250,1a6bb8aa-5268-4ee4-58f7-d777edc6ee27,unknown,tablet,False,
+358251,33f3e288-d76f-df16-5b86-0945ecbdaf0f,legal writing(s),tablet,False,
+358252,ca982589-4365-3c1a-29e8-1caa1c138714,agreement (contract),tablet,False,
+358253,01160577-1070-b189-48a3-3c3eb130c28b,testimony,tablet,False,
+358254,4975a11d-48e9-4e67-9b47-5eaf0263940a,unknown,tablet,False,
+358255,3a3c8345-cca2-8e16-3b1b-b17cfab34413,judgement,tablet,False,
+358256,35cf0253-b998-ac63-07d7-8f42447cc775 | fdd31402-0ecf-46ea-f456-6914042e81b8,judgement,envelope + tablet,True,
+358258,35700cdc-47e2-34ae-7b28-ecb421752e37,memo,tablet,False,
+358259,9bec1d14-f967-5eb8-5a70-0503081be5de,memo,tablet,False,
+358260,4aaaaa2a-c417-b873-2731-635ae5e3481e,note,tablet,False,
+358261,24b68741-b74c-b6c8-3f5c-a139cde3ccdc,note,tablet,False,
+358262,c56fc0e9-0231-59b2-4242-3e7a25c46af9,unknown,tablet,False,
+358263,d1e13d10-df78-2782-13ea-1119e5617988,unknown,tablet,False,
+358264,66be9f2d-031e-7c33-c099-f46f4ca67b70,memo,tablet,False,
+358265,26109826-db6b-37ab-1a52-cc599ecd2b8f,note,tablet,False,
+358266,c95a574c-660b-9193-c4bc-3dbd358e87c4,unknown,tablet,False,
+358267,72ff63d8-f1fb-6de5-ee09-fa19bfa55927,unknown,tablet,False,
+358268,82fdd074-7b14-f91b-69fb-606b6abb432a,unknown,tablet,False,
+358269,154623a5-0759-ea12-fdf1-0e303f9b688a,unknown,tablet,False,
+358270,8c2040c1-0712-192f-da2a-67cf87b6fc6a,unknown,tablet,False,
+358271,1923718e-ad7d-b463-9c9c-646d007a18c6,unknown,tablet,False,
+358272,538319a1-c5d3-4e46-1169-4430da4fbcb0,unknown,tablet,False,
+358273,dfaa9590-ecfc-29dd-0b69-fdb6a638195f,unknown,tablet,False,
+358274,454fba1d-40a4-2824-b1f7-9793871aab23,unknown,tablet,False,
+358275,01c2de1e-e98c-aed0-bf0d-73a2a99ea26a,unknown,tablet,False,
+358276,6b5212ba-6b41-2773-2431-0042f8c6f431,unknown,tablet,False,
+358277,faf790a3-d058-273c-0130-40ca5e1b5e3d,unknown,tablet,False,
+358278,2b09747a-904f-d285-6899-e33c6204206a,unknown,tablet,False,
+358279,8e1ec786-aed1-63cb-0f8d-e9c883547732,unknown,tablet,False,
+358280,8646bf8d-4e13-5029-f3d5-b46819866a04,letter,tablet,False,
+358281,f0ed0ca3-d90c-d9db-e17a-58b423a89735,unknown,tablet,False,
+358282,edff9140-eb70-21fd-33dc-3b8728bab07c,unknown,tablet,False,
+358283,9cc2f847-da44-7b5c-8688-3fdf3b1ebd36,unknown,tablet,False,
+358284,d01a2b75-c93e-1d4a-4cab-708db2a02652,unknown,tablet,False,
+358285,223d4f29-55ad-cf34-cb20-179ee05de183,letter,tablet,False,
+358286,02453c8b-ffcd-532c-08f7-0d12be30363f,unknown,tablet,False,
+358287,fd4407b7-c47b-1fd4-9989-53c611c4458c,unknown,tablet,False,
+358288,2645df86-6d37-2db5-e1e0-caa045ed2fd9,unknown,tablet,False,
+358289,25d1b384-5839-367c-99f8-bc665a753868,unknown,tablet,False,
+358290,fb227a8f-da8a-9dad-d4fe-cd326fb96205,unknown,tablet,False,
+358291,cead9b0b-205e-77bf-507c-1ba56c61d974,unknown,tablet,False,
+358292,5165c179-d002-2f17-c736-8b59f779a54a,letter,tablet,False,
+358296,7ac673df-981d-55a2-a64b-1d9b30070f40,unknown,tablet,False,
+358297,6a4964b3-3a76-41e1-a8f3-48988236a872,letter,tablet,False,
+358298,be89bd5b-fe9c-655b-0b6c-a8b4189c717c,letter,tablet,False,
+358299,8942c930-b50a-f901-5b97-1fecb39a0aab,letter,tablet,False,
+358300,06299b1e-f2dd-35d1-e255-08bdc96e37dd | 06299b1e-f2dd-35d1-e255-08bdc96e37dd,unknown,envelope,False,
+358307,92368005-e9b6-c257-b15b-2f752d694b4f,unknown,tablet,False,
+358308,72b47dbc-3c31-e04e-bcb3-06d77ee5b904,unknown,tablet,False,
+358309,dba8d161-5902-d6fc-4aaa-8fe5f9af353d,unknown,tablet,False,
+358311,8e072d89-19aa-9c38-96c3-6d9a7179576c,unknown,tablet,False,
+358312,071ae164-c1fe-604a-a822-6105c4706b57,unknown,tablet,False,
+358313,c0ee98bb-20bd-3565-a761-8ba3dea08c03,letter,tablet,False,
+358314,a44d5e37-66fd-0cda-c56c-2c0d919b7383,unknown,tablet,False,
+358315,99167079-b392-ddf5-0c90-94a131a6ef57,letter,tablet,False,
+358316,20b5a326-3c40-4929-b618-9c03b1395d30,unknown,seal,False,
+358318,152bcaaa-a723-280c-28e5-e52fbd257ff7 | e0400c5c-8dd6-8de1-481f-4481f16ce165,letter,envelope + tablet,True,Letter
+358319,994c8598-1969-a6b9-20a9-075e4b84c1e2,letter,tablet,False,
+358320,503bcb33-58d0-35c7-bb7c-50544796101f,unknown,tablet,False,
+358321,97c1770e-5a32-393a-c74d-1d4e7a973109,letter,tablet,False,
+358322,b6e98b49-9c57-92d8-f667-32ca746c467f,administrative regulation,tablet,False,Letter
+358323,bcd2dde2-59ab-8ab2-fc82-61a3ba6ad097,legal writing(s),tablet,False,
+358327,b5c7a523-8fab-4f28-bc74-bac0b4b88ce2 | 1a94b894-e07a-4045-8e2a-ba308ccd0415,debt note,tablet,False,
+358328,0ac877f2-d771-4ff5-a0c5-79d1e81879bb,administrative regulation,tablet,False,
+358329,53727729-4580-4484-a4d3-51cf4debc2f7,unknown,tablet,False,
+358409,da77e593-329b-45e2-b60f-6ac27e4486ae,debt note,tablet,False,
+358412,191dc6c3-3b01-e165-61d4-9ffa762142d6,debt note,tablet,False,
+358413,c1087b70-bec1-8697-3461-cbc676d59a71,unknown,tablet,False,
+358415,bcf16e38-87fa-cb78-cba7-47f95ebb8c14,legal challenge,tablet,False,
+358419,76b2484b-29f1-64d3-a032-511c50cbc7ed,note,tablet,False,
+358421,c5c76642-9957-3ed0-fbee-9a16bda75b2c,unknown,tablet,False,
+358424,c3f694c3-7ab6-0c49-c5b5-8dfd73134f9e,agreement (contract),tablet,False,
+358425,ee90a6e0-f884-2696-0978-475303ab67f8,unknown,tablet,False,
+358428,f6af4a38-990e-a4af-ccd2-3833811c2041,note,tablet,False,
+358432,e7e26a46-0e7d-22cd-2fbb-2373f3e07e7f,note,tablet,False,
+358437,da2fc846-78e6-04c4-fd49-b740a404c5e1,unknown,tablet,False,
+358442,043e441b-8829-0efc-2e4a-51d8b7d85c86,note,tablet,False,
+358445,8aa6537d-e2b6-4b21-5e49-19bed35a2542,unknown,tablet,False,
+358449,6ae044da-ee94-d429-a8cc-9e0b570d818c,unknown,tablet,False,
+358450,3ab61172-99be-85ab-3ee1-44d0a706b24c,debt note,tablet,False,
+358454,8935b60d-ebaf-bece-bba5-84bf80324005,unknown,tablet,False,
+358456,6f92eea0-adc6-3a0c-5ee4-6228fea3ca81,unknown,tablet,False,
+358458,804a27b8-4aee-7e70-ffdb-edaca6a107a2,unknown,tablet,False,
+358460,b423d8f4-e8ff-b00d-5fd8-256846e076ac,unknown,tablet,False,
+358461,017079b3-976a-a51b-b687-c80ae167e4b0,note,tablet,False,
+358462,28460242-cb8d-8837-f76b-169a3802e001,note,tablet,False,
+358464,abdad04e-7de4-15cd-1baf-560097953caf,debt note,tablet,False,
+358466,9c6ac8bf-5fc1-d021-ba3e-b94fc5f683e3,unknown,tablet,False,
+358467,3f76f1f9-c0a8-0484-0d4c-5f23ba93f5ed,note,tablet,False,
+358470,5850add5-3e05-948e-cb90-c87129e916a6,debt note,tablet,False,
+358472,ea0b8e06-3882-a36c-98b2-d9e25352b738,note,tablet,False,
+358473,a75f5db1-9126-523f-e4a6-978d9a3a4719,unknown,tablet,False,
+358474,ee69ea87-db95-0989-21b9-8fc9a73950cc,unknown,tablet,False,
+358477,0e41aed5-4b32-37e2-a14a-a9df5efeaf86,note,tablet,False,
+358478,f5a2829e-bf98-5b76-e770-a1d8a2043792,unknown,tablet,False,
+358481,02ca950c-5768-999d-3c68-49ef002d962a,agreement (contract),tablet,False,
+358484,f34cd152-6a98-0d92-4bc9-e64e5dadaee3,list,tablet,False,
+358485,080ae386-adbb-4095-5cc6-ca387e80cc69,unknown,tablet,False,
+358488,33e3da4a-2570-73fe-4c16-92a19917b0cc,letter,tablet,False,
+358490,00d6c0c2-cf36-0a53-4b23-529cf28986aa,unknown,tablet,False,
+358495,ad615fb5-aeca-779d-05d1-f34990995385,unknown,tablet,False,
+358500,319f8b6d-ce99-373b-d6da-193539bacfd5 | 49af516e-bf16-4ea7-9e37-92608f596d6d,debt note,tablet,False,
+358504,ef7d38bc-df71-4437-82e5-85dc33d58b62,debt note,tablet,False,
+358506,2eeebc23-0ca8-646a-f59c-2db77d478a79 | 8d10a0ba-1286-8466-2773-43530d309236,debt note,tablet,False,
+358507,a846c442-5813-2afd-bef9-ab645808dfb8,agreement (contract),tablet,False,
+358508,0361861c-a309-ee14-a5cb-8c819da14884,debt note,tablet,False,
+358509,1a50b3fc-f32e-1210-f310-bb1d05271785,letter,tablet,False,Letter
+358511,e1def252-20ac-2d70-fc2c-963d7ea333f4,letter,tablet,False,Letter
+358514,ad73233e-81c0-389a-0566-a8d9826da6dd,letter,tablet,False,
+358517,51c4f2d2-3bce-9399-0a2b-0cc0a7d93eeb,letter,tablet,False,
+358518,d57f6dba-76f8-35fe-cb90-a69309647b14,letter,tablet,False,
+358519,55b3df8e-0fbb-fc60-e16c-3641861d0936,letter,tablet,False,
+358521,4bf29681-c497-8ddc-1773-67d240e556a5,letter,tablet,False,
+358525,976e1083-5e22-07b9-c053-ea196b8b7243,letter,tablet,False,
+358526,67fd0433-2190-a5cd-70da-55cf45ec7987 | 9efe6851-a21a-41c3-f66a-dbae0cff19c5,letter,tablet,False,
+358530,9625895a-2543-d4ce-aa53-5f13e92db426,letter,tablet,False,
+358533,f403487e-79a1-ae7e-4d3e-db0d4f66dab0,letter,tablet,False,
+358534,98624792-0809-baf1-1422-095bbc8f267a,letter,tablet,False,
+358536,cdf87cc3-734f-01be-6f40-e3b2f4cb6218,letter,tablet,False,
+358537,ef3a6666-9bcb-21ae-77f2-460f1d2b9d4c,letter,tablet,False,
+358538,e538c46d-d30d-755a-55b1-d7650dc369dc,letter,tablet,False,
+358539,c14e2961-da9a-c594-0d56-080d544c949a,letter,tablet,False,
+358540,68d9e122-a402-7eed-f7f3-b514758426c0,letter,tablet,False,
+358545,f28f895d-5e96-9c9b-3ada-0310ffead2fa,letter,tablet,False,Letter
+358546,97814ab2-44c4-ac8e-65fd-33eeca322985,letter,tablet,False,
+358547,b986952f-a050-81b2-2f79-3893590cbdc1,letter,tablet,False,
+358548,2b421d8a-e794-c07a-d4b0-c0840387263f,letter,tablet,False,Letter
+358550,f85c0341-76d3-96a6-de43-2e7a4bf2af75,letter,tablet,False,
+358555,1c4e97a6-efa4-5f14-b097-c153ed892ab0,letter,tablet,False,
+358556,8a3c6cba-8467-966f-d1ac-96aa283a91bd,letter,tablet,False,Letter
+358558,fcb11275-7b0b-0409-4850-f55c1f07062d,letter,tablet,False,
+358562,27bb0a4d-dce5-56d5-7798-cbb2a55fd33f,letter,tablet,False,
+358566,59fb519f-3740-8fab-0234-47df3b82a344,letter,tablet,False,
+358568,f9bc1939-bf24-45cf-076a-ec7609f116af,letter,tablet,False,
+358570,5c82c790-daf8-fcb8-84ed-6fd1f863c4a0,letter,tablet,False,Letter
+358572,9e7ab355-dd68-3eda-8368-0c2c9391876b,letter,tablet,False,
+358574,f4e2e58d-afed-d4ab-e5c5-0e4dee4b5e57,letter,tablet,False,Letter
+358577,161ceac9-ac62-8a59-05f2-af935e84f0b5,letter,tablet,False,Letter
+358579,d8076fb0-eead-2a05-5edd-e01a509e3464,letter,tablet,False,
+358580,01f393af-e4bb-a5e4-9174-c89d618c9347,unknown,tablet,False,
+358582,6dedc23a-dfca-69b1-c9ce-388bb1ccd23e,letter,tablet,False,Letter
+358584,53cd3528-154a-75ac-1316-49739de9cd43,letter,tablet,False,Letter
+358585,c84b1e2b-f03b-9d1a-e931-545d497a0dd5,letter,tablet,False,Letter
+358587,1df68347-c118-3b26-ab35-44102c5164aa,letter,tablet,False,Letter
+358592,c6f27f4e-517a-f7ab-9f62-b276927f4983,letter,tablet,False,
+358594,0fa1c0be-aa9a-4668-ee03-9f857373d23c,letter,tablet,False,
+358595,09fd5c7c-6a69-5b49-c949-d185224e63a9,letter,tablet,False,Letter
+358597,68cfd6f2-6b9a-ea3a-28be-e73c5f8dd6fa,letter,tablet,False,
+358599,1012bfde-a720-3f0e-5f60-4a5c5a5b6403,letter,tablet,False,
+358600,42290f35-0694-3e8f-6d97-0d0d090dfc01,letter,tablet,False,
+358601,8ab93037-cb44-788f-b838-2c36affbaff4,letter,tablet,False,
+358602,dd21f356-fc0c-c9be-710c-eff7ffed4624,letter,tablet,False,Letter
+358603,3f65f95e-3369-3df5-301e-ca664aa72a02,letter,tablet,False,Letter
+358604,f1645c30-3717-c7bb-678d-11b964765782,letter,tablet,False,
+358605,fcba81d9-7c18-d944-d2fc-aa701bb3ecd5,letter,tablet,False,
+358613,61208553-231f-2316-6eef-88bbf82c4fdd,letter,tablet,False,
+358614,6fdb8a25-06bc-1577-f33e-e1a686eaaf9e,letter,tablet,False,Letter
+358620,221a5f50-2fd2-a690-3124-9499401adcc6,letter,tablet,False,
+358622,82777d69-67f4-4309-396f-e5151bb3fef9,letter,tablet,False,
+358623,09ce98ce-b603-4685-c90c-855fc6d9c0a2,letter,tablet,False,
+358625,1f308ac8-ff69-6cbf-45b0-12c76e7a17b7,letter,tablet,False,Letter
+358626,2d861f42-d8a8-4ee7-7e67-e16560688171 | 6f28b7c3-4a84-9c96-1ce0-a5bcba0fa0db,letter,tablet,False,
+358627,e42284e7-ca3b-ebe6-fa77-7d9aba3bbf6e,letter,tablet,False,
+358631,3c72b1e0-9c12-4065-63ab-80e82ebaadf8,letter,tablet,False,
+358668,fa5f2976-1a6a-d1a0-f79e-e10504371b44,letter,tablet,False,
+358671,74a0fdb4-33aa-f591-e34c-f173f267f65f,letter,tablet,False,
+358682,59a15814-4f7e-52be-ef5f-c601f5387693,letter,tablet,False,
+358694,781aade5-d52a-2eff-8e8f-864d0b0eb940,letter,tablet,False,Letter
+358695,43497057-81ce-bb3b-0df5-9727559189dd,letter,tablet,False,Letter
+358696,b71c9b46-7001-8d6f-707d-f9703aec0abc,letter,tablet,False,
+358697,a2a59103-5eed-5c4d-8ef9-ceac1d37760e,letter,tablet,False,
+358698,5de833bb-8726-298b-7b51-3c5ba9e12b9a,letter,tablet,False,
+358699,20e5a58a-3800-a81c-f295-e2f15ab83c01,letter,tablet,False,Letter
+358701,51d49e66-89cb-7bca-0d24-538e76ffdc5b,letter,tablet,False,Letter
+358703,ec9f5471-2ff8-7512-81d4-079f102be5d8,letter,tablet,False,
+358710,6c6ce432-2d58-b073-8e64-ab78f7661c79,letter,tablet,False,
+358711,538d49d3-5272-6bc1-2cae-ab76d8d2e529,letter,tablet,False,
+358712,9bcf84ad-4da0-646f-ca8f-e69dea163ec6,letter,tablet,False,
+358713,897f6d95-14c7-c3e9-bdab-bc3f3f8a55f4,letter,tablet,False,
+358716,69dd5526-8778-c1cd-042d-dd3e679a6a00,letter,tablet,False,
+358718,2f22a758-7816-13a0-e2a5-04a5fda253d0,letter,tablet,False,
+358719,37b35264-572f-218b-411e-0c77524c2ecc,letter,tablet,False,
+358721,7830d1df-5a54-ffeb-d3d1-33c11b626603,letter,tablet,False,
+358722,645decc9-8f99-9314-9663-b5ccafe47c76,letter,tablet,False,
+358724,ed82ddb6-f8e3-1cab-5482-7e90aebfe19f,letter,tablet,False,Letter
+358756,f38b3567-9851-b878-eef6-8916e89f3f87,unknown,tablet,False,
+358773,bc066cb3-527f-2d2d-9f21-4470f1e0f56b,purchase guarantee,tablet,False,
+358790,24acccc4-2424-e1a9-575d-8cf3467cc871,unknown,tablet,False,
+358792,f43ba9c1-1b92-8828-aa9d-c943b109bd79,purchase guarantee,tablet,False,
+358795,9dd39d3c-3698-b9a0-b7d2-e8d762196913,unknown,tablet,False,
+358797,5820ee88-cd18-e82f-fbb9-bb8e9658a1ec,unknown,tablet,False,
+358820,9deb7254-da3c-b1b0-32e5-0bffab6f0768,unknown,tablet,False,
+358832,74a8d969-7c00-bb31-cc2e-63c23f6cff31,unknown,tablet,False,
+358845,176d5b5d-2116-e971-6eb9-35d55dd77f9c,list,tablet,False,
+358857,f435471b-b0f4-c803-00a8-cdb3afb2a996 | cb1aca22-0663-0784-3bef-995cdcd0d1ce,unknown,envelope + tablet,True,Letter
+358901,652eea3d-30bd-7b49-807c-e8e81cf1b1ae | 1c5f943b-3c0e-42af-83e2-4ab2f4df9e77,legal challenge | testimony,tablet,False,Legal
+358916,2750d6ca-ae89-4b42-a657-675afce5c812,letter,tablet,False,
+358933,3ed3fbc3-c368-466c-93a1-35e72919aec4,letter,tablet,False,
+358937,0d716939-92de-46ea-bff1-7a53a054f081,letter,tablet,False,
+358941,6a8df5f2-ef65-4347-8706-2dfc70195697,unknown,tablet,False,
+358947,459810c5-c4af-4963-b337-3f6dff382136,unknown,tablet,False,
+358954,777603e4-c69b-432f-b44c-0c4c8e72f134,unknown,tablet,False,
+358967,4a5e4199-5f00-47ea-b16e-14c64103326a,unknown,tablet,False,
+358968,26fdda16-9a7b-4f7e-a747-08eb5125114d,letter,tablet,False,
+358969,edea1551-7bf5-4055-b3bd-f0c84423e60b | d354a745-b440-410d-a328-c60712277a35,letter,tablet,False,
+358970,f2ffe79b-3fd1-44e5-9890-f90caf44e84d,unknown,tablet,False,
+358972,2d709623-d6e8-4e7b-91d9-12719e4ba259,unknown,tablet,False,
+358999,84127faf-657a-56cc-f8ee-17cfedf50ad8,letter,tablet,False,
+359029,12a51e01-2ec6-4cce-9c71-b5a44f2758b3,memo,tablet,False,
+359034,28dcd76e-bb08-b5b1-3b4f-ba85c42341b1,letter,tablet,False,
+359040,8ce74159-a0c0-53d9-e858-1f530379d11c,contract of sale,tablet,False,
+359041,3a989308-bfd4-bd55-d5a3-2f6d1d48c253,letter,tablet,False,
+359042,4876c1f3-6dbe-bad4-e810-599440050157,unknown,tablet,False,
+359044,d3200bb4-4b75-3aa1-d17a-a43db58ed874,letter,tablet,False,
+359046,76c663ca-20fb-9833-6c7f-aa058aead6ba,unknown,tablet,False,
+359054,0535b2f1-63f0-9416-8036-3572649b6a19,letter,tablet,False,Letter
+359055,f3d4ca78-4dab-4438-8216-37a952ee1651,memo,tablet,False,Administrative
+359056,532393bc-cbff-40e9-833f-54ec019e6b5b,letter,tablet,False,Letter
+359057,c43ae254-a0fc-4fb5-b888-158afeb73486,unknown,tablet,False,Administrative
+359058,981071c9-eb6d-481a-9ad0-df06e3c2a0a1,letter,tablet,False,Letter
+359059,b5cfac6a-d1f2-4566-9288-8f290a8bc233,letter,tablet,False,Letter
+359060,bab37c2e-b1aa-4081-a9e0-ad35e9e9439c,letter,tablet,False,Letter
+359061,dbcaec35-74f3-42bd-8a5c-03da6c7bcae8,letter,tablet,False,Letter
+359062,72bd4abe-07a8-4977-9e59-504cb11c2bc8,letter,tablet,False,Letter
+359063,16141758-3316-45b4-b446-41e1501ec402,letter,tablet,False,Letter
+359064,a79fc91f-9267-441d-a91d-253f050c1a4f,unknown,tablet,False,Administrative
+359065,0f1c69ab-68e7-458f-a839-5fc86c98e639,letter,tablet,False,Letter
+359066,6a397f48-c1e2-4473-9f03-145159553f48,memo,tablet,False,Legal
+359067,c8432022-afc7-48c1-b065-21ca38c932d4,judgement,tablet,False,Legal
+359068,e59d4ca4-4a78-4867-a1d0-000b68478917,letter,tablet,False,Letter
+359069,b458c60d-a077-4bec-bb83-13bc91ea45ef,testimony,tablet,False,Legal
+359070,47aee660-eb37-4b27-a73a-cdc68793e3ab,letter,tablet,False,Letter
+359071,67839ec3-9db7-4618-8508-310ed2b3211e,testimony,tablet,False,Legal
+359072,99a57cd9-9a6a-4cca-8782-d911aece84ce,letter,tablet,False,Letter
+359073,46d5806d-5583-4d0f-9876-50f644391368 | 73bb961d-06d5-4747-8caf-c3336e1344a1,judgement,envelope + tablet,True,Legal
+359074,58d7ef78-49f1-44af-bc76-cd08de3bd0b9,agreement (contract),tablet,False,Legal
+359075,3ace8de7-dff6-4074-b6e5-a150cd6f7cf3,letter,tablet,False,Letter
+359076,57514857-ee34-4480-88ce-f3b0db9047cb,letter,tablet,False,Letter
+359077,5cf80c84-a537-4666-9107-99e7a2117b60,letter,tablet,False,Letter
+359078,dfdc63d2-6d39-42a5-a365-5d7bd27c612c,letter,tablet,False,Letter
+359079,d2314448-329b-4bc8-b59c-8e458c9a1740,letter,tablet,False,Letter
+359080,790ca618-d259-4a1a-9a76-75c79187926b,letter,tablet,False,Letter
+359081,b91982a7-ab8b-4e95-8496-38a678a64d64,legal writing(s),tablet,False,Legal
+359082,ad287135-a225-45dc-affe-a443b766d68c,letter,tablet,False,Letter
+359083,978c15cf-f647-451c-8c20-a9bcc79f0236,letter,tablet,False,Letter
+359085,2459a51c-0668-4bb5-9ea3-28267614d61f,debt note,tablet,False,Legal
+359086,ab1741b3-f35e-48e8-9549-970e87b74e8a,letter,tablet,False,Letter
+359087,45e59485-a263-4611-9ded-e17d0ede849b,letter,tablet,False,Letter
+359088,88aca1bf-8359-4789-843f-f2d746bc03b0,agreement (contract),tablet,False,Legal
+359089,3dbcbfd0-d288-4c63-9c74-2ccb8737807f,letter,tablet,False,Letter
+359090,8989e187-4512-4549-87b9-5dbf49231214,letter,tablet,False,Letter
+359091,f417b9fd-0091-48d5-8133-aea142c5660c,note,tablet,False,Administrative
+359092,0b041db1-f392-49d1-ae4d-3858ec1622b8,letter,tablet,False,Letter
+359093,b497edcf-8923-4011-bf19-db1c8a2b5253,letter,tablet,False,Letter
+359094,5355b050-b963-439b-927c-a2e7052ba44c,letter,tablet,False,Letter
+359095,f467a746-573c-4b08-b177-ead7982e0dfc,letter,tablet,False,Letter
+359096,686dfc82-1689-4aec-84f8-810c08011476,letter,tablet,False,Letter
+359097,74b68361-f4d2-4ec5-8148-44a6ae796a8a,letter,tablet,False,Letter
+359098,cbe6eb66-875c-400a-a80b-cac998e10570,unknown,tablet,False,Legal
+359099,14fea235-6337-4bac-b93c-e09a7cfd21f8,letter,tablet,False,Letter
+359100,79ddf0f8-3261-44af-a13b-d58cc0ae0fd9,marriage license,tablet,False,Legal
+359101,1db8452a-8868-45d2-bc64-7fa1aed31652,debt note,tablet,False,Legal
+359102,0153317c-d10d-401e-9f5d-62a059fc3df6,letter,tablet,False,Letter
+359103,02176c1f-e00b-4716-b41a-5ad8271c165d,debt note,tablet,False,Legal
+359104,418bd568-55ec-4aa9-8add-6fc416ad912d,letter,tablet,False,Letter
+359105,ca3997a8-d8c9-4fab-95e4-caf4a56c6c82,memo,tablet,False,Administrative
+359106,431c082b-f9d9-4640-ba56-2b257edfa5cd,note,tablet,False,Administrative
+359107,86d18822-3d35-471f-a3c8-8899c7b19510,letter,tablet,False,Letter
+359108,6eda3405-ec25-4054-a6da-7b47f87d9776,debt note,tablet,False,Legal
+359109,6c74abe7-876c-4400-8700-8e904d885abb,legal writing(s),tablet,False,Legal
+359110,3e2b26d7-3643-48eb-9e65-72b2fa1cd787,debt note,tablet,False,Legal
+359111,57834f67-9273-40c0-9660-cb91dbaa06f6,unknown,tablet,False,Legal
+359112,a34796ab-7d6e-4ea3-b217-bc03da1d859f,letter,tablet,False,Letter
+359113,91134b8e-11df-475a-a094-c2b698cef6ca,letter,tablet,False,Letter
+359114,042ee2fc-4fd4-476e-9132-cc6f8ff1dcd6,unknown,tablet,False,Administrative
+359115,311ccb77-0fae-4467-a39b-5aa7148a56d6,legal writing(s),tablet,False,Legal
+359116,7abce2eb-d955-4546-981b-b9d62ab28b51,letter,tablet,False,Letter
+359117,e23ad328-3063-4f73-93d9-037c43b99c45,letter,tablet,False,Letter
+359118,7a77afba-95a2-4a94-b885-ae318fb6a5b8,debt note,tablet,False,Legal
+359119,dde71da5-04b1-4403-932f-efc04a2a3565,letter,tablet,False,Letter
+359120,29eb2a1b-586a-4dcb-842c-3db017f3e525,debt note,tablet,False,Legal
+359121,e20f0e3c-ff64-4c10-8e12-7fe603e1de26,receipt,tablet,False,Administrative
+359122,1f96d690-7f20-4080-b3fc-373b19c8c50a,divorce suit,tablet,False,Legal
+359123,0b27c8c9-5bec-46d3-b63c-53655aa5206e,legal writing(s),tablet,False,Legal
+359124,da9d8e7a-050c-47dd-a4a9-c3e20a640928,letter,tablet,False,Letter
+359125,cfe4dee1-8a02-41f7-962e-c073ea695ab7,testimony,tablet,False,Legal
+359126,93e050be-bf3e-42a5-b0c3-972663ecec5a,letter,tablet,False,Letter
+359127,814eac54-fe6c-4075-a94a-a40ff3db99c7,letter,tablet,False,Letter
+359128,831c3731-5962-4b93-944f-4583ba94c2b5,letter,tablet,False,Letter
+359129,c304bdc5-9024-4c08-b8e4-a0b2b6730a65,testimony,tablet,False,Legal
+359130,b5eeea8f-0d2e-46c8-b51a-2c404441946d,unknown,tablet,False,Legal
+359131,be9ebaa4-3e82-43b0-ab74-3b5b60f4b499,letter,tablet,False,Letter
+359132,65242806-b151-4051-9112-e35fd762a393,testimony,tablet,False,Legal
+359133,e97d76f8-8eda-484c-a4ce-d35a59274bfe,letter,tablet,False,Letter
+359134,97ff0f0c-cbf9-46f7-9b98-2f41b8337bfc,list,tablet,False,Administrative
+359135,ac040ea1-9422-47d1-9f6b-e8fac82b457a,letter,tablet,False,Letter
+359136,e4277180-2058-4a43-bc07-2cf8813e9fe2,letter,tablet,False,Letter
+359137,67631ea7-5a59-46d7-ba74-9d94ba73652d,letter,tablet,False,Letter
+359138,80b6df67-e554-4430-affa-5cee87afda6b,unknown,tablet,False,Legal
+359139,771f2a84-5310-4e94-92ec-1131dde7f82d,letter,tablet,False,Letter
+359140,873075ce-aa8c-4df9-96e9-fe5a0fc6fd77,agreement (contract),tablet,False,Legal
+359141,38e16fc8-d15b-4323-9f83-5c9884966d48,testimony,tablet,False,Legal
+359142,2207c59f-bc38-4568-99cc-4c71ee89fe31,judgement,tablet,False,Legal
+359143,55511d91-2cee-4455-9901-122b51aee0de,letter,tablet,False,Letter
+359145,34542df9-4d12-47f8-af70-4d9b5dd46fdd,letter,tablet,False,Letter
+359146,b968d5b1-803d-4582-921b-7f2afb4863ed,letter,tablet,False,Letter
+359147,61230dc3-af42-40b6-baa2-d077b8ce2a95,debt note,tablet,False,Legal
+359148,79e3c2ae-1161-42c3-afeb-9d3fdea6449e,list,tablet,False,Administrative
+359149,ba4170ce-c1c7-4a55-9d1c-5a686ada1f7b,letter,tablet,False,Letter
+359150,79f281c5-8716-49a5-87e5-b7351983c345,debt note,tablet,False,Legal
+359151,ea7872f6-c591-403b-9ddd-ee2601fb6f42,letter,tablet,False,Letter
+359152,5a091941-6f30-4fdb-9e9f-dfb6577b0ddf,unknown,tablet,False,Administrative
+359153,752eb6af-3c42-40ce-b5e6-74688bbd3123,letter,tablet,False,Letter
+359154,0a29f32d-771d-4e80-9c25-b36dda7753ac,letter,tablet,False,Letter
+359155,04935387-4095-40cd-93e8-a8cfbde4a028,letter,tablet,False,Letter
+359156,f9040664-a437-407d-8864-78ce581df6aa,letter,tablet,False,Letter
+359157,7a3bf506-b4e0-4c12-abfe-d52e8cf30dce,debt note,tablet,False,Legal
+359158,6548f198-90b9-4096-8803-f869ccb628c1,debt note,tablet,False,Legal
+359159,d6e19bc1-251e-4641-91b0-59c605790ceb,letter,tablet,False,Letter
+359160,5d6d06f7-ad7e-4be9-b2fb-2c815ce53195,contract of sale,tablet,False,Legal
+359161,df757d18-44e9-47eb-99ad-58a3417a6127,contract of sale | Naruqqum,tablet,False,Legal
+359162,7e2547c9-a03e-4233-8c13-02b5ac1674fe,unknown,tablet,False,Legal
+359163,621e0586-0e1c-4875-b86a-6244a8079095,list,tablet,False,Administrative
+359164,da5cd912-9af9-4e82-87cc-3d28787f6c0b,letter,tablet,False,Letter
+359165,d516a5cd-e0b8-403b-8fde-cfff18915024,unknown,tablet,False,Administrative
+359166,17c9a06b-47de-073c-2c70-002f15946c1e,unknown,tablet,False,Legal
+359167,dc00275d-1eb2-403b-80c3-61babc3b8dbe,unknown,tablet,False,Legal
+359168,34ba17a9-b6d5-463c-aeb5-4abc90012bc2,agreement (contract),tablet,False,Letter
+359169,3513eef8-ed32-4375-8acb-4ea006a8c14b,unknown,tablet,False,Administrative
+359170,456b1800-730f-4045-8724-dcdb2d29ecb6,letter,tablet,False,Letter
+359171,6c555c24-e960-47d6-b951-975ca35b77c5,letter,tablet,False,Letter
+359172,671b5aea-98f3-4c00-bac8-bbc3c560bf87,legal writing(s),tablet,False,Legal
+359173,e690ab93-43b5-4578-8fbd-74c31ad21178,unknown,tablet,False,Administrative
+359174,48be3c4a-02d0-4a66-a6e8-d627dc32b36b,letter,tablet,False,Letter
+359175,9b1c9b80-6e21-4f29-9bb2-f46e63fe37dc,agreement (contract),tablet,False,Legal
+359176,6a0da336-16ea-418b-895e-d8f2dc05e4be,contract of sale | Naruqqum,tablet,False,Legal
+359177,2c1bcf86-f9cd-40a0-93dc-79b24b3e8b86,letter,tablet,False,Letter
+359178,7dc3b9b9-9d76-45ae-bdec-7c2ee73872d1,unknown,tablet,False,Administrative
+359179,e90685c5-5a66-4891-84e6-f84bfc79a81e,letter,tablet,False,Letter
+359180,127c139f-180a-484b-b8ab-274be5ad342e,letter,tablet,False,Letter
+359181,a15f68d5-db1d-4e10-a92b-6191925c9bd2,debt note,tablet,False,Legal
+359182,bd0b06df-0484-4c68-90ce-4c9f2163a4fb | ef1b2c27-7e4d-4c03-95cf-49981525bf75,debt note,envelope + tablet,True,Legal
+359183,4aa4b680-1230-4ecf-b202-b0da64f73cc2,agreement (contract),tablet,False,Legal
+359184,fbdf6ff7-7f73-42e5-a123-8c01e2596f80,letter,tablet,False,Letter
+359185,0a890fb5-1569-43f1-91be-9beacc0d1402,agreement (contract),tablet,False,Legal
+359186,3166852c-af03-40ae-bd86-07ae745fd951,agreement (contract),tablet,False,Legal
+359187,63e6666f-a6a3-4380-94bc-d22f42464285,debt note,tablet,False,Legal
+359188,c69143bd-82a6-4547-be68-b81fe792fd06,letter,tablet,False,Letter
+359189,c7788cc5-c058-47eb-bb4f-364a0ebd7e89 | 982f4e51-36f2-424e-bfc8-e9a375b74da0,debt note,envelope + tablet,True,Legal
+359190,552796f2-cab2-48f3-bfe5-495ec56fd9bd | 64966d9f-6296-4683-bcf0-97eee5369abb,agreement (contract) | purchase guarantee,envelope + tablet,True,Legal
+359191,5ecb0c57-3fcb-4c2f-879e-dd97aa4c1983 | 1e2a97ec-6154-402c-bfd3-0f4f27f5c1fa,judgement,envelope + tablet,True,Legal
+359192,63d45b5e-2857-457e-af8b-7fe19a560bd6,letter,tablet,False,Letter
+359194,4e5ba9f6-d558-42d2-ba5e-66bb94f5d954,list,tablet,False,Administrative
+359195,15397606-648c-4d71-8d86-3e2ce71ad6ab,letter,tablet,False,Letter
+359196,b4d9dfc5-efe9-4eba-9602-26b5b7d33fe8,debt note,tablet,False,Legal
+359197,9de2f9dd-c45c-45f9-a4d5-9787a20719f8,debt note,tablet,False,Legal
+359198,0cd41520-3055-4563-bbf1-cb486ed7da9f,debt note,tablet,False,Legal
+359199,4b5129f6-0154-4641-8ebc-bf0f096a02a4,letter,tablet,False,Letter
+359200,213d8123-75dd-492d-b613-e866a7dbe576,letter,tablet,False,Letter
+359201,a24213b7-9937-4523-a14b-02b6d42c0bc8,letter,tablet,False,Letter
+359202,55932f96-f878-41ec-81dc-8e3ddaefc7e0,administration,tablet,False,Administrative
+359203,97c5551f-e1c0-455e-92d1-edf03de583dc,debt note,tablet,False,Legal
+359204,a055066a-906a-4555-96b7-5caee74ad732,legal writing(s),tablet,False,Legal
+359205,610e81d7-5945-42c5-9c8e-4da54ccbe218,letter,tablet,False,Letter
+359206,f62e0370-c965-4d9b-a220-00b4d843823c,contract of sale | loan agreement,tablet,False,Legal
+359207,99bbb1af-4326-497e-ad4a-abd41f22a6dd,debt note,tablet,False,Legal
+359208,77672cf9-59c9-484f-b5b8-ca2b0afff56c,legal writing(s),tablet,False,Legal
+359209,ce829522-ad18-4c6c-9b4f-73073b7c2603,letter,tablet,False,Letter
+359210,d8b4fafb-d9f0-4215-b17b-cd8e4d4b581b,note,tablet,False,Administrative
+359211,96b5ea85-1d7b-431a-9a96-5a9567450895,note,tablet,False,Administrative
+359212,54cf2ebb-6aa9-46fa-89e7-b4204adbf9be,administration,tablet,False,Administrative
+359213,88658d71-89af-4274-8204-876f151da34e,letter,tablet,False,Letter
+359214,a3c24407-91e9-46cf-a341-a3682c582335,agreement (contract) | legal writing(s),tablet,False,Legal
+359215,a62ff951-bf05-4902-9a7d-9b2b7d4f3d99,letter,tablet,False,Letter
+359216,1fd1f8cb-4def-4f3c-a3bd-e63bb68c2f18,debt note,tablet,False,Administrative
+359217,2dadeffb-545b-4ecf-96f6-f484c90eef22,legal writing(s),tablet,False,Legal
+359218,d82e02ed-3b65-4a30-8a68-d5ddcfc9fc2d,debt note,tablet,False,Administrative
+359219,aecdd38b-cb75-435d-8ae2-c9f1121ebfd4,debt note,tablet,False,Legal
+359220,8c35efae-d94f-4464-aa4a-5cdbc070043d,administration,tablet,False,Administrative
+359221,189788a1-5f2f-43b5-a890-0b80d7c72278,administration,tablet,False,Administrative
+359222,784bb47d-32bc-451c-a0bd-aa140d2cc109,legal writing(s),tablet,False,Legal
+359223,b980bed1-d089-482e-baed-b284b2f1231a,note,tablet,False,Administrative
+359224,5acbbf72-7522-408e-a670-84fbe480adde,legal writing(s),tablet,False,Legal
+359225,c449de7a-796a-4a73-b4d5-faf474022dde,administration,tablet,False,Administrative
+359226,ec633d8f-0d00-4e3e-9700-2a7941c7357d,administration,tablet,False,Administrative
+359227,e5b67e18-5512-440e-9053-43078f3e957a,administration,tablet,False,Administrative
+359228,1235e324-fc02-4a79-b52a-d1c218045132,legal writing(s),tablet,False,Legal
+359229,cd7cc926-d962-4a91-84c7-c7396002a355,administration,tablet,False,Administrative
+359230,0c1ddfdd-0ca6-4f10-89da-efb93bbaf39a,administration,tablet,False,Administrative
+359231,ba5a7fc2-9ff8-4866-a967-7f73b753158b,administration,tablet,False,Administrative
+359232,f573d1f4-21d6-4f32-9abb-9738637f05f2,administration,tablet,False,Administrative
+359233,0cacdd9f-b7a5-4a96-a56a-9d830c666c45,administration,tablet,False,Administrative
+359235,be4f20a3-0c07-4bdc-8484-4dc6d51899a0,letter,tablet,False,Letter
+359237,034db1f2-2609-4b11-8476-19bb7ccdf566,letter,tablet,False,Letter
+359238,b45d27d0-cac8-4c38-a006-f7bfd03e1d20,letter,tablet,False,Letter
+359239,bb0e065d-561a-40db-8ec2-11fa4ad5c67f,letter,tablet,False,Letter
+359240,0a845718-508d-42ea-89b3-312e3433d1a4,letter,tablet,False,Letter
+359241,fa40270f-6c23-4b6c-bb68-35bc19029a88,contract of sale | Naruqqum,tablet,False,Legal
+359242,9998df2d-4e36-4b75-8ada-b56f9ce516b9,letter,tablet,False,Letter
+359243,fd1e1749-780e-4d25-b8b4-761648491974,letter,tablet,False,Letter
+359244,2df46976-5a07-438b-8e9c-ba31863961f4,legal writing(s),tablet,False,Legal
+359245,bb4f0b83-02f5-47f7-841f-72b6d93d9c06,letter,tablet,False,Letter
+359246,4a8766e2-fda2-4542-8b55-367d51934344,letter,tablet,False,Letter
+359247,fbba5781-04a1-49e2-836c-e0cac751c039,letter,tablet,False,Letter
+359248,d3591cd5-c339-4451-b44c-a3d41c2cda95,letter,tablet,False,Letter
+359249,dda54168-4831-49a5-bae0-bdc86cac0ce5,letter,tablet,False,Letter
+359250,e0255830-ef60-4bf4-8c9b-cfbcc6312cab,agreement (contract) | legal writing(s),tablet,False,Legal
+359251,8f6eb0af-5b97-4221-a109-bd58219e0c1a,agreement (contract) | legal writing(s),tablet,False,Legal
+359252,2b2cc5ac-0af9-4999-b44b-d2c0258237ed,letter,tablet,False,Letter
+359253,267a0fba-79f8-4f94-8248-2e0dc2226e5a,letter,tablet,False,Letter
+359254,6ab3c885-bc65-4815-8f78-ad02380addbf,letter,tablet,False,Letter
+359255,c57d4f55-834e-43bb-ba65-bdc7d80c2f1f,letter,tablet,False,Letter
+359256,a8a1042e-531d-4d56-96a7-cea96913521d,letter,tablet,False,Letter
+359257,b07a3b88-2edd-4e61-8c3e-080aa97171ff,legal writing(s),tablet,False,Legal
+359258,f4de75cb-f9a5-4ca4-8fc7-209f70bca365,letter,tablet,False,Letter
+359259,5c15c9f0-436d-4fb5-b6d2-7a70e8aedbf5,letter,tablet,False,Letter
+359260,62c13f00-3f2c-418b-8967-dd9fc933bccf,contract of sale | loan agreement,tablet,False,Legal
+359261,67e8e7e1-61c1-4455-b4a0-f31f5e96e999,debt note,tablet,False,Legal
+359262,24987e8e-b565-40ef-a44f-14912c4768f4,agreement (contract) | judgement,tablet,False,Legal
+359263,81edc732-28a2-47a3-b755-46534556026d,administration,tablet,False,Administrative
+359264,491bccdb-b173-401b-b13b-16d39fc08929,letter,tablet,False,Letter
+359265,58122abf-5122-4cea-ade7-bd15725182df,letter,tablet,False,Letter
+359266,c89ebca2-2f90-42b0-8ced-88bf4da61cf8,letter,tablet,False,Letter
+359267,1d919896-a2d5-4c61-b040-80fa66a975ec,letter,tablet,False,Letter
+359268,7eec29ea-10f6-4c55-aa46-3b1667b7fdb1,letter,tablet,False,Letter
+359269,a5e8074e-dd4e-4a50-af4c-9ea9cdacfa9e,letter,tablet,False,Letter
+359270,77f85a31-b948-42fa-9f93-b3794d84418c,debt note,tablet,False,Legal
+359271,bfb1bcf8-558b-4f52-9928-9b60d52496a3,letter,tablet,False,Letter
+359272,2954b05d-5bfa-4511-a915-a58f9a2bf90c,letter,tablet,False,Letter
+359273,d7092632-5db1-4d5b-952e-ca291cb6f96b,memo | legal writing(s),tablet,False,Legal
+359274,a457f047-d209-56dd-ce96-727b37f697a9,letter,tablet,False,Letter
+359275,505130bb-ff80-1fca-b38d-a8ac756dc47f,letter,tablet,False,Letter
+359276,ba90b030-4ebb-4d9c-a4bc-e776f7d00a0a,letter,tablet,False,Letter
+359277,2b95e149-a42a-4c70-ada3-5e7ca3237629,judgement,tablet,False,Legal
+359278,03880ea3-d130-4758-a01c-b0cf29c98ac5,list,tablet,False,Administrative
+359279,c25cc567-162b-4baa-b276-4224448422e1,note,tablet,False,Administrative
+359280,2e09ce3a-432b-4268-9d0d-a071258fdaa4,debt note,tablet,False,Legal
+359281,a3fd52c6-3f26-4a9e-8990-93797f69a0d7 | aaa306db-ba12-4404-af84-91894bb8742d | b7779de3-e461-4ec7-9add-77b4d09fd552,debt note,envelope + tablet,True,Legal
+359282,19b916e2-1dcd-4b5a-aac6-b5babe0c6652,letter,tablet,False,Letter
+359283,65603ce4-bc2d-458d-93ba-14ed681d4388,letter,tablet,False,Letter
+359284,f9d08f5c-8c75-4890-81b2-3c6aee229065,letter,tablet,False,Letter
+359285,31cdd176-553e-4d54-aae5-eb689f7b207b,letter,tablet,False,Letter
+359286,20f15e53-b572-4602-92d4-8b2e3a38ad00,judgement,tablet,False,Legal
+359287,ac3b4093-17e9-404f-ae03-ddc6cb0482d9,letter,tablet,False,Letter
+359288,43ce0b1e-d3b0-419e-9562-05aaaf5cd246,letter,tablet,False,Letter
+359289,5e3d0d16-1f58-4172-bb4b-123ddccd5d25,letter,tablet,False,Letter
+359290,02a82065-227a-48d2-8fa5-1022a2b8ff58,letter,tablet,False,Letter
+359291,251a99c8-9927-4d84-8ea5-c540c2bcce36,letter,tablet,False,Letter
+359292,0b951f30-fba7-401e-816c-409f67f49ebf,letter,tablet,False,Letter
+359293,9024962f-b4c1-4b4a-aa1e-5096173248b6,letter,tablet,False,Letter
+359294,82fc2b85-cfb2-4e75-89a0-2cbb0749f2e8,letter,tablet,False,Letter
+359296,bcd9cd3d-d82a-47f0-9944-264db554289a,letter,tablet,False,Letter
+359297,399fb926-9c74-4e83-b288-7f17a8585c86,testimony,tablet,False,Legal
+359298,d4e50dd6-d4e5-4014-9325-40733d4ecf23,letter,tablet,False,Letter
+359299,3612f0e2-ddf5-4ccb-9cac-7d1fa2a4bf94,letter,tablet,False,Letter
+359300,3d885bf2-66e2-4179-8974-a98441b9966c,letter,tablet,False,Letter
+359302,4fa67633-4fe6-404b-8be4-6c3e23aae9ed,legal writing(s),tablet,False,Legal
+359303,efeda029-37d8-4869-8fde-55f713c2c703,letter,tablet,False,Letter
+359304,981a1f04-bc99-4782-9def-f9609cf30e85,letter,tablet,False,Letter
+359305,9c811ff7-956b-4ead-9934-a906f225491c,list,tablet,False,Administrative
+359306,9c6c802d-3b9b-45a8-a0d5-1b529c641f14,letter,tablet,False,Letter
+359307,0c74cd4e-f298-4446-a605-cbf8ea5a8d3a,testimony,tablet,False,Legal
+359308,b0242c9a-009c-439c-a8c1-47fed372b728,contract of sale | loan agreement,tablet,False,Legal
+359309,7eaef19f-3f66-40c1-a095-c9c3550c76a7,letter,tablet,False,Letter
+359310,12610a96-72ce-4801-8c2b-48c7dcdeb589,administration,tablet,False,Administrative
+359311,658e5942-a844-4725-a581-050251102416,letter,tablet,False,Letter
+359312,d2b6750c-0075-4fd3-9d79-1d8a52d2baf9,legal writing(s),tablet,False,Legal
+359313,6117e3e3-5c24-475e-bafb-0f1563ca7703,agreement (contract) | legal writing(s),tablet,False,Legal
+359314,e3a6b7bd-16c1-486f-b39d-246db7f5515d,letter,tablet,False,Letter
+359315,55a170e6-426d-4959-ad07-d8da53bd0eb4,contract of sale,tablet,False,Legal
+359316,0d6f5946-7b57-45bc-a879-b2c0e03510ec,letter,tablet,False,Letter
+359317,a861e053-3c36-44e3-bdd5-45ff35154878,letter,tablet,False,Letter
+359318,c9ea4717-e2bc-4a0f-a3de-3e2e590147ac,letter,tablet,False,Letter
+359319,744f2ab6-a7c6-467b-bfce-ebe568094bec,administration,tablet,False,Administrative
+359320,a39dd0bb-857e-41c4-bec0-c5688278180c,note,tablet,False,Letter
+359321,d294627f-c978-4d4b-8915-701f68b114b9,note,tablet,False,Administrative
+359322,467aae38-1ab4-434a-a479-0ef90bb71752,debt note,tablet,False,Legal
+359323,43a0e0d0-184a-4a3d-bacb-d44c948073cc,letter,tablet,False,Letter
+359324,d33ac589-132b-4722-9b49-67f9ee5312c3,legal writing(s),tablet,False,Legal
+359325,e2978101-9f1f-4b96-a147-ddc0a4deb9d3,letter,tablet,False,Letter
+359326,dd9e2fd9-ff61-4924-b8de-76564ab66398,letter,tablet,False,Letter
+359327,c29aeebb-1241-483e-a6b3-abb7ff01120e,letter,tablet,False,Letter
+359328,10df323c-5958-4225-ba03-459d7dc8d3a8,letter,tablet,False,Letter
+359329,0a198b10-daf5-42dd-824a-df52416a0ca4,agreement (contract) | judgement,tablet,False,Legal
+359330,952ff9c6-17b2-485e-aa08-a50612c6390b,letter,tablet,False,Letter
+359331,a6402713-83fa-4353-8443-b705798a91c8,letter,tablet,False,Letter
+359332,6353de55-67fe-4f5a-8702-082dc9bbc909 | bd955c0a-abc3-4cf5-80f2-79829750e3ec,letter | testimony,tablet,False,Letter
+359334,dffec7cf-733f-420a-99dc-b4058ad3731a,letter,tablet,False,Letter
+359335,7d8985c7-299c-4255-b768-521b5b5a41be,judgement,tablet,False,Legal
+359336,c2119419-8428-4671-96a8-d7945c60e1f6,letter,tablet,False,Letter
+359337,f2b21430-96e1-45d9-93f0-dbda7c771d72,letter,tablet,False,Letter
+359338,5f8b21bc-23d1-4be3-a2ec-bbfaa46662b7,letter,tablet,False,Letter
+359339,c7609481-2954-4694-8cdd-03ad45ced3ba,list,tablet,False,Administrative
+359340,66aefcfb-37fa-489d-90eb-663d60120983,debt note,tablet,False,Legal
+359342,52347d3a-e556-4835-bc4d-cd736c3e5a96,letter,tablet,False,Letter
+359343,a9429319-b88c-4c7a-a04b-84d13088c99a,letter,tablet,False,Letter
+359344,d3de1356-e5fb-40a9-9c5b-ec018c0fae70,letter,tablet,False,Letter
+359345,e7aa357f-ef44-4886-a9cd-4ba958e5ff60,letter,tablet,False,Letter
+359346,d24d60d9-a87d-4de8-9ff3-e2fa4d664ae6,administration,tablet,False,Administrative
+359347,27c5ff70-9c50-4482-ac5c-5bba39540a2d,unknown,tablet,False,
+359348,5eb1ceb9-d9ef-47d4-87be-c2126b0e871c,letter,tablet,False,Letter
+359349,50052878-9057-466c-873e-5d8c0439e77a,letter,tablet,False,Letter
+359350,7d2216c0-eb0c-459c-af51-4b3c1f220f8c,letter,tablet,False,Letter
+359351,f89a3fbd-5908-4b77-8e52-741871291773,letter,tablet,False,Letter
+359352,690cf347-b816-4304-9db2-7f08ab209017,letter,tablet,False,Letter
+359353,9e7c7b36-9417-4f96-b5ac-725b4a7f1383,letter,tablet,False,Letter
+359354,bbf49fdc-a947-46cd-b5bf-9f00202b2733,legal writing(s),tablet,False,Legal
+359355,f2fff711-06cb-4cdf-aea9-54dcddba8908,letter,tablet,False,Letter
+359356,341d9b0f-acc6-463e-afb1-910080e62977,unknown,tablet,False,
+359357,604b6b12-ceea-4ba7-b6f1-886df49116b0,administration,tablet,False,Administrative
+359358,f62e441b-7183-4155-9413-cd51edd20a67,letter,tablet,False,Letter
+359359,9be1f3e2-c25b-4dc7-83b5-02b99d483026,unknown,tablet,False,
+359360,db1a1d62-03a7-4241-9cf8-ba1f467f8c7d,letter,tablet,False,Letter
+359361,0fc36f47-8c1e-425e-b8aa-dd9a8b2c4ea8,letter,tablet,False,Letter
+359362,870398bf-a0a4-4087-b79c-c50b8a0260a8,letter,tablet,False,Letter
+359363,c80fba84-7543-4cc5-bb5d-2ab1e83fb93a,unknown,tablet,False,
+359364,90b9a524-21e0-49fc-8b78-99e37b22b7f2,letter,tablet,False,Letter
+359365,22cab67b-523a-4515-8c77-c74c1161e8f5,letter,tablet,False,Letter
+359366,7f1cd75a-0bf5-4c33-a966-aff3251597b1,letter,tablet,False,Letter
+359367,8e2e182c-f293-4625-9262-c9bccb0f2f97,administration,tablet,False,Administrative
+359368,9a806563-1b05-4b4f-9d33-a7bfeeaed4f0,legal writing(s),tablet,False,Legal
+359369,b387e944-448f-45b0-ac2b-f9bf212c855e,unknown,tablet,False,
+359370,307bffdb-3efe-4b51-b136-45c3934b1821,letter,tablet,False,Letter
+359371,59859000-7a9a-46dc-a893-505d8a23e8cb,unknown,tablet,False,
+359372,dfdde0f0-e393-4cfd-87ed-322416aadbe7,administration,tablet,False,Administrative
+359373,07b17373-7276-4061-9809-7d34a7d7f530,letter,tablet,False,Letter
+359374,9f57f632-37c4-4ecc-8391-665cca04400f,letter,tablet,False,Letter
+359375,d9d01567-d223-4e82-8674-c742dc37253b,unknown,tablet,False,
+359376,65b4ed5f-fab5-4e74-8768-b9d1572f59fc,letter,tablet,False,Letter
+359377,d41133a8-deb6-441d-860f-0de6d3de0f5a,letter,tablet,False,Letter
+359378,9179baf0-8f49-4cc1-86f4-502ceb4af5af,letter,tablet,False,Letter
+359379,77a24ba3-61d5-4ffc-8f13-9ada0f8e4400,contract of sale,tablet,False,Legal
+359380,29ed04d2-eec8-41ca-b2fc-01f402c8bdfc,letter,tablet,False,Letter
+359381,d8f6d96f-3811-403b-9c5f-f744252906ed,letter,tablet,False,Letter
+359382,170695b8-0d6c-4dee-9784-9689c19dfe3f,letter,tablet,False,Letter
+359383,3cc1f5d5-80e3-4454-9703-caff766aaa67,unknown,tablet,False,
+359384,096f9606-732f-460a-8651-c2c1b3fc21d1,legal writing(s),tablet,False,Legal
+359386,526f64cb-3cb8-45b3-9cfa-eb2961ff1f19,unknown,tablet,False,
+359387,9a05895a-a9f8-43d7-bd00-11efede9e9ac,unknown,tablet,False,
+359388,9f674482-21d7-42e1-8eda-ac652e0623a2,legal writing(s),tablet,False,Legal
+359389,2ed1f34f-3562-42f6-ae32-c0e6e60fade3,legal writing(s),tablet,False,Legal
+359390,12c154a4-5eda-4a25-accc-3d5890e62288,unknown,tablet,False,
+359391,d0755771-7e9d-4698-9791-f261a9bcf935,letter,tablet,False,Letter
+359392,20339147-cee1-4014-abf0-c112937b9a7d,legal writing(s),tablet,False,Legal
+359393,544e8d79-cf56-4d79-b094-e66d4114d00f,debt note,tablet,False,Legal
+359394,c9215c01-d988-4008-92eb-84b4ffbfb546,unknown,tablet,False,
+359395,c0f0a16c-067b-4d14-b880-59d62560f33a,letter,tablet,False,Letter
+359396,02cda72f-8a99-4b89-8e96-5a0e6149b5c4,letter,tablet,False,Letter
+359397,b1921024-557c-4960-b60d-26d302a746fd,unknown,tablet,False,
+359398,16404a98-86e5-499a-8247-318c4358f081,letter,tablet,False,Letter
+359399,ab64e8bf-5336-40e6-8f75-3ad204e536d2,unknown,tablet,False,
+359444,0c65b562-8983-432e-8f19-75a0537d1995 | 9571c767-e2b8-435a-bc7a-a106ad64303c | 97ef2e41-d136-4647-8934-5431116d0f56 | ce895195-4cbc-4be2-ac68-d50539b92607,purchase guarantee | settlement of accounts,envelope + tablet,True,Legal
+359935,28e64b87-52aa-484e-999f-5d864395117e | 94dcdb76-7dab-4341-ad3e-99647fd7065b,unknown,tablet,False,Legal
+359936,46987db8-f824-472a-a35b-b4e75271ca3e | 3d5fec8b-cbeb-4bfd-8a3d-5d7e37107a92,unknown,tablet,False,Legal
+359937,4d591acd-0778-4a69-89fe-4da9f3109768 | e68ab99b-cc75-4415-9d05-5661b938f267,unknown,tablet,False,Legal
+359938,da33b991-2820-49dd-b0fc-9b8a9b3c811a | dd152838-00a4-494e-b95e-6e157a27f5fd,agreement (contract),envelope + tablet,True,Legal
+359939,01bceb58-3e77-4f88-bfab-a863d13ac237 | 9a2d065c-cfe2-4064-8647-96dc83a21bf0,unknown,tablet,False,Legal
+359941,ae181159-586d-4147-bd8f-644288e7cfc2 | d78269b2-915e-4266-b16e-56a5ef6b84c9,unknown,tablet,False,Legal
+359942,663faaaa-3893-4177-9cdc-27f15ce8cd22 | f0e502e1-214c-4e67-988f-3fb8c6f96657,unknown,tablet,False,Legal
+359943,f1319cc1-ebd4-442c-8415-530a3c95ad05 | 38fbffc5-c15c-4090-b787-714c61e1a4e0,unknown,tablet,False,Legal
+359944,7d1d852d-849a-466d-94e1-9e306b30b75b | 63c298ee-83a5-4cbc-9238-4d0195f0c133,unknown,tablet,False,Legal
+359945,92af47f1-9b99-49b1-9065-cb833886a20c | b33594ec-470c-4b3f-9e12-01a03840ff6e,unknown,tablet,False,Legal
+359946,1ac85357-e193-4a8d-ab2a-8a0b34603975 | 9d6486a3-27ca-45ef-98ab-8bcf624ce56f,letter,tablet,False,Letter
+359947,d451bff1-89f5-4e68-bc91-0beb93cadd46 | 0eb4f690-cf1c-4905-8a0d-a9695eca4a55,unknown,tablet,False,Legal
+359948,b2efdd72-2ec0-4d5f-9e84-eeaa10462d61 | ef7e3445-e614-4ecf-83cf-60cd76f121ef,unknown,tablet,False,Legal
+359949,7200b492-4164-491f-b0f6-e5e0b9c2c225 | e3753e63-72fd-497b-a067-b898ac8361dd,unknown,tablet,False,Legal
+359950,88d59135-17db-4d4a-8988-7f6807509700 | 2f833893-5fb8-436f-b8df-5237e1434007,unknown,tablet,False,Legal
+359951,f9e707a3-bcb2-4970-b62f-42484c625572 | 0eee11e0-34c0-4fec-a22c-86a5b8aa5ede,unknown,tablet,False,Legal
+359952,044d6a2d-739d-4806-b124-3131a8e8cd8e | c328311b-af25-4f11-9c9d-1518a89842db | cfd2e530-cf63-4e50-ae0b-a7ca9169a27b,debt note,envelope + supplemental + tablet,True,Legal
+359954,36eebd9b-becb-42b8-8846-fa4bba9f093a | 338bd030-14d8-4a93-a4fb-c84f7b63f8c1,unknown,tablet,False,Legal
+359955,8afd19b2-72e3-4cb3-b3b5-356cb53f501f,unknown,tablet,False,Legal
+359956,d7916a9d-ff0d-4d9c-82d7-a9edfac5d396 | ff9241f3-d06c-4a0f-8fbb-58a28f1fa945,unknown,tablet,False,Legal
+359959,89f252c2-855f-4729-bc0b-f5ecbcaab972,letter,tablet,False,Letter
+359960,42d1d9c1-78e8-4516-8963-875dca7edfd6 | 95fa8f6c-61c9-4c1b-a75c-23d5503b4152,unknown,tablet,False,Legal
+359961,d25d93d4-e2e4-4af3-b73d-4fc243404eaa,unknown,tablet,False,
+359963,91eb03a2-7219-42cb-8418-dba08e9d6c5b | 4d2c7f9e-6ec0-468a-8938-746deda1e689,unknown,tablet,False,Legal
+359964,ec2bcf81-29c3-4715-a8f8-1533a9246def | ddd76005-a365-48c5-88b5-b3a809bfa76a,unknown,tablet,False,Legal
+359965,84d78f52-62a1-4106-9a9c-d8885a173bd9 | 1c9cdffc-2af0-4688-b9fc-3619cd440dcf,letter,tablet,False,Letter
+359966,b823724a-de14-4c5e-a76a-519a1be39c4c | 9f902f3d-05fe-4c2d-9cff-c70cf4357619,unknown,tablet,False,Legal
+359967,cf448e7a-eafe-4611-b5ee-b6a9e2960007 | dca44ccc-268e-48b9-8c5a-132cccf38dfb,unknown,tablet,False,Legal
+359968,2e0c82b8-e2f5-4331-bc59-dfbf8bc17fce | 035865df-38cc-470d-9012-81f6351e0b8e,unknown,tablet,False,Legal
+359969,b3bc5284-3fa9-4356-982a-115e8336423f | 194e4d23-3695-495c-abce-e813d412c394,unknown,tablet,False,Legal
+359970,dd7c8081-326e-4d65-be63-273357ea6f42 | 780829cb-5f16-4617-818b-f05f73d2d30d,unknown,tablet,False,Legal
+359971,2858d95d-0974-497f-9680-c0552eaa5b0f | 14fc68c2-b6cf-487b-8492-7a2b9db6e8c0,letter,tablet,False,Letter
+359972,a1f2bad4-1457-43c2-b24f-873b4795205c | b29fb78d-044a-4192-b4b5-c1ad214f35aa,letter,tablet,False,Letter
+359973,de1444f7-6cb4-428f-bf13-06426541f713 | b920368f-5eb2-4ba7-977e-08f840913cdd,unknown,tablet,False,Legal
+359974,27def5c0-e48d-442f-b654-b6b82c4f1c0a | f60b5c8f-95b4-4633-a624-fa4348d9694d,unknown,tablet,False,Legal
+359975,ffb851f7-d2b9-4c56-98ed-370ab39a0fff | 78c7ae33-efc0-486b-8459-138997d4c795,unknown,tablet,False,Legal
+359976,06ec0c37-eec9-400d-9a08-2068fb498243 | 5715f83c-6eb6-4a5a-9fa8-302f3d627027 | 68d6f3dd-3393-4160-abf3-42d752239112 | ea95c84f-9ffe-4fe7-bdef-ecccfbe00b04,debt note,envelope + tablet,True,Legal
+359977,023b1750-5f6b-4a45-97ce-eb7007487a0e,unknown,tablet,False,
+359981,200fce7c-6446-4088-9e89-c8e32582b664 | 897d7373-1306-4929-8cfc-ed6a0a1124b2,letter,seal + tablet,True,Letter
+359985,a8f0e4dc-8897-4ae8-ad78-a5e736dd2f7a,legal writing(s),tablet,False,Legal
+359990,8b27c493-d94c-451a-9fdb-dd506ca5c7da,unknown,tablet,False,
+359991,e81a8a28-23a8-40ac-a925-4fe1166abf1e,unknown,tablet,False,
+360778,6aa156f7-9952-3744-2ff7-1b42f1cdb18c,note,tablet,False,
+360780,0148c215-ecf8-27ac-b2ea-f5f920cbba40,legal writing(s),tablet,False,
+360782,bb53a578-86c2-94f8-6cf3-c13f7a99310b,legal writing(s),tablet,False,
+360849,f27d7c91-d260-6cf3-f2c1-6f51f50cb376,letter,tablet,False,Letter
+360975,ea1674d0-0866-2090-83be-b0bfa5c2cd25,letter,tablet,False,Letter
+360977,243b8b16-8ebb-db71-3774-5c3d1ede436c,unknown,tablet,False,
+360979,804cdc7b-2522-b7f0-12c7-695c1994f51d,legal challenge,tablet,False,
+360980,77a4ee1c-c404-0b12-348b-a5b393fbb18a,letter,tablet,False,Letter
+360982,31dd3bbf-050a-d7d9-a6e7-fd64eb7093d6,adoption,tablet,False,
+360984,1a5a3ad9-0a81-588d-e2d4-ebb82d385a3b | f189c98c-0da2-8bd7-68e0-360422acd44a,letter,envelope + tablet,True,Letter
+360985,bc4a065c-b1ce-efe7-384c-2b884a55db6a | d95f2d8c-a460-0332-c9ff-b86e4f43bea8,contract of sale | loan agreement,envelope + tablet,True,
+360986,2af4bd5a-bbd8-2aee-cdaa-922141ac0e68,note,tablet,False,
+360999,c740623d-76b2-48d1-8cfe-7b7387c25f7a,letter,tablet,False,Letter
+361031,8782f0fd-680b-e5d4-4030-98aaddcb9d34,note,tablet,False,
+361032,b698907f-9b15-994d-f59c-a557f7113294,letter,tablet,False,
+361033,6017b4c6-8a42-6851-777a-9f6b06903cff,letter,tablet,False,
+361034,3793e1b2-d900-0142-9da3-191dd055780d,letter,tablet,False,
+361035,74100444-b543-5ba2-b6fa-86852a0fbf44,letter,tablet,False,
+361038,54c1202d-2313-7259-760f-a6dbd4963b2c,unknown,tablet,False,
+361041,874154b1-de80-45bb-1c4a-ee79e659a37a,agreement (contract),tablet,False,
+361042,83a3ecaf-0ea2-2e41-275f-d15522697e83,letter,tablet,False,Letter
+361043,68e07ddc-4806-968a-1816-0c36bfda7810,letter,tablet,False,
+361044,26e54a89-4e60-35fa-1375-6b47202b9a83,list,tablet,False,
+361045,27bc5c30-7904-4374-ca96-552d3d508ccd,letter,tablet,False,Letter
+361046,cb9187de-faf6-262a-84c2-d1785770c579,letter,tablet,False,
+361047,5ddb3a30-152e-0172-cb06-c2c002ed1cfa,unknown,tablet,False,
+361048,e279029f-f195-730b-ad60-9720c705f899,agreement (contract),tablet,False,
+361049,bccde203-abdf-616c-62d5-84bb23b70c20,unknown,tablet,False,
+361050,a0a80919-dc0d-bbe3-7e85-92c74614717a,unknown,tablet,False,
+361051,39504636-950f-76b2-0be6-b462e61f01da,unknown,tablet,False,
+361052,bef6928a-a2fb-19d5-703a-cd2c2ad67c64,letter,tablet,False,
+361053,71d84488-9f1e-dfea-db41-6371a745aa89,letter,tablet,False,
+361054,fbe51263-a0fd-a7f7-05bf-4cb2100606f1,debt note,tablet,False,
+361055,4266a4ad-88de-fb03-090e-ede700fd522d,letter,tablet,False,
+361056,a070c93f-7440-1dcb-4f14-beddf90e5d32,unknown,tablet,False,
+361057,88e882ac-b9ff-783e-7157-d555a88e5989,note,tablet,False,
+361059,491a7f5c-5e88-4cbc-818f-1f43f8dd42d3,unknown,tablet,False,
+361086,4a0426b6-c995-4cbb-bb23-fa9627c628d5,letter,tablet,False,Letter
+361087,7dfa3d40-6b7e-4c7f-9bb6-80633def1d30,letter,tablet,False,Letter
+361088,2b96f1d3-baec-45f6-bf12-6fc481894acb,letter,tablet,False,Letter
+361089,87b4f079-bacc-48bd-86ce-fcfcc959230d,letter,tablet,False,Letter
+361090,ec0703c7-da27-45e6-84e5-3e08028a12a7,letter,tablet,False,Letter
+361091,d0cfbe2d-8b77-494f-b5af-e64979015bee,letter,tablet,False,Letter
+361092,cc48eae8-01e3-4af4-8eb5-f0c90aedf7bb,unknown,tablet,False,Administrative
+361093,e2c13c3f-64e9-4ded-baf1-6b42f5611baa,unknown,tablet,False,
+361094,4ca9223e-f332-4777-ac99-54a50959ad94,unknown,tablet,False,
+361095,cca0631d-5b12-414c-9698-aefeb5095fd8,unknown,tablet,False,Administrative
+361096,f4d88139-3c16-4cd2-942e-b8139acb549c,letter,tablet,False,Letter
+361097,08506290-f0e8-4b47-848d-2be33d3708a2,letter,tablet,False,Letter
+361103,2e5b7fd7-e323-45e5-8014-4a26b33c4f38,letter,tablet,False,Letter
+361104,39d087f6-b110-4fc4-b973-a5e4bc0788ea,letter,tablet,False,Letter
+361105,980b7189-ecfa-49ca-8968-ee418c85103f,letter,tablet,False,Letter
+361106,e7042738-54a0-46eb-aba0-63ab78d9c6bd,letter,tablet,False,Letter
+361114,5c5af944-4e1a-4565-a507-7da452e9eaa4 | f292c4ea-b547-4742-978d-3e0a25e51e9e,unknown,tablet,False,
+361115,1281f785-cd1e-4227-b1a6-cb499285b3e9,legal writing(s),tablet,False,
+361116,2de6412a-93e8-4ba8-bfac-5c8a6c9fdbd9,letter,tablet,False,Letter
+361117,ee9b412d-a5e5-455d-9ef6-875bb017400e,memo,tablet,False,
+361118,d546d6e3-fd34-4c32-a586-78989a79ecbe,letter,tablet,False,Letter
+361119,6820a22e-ed78-4557-8267-72eeaeab8383,letter,tablet,False,Letter
+361120,19755573-0766-4858-8cfa-034fa1f3b426,letter,tablet,False,
+361121,49cdfa25-81e6-419c-9051-2b7b3e1ec45e,letter,tablet,False,Letter
+361122,e571c308-1907-4463-92f0-881fbb558015,legal writing(s),tablet,False,
+361123,da778ad0-5cba-4c9f-833c-f1d377fb2677,letter,tablet,False,Letter
+361124,0c01d5be-0c6a-4835-8f26-5acdcbb901e8,letter,tablet,False,
+361125,ce2af96b-8b60-4403-ac1b-a4c3080a23f0,agreement (contract),tablet,False,
+361126,536e724d-349a-445a-a173-57a8367abbac,letter,tablet,False,Letter
+361127,1b609f03-bf0e-4cb8-abd3-54b839848072,letter,tablet,False,Letter
+361128,b142cfdb-13bd-44b6-acf6-d1aa04a418ae,letter,tablet,False,Letter
+361129,052959ea-4074-48a6-879f-485b26dd351e,letter,tablet,False,
+361130,92a88c18-57e1-470d-b2f4-e496ea653a04,letter,tablet,False,Letter
+361131,2cbbd1ef-ab6b-4ffb-89bc-24ef896bad6c | 33c0b051-5f89-450e-8c89-215b43503ba8,letter,tablet,False,Letter
+361132,339b3889-144e-4aff-8e43-502066c5fc12,letter,tablet,False,
+361133,fb6f7731-8f82-4bbe-9a3b-9a721d075efa,letter,tablet,False,
+361134,16cccd4b-5080-4a6c-917b-fc0b7b259709,letter,tablet,False,
+361135,34968648-79c4-4036-b989-2aa8a146f356,letter,tablet,False,Letter
+361136,36d5b4bb-b090-4276-93ca-40944951a06d | f22d49bc-c2ce-4f7b-b3cc-ba6bd00410ac,debt note,tablet,False,
+361137,47ef8888-4e6c-4145-a5d9-e5183e4bcd82,letter,tablet,False,Letter
+361138,5e382cf3-f9c1-4336-991d-5227fc9bcb65,letter,tablet,False,
+361139,a240a6f3-165c-4064-8b32-bfcef0734b3e,agreement (contract),tablet,False,
+361140,12dca3d5-1738-4810-b6f4-ec4eb69ca829,letter,tablet,False,Letter
+361141,38be2642-53ce-4062-9986-a097b68cf203,letter,tablet,False,
+361142,31c31dff-6143-41a5-971b-4dab673da9ae,letter,tablet,False,Letter
+361143,a527d1cc-f58c-45a8-b12a-2815f5fa6de3,letter,tablet,False,Letter
+361144,654d0c27-e233-44c1-accb-4f1380434ff8,letter,tablet,False,Letter
+361145,23515345-d009-41a6-bd29-0cd5514ddde9,unknown,tablet,False,
+361146,282e7cd3-a496-4ef5-b36c-427967bd6eb7,letter,tablet,False,
+361147,7ebd0abc-579a-4e90-a537-dc135fab37b3,list,tablet,False,
+361148,89e7d61b-3600-4888-b4c2-0a2bc8cbcb08,letter,tablet,False,
+361149,ccc88c3a-5b99-494e-a5f6-7c70c91e2149,debt note,tablet,False,
+361150,896185ac-8230-4bbe-8d2f-75782716d3ef,legal writing(s),tablet,False,
+361151,bf098edd-4c56-49c6-a527-19d506de811c,unknown,tablet,False,
+361152,58716310-612e-42dd-b4d3-ab44679479bf,letter,tablet,False,Letter
+361153,48bdc04e-eca0-408a-96bd-816c4ef3e3af | 8e52ce8b-321f-4667-853d-ae36d6a5196e,debt note,tablet,False,
+361154,856fd5be-017e-4204-8cd5-7e4b96f53927,letter,tablet,False,
+361155,135638ed-d4d6-4c2d-88f8-58f2a1c14d84,letter,tablet,False,Letter
+361156,54c0e16c-8d71-4ceb-8c64-17211ccb464f,letter,tablet,False,Letter
+361157,a1efd9dd-a008-4967-b622-33d9d60277a2,unknown,tablet,False,
+361158,6cd44579-d8da-44f5-8e98-d47d7b6d5111,unknown,tablet,False,
+361159,bb9d5569-cf54-4d65-8808-178c11793be1,letter,tablet,False,
+361160,3ce34f9b-c4b7-432d-b030-9a1cc6ad7356,debt note,tablet,False,
+361161,86a9b957-8fe2-4908-b335-13bc5f211084,unknown,tablet,False,
+361162,6eb9ad09-b1aa-4137-ac04-1c1c4bec737a,unknown,tablet,False,
+361163,1c6cc8e8-6ce7-418c-a6c2-90caa202bbe3,letter,tablet,False,Letter
+361164,79f657f4-bc68-44d9-b1c7-273d61f8d3b8,debt note,tablet,False,
+361165,6787a327-0871-4906-8ab1-cc5559ba0210,agreement (contract),tablet,False,
+361166,6c5c3681-4c8b-4ff5-a673-8e3ad1fbd45f,unknown,tablet,False,
+361167,efd120e3-053f-4955-836b-784c8f34a775,unknown,tablet,False,
+361168,78ba4202-e102-4610-9b51-81a056c24094,letter,tablet,False,
+361169,c8d505d0-8447-46b1-9224-280bbfcbb98f,unknown,tablet,False,
+361170,84eb63c7-e76f-4645-ba34-2e977c9f3b42,debt note,tablet,False,
+361171,f853b819-4079-4a37-8e54-82c4aa66c93b,letter,tablet,False,Letter
+361172,6719545e-f18a-4049-9567-f6cc1746744f,unknown,tablet,False,
+361173,c04790e8-54d7-43c0-a3e4-f5efd42cd2b7,unknown,tablet,False,
+361174,b0f1d56e-c77f-4107-81c6-88c172bfe67f,unknown,tablet,False,
+361175,2b8d4280-6fd9-4208-95c2-9cd85c4251e9,letter,tablet,False,
+361176,595b7ab9-e57b-40ee-be2b-ff223ee24a12,unknown,tablet,False,
+361177,fb11e82f-3a21-403e-a1bd-422610fe85a7,unknown,tablet,False,Business / Contracts
+361178,105a52be-0179-484a-8d1b-e5e220510ae1,unknown,tablet,False,Business / Contracts
+361179,26108c7c-ee28-497e-9bdc-13cdb2f107dc,unknown,tablet,False,Business / Contracts
+361180,b31bddd0-b982-4d99-a725-b117c50a05ae,unknown,tablet,False,
+361181,975057fc-edcb-4298-aab9-4318900a6b8f,unknown,tablet,False,
+361182,90b48ff7-1fb5-4fa7-ad49-3106cfb9430d,unknown,tablet,False,
+361183,97984e70-b7a9-4c48-acd5-98d610b686d9,letter,tablet,False,Letter
+361184,b9cb9f81-d8d8-4a13-92ed-f70c711f04d0,unknown,tablet,False,
+361185,ea5621a6-f242-4af1-b16a-f4034ea2fb0a,unknown,tablet,False,
+361186,cf6d8abe-29b0-48db-aa97-758945993adc,unknown,tablet,False,
+361187,7cb179bf-ae93-4e2a-9a99-8064ee798804,unknown,tablet,False,
+361188,c07f2556-901f-4ab0-9465-451a8acc1bb2,unknown,tablet,False,Business / Contracts
+361189,08febffd-f509-4456-994c-174a951ada12,unknown,tablet,False,
+361190,59141a4a-2bf8-4401-81e7-9e9a936f3112,unknown,tablet,False,
+361191,df56edca-0bc0-4580-9dcc-b6c8a7ac6c86,unknown,tablet,False,
+361192,04bb2868-e5ba-44fd-bd0d-a672050ab79d,unknown,tablet,False,
+361193,c8d61076-63aa-43f8-862c-e28ecac008dd,unknown,tablet,False,Administrative
+361194,abc20935-dae4-4fb7-9937-af4f0f88629d,unknown,tablet,False,
+361298,d85b42af-c7cb-4b7a-a063-2c2072638a65,legal writing(s),tablet,False,
+361299,4881f106-2aaf-4a27-8431-e0751aaf815a,letter,tablet,False,
+361300,9bd257ee-5159-465e-a6a2-ae3ee32f0972,letter,tablet,False,
+361301,60c073cd-8596-4dd0-8779-981f36ad69c5,letter,tablet,False,Letter
+361302,0685f622-afe0-4651-a4e9-0e73dd3a15ac,testimony,tablet,False,
+361308,db9e9c93-9e28-a7eb-cb3b-0111d1efa7f2,note,tablet,False,Administrative
+361563,40fba900-1b81-d68e-3e0c-6ecc60a808f6,unknown,tablet,False,
+361564,dbe78680-40cc-2f01-1cb2-938cdf706bcb,unknown,tablet,False,
+361565,c39bdff0-fd1b-cfeb-f17e-d5261b6da6d7,letter,tablet,False,Letter
+361566,1934cceb-b4b4-d1e0-480f-c89e1d748250,unknown,tablet,False,
+361609,035e1cf4-1615-421d-c538-2c70e642e005 | 7e083fd9-c897-2c03-22c3-ac1decd73133,debt note,envelope + tablet,True,Legal
+361610,505cd64b-7c47-4774-9af8-9f6708f6fbe6 | a61eb0fb-68a9-911d-7d80-0df4e09d5d80,agreement (contract),tablet,False,Legal
+361611,fbc9c62e-95c5-6652-0443-893e6b12945f,letter,tablet,False,Letter
+361612,782a5642-b8ba-4bc8-b28d-79b18f7b687a,letter,tablet,False,Letter
+361613,647bc5ed-d04c-429a-89f1-27bffcea5b57,agreement (contract),tablet,False,Letter
+361614,492435fb-b255-494a-b30d-4d6664380089,unknown,tablet,False,
+361615,c6034310-b93b-4739-b247-f587f34566c3,letter,tablet,False,
+361616,2d65de28-5922-4688-b68a-ce07cf1497fb,letter,tablet,False,
+361632,17c8db4a-9e88-4957-91f6-e004846e8bf0,letter,tablet,False,
+361633,67ce7cac-e142-4ffd-8d74-1dc81f606f70,letter,tablet,False,
+361635,8e52005c-c8e5-4966-b099-3a4393889947,legal writing(s),tablet,False,
+361693,a14e6a2d-0a8c-417c-829e-40d0fa91e98d,letter,tablet,False,Letter
+361694,c667fd42-2ea0-4a10-8015-04518cb93474,letter,tablet,False,Letter
+361695,dac07a61-6a24-448d-86b1-84b90f944123,letter,tablet,False,Letter
+361696,52a05258-941a-4262-ab64-71b572a2564f,letter,tablet,False,Letter
+361701,ec6c0422-2473-8781-e500-2f179f65c91b,letter,tablet,False,Letter
+368343,39799fab-e24a-21d6-8287-014eb94fce0a,unknown,tablet,False,
+368347,bfbd9795-bc1d-4d0c-b1da-3b035e88e283,debt note,tablet,False,Legal
+368424,e982603f-b52e-e9b8-4e1e-4551016804e2,note,tablet,False,
+368425,638680ad-0b23-8baf-5dec-5097ebe4cb5e,letter,tablet,False,
+387679,ca8b3c38-08df-4157-8c22-88f9cce85d4f,unknown,tablet,False,Legal
+388422,15aad121-39bd-471c-82ea-bfdad0f7a75d,administration,tablet,False,Administrative
+390453,fff56999-adae-d3e8-5e11-fc772dae88ac,letter,tablet,False,Letter
+390454,9dffe8b9-3591-9ad7-186e-99c52cc51ecb,letter,tablet,False,Letter
+390542,abf0d74a-5f4f-0ccb-678b-d0b265f41700,legal challenge,tablet,False,
+390543,f6e5b13b-acb6-4328-b72f-8d436e6e396d,unknown,tablet,False,Legal
+390544,aca4cbce-6b86-4d30-b2ad-66f1ec168d0a,unknown,tablet,False,Legal
+390545,f5e753f0-54c1-4d92-9616-cdcf58353065,unknown,tablet,False,Business / Contracts
+390546,d98e485c-f44b-4d2e-bbb0-54dc9be7a791,unknown,tablet,False,Business / Contracts
+390547,ae36b8de-cbb9-42b5-9ddb-771be3e3e350,unknown,tablet,False,Business / Contracts
+390548,f292e2f5-ff32-4f57-90f4-5df7fc78c91f,unknown,tablet,False,Business / Contracts
+390549,3178753d-eb7f-4642-b8f6-45f838ec1696,unknown,tablet,False,Business / Contracts
+390550,709f63be-f1fd-473f-aae4-8d7678beff2a,unknown,tablet,False,Business / Contracts
+390551,331fb19d-8f8d-4ebd-a73c-74612657e311,unknown,tablet,False,Business / Contracts
+390552,572609bd-5bdf-4d69-9553-a6f594dc9fe9,unknown,tablet,False,Legal
+390553,21f99a1e-674b-4b86-9f80-64d104ca0096,unknown,tablet,False,Business / Contracts
+390554,e481e6ce-9b84-480e-94bd-111db03247ce,unknown,tablet,False,Business / Contracts
+390555,0e88cfa4-6dfc-4a4b-80f8-cf639cc2bac6,unknown,tablet,False,Legal
+390556,b0c4e11a-1598-4c02-b762-86f95798158d,testimony,tablet,False,Legal
+390557,7d3b1131-ccef-40b7-9e87-e48bfa116996,unknown,tablet,False,Administrative
+390558,793934c0-7746-4a36-a916-097676e5cccd,unknown,tablet,False,Administrative
+390559,6caaae19-3b61-4804-9c77-35ea91632c05,unknown,tablet,False,Administrative
+390560,399854c1-6e71-4e49-9b59-7a6e57b4a20c,unknown,tablet,False,Administrative
+390561,94f06866-af78-421a-83e0-47527f40b5a5,unknown,tablet,False,Administrative
+390562,76124b3b-c516-44fd-87e6-81b85f55cb3b,unknown,tablet,False,Administrative
+390563,485f0391-e0a0-4149-9440-81002e52879a,unknown,tablet,False,Administrative
+390564,a868a675-3e89-4e49-87af-91902ad27347,letter,tablet,False,Letter
+390565,48659f86-4ca3-4058-96c5-2f29266a5c65,letter,tablet,False,Letter
+390566,817fc763-6b66-409b-bbf2-184f97861400,letter,tablet,False,Letter
+390567,391d44dd-d8fd-428c-a1f2-bd3f3fca2c94,letter,tablet,False,Letter
+390568,14e98243-40d1-44a8-9b26-8177fe844e96,letter,tablet,False,Letter
+390569,f2bc521e-b3c0-4d4a-a777-d241665a16f7,letter,tablet,False,Letter
+390570,63de57c7-f11c-48aa-abee-db1fe530ef17,letter,tablet,False,Letter
+390571,b81e5b4a-7538-4707-8885-e0ec7bccdbca,letter,tablet,False,Letter
+390572,9a2fd48b-45fb-473b-8984-472369cc7ad7,letter,tablet,False,Letter
+390573,375ef227-7a88-403b-adeb-850c74d5c0e1,letter,tablet,False,Letter
+390641,1e5c3410-e66e-455b-a401-ab33921fa6c3,letter,tablet,False,Letter
+390653,71be8ed8-27b2-47e3-849c-809fc0b3a99f,letter,tablet,False,
+390675,2b07cff3-2547-4290-9e88-c5bc2670e400,letter,tablet,False,Letter
+390676,f52ae46e-5dda-445e-99c8-1ce630ab95a7,letter,tablet,False,
+390699,d98fcce7-490c-49b8-a098-9e849be2fd8c,unknown,tablet,False,Legal
+390710,57f3c5eb-ed87-bba2-286b-d923882e2782 | d43b099c-ee7c-9e9f-ea23-620c62387f6a,unknown,envelope + tablet,True,
+393096,376d6b7e-efef-4799-973d-8a6bc62e5558,letter,tablet,False,Letter
+393097,588165c9-8d84-4d41-93ed-aca6942db436,unknown,tablet,False,Administrative
+393098,6d40ba98-3beb-4641-a46c-2b3aa1b414bd,unknown,tablet,False,Legal
+393099,fa12a1ae-d0a9-4d4d-aec9-dd7cfee8cca0,unknown,tablet,False,Administrative
+393100,5a08023e-88a6-4c1e-9f29-80c76178d1d4,letter,tablet,False,Letter
+393101,ab703872-3bf7-43bd-aee7-9b8967a7ed01,letter,tablet,False,Letter
+393102,b7d64cb7-07b5-4ce0-8b34-f5b2c9fc6866,letter,tablet,False,Letter
+393103,daf9e5e5-a552-4003-a290-da2c13fc196c,unknown,tablet,False,Administrative
+393104,8df14f4a-91dc-4330-af67-4934096c8401,unknown,tablet,False,Legal
+393105,80dad648-ee25-4749-bf50-3af9cc1ffcac | e010a7d4-4fd8-48c2-b0cb-3043b0e118c6,unknown,envelope + tablet,True,Legal
+393106,d97a5eb5-9bbb-4262-9498-79dc5032d948,unknown,tablet,False,Legal
+393107,67297f19-ca99-413f-a29b-6d2d63103055,unknown,tablet,False,Business / Contracts
+393108,7e21ddd6-a611-45e8-aeff-ed239eec39bd | d6dad07a-4875-476d-b66b-12bd032dd731,unknown,envelope + tablet,True,Legal
+405519,cf788c31-7774-4b91-87d8-4558296631e8,note,tablet,False,
+417415,88c77329-cd23-484d-8642-6307d9925181,administration,tablet,False,Administrative
+417416,5a9b8644-ceb4-4bb6-8c44-1c477e93a5cc,administration,tablet,False,Administrative
+423547,d36beb7b-fe8d-43c4-bc8c-82d13ea1ec6c,unknown,tablet,False,
+423548,c8da4489-0317-49dd-a671-ce60cc8f8385,letter,tablet,False,
+423549,d1139260-510a-498d-9375-029887116799,letter,tablet,False,
+429660,46bb84d9-56c5-4622-b89f-97e507dbc0b4,unknown,tablet,False,

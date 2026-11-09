@@ -1,0 +1,190 @@
+<title>Centralization Evidence Review</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600&family=Public+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a reading column for prose, with the period-by-parameter matrix as the working surface; click a cell to read its quotations. */
+:root{
+  --bg:#f6f7f9; --surface:#ffffff; --fg:#1d2430; --muted:#5b6574; --line:#d9dee6;
+  --accent:#2c4f8a; --accent-soft:#e3eaf5;
+  --s0:#eef1f6; --s1:#c9d6ea; --s2:#7f9cc8; --s3:#2c4f8a; --s-ink-dark:#ffffff; --s-ink:#1d2430;
+  --sup:#2f6b4f; --qual:#8a6a1f; --con:#a23b3b;
+  --display:"Spectral",Georgia,serif; --body:"Public Sans",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#12161d; --surface:#1a2029; --fg:#e4e8ef; --muted:#9aa4b3; --line:#2c3440;
+  --accent:#8fb0e6; --accent-soft:#223249;
+  --s0:#1f2631; --s1:#2b3d5a; --s2:#46689c; --s3:#8fb0e6; --s-ink-dark:#12161d; --s-ink:#e4e8ef;
+  --sup:#7cc4a0; --qual:#d9b25e; --con:#e58a8a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#12161d; --surface:#1a2029; --fg:#e4e8ef; --muted:#9aa4b3; --line:#2c3440;
+  --accent:#8fb0e6; --accent-soft:#223249;
+  --s0:#1f2631; --s1:#2b3d5a; --s2:#46689c; --s3:#8fb0e6; --s-ink-dark:#12161d; --s-ink:#e4e8ef;
+  --sup:#7cc4a0; --qual:#d9b25e; --con:#e58a8a; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.55}
+.wrap{max-width:1180px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:36px}
+h1,h2,h3{font-family:var(--display);font-weight:600;text-wrap:balance;margin:0}
+h1{font-size:2rem} h2{font-size:1.45rem;margin-bottom:10px} h3{font-size:1.1rem;margin:14px 0 6px}
+p{margin:0 0 10px;max-width:72ch}
+.lede{color:var(--muted);max-width:72ch}
+.label{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+nav{display:flex;flex-wrap:wrap;gap:8px}
+nav a{color:var(--accent);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:.88rem;background:var(--surface)}
+nav a:focus-visible,button:focus-visible,td.cell:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-weight:600;font-size:.8rem;color:var(--muted)}
+.matrix th.p{writing-mode:vertical-rl;transform:rotate(180deg);height:150px;white-space:nowrap;text-align:left;font-family:var(--body)}
+.matrix td.per{white-space:nowrap;font-weight:600}
+.matrix tr.sep td{background:var(--bg);font-size:.75rem;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+td.cell{text-align:center;font-family:var(--mono);font-size:.95rem;cursor:pointer;position:relative;min-width:38px;border-left:2px solid var(--surface)}
+td.cell .r{display:block;font-size:.62rem;opacity:.8}
+td.cell.prior{outline:1.5px dashed var(--muted);outline-offset:-4px}
+td.cell.contested::after{content:"";position:absolute;top:4px;right:4px;width:7px;height:7px;border-radius:50%;background:var(--con);box-shadow:0 0 0 1.5px var(--surface)}
+td.cell.sel{box-shadow:inset 0 0 0 2px var(--fg)}
+.legend{display:flex;flex-wrap:wrap;gap:14px;align-items:center;font-size:.82rem;color:var(--muted);margin-top:10px}
+.sw{display:inline-block;width:16px;height:16px;border-radius:3px;vertical-align:-3px;margin-right:4px}
+#detail{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px 18px}
+.q{border-top:1px solid var(--line);padding:12px 0;display:grid;grid-template-columns:108px 1fr;gap:12px}
+.q:first-of-type{border-top:0}
+.q blockquote{margin:0;font-family:var(--display);font-size:1.02rem;line-height:1.5;min-width:0}
+.q .meta{font-size:.82rem;color:var(--muted);margin-top:6px}
+.q .meta code{font-family:var(--mono);font-size:.78rem;color:var(--fg)}
+.chip{display:inline-block;font-size:.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;border-radius:4px;padding:2px 6px;border:1px solid currentColor}
+.supports{color:var(--sup)} .qualifies{color:var(--qual)} .contests{color:var(--con)}
+.big{font-family:var(--mono);font-size:1.6rem}
+.note{font-size:.85rem;color:var(--muted)}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px;min-width:0}
+svg text{fill:var(--muted);font-family:var(--body);font-size:11px}
+svg .ax{stroke:var(--line)} svg .ln{stroke:var(--accent);fill:none;stroke-width:2}
+svg .mk{fill:var(--con)} svg .mkl{fill:var(--fg);font-size:11px}
+ol li,ul li{margin-bottom:6px;max-width:80ch}
+@media (max-width:640px){.q{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+<div class="wrap">
+<header style="display:flex;flex-direction:column;gap:10px">
+  <span class="label">Shaping History · centralization codebook · review copy, 2 Nov 2026</span>
+  <h1>Centralization evidence review</h1>
+  <p class="lede">Every score in the codebook now rests on quoted statements from the historical literature. Click any cell to read the statements behind it, with exact citations and whether each one supports, qualifies or contests the score. The same material is in the review workbook, with a column for your verdict on each statement.</p>
+  <nav><a href="#scores">Scores</a><a href="#changes">What changed</a><a href="#stats">Statistics</a><a href="#hammurabi">Hammurabi</a><a href="#methods">Methods text</a><a href="#reading">Reading log</a></nav>
+</header>
+
+<section id="scores">
+  <h2>Scores by period and parameter</h2>
+  <p class="note" id="summary"></p>
+  <div class="scroll"><table class="matrix" id="matrix"></table></div>
+  <div class="legend">
+    <span><span class="sw" style="background:var(--s0)"></span>0</span><span><span class="sw" style="background:var(--s1)"></span>1</span><span><span class="sw" style="background:var(--s2)"></span>2</span><span><span class="sw" style="background:var(--s3)"></span>3</span>
+    <span>small number under the score: range across all statements</span>
+    <span><span class="sw" style="background:var(--con);border-radius:50%;width:9px;height:9px"></span>contested</span>
+    <span><span class="sw" style="outline:1.5px dashed var(--muted);outline-offset:-3px"></span>not yet grounded (earlier coding kept)</span>
+  </div>
+  <div id="detail" style="margin-top:14px"><span class="note">Select a cell to read its evidence.</span></div>
+</section>
+
+<section id="changes">
+  <h2>What changed against the earlier coding</h2>
+  <p>Grounding the scores in the literature changed the cells below. The most consequential changes are in scribal training (Ur III and Old Akkadian move down, because OHANE authors place training in local or household settings), royal law (Neo-Babylonian and Achaemenid move up, on the evidence for royal judges and the "king's law"), and polity reach under the Old Babylonian kings.</p>
+  <div class="scroll"><table id="changes-t"></table></div>
+</section>
+
+<section id="stats">
+  <h2>Statistics on the 14 main periods</h2>
+  <p>We asked one question: are the archival tablets of more centralized regimes more uniform in shape? No centralization index predicts more uniform tablets once the scores come from the literature. Polity reach and control of writing point the other way: the more centralized periods have slightly more varied tablets. None of these correlations is distinguishable from chance with 14 periods.</p>
+  <p>The one index that points toward uniformity is the institutional economy (palace and temple dominance, a small private sector). Its rank correlation with shape dispersion is −0.31 (permutation p = 0.28), and it stays negative in every one of 2,000 redraws of the uncertain scores. At the tablet level, one standard deviation on this index goes with tablets about 13% closer to their period's median shape (−0.025 on a mean absolute deviation of 0.19), but with only 14 periods the wild cluster bootstrap gives p = 0.15. In other words, the direction agrees with our earlier pilot result that uniformity follows the producing institution rather than the reach of the state, but 14 periods cannot establish it on their own.</p>
+  <div class="grid2">
+    <div class="card"><h3>Rank correlations with dispersion</h3><p class="note">Spearman ρ across 14 periods. p from 50,000 permutations of the index across periods. "Draws" gives the 2.5 to 97.5% range of ρ when every score is redrawn from the spread of its quoted statements.</p><div class="scroll"><table id="spear"></table></div></div>
+    <div class="card"><h3>Tablet-level test with few clusters</h3><p class="note">Absolute deviation of log h/w from the period median (or the period-by-museum median), regressed on the index with museum fixed effects. b is per standard deviation of the index. p from the wild cluster restricted bootstrap, 9,999 draws, 14 clusters.</p><div class="scroll"><table id="wild"></table></div></div>
+  </div>
+  <h3>Period table</h3>
+  <p class="note">MAD: median absolute deviation of log h/w (archival genres). VAEd: median distance to the period's median shape vector. "in museum": computed within each museum with at least 30 tablets, then averaged, which removes differences in photography between collections.</p>
+  <div class="scroll"><table id="ptab"></table></div>
+</section>
+
+<section id="hammurabi">
+  <h2>Hammurabi: which break point?</h2>
+  <p>We fixed five candidate dates from the literature before looking at the data and asked whether southern legal tablets (the former kingdom of Larsa) changed relative to northern ones (Babylon) at that date. "Most productive" was defined in advance as the break with the best fit (lowest AIC) for the shape comparison.</p>
+  <p id="ham-text"></p>
+  <div class="scroll"><table id="ham"></table></div>
+  <div class="card" style="margin-top:14px"><h3>Fit of every possible break year, 1800 to 1725 BCE</h3><p class="note">Lower AIC means a better fit. Red marks are the five candidates. A broad trough means the change was gradual or its date is uncertain.</p><div class="scroll"><svg id="scan" viewBox="0 0 760 260" width="100%" role="img" aria-label="AIC by break year"></svg></div></div>
+</section>
+
+<section id="methods">
+  <h2>Methods text for the SI (draft)</h2>
+  <h3>Scoring the regimes from the literature</h3>
+  <p>We scored each period on 12 parameters of centralization, grouped in three dimensions: polity reach (territorial reach, administrative hierarchy, fiscal extraction, communications), institutional economy (palace, temples, royal control of temples, and the private sector, which counts against centralization), and control of writing (standardized bureaucracy, scribal training, royal law, standard measures and calendar). Each parameter has four levels, 0 to 3, defined in advance (SI Table S_). We did not code the periods ourselves or ask experts to code them. Instead we collected statements from the current historical literature, mainly the chapters of the Oxford History of the Ancient Near East (2020 to 2023), with comparative studies and specialist works where those chapters were silent. For every statement we recorded the verbatim quotation, its exact place, the score it implies and its stance: it supports that score, qualifies it (accepts the institution but limits its reach), or contests it.</p>
+  <p>Scores follow from the statements by a fixed rule. The score of a cell is the median of the scores implied by its supporting statements, rounded down at a half. Its range runs over all statements. A cell is marked contested when a contesting statement implies a different score. In other words, when historians disagree, the disagreement is kept in the data rather than settled by us. Cells with no statement yet keep our earlier coding and are flagged.</p>
+  <h3>Testing the hypothesis</h3>
+  <p>The outcome is the dispersion of tablet shape within a period: the median absolute deviation of log(height/width) and the median distance of each tablet's 12-dimensional shape vector from the period's median vector. The unit of comparison is the period, and there are only 14 of them, so we used three tests that remain valid with few units. (1) A permutation test: we reassigned the index values at random to the periods 50,000 times; the p-value is the share of reassignments that give a correlation at least as strong as the observed one. (2) Score uncertainty: we redrew the whole score table 2,000 times, each cell from the spread of its quoted statements, and recomputed the correlation each time. (3) A tablet-level regression of each tablet's absolute deviation from its period median on the index, with museum fixed effects, and p-values from the wild cluster restricted bootstrap with Webb weights, which keeps the error rate near its nominal level with as few as 10 to 15 clusters.</p>
+  <h3>The Hammurabi break points</h3>
+  <p>For dated legal documents from 1830 to 1712 BCE we fitted, for each candidate year b, an ordinary least squares model of log(h/w) on region (south or north), phase (before or after b) and their interaction, with museum and damage as controls. The interaction is a difference-in-differences: how much more the southern tablets changed than the northern ones. The same model on each tablet's absolute deviation from its region-and-phase median measures change in uniformity. We compared the candidates by AIC and Akaike weights, and show the fit of every year in the window so the reader can judge whether the best candidate is a real optimum.</p>
+</section>
+
+<section id="reading">
+  <h2>Reading log</h2>
+  <p>Every work read for the codebook, with the pages read and the parameters it informs. Works from the Dropbox Literature folder were read on 2 to 3 November; scanned books were OCRed first and quotations from them were checked against the page images.</p>
+  <div class="card"><h3>Statements that bear directly on tablet format</h3><ul id="fmt"></ul></div>
+  <div class="scroll" style="margin-top:14px"><table id="rlog"></table></div>
+  <h3>Cells still resting on no quoted statement</h3>
+  <p class="note" id="open"></p>
+</section>
+</div>
+<script>
+const D=/*DATA*/;
+const $=s=>document.querySelector(s);
+const sc={}; D.scores.forEach(r=>sc[r.period+'|'+r.param]=r);
+const evBy={}; D.ev.forEach(e=>(evBy[e.period+'|'+e.param]=evBy[e.period+'|'+e.param]||[]).push(e));
+const fill=v=>['var(--s0)','var(--s1)','var(--s2)','var(--s3)'][v];
+const ink=v=>v===3?'var(--s-ink-dark)':'var(--s-ink)';
+function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+// matrix
+let h='<thead><tr><th>Period</th>'+D.params.map(p=>`<th class="p" title="${esc(D.names[p])}">${esc(D.names[p])}</th>`).join('')+'</tr></thead><tbody>';
+const row=per=>'<tr><td class="per">'+esc(per)+'</td>'+D.params.map(p=>{const r=sc[per+'|'+p]; if(!r) return '<td></td>';
+  const cls=['cell',r.source==='prior'?'prior':'',r.contested?'contested':''].join(' ');
+  const rg=r.lo!==r.hi?`<span class="r">${r.lo}–${r.hi}</span>`:'<span class="r">&nbsp;</span>';
+  return `<td class="${cls}" tabindex="0" data-k="${esc(per+'|'+p)}" style="background:${fill(r.score)};color:${ink(r.score)}" aria-label="${esc(per)}, ${esc(D.names[p])}, score ${r.score}">${r.score}${rg}</td>`}).join('')+'</tr>';
+h+=D.main.map(row).join('')+`<tr class="sep"><td colspan="13">Supplementary periods</td></tr>`+D.si.map(row).join('')+'</tbody>';
+$('#matrix').innerHTML=h;
+const mainS=D.scores.filter(r=>D.main.includes(r.period));
+$('#summary').textContent=`${D.ev.length} quoted statements from ${new Set(D.ev.map(e=>e.key)).size} works. Of the ${mainS.length} cells for the 14 main periods, ${mainS.filter(r=>r.source==='literature').length} rest on quotations and ${mainS.filter(r=>r.contested).length} are contested in the literature.`;
+function show(k){document.querySelectorAll('td.cell.sel').forEach(c=>c.classList.remove('sel'));const td=document.querySelector(`td.cell[data-k="${CSS.escape(k)}"]`); if(td) td.classList.add('sel');
+  const [per,p]=k.split('|'); const r=sc[k]; const ev=(evBy[k]||[]).slice().sort((a,b)=>['supports','qualifies','contests'].indexOf(a.stance)-['supports','qualifies','contests'].indexOf(b.stance));
+  let s=`<span class="label">${esc(per)}</span><h3 style="margin-top:4px">${esc(D.names[p])}: <span class="big">${r.score}</span> <span class="note">range ${r.lo}–${r.hi} · confidence ${r.conf}${r.contested?' · contested':''}${r.prior!=null&&r.prior!==r.score?' · earlier coding '+r.prior:''}</span></h3>`;
+  if(!ev.length) s+='<p class="note">No quotation yet. The earlier coding is kept until a statement is found.</p>';
+  ev.forEach(e=>{s+=`<div class="q"><div><span class="chip ${e.stance}">${e.stance}</span><div class="note" style="margin-top:6px">implies ${e.score}</div></div><div style="min-width:0"><blockquote>“${esc(e.quote)}”</blockquote><div class="meta">${esc(e.where)} · <code>${esc(e.key)}</code>${e.note?'<br>'+esc(e.note):''}</div></div></div>`});
+  const g=(D.gaps[per]||{})[p]; if(g) s+=`<p class="note" style="margin-top:10px"><b>Literature to add:</b> ${esc(g)}</p>`;
+  $('#detail').innerHTML=s;}
+$('#matrix').addEventListener('click',e=>{const td=e.target.closest('td.cell'); if(td) show(td.dataset.k)});
+$('#matrix').addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){const td=e.target.closest('td.cell'); if(td){e.preventDefault();show(td.dataset.k)}}});
+show('Ur III|BUR');
+// changes
+const ch=mainS.filter(r=>r.source==='literature'&&r.prior!=null&&r.prior!==r.score);
+$('#changes-t').innerHTML='<thead><tr><th>Period</th><th>Parameter</th><th>Earlier</th><th>Now</th><th>Range</th><th>Contested</th></tr></thead><tbody>'+ch.map(r=>`<tr><td>${esc(r.period)}</td><td><a href="#scores" data-k="${esc(r.period+'|'+r.param)}" class="jump">${esc(D.names[r.param])}</a></td><td>${r.prior}</td><td><b>${r.score}</b></td><td>${r.lo}–${r.hi}</td><td>${r.contested?'yes':''}</td></tr>`).join('')+'</tbody>';
+document.querySelectorAll('a.jump').forEach(a=>a.addEventListener('click',()=>show(a.dataset.k)));
+// stats
+const IX={A_polity_reach:'Polity reach',B_institutional_economy:'Institutional economy',C_control_of_writing:'Control of writing',mean_all:'All 12'};
+const OUTN={MAD:'Shape MAD',MAD_in_museum:'Shape MAD, in museum',VAEd:'VAE distance',VAEd_in_museum:'VAE distance, in museum',dev_period:'|dev| from period median',dev_pm:'|dev| from period × museum median'};
+$('#spear').innerHTML='<thead><tr><th>Outcome</th><th>Index</th><th>ρ</th><th>p</th><th>Draws</th></tr></thead><tbody>'+D.spear.map(r=>`<tr><td>${OUTN[r.outcome]}</td><td>${IX[r.index]}</td><td>${r.rho.toFixed(2)}</td><td>${r.p_perm.toFixed(2)}</td><td>${r.rho_draws_lo.toFixed(2)} to ${r.rho_draws_hi.toFixed(2)}</td></tr>`).join('')+'</tbody>';
+$('#wild').innerHTML='<thead><tr><th>Outcome</th><th>Index</th><th>b per SD</th><th>p (wild)</th></tr></thead><tbody>'+D.wild.map(r=>`<tr><td>${OUTN[r.outcome]}</td><td>${IX[r.index]}</td><td>${r.b_per_sd.toFixed(3)}</td><td>${r.p_wcr.toFixed(2)}</td></tr>`).join('')+'</tbody>';
+$('#ptab').innerHTML='<thead><tr><th>Period</th><th>Tablets</th><th>Museums</th><th>MAD</th><th>MAD in museum</th><th>VAEd</th><th>VAEd in museum</th><th>Reach</th><th>Inst. economy</th><th>Writing</th></tr></thead><tbody>'+D.ptab.map(r=>`<tr><td>${esc(r.period)}</td><td>${r.n}</td><td>${r.n_museums}</td><td>${r.MAD.toFixed(3)}</td><td>${r.MAD_in_museum.toFixed(3)}</td><td>${r.VAEd.toFixed(2)}</td><td>${r.VAEd_in_museum.toFixed(2)}</td><td>${r.A_polity_reach.toFixed(2)}</td><td>${r.B_institutional_economy.toFixed(2)}</td><td>${r.C_control_of_writing.toFixed(2)}</td></tr>`).join('')+'</tbody>';
+// hammurabi
+const best=D.ham.find(r=>r.chosen);
+$('#ham-text').innerHTML=`The best-fitting candidate is <b>${esc(best.break_point)}</b> (Akaike weight ${best.akaike_w_shape.toFixed(2)}), not the conquest of Larsa. The scan below shows why: the fit is best across a broad trough from about 1796 to 1780 BCE, three decades before the conquest. The change in southern legal tablets therefore begins in the middle of Rim-Sin's reign at Larsa. Wagensonner (OHANE II, ch. 14, p. 290) describes a standardized tablet format in Rim-Sin's chancellery and a calendar reform in the middle of his reign, which is a more natural explanation than an edict issued in Babylon. This link is our reading after seeing the data and needs to be tested on the Larsa archives directly. The conquest (1763) and the Laws (1754) also show significant shape differences, but fit clearly worse. For uniformity, southern legal tablets become more uniform relative to northern ones only after the Laws (p = 0.015) and Samsu-iluna's edict (p = 0.003). No break produces convergence of southern and northern shape vectors. Note that the 1791 split leaves only 27 dated northern tablets before the break. The second dip in the scan, around 1742 to 1739 BCE, is not a southern change: the difference-in-differences there is close to zero (0.02 to 0.04, p > 0.3). It reflects a change shared by north and south, and it coincides with the southern revolt against Samsu-iluna and the end of dated archives at Larsa and Ur, so the southern sample after 1740 is small.`;
+$('#ham').innerHTML='<thead><tr><th>Candidate</th><th>AIC (shape)</th><th>Akaike weight</th><th>DiD shape (SE), p</th><th>DiD uniformity (SE), p</th><th>VAE gap change, p</th></tr></thead><tbody>'+D.ham.map(r=>`<tr${r.chosen?' style="font-weight:600"':''}><td>${esc(r.break_point)}</td><td>${r.AIC_shape.toFixed(1)}</td><td>${r.akaike_w_shape.toFixed(3)}</td><td>${r.DiD_shape.toFixed(3)} (${r.DiD_shape_se.toFixed(3)}), ${r.DiD_shape_p.toFixed(4)}</td><td>${r.DiD_uniformity.toFixed(3)} (${r.DiD_uniformity_se.toFixed(3)}), ${r.DiD_uniformity_p.toFixed(3)}</td><td>${r.VAE_gap_change.toFixed(2)}, ${r.p_convergence.toFixed(2)}</td></tr>`).join('')+'</tbody>';
+(function(){const s=D.scan, W=760,H=260,l=52,r=36,t=22,b=40; const xs=s.map(d=>d.year), ys=s.map(d=>d.AIC_shape);
+ const x0=Math.max(...xs),x1=Math.min(...xs), y0=Math.floor(Math.min(...ys)/5)*5, y1=Math.ceil(Math.max(...ys)/5)*5;
+ const X=v=>l+(x0-v)/(x0-x1)*(W-l-r), Y=v=>t+(y1-v)/(y1-y0)*(H-t-b);
+ let g=''; for(let v=y0;v<=y1;v+=5){g+=`<line class="ax" x1="${l}" x2="${W-r}" y1="${Y(v)}" y2="${Y(v)}"/><text x="${l-6}" y="${Y(v)+4}" text-anchor="end">${v}</text>`}
+ for(let v=1800;v>=1725;v-=10){g+=`<text x="${X(v)}" y="${H-b+16}" text-anchor="middle">${v}</text>`}
+ g+=`<text x="${(l+W-r)/2}" y="${H-6}" text-anchor="middle">break year (BCE)</text><text x="12" y="${(t+H-b)/2}" transform="rotate(-90 12 ${(t+H-b)/2})" text-anchor="middle">AIC</text>`;
+ g+=`<path class="ln" d="${s.map((d,i)=>(i?'L':'M')+X(d.year).toFixed(1)+' '+Y(d.AIC_shape).toFixed(1)).join(' ')}"/>`;
+ const lab={1791:['mīšarum 1',18],1763:['conquest',-12],1754:['Laws',-12],1750:['',0],1748:['mīšarum 2',20]};
+ D.ham.forEach((c,i)=>{const d=s.find(z=>z.year===c.year); if(!d) return; g+=`<circle class="mk" cx="${X(d.year)}" cy="${Y(d.AIC_shape)}" r="4.5"/>`; if(lab[c.year]&&lab[c.year][0]) g+=`<text class="mkl" x="${X(d.year)}" y="${Y(d.AIC_shape)+lab[c.year][1]}" text-anchor="middle" paint-order="stroke" stroke="var(--surface)" stroke-width="4">${lab[c.year][0]}</text>`});
+ $('#scan').innerHTML=g;})();
+// reading log
+$('#rlog').innerHTML='<thead><tr><th>Work</th><th>Periods</th><th>Read</th><th>Parameters</th><th>Note</th></tr></thead><tbody>'+D.reading.map(r=>`<tr><td>${esc(r.work)}</td><td>${esc(r.periods)}</td><td>${esc(r.status)}</td><td>${esc(r.used_for)}</td><td>${esc(r.note)}</td></tr>`).join('')+'</tbody>';
+$('#fmt').innerHTML=D.fmt.map(x=>`<li>${esc(x)}</li>`).join('');
+$('#open').textContent=D.scores.filter(r=>r.source!=='literature').map(r=>r.period+' '+r.param).join('; ')||'None.';
+</script>

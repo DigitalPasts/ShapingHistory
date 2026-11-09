@@ -4,6 +4,17 @@ This GitHub repository focuses on the intersection of Assyriology and machine le
 
 Publication: https://arxiv.org/abs/2406.04039 
 
+## Repository map (PNAS article, 2026)
+
+| Folder | What it holds |
+|---|---|
+| root notebooks `0.`-`13.` | The original pipeline: data download, preprocessing, classifiers (CNN, ResNet50, DINOv2) and the VAE |
+| [`analysis/`](analysis/README.md) | Every script behind the article's numbers and figures, grouped by stage (corpus, period identification, proportions, case studies, centralization, dating, turning points, archives) |
+| [`data/`](data/README.md) | Derived result tables, input sources with DOIs, and what is withheld and why |
+| [`experiments/`](experiments/EXPERIMENTS.md) | Register of every experiment: question, scripts, result, and whether it is in the article |
+| `paper/` | Draft text by section, the assembled article, the SI and the BibTeX files |
+| `docs/` | Companion website |
+
 ## Table of Contents
 
 - [Introduction](#introduction)

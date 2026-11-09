@@ -1,0 +1,62 @@
+side,site,g,n,with_year
+after (1763-1739),Babylon,other,1,0
+after (1763-1739),Dilbat,Business / Contracts,1,1
+after (1763-1739),Dilbat,Legal,3,2
+after (1763-1739),Isin,Business / Contracts,2,2
+after (1763-1739),Isin,Legal,3,3
+after (1763-1739),Kish,Administrative,4,4
+after (1763-1739),Kish,Business / Contracts,4,4
+after (1763-1739),Lagaba,Administrative,7,7
+after (1763-1739),Larsa,Administrative,43,43
+after (1763-1739),Larsa,Business / Contracts,56,55
+after (1763-1739),Larsa,Legal,13,13
+after (1763-1739),Larsa,Letter,1,1
+after (1763-1739),Larsa,other,4,4
+after (1763-1739),Nippur,Administrative,8,7
+after (1763-1739),Nippur,Business / Contracts,11,11
+after (1763-1739),Nippur,Legal,44,42
+after (1763-1739),Nippur,other,1,1
+after (1763-1739),Pī-Kasî,Administrative,2,2
+after (1763-1739),Pī-Kasî,Business / Contracts,2,2
+after (1763-1739),Pī-Kasî,Legal,4,4
+after (1763-1739),Sippar-Yahrurum,Administrative,15,14
+after (1763-1739),Sippar-Yahrurum,Business / Contracts,9,9
+after (1763-1739),Sippar-Yahrurum,Legal,63,57
+after (1763-1739),Sippar-Yahrurum,Letter,1,1
+after (1763-1739),Sippar-Yahrurum,other,2,1
+after (1763-1739),Umma,Legal,1,1
+after (1763-1739),Ur,Administrative,12,12
+after (1763-1739),Ur,Legal,2,2
+after (1763-1739),Ur,other,1,1
+after (1763-1739),uncertain,Administrative,23,22
+after (1763-1739),uncertain,Business / Contracts,8,7
+after (1763-1739),uncertain,Legal,20,18
+after (1763-1739),uncertain,other,9,8
+after (1763-1739),unknown,Administrative,40,38
+after (1763-1739),unknown,Business / Contracts,20,19
+after (1763-1739),unknown,Legal,26,22
+after (1763-1739),unknown,Letter,2,0
+after (1763-1739),unknown,other,3,2
+before (1790-1764),Babylon,Legal,1,1
+before (1790-1764),Kish,Legal,2,2
+before (1790-1764),Kish,other,1,1
+before (1790-1764),Larsa,Administrative,24,24
+before (1790-1764),Larsa,Business / Contracts,6,6
+before (1790-1764),Larsa,Legal,4,4
+before (1790-1764),Larsa,other,4,4
+before (1790-1764),Nippur,Administrative,28,28
+before (1790-1764),Nippur,Legal,15,15
+before (1790-1764),Nippur,other,1,1
+before (1790-1764),Sippar-Yahrurum,Administrative,3,3
+before (1790-1764),Sippar-Yahrurum,Business / Contracts,1,1
+before (1790-1764),Sippar-Yahrurum,Legal,21,21
+before (1790-1764),Umma,Legal,2,2
+before (1790-1764),Ur,Business / Contracts,1,1
+before (1790-1764),Ur,Legal,2,2
+before (1790-1764),uncertain,Administrative,5,5
+before (1790-1764),uncertain,Business / Contracts,1,1
+before (1790-1764),uncertain,Legal,1,1
+before (1790-1764),unknown,Administrative,3,3
+before (1790-1764),unknown,Business / Contracts,1,1
+before (1790-1764),unknown,Legal,7,7
+before (1790-1764),unknown,other,1,1

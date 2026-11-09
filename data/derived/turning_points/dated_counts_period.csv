@@ -1,0 +1,15 @@
+period,n,dated,dated_year,sites,pct_dated,dated_admin,dated_lette,dated_legal,top_dated_sites
+ED IIIa,161,0,0,7,0.0,0,0,0,
+ED IIIb,1238,832,726,13,67.0,817,2,2,"Girsu 811, unknown 16, Uruk 2"
+Ebla,424,0,0,2,0.0,0,0,0,
+Old Akkadian,2606,516,19,19,20.0,491,2,1,"Adab 304, Nippur 132, uncertain 31"
+Ur III,27263,22816,20568,21,84.0,22286,116,168,"Umma 8598, Puzriš-Dagan 8071, Girsu 2301"
+Early Old Babylonian,1432,524,233,19,37.0,151,10,36,"unknown 219, Nerebtum 107, Nippur 47"
+Old Babylonian,16317,2183,1674,33,13.0,906,146,769,"unknown 459, Larsa 449, Nippur 396"
+Old Assyrian,1485,3,1,6,0.0,0,0,1,"Kanesh 2, Nineveh 1"
+Middle Babylonian,5913,183,160,19,3.0,99,0,20,"Nippur 156, unknown 23, Larsa 2"
+Middle Assyrian,1405,53,5,10,4.0,1,1,0,"Nineveh 30, Assur 16, Babylon 5"
+Neo-Assyrian,22251,675,13,15,3.0,5,252,10,"Nineveh 639, uncertain 6, unknown 6"
+Neo-Babylonian,4426,750,576,21,17.0,239,5,104,"unknown 302, Uruk 204, Babylon 66"
+Achaemenid,1705,845,728,24,50.0,84,8,114,"Nippur 509, unknown 140, Uruk 46"
+Hellenistic,245,4,3,8,2.0,2,0,0,"Babylon 1, Sippar-Yahrurum 1, Uruk 1"

@@ -1,0 +1,39 @@
+P,region,n,median
+Uruk IV,Babylonia,1744,1.2777777777777777
+Uruk IV,other/unprovenanced,34,1.0972222222222223
+Uruk III,Babylonia,3137,1.0857142857142856
+Uruk III,other/unprovenanced,757,1.3333333333333333
+Proto-Elamite,Elam / Iran,1400,1.3235294117647058
+Proto-Elamite,other/unprovenanced,40,1.4
+ED IIIa,Babylonia,117,1.0
+ED IIIb,Babylonia,1538,1.0152680652680652
+ED IIIb,other/unprovenanced,77,1.027027027027027
+Ebla,Syria / Anatolia,3016,1.0467852257181942
+Ebla,other/unprovenanced,179,1.0
+Old Akkadian,Babylonia,1912,1.2142857142857142
+Old Akkadian,other/unprovenanced,787,1.2083333333333333
+Lagash II,Babylonia,37,1.173913043478261
+Ur III,Babylonia,13373,1.1153846153846154
+Ur III,Elam / Iran,38,1.0555984555984557
+Ur III,other/unprovenanced,8337,1.1363636363636365
+Early Old Babylonian,Babylonia,1427,1.2333333333333334
+Early Old Babylonian,other/unprovenanced,631,1.3243243243243243
+Old Babylonian,Babylonia,2708,1.2977272727272728
+Old Babylonian,Elam / Iran,121,1.4054054054054055
+Old Babylonian,Syria / Anatolia,245,1.2222222222222223
+Old Babylonian,other/unprovenanced,10635,1.2682926829268293
+Old Assyrian,Syria / Anatolia,853,1.0204081632653061
+Middle Assyrian,Babylonia,547,0.9454545454545454
+Middle Assyrian,other/unprovenanced,229,1.0
+Middle Babylonian,Babylonia,1885,0.9824561403508771
+Middle Babylonian,other/unprovenanced,757,0.8461538461538461
+Middle Elamite,Elam / Iran,437,0.7625
+Hittite,other/unprovenanced,161,1.0
+Neo-Assyrian,Assyria,1304,1.0
+Neo-Assyrian,Babylonia,129,0.95
+Neo-Assyrian,other/unprovenanced,438,1.17
+Neo-Babylonian,Babylonia,5808,0.7317073170731707
+Neo-Babylonian,other/unprovenanced,746,0.7723285486443381
+Achaemenid,Babylonia,1168,0.7708333333333334
+Achaemenid,other/unprovenanced,368,0.7954545454545454
+Hellenistic,Babylonia,391,0.8888888888888888

@@ -1,0 +1,5 @@
+,0
+TERR vs Polity territory,"(np.float64(0.87), 13)"
+HIER vs Administrative levels,"(np.float64(0.22), 13)"
+LAW vs Formal legal code,"(np.float64(0.23), 11)"
+COMM vs Couriers,"(np.float64(nan), 10)"

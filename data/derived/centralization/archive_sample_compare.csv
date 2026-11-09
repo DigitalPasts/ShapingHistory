@@ -1,0 +1,44 @@
+period,site,sample_site,lit_n,lit_share,sample_n,sample_share,key,where,ratio
+Achaemenid,Persepolis,Pārśa,13000,0.947,281,0.165,henkelmanAchaemenidHeartland2012,p. 949,0.17
+Achaemenid,Nippur,Nippur,730,0.053,718,0.421,stolperEntrepreneursEmpireMurasu1985,p. 14,7.94
+ED IIIa,Šuruppak,Shuruppak,900,0.643,91,0.565,bramantiTaxationEarlyMesopotamia2020,"p. 25, n. 2",0.88
+ED IIIa,Abu Ṣalābīḫ,Abu Salabikh,500,0.357,0,0.0,sommerfeldOldAkkadian2021,p. 531,0.0
+ED IIIb,Girsu,Girsu,1800,0.468,825,0.666,bramantiTaxationEarlyMesopotamia2020,"p. 25, n. 2",1.42
+ED IIIb,Umma,Umma,1100,0.286,14,0.011,bramantiTaxationEarlyMesopotamia2020,"p. 25, n. 2",0.04
+ED IIIb,Adab,Adab,500,0.13,53,0.043,bramantiTaxationEarlyMesopotamia2020,"p. 25, n. 2",0.33
+ED IIIb,Nippur,Nippur,450,0.117,205,0.166,bramantiTaxationEarlyMesopotamia2020,"p. 25, n. 2",1.42
+Early Old Babylonian,Nērebtum,Nerebtum,570,0.304,193,0.135,streckOldBabylonian2021,p. 996,0.44
+Early Old Babylonian,Tuttul,Tuttul,382,0.204,52,0.036,streckOldBabylonian2021,p. 997,0.18
+Early Old Babylonian,Isin,Isin,923,0.492,48,0.034,streckOldBabylonian2021,p. 995,0.07
+Ebla,Ebla,Ebla,3250,1.0,243,0.573,archiEblaItsArchives2015,p. 84,0.57
+Hellenistic,Uruk,Uruk,1400,0.843,193,0.788,monerieLeconomieBabylonieLepoque2018,p. 13,0.93
+Hellenistic,Babylon,Babylon,260,0.157,9,0.037,monerieLeconomieBabylonieLepoque2018,p. 11,0.24
+Hittite,Ḫattuša,Ḫattusa,30000,1.0,90,0.833,vandenhoutHistoryHittiteLiteracy2020,p. 13,0.83
+Middle Babylonian,Nippur,Nippur,12000,0.965,4609,0.779,vansoldtMiddleBabylonian2021,"p. 1043, n. 23",0.81
+Middle Babylonian,Babylon,Babylon,210,0.017,9,0.002,vansoldtMiddleBabylonian2021,"p. 1041, n. 9",0.12
+Middle Babylonian,Dūr-Kurigalzu,Dur-Kurigalzu,225,0.018,0,0.0,vansoldtMiddleBabylonian2021,"p. 1042, n. 18",0.0
+Middle Elamite,Kabnak,Kabnak,400,0.619,0,0.0,glassnerTextesHaftTepe1991,pp. 113-114,0.0
+Middle Elamite,Anšan,Anšan,246,0.381,21,0.955,baselloElamiteAdministration2018,p. 487,2.51
+Neo-Assyrian,Nineveh,Nineveh,25000,1.0,21461,0.964,falesNeoAssyrian2021,"p. 1360, n. 50",0.96
+Old Akkadian,Girsu,Girsu,2300,0.387,115,0.044,bramantiTaxationEarlyMesopotamia2020,"p. 25, n. 2",0.11
+Old Akkadian,Adab,Adab,2300,0.387,839,0.322,bramantiTaxationEarlyMesopotamia2020,"p. 25, n. 2",0.83
+Old Akkadian,Umma,Umma,700,0.118,210,0.081,bramantiTaxationEarlyMesopotamia2020,"p. 25, n. 2",0.69
+Old Akkadian,Nippur,Nippur,650,0.109,535,0.205,bramantiTaxationEarlyMesopotamia2020,"p. 25, n. 2",1.88
+Old Assyrian,Kaneš,Kanesh,22300,1.0,1466,0.987,kouwenbergOldAssyrian2021,p. 1105,0.99
+Old Babylonian,Mari,Mari,15000,0.416,0,0.0,streckOldBabylonian2021,p. 995,0.0
+Old Babylonian,Sippar region,Sippar-Yahrurum,6000,0.166,555,0.034,streckOldBabylonian2021,p. 996,0.2
+Old Babylonian,Šaduppûm,Šaduppum,3100,0.086,0,0.0,streckOldBabylonian2021,p. 996,0.0
+Old Babylonian,Larsa,Larsa,3780,0.105,633,0.039,streckOldBabylonian2021,p. 995,0.37
+Old Babylonian,Nippur,Nippur,1826,0.051,6626,0.406,streckOldBabylonian2021,p. 996,7.96
+Old Babylonian,Kiš,Kish,1600,0.044,308,0.019,streckOldBabylonian2021,p. 995,0.43
+Old Babylonian,Uruk,Uruk,1066,0.03,41,0.003,streckOldBabylonian2021,p. 997,0.1
+Old Babylonian,Ur,Ur,935,0.026,1125,0.069,streckOldBabylonian2021,p. 997,2.65
+Old Babylonian,Isin,Isin,1603,0.044,18,0.001,streckOldBabylonian2021,p. 995,0.02
+Old Babylonian,Babylon,Babylon,1160,0.032,109,0.007,streckOldBabylonian2021,p. 994,0.22
+Ur III,Umma,Umma,29940,0.361,9742,0.357,molinaArchivesBookkeepingSouthern2016,§18,0.99
+Ur III,Girsu,Girsu,26619,0.321,3405,0.125,molinaArchivesBookkeepingSouthern2016,§18,0.39
+Ur III,Puzriš-Dagān,Puzriš-Dagan,15647,0.189,8324,0.305,molinaArchivesBookkeepingSouthern2016,§18,1.61
+Ur III,Ur,Ur,4297,0.052,600,0.022,molinaArchivesBookkeepingSouthern2016,§18,0.42
+Ur III,Nippur,Nippur,3697,0.045,2063,0.076,molinaArchivesBookkeepingSouthern2016,§18,1.69
+Ur III,GARšana,Garšana,1507,0.018,947,0.035,molinaArchivesBookkeepingSouthern2016,§18,1.94
+Ur III,Irisaĝrig,Irisagrig,1148,0.014,60,0.002,molinaArchivesBookkeepingSouthern2016,§18,0.14

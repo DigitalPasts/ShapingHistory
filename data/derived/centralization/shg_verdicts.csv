@@ -1,0 +1,661 @@
+row,period,param,score_ws,stance,source,where,quote,verdict,comment,score_orig,key,where_full,quote_full,rescore
+2,ED IIIa,TERR,1,qualifies,Bartash 2020,"OHANE I, ch. 8, §8.4 (PDF p. 488)","A cautious assessment of the data suggests that the transportational, diplomatic, cultic, and other relationships that existed between neighboring states connected by the same waterways may explain the nature of this “alliance.” ... In summary, political relationships in southern Mesopotamia during the ED I–IIIa periods were dynamic and unstable.",accept,,1,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  TERR
+score                                                     1
+stance                                            qualifies
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.4 (PDF p. 488)
+quote     A cautious assessment of the data suggests tha...
+period                                              ED IIIa
+region                                                  NaN
+note                                                    NaN
+Name: 349, dtype: object>","A cautious assessment of the data suggests that the transportational, diplomatic, cultic, and other relationships that existed between neighboring states connected by the same waterways may explain the nature of this “alliance.” ... In summary, political relationships in southern Mesopotamia during the ED I–IIIa periods were dynamic and unstable.",
+3,ED IIIa,TERR,1,supports,Steinkeller 1993,p. 116,"The southern city-state was a clearly demarcated territorial unit, comprising a major city —the state’s capital— and the surrounding countryside",accept,"Note that in the following page (117) Steinkeller goes on to describe the different political situation in northern Babylonia (the Kish centered polity) which is based on the scholarship of Gelb (cited there in fn. 19). This would make the south score 1 (as it is now), and the north score a 2 (which appears in one of the other statements). The qualifing factor here is the complex political geography, which is not refelected in the current scoring system at all. This complicates matters with regard to studying different tablets from different areas with their own political status - one cannot necessarily measure the entire TERR status of ED IIIa vs. all the tablets. It also raises issues with the CDLI period categoroes of course, and leads to a necessary covering each period group not just with scores, but also short historical-political summaries with maps that make it easy to connect the archives/city groups of texts we have with each scored entity. It will also uncover hidden issues with smaller text groups. There is a need to mitigate that with the zoom-out to periods like the CDLI does, and which allows for larger statistical analyses, but without loosing track of the fine details regarding each series of tablet collections.    ",1,steinkellerEarlyPoliticalDevelopment1993,"<bound method NDFrame.where of param                                                  TERR
+score                                                     1
+stance                                             supports
+key                steinkellerEarlyPoliticalDevelopment1993
+where                                                p. 116
+quote     The southern city-state was a clearly demarcat...
+period                                              ED IIIa
+region                                                  NaN
+note      Divinely sanctioned borders made ""any form of ...
+Name: 110, dtype: object>","The southern city-state was a clearly demarcated territorial unit, comprising a major city —the state’s capital— and the surrounding countryside",
+4,ED IIIa,TERR,1,supports,Yoffee 1995,p. 291,"How and why did a Mesopotamia, which was not centralized politically before the time of Sargon, form a cultural-civilizational entity?",accept,"In pp. 290-291 Yoffee further qualifies the scholarly between Gelb and Steinkeller (who see a Kish polity in the north) and textual evidence, Jacobsen's conclusions and archaeological evidence brought up by Adams.",1,yoffeePoliticalEconomyEarly1995,"<bound method NDFrame.where of param                                                  TERR
+score                                                     1
+stance                                             supports
+key                         yoffeePoliticalEconomyEarly1995
+where                                                p. 291
+quote     How and why did a Mesopotamia, which was not c...
+period                                              ED IIIa
+region                                                  NaN
+note      Yoffee reads the ED I-II city seals and city l...
+Name: 112, dtype: object>","How and why did a Mesopotamia, which was not centralized politically before the time of Sargon, form a cultural-civilizational entity?",
+5,ED IIIa,TERR,1,supports,Bartash 2020,"OHANE I, ch. 8, §8.3 (PDF p. 487)","the official archives of ED IIIa Šuruppag document the exchange of workers, messengers, and goods among six Sumerian city states: Uruk and its district/twin-city Kulaba, Adab, Nippur, Lagaš, Šuruppag, and Umma. These data allowed Thorkild Jacobsen to formulate the theory of the “Kengir league”",accept,,1,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  TERR
+score                                                     1
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.3 (PDF p. 487)
+quote     the official archives of ED IIIa Šuruppag docu...
+period                                              ED IIIa
+region                                                  NaN
+note                                                    NaN
+Name: 348, dtype: object>","the official archives of ED IIIa Šuruppag document the exchange of workers, messengers, and goods among six Sumerian city states: Uruk and its district/twin-city Kulaba, Adab, Nippur, Lagaš, Šuruppag, and Umma. These data allowed Thorkild Jacobsen to formulate the theory of the “Kengir league”",
+6,ED IIIa,TERR,2,supports,Charpin 1995,p. 809,"By 2,500 the city of Kish seems to have established some kind of hegemony over Sumer. Its ruler took the title lugal, which consecrated this preeminence.",accept,"This again brings up the problem between north and south of Babylonia. But it also brings to the fore the issue with clustering areas statistically with regard to different archival and geographical writing practices. It would mean that in the article itself the telescope study using ML first (as in clustering the results), but then one aspect (h/w), with other possible aspects from the VAE vector, should come before the historical/politicial analysis, as it would qualify it and show the complexities within areas/cities/archives/tablet collections.",2,charpinHistoryAncientMesopotamia1995,"<bound method NDFrame.where of param                                                  TERR
+score                                                     2
+stance                                             supports
+key                    charpinHistoryAncientMesopotamia1995
+where                                                p. 809
+quote     By 2,500 the city of Kish seems to have establ...
+period                                              ED IIIa
+region                                                  NaN
+note      The same page: ""No lasting authority could be ...
+Name: 113, dtype: object>","By 2,500 the city of Kish seems to have established some kind of hegemony over Sumer. Its ruler took the title lugal, which consecrated this preeminence.",
+7,ED IIIa,HIER,1,supports,Bartash 2020,"OHANE I, ch. 8, §8.6 (PDF pp. 498-499)","Visicato reconstructed the household and power hierarchy at Šuruppag (ED IIIa), where the ensi wielded the principal authority. Three “houses” play first fiddle in the archives: the “Big House” (i.e., the palace), the “House of the Lass,” and the “City(-House).” ... The ensi managed foreign relations and trade from the “Big House,” while the “City” managed local affairs.",accept,,1,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  HIER
+score                                                     1
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                OHANE I, ch. 8, §8.6 (PDF pp. 498-499)
+quote     Visicato reconstructed the household and power...
+period                                              ED IIIa
+region                                                  NaN
+note                                                    NaN
+Name: 350, dtype: object>","Visicato reconstructed the household and power hierarchy at Šuruppag (ED IIIa), where the ensi wielded the principal authority. Three “houses” play first fiddle in the archives: the “Big House” (i.e., the palace), the “House of the Lass,” and the “City(-House).” ... The ensi managed foreign relations and trade from the “Big House,” while the “City” managed local affairs.",
+8,ED IIIa,HIER,2,supports,Sallaberger 2015,p. 299,"According to administrative texts from Shuruppag, Adab was part of the supra-regional organization or city league that functioned in the Fara period. The unnamed niĝ2-ensi2 “governor” of Adab mentioned in Fara could be identified with Lumma, the earliest ruler of Adab known by name. When Ereshkisalsi was niĝ2-ensi2 “governor” of Adab, the city was dependent from Mesilim of Kish.",accept,This would again be a possible difference between the so-called Kish polity of the north and the southern city states?,2,sallabergerSchrakampConclusion2015,"<bound method NDFrame.where of param                                                  HIER
+score                                                     2
+stance                                             supports
+key                      sallabergerSchrakampConclusion2015
+where                                                p. 299
+quote     According to administrative texts from Shurupp...
+period                                              ED IIIa
+region                                                  NaN
+note      Summary of Pomponio’s chapter on Adab in ARCAN...
+Name: 114, dtype: object>","According to administrative texts from Shuruppag, Adab was part of the supra-regional organization or city league that functioned in the Fara period. The unnamed niĝ2-ensi2 “governor” of Adab mentioned in Fara could be identified with Lumma, the earliest ruler of Adab known by name. When Ereshkisalsi was niĝ2-ensi2 “governor” of Adab, the city was dependent from Mesilim of Kish.",
+9,ED IIIa,FISC,2,supports,Bartash 2020,"OHANE I, ch. 8, §8.6 (PDF p. 499)","this sign combination refers to kingal, “labor manager.” Together with heralds, he was responsible for levying corvée labor.",accept,,2,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  FISC
+score                                                     2
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.6 (PDF p. 499)
+quote     this sign combination refers to kingal, “labor...
+period                                              ED IIIa
+region                                                  NaN
+note                                                    NaN
+Name: 351, dtype: object>","this sign combination refers to kingal, “labor manager.” Together with heralds, he was responsible for levying corvée labor.",
+10,ED IIIa,COMM,1,supports,Bartash 2020,"OHANE I, ch. 8, §8.3 (PDF p. 487)","the official archives of ED IIIa Šuruppag document the exchange of workers, messengers, and goods among six Sumerian city states",accept,"Yet, it would seem that in Ebla the messenger service was much more robust and central (see Bartash, OHANE, PDF p. 510) - again there are regional qualifications that need to be explicated from the liteature.",1,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  COMM
+score                                                     1
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.3 (PDF p. 487)
+quote     the official archives of ED IIIa Šuruppag docu...
+period                                              ED IIIa
+region                                                  NaN
+note                                                    NaN
+Name: 352, dtype: object>","the official archives of ED IIIa Šuruppag document the exchange of workers, messengers, and goods among six Sumerian city states",
+11,ED IIIa,PAL,2,supports,Bartash 2020,"OHANE I, ch. 8, §8.6-8.7 (PDF pp. 499, 501)","Many administrative offices center on the “Big House.” Most artisans appear to have belonged to the “City.” ... Among the approximately two thousand people mentioned in this archive, seventy-nine were “sons of the palace” and included officials, physicians, cupbearers, and cooks.",accept,Check also Yoffee 2005,2,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                   PAL
+score                                                     2
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where           OHANE I, ch. 8, §8.6-8.7 (PDF pp. 499, 501)
+quote     Many administrative offices center on the “Big...
+period                                              ED IIIa
+region                                                  NaN
+note                                                    NaN
+Name: 353, dtype: object>","Many administrative offices center on the “Big House.” Most artisans appear to have belonged to the “City.” ... Among the approximately two thousand people mentioned in this archive, seventy-nine were “sons of the palace” and included officials, physicians, cupbearers, and cooks.",
+12,ED IIIa,TEMP,2,qualifies,Bartash 2020,"OHANE I, ch. 8, §8.6 (PDF p. 499)","Considering the pattern in the naming of Sumerian temples such as “The House of the Woman” and their role as grain producers, the “House of the Lass” may have been the temple of the goddess Sud, the patron deity of Šuruppag. Viewed this way, the Šuruppag archives offer a picture reminiscent of the early Sumerian tripartite model elaborated by I. M. Diakonoff, with the temple and the urban community functioning as its main pillars.",accept,,2,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  TEMP
+score                                                     2
+stance                                            qualifies
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.6 (PDF p. 499)
+quote     Considering the pattern in the naming of Sumer...
+period                                              ED IIIa
+region                                                  NaN
+note                                                    NaN
+Name: 354, dtype: object>","Considering the pattern in the naming of Sumerian temples such as “The House of the Woman” and their role as grain producers, the “House of the Lass” may have been the temple of the goddess Sud, the patron deity of Šuruppag. Viewed this way, the Šuruppag archives offer a picture reminiscent of the early Sumerian tripartite model elaborated by I. M. Diakonoff, with the temple and the urban community functioning as its main pillars.",
+13,ED IIIa,TEMP,3,supports,Steinkeller 1993,p. 122,"In the south, the economy depended upon a decentralized system of largely self-sufficient temple-households which controlled most of the resources of the city-states",accept,Please add Yoffee 2005,3,steinkellerEarlyPoliticalDevelopment1993,"<bound method NDFrame.where of param                                                  TEMP
+score                                                     3
+stance                                             supports
+key                steinkellerEarlyPoliticalDevelopment1993
+where                                                p. 122
+quote     In the south, the economy depended upon a dece...
+period                                              ED IIIa
+region                                                  NaN
+note         Steinkeller treats the ED south as one system.
+Name: 108, dtype: object>","In the south, the economy depended upon a decentralized system of largely self-sufficient temple-households which controlled most of the resources of the city-states",
+14,ED IIIa,TCTL,1,qualifies,Bartash 2020,"OHANE I, ch. 8, §8.6 (PDF p. 499)",The “House of the Lass” was a major grain production center with a close relationship to the ruler.,accept,Please consult also Yoffee 2005 and others - 1 could be a superficial assessment,1,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  TCTL
+score                                                     1
+stance                                            qualifies
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.6 (PDF p. 499)
+quote     The “House of the Lass” was a major grain prod...
+period                                              ED IIIa
+region                                                  NaN
+note                                                    NaN
+Name: 355, dtype: object>",The “House of the Lass” was a major grain production center with a close relationship to the ruler.,
+15,ED IIIa,PRIV,0,supports,Steinkeller 1993,p. 122,the private sector was poorly developed and played little importance in the economy of southern city-states,accept,,0,steinkellerEarlyPoliticalDevelopment1993,"<bound method NDFrame.where of param                                                  PRIV
+score                                                     0
+stance                                             supports
+key                steinkellerEarlyPoliticalDevelopment1993
+where                                                p. 122
+quote     the private sector was poorly developed and pl...
+period                                              ED IIIa
+region                                                  NaN
+note                                                       
+Name: 109, dtype: object>",the private sector was poorly developed and played little importance in the economy of southern city-states,
+16,ED IIIa,PRIV,1,supports,Bartash 2020,"OHANE I, ch. 8, Table 8.1 and §8.1 (PDF pp. 475-476)","Šuruppag (Fara): over 1,000 tablets: administrative, legal (sales of houses and fields), lexical, literary ... Legal documents record the sale and purchase of land, houses, and slaves by individuals, usually the highest-level dignitaries of the temple and palace households.",accept,,1,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  PRIV
+score                                                     1
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where     OHANE I, ch. 8, Table 8.1 and §8.1 (PDF pp. 47...
+quote     Šuruppag (Fara): over 1,000 tablets: administr...
+period                                              ED IIIa
+region                                                  NaN
+note                                                    NaN
+Name: 356, dtype: object>","Šuruppag (Fara): over 1,000 tablets: administrative, legal (sales of houses and fields), lexical, literary ... Legal documents record the sale and purchase of land, houses, and slaves by individuals, usually the highest-level dignitaries of the temple and palace households.",
+17,ED IIIa,BUR,2,supports,Bartash 2020,"OHANE I, ch. 8, §8.1 (PDF p. 475)",Administrative documents record the management of temple and palatial economies and make up about 90 percent of the extant written corpus.,accept,,2,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                   BUR
+score                                                     2
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.1 (PDF p. 475)
+quote     Administrative documents record the management...
+period                                              ED IIIa
+region                                                  NaN
+note                                                    NaN
+Name: 357, dtype: object>",Administrative documents record the management of temple and palatial economies and make up about 90 percent of the extant written corpus.,
+18,ED IIIa,SCHOOL,1,supports,Bartash 2020,"OHANE I, ch. 8, §8.1 (PDF p. 474)",the discovery of literary and school texts in domestic quarters in ED IIIa Šuruppag (or Šuruppak; modern Fara) and Tell Abu Salabikh (probably ancient Ereš) demonstrates that scribes passed on their knowledge and know-how in their homes. This is in line with the evidence from later periods.,accept,Check third millennium materials added today,1,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                SCHOOL
+score                                                     1
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.1 (PDF p. 474)
+quote     the discovery of literary and school texts in ...
+period                                              ED IIIa
+region                                                  NaN
+note                                                    NaN
+Name: 358, dtype: object>",the discovery of literary and school texts in domestic quarters in ED IIIa Šuruppag (or Šuruppak; modern Fara) and Tell Abu Salabikh (probably ancient Ereš) demonstrates that scribes passed on their knowledge and know-how in their homes. This is in line with the evidence from later periods.,
+19,ED IIIa,SCHOOL,1,supports,Bartash 2020,"OHANE I, ch. 8, §8.9 (PDF pp. 522-523)","The southern tradition encompasses individual scribal traditions from local city states, most prominently Šuruppag, where the bulk of the evidence comes from. The northern tradition centered around the city state of Kiš.",accept,,1,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                SCHOOL
+score                                                     1
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                OHANE I, ch. 8, §8.9 (PDF pp. 522-523)
+quote     The southern tradition encompasses individual ...
+period                                              ED IIIa
+region                                                  NaN
+note                                                    NaN
+Name: 359, dtype: object>","The southern tradition encompasses individual scribal traditions from local city states, most prominently Šuruppag, where the bulk of the evidence comes from. The northern tradition centered around the city state of Kiš.",
+20,ED IIIa,LAW,1,supports,Bartash 2020,"OHANE I, ch. 8, §8.6 (PDF p. 497)","The ensi also functioned as supreme judge, especially in cases of capital punishment.",accept,,1,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                   LAW
+score                                                     1
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.6 (PDF p. 497)
+quote     The ensi also functioned as supreme judge, esp...
+period                                              ED IIIa
+region                                                  NaN
+note                                                    NaN
+Name: 360, dtype: object>","The ensi also functioned as supreme judge, especially in cases of capital punishment.",
+21,ED IIIa,STD,1,supports,Bartash 2019,p. 95,"Indeed, the shekel is relatively rare with any goods but silver in the ED IIIa period. It seems that the ED scribes were content with this modest level of precision, which would horrify pedantic accountants of the Ur III period.",accept,,1,bartashEstablishingValueWeight2019,"<bound method NDFrame.where of param                                                   STD
+score                                                     1
+stance                                             supports
+key                      bartashEstablishingValueWeight2019
+where                                                 p. 95
+quote     Indeed, the shekel is relatively rare with any...
+period                                              ED IIIa
+region                                                  NaN
+note      The ED weight system is a scribal accounting m...
+Name: 111, dtype: object>","Indeed, the shekel is relatively rare with any goods but silver in the ED IIIa period. It seems that the ED scribes were content with this modest level of precision, which would horrify pedantic accountants of the Ur III period.",
+22,ED IIIa,STD,1,supports,Bartash 2020,"OHANE I, ch. 8, §8.6 (PDF p. 499)",Records from ED IIIa Šuruppag were dated not by a ruler’s regnal year as in the ED IIIb period but by the eponym of a prominent citizen. This “republican” trait in the political system of ED IIIa Šuruppag suggests that each ED Sumerian city state had its own political culture,accept,,1,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                   STD
+score                                                     1
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.6 (PDF p. 499)
+quote     Records from ED IIIa Šuruppag were dated not b...
+period                                              ED IIIa
+region                                                  NaN
+note                                                    NaN
+Name: 361, dtype: object>",Records from ED IIIa Šuruppag were dated not by a ruler’s regnal year as in the ED IIIb period but by the eponym of a prominent citizen. This “republican” trait in the political system of ED IIIa Šuruppag suggests that each ED Sumerian city state had its own political culture,
+23,ED IIIa,STD,1,supports,Bartash 2020,"OHANE I, ch. 8, §8.7 (PDF p. 502)","The use of standardized weight measures is documented in written records from 2800 BC onward ... There were several different weight norms, despite the existence of a single “correct” standard based on the practice of weighing metals.",accept,,1,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                   STD
+score                                                     1
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.7 (PDF p. 502)
+quote     The use of standardized weight measures is doc...
+period                                              ED IIIa
+region                                                  NaN
+note                                                    NaN
+Name: 362, dtype: object>","The use of standardized weight measures is documented in written records from 2800 BC onward ... There were several different weight norms, despite the existence of a single “correct” standard based on the practice of weighing metals.",
+24,ED IIIb,TERR,2,qualifies,Steinkeller 1993,p. 129,"these kings were careful to stress that their territorial claims were confined to the states of Ur and Uruk, and that, in that position, they held two separate kingships",accept,,2,steinkellerEarlyPoliticalDevelopment1993,"<bound method NDFrame.where of param                                                  TERR
+score                                                     2
+stance                                            qualifies
+key                steinkellerEarlyPoliticalDevelopment1993
+where                                                p. 129
+quote     these kings were careful to stress that their ...
+period                                              ED IIIb
+region                                                  NaN
+note      Enshakushana and Lugal-zagesi as lugal kalam-m...
+Name: 117, dtype: object>","these kings were careful to stress that their territorial claims were confined to the states of Ur and Uruk, and that, in that position, they held two separate kingships",
+25,ED IIIb,TERR,2,qualifies,Bartash 2020,"OHANE I, ch. 8, §8.2 and §8.10 (PDF pp. 479, 524)","the final decades of the ED period, called the “proto-imperial period” by Gianni Marchesi, exhibit an inevitable trajectory toward the unification of southern Mesopotamia under one dynasty ... confederations of city states gave way to proto-territorial polities by the end of the period.",accept,This is in fact a classic 1-2 situation I would argue,2,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  TERR
+score                                                     2
+stance                                            qualifies
+key                            bartashEarlyDynasticNear2020
+where     OHANE I, ch. 8, §8.2 and §8.10 (PDF pp. 479, 524)
+quote     the final decades of the ED period, called the...
+period                                              ED IIIb
+region                                                  NaN
+note      Applies to the end of ED IIIb (Enšakušanna, Lu...
+Name: 364, dtype: object>","the final decades of the ED period, called the “proto-imperial period” by Gianni Marchesi, exhibit an inevitable trajectory toward the unification of southern Mesopotamia under one dynasty ... confederations of city states gave way to proto-territorial polities by the end of the period.",
+26,ED IIIb,TERR,1,supports,Bartash 2020,"OHANE I, ch. 8, §8.2 (PDF p. 478)","Most, if not all, late ED “city states” were the result of mergers between originally independent, and often equally large, urban communities into a single political hub: a seat of a patrilineal dynasty of male rulers. The Lagaš state is the most well-researched example of this structure. It contained the cities of Girsu (at least 370 ha), Lagaš, and Nigin",accept,Again 1-2,1,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  TERR
+score                                                     1
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.2 (PDF p. 478)
+quote     Most, if not all, late ED “city states” were t...
+period                                              ED IIIb
+region                                                  NaN
+note                                                    NaN
+Name: 363, dtype: object>","Most, if not all, late ED “city states” were the result of mergers between originally independent, and often equally large, urban communities into a single political hub: a seat of a patrilineal dynasty of male rulers. The Lagaš state is the most well-researched example of this structure. It contained the cities of Girsu (at least 370 ha), Lagaš, and Nigin",
+27,ED IIIb,TERR,2,supports,Yoffee 1995,p. 290,"Gradually some kings achieved hegemony over their neighbors (e.g. Eanatum in Lagash, Mesilim in Kish, Enshakushana in Uruk, Lugalzagesi in Umma), forming evanescent coalitions and mini-territorial states for the first time in Mesopotamia.",accept,Unless you accept the Kish state hypothesis of Gelb?,2,yoffeePoliticalEconomyEarly1995,"<bound method NDFrame.where of param                                                  TERR
+score                                                     2
+stance                                             supports
+key                         yoffeePoliticalEconomyEarly1995
+where                                                p. 290
+quote     Gradually some kings achieved hegemony over th...
+period                                              ED IIIb
+region                                                  NaN
+note                                                       
+Name: 120, dtype: object>","Gradually some kings achieved hegemony over their neighbors (e.g. Eanatum in Lagash, Mesilim in Kish, Enshakushana in Uruk, Lugalzagesi in Umma), forming evanescent coalitions and mini-territorial states for the first time in Mesopotamia.",
+28,ED IIIb,HIER,1,supports,Steinkeller 1993,p. 117,"In theory, the ensik was selected by the god from among the whole citizenry of the city-state, and he had to be divinely reappointed each year.",accept,,1,steinkellerEarlyPoliticalDevelopment1993,"<bound method NDFrame.where of param                                                  HIER
+score                                                     1
+stance                                             supports
+key                steinkellerEarlyPoliticalDevelopment1993
+where                                                p. 117
+quote     In theory, the ensik was selected by the god f...
+period                                              ED IIIb
+region                                                  NaN
+note      City-state ideology: ""any notion of unificatio...
+Name: 118, dtype: object>","In theory, the ensik was selected by the god from among the whole citizenry of the city-state, and he had to be divinely reappointed each year.",
+29,ED IIIb,HIER,1,supports,Bartash 2020,"OHANE I, ch. 8, §8.2 (PDF p. 478)","It contained the cities of Girsu (at least 370 ha), Lagaš, and Nigin (Tell Zurghul, 67 ha); some smaller towns, such as Sirara; and the strategically placed harbor town of Gu’abba",reject,"I understand why this shows that the state was made up of several polities all directly answering to the centre, but this is implied. Potential citation: ""﻿Lagaš, the state’s name, featured prominently in the titles of its rulers, implying that this city was its original political center."" I am also not sure about this, you can try and find a better citation. Also check Yoffee 2005. ",1,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  HIER
+score                                                     1
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.2 (PDF p. 478)
+quote     It contained the cities of Girsu (at least 370...
+period                                              ED IIIb
+region                                                  NaN
+note                                                    NaN
+Name: 365, dtype: object>","It contained the cities of Girsu (at least 370 ha), Lagaš, and Nigin (Tell Zurghul, 67 ha); some smaller towns, such as Sirara; and the strategically placed harbor town of Gu’abba",
+30,ED IIIb,FISC,2,supports,Yoffee 1995,p. 289,"Diakonoff regards him as a reactionary, a creature of the temple-estate who attempted to counter the kings’ new policies of levying taxes on temple land and extracting collective labor from temple dependents.",accept,"As long as the note is reportd next to the citation to clarify it, otherwise readers won't understand who is discussed. Either that or try to clarify with adding a part to the citation that makes it clearer.",2,yoffeePoliticalEconomyEarly1995,"<bound method NDFrame.where of param                                                  FISC
+score                                                     2
+stance                                             supports
+key                         yoffeePoliticalEconomyEarly1995
+where                                                p. 289
+quote     Diakonoff regards him as a reactionary, a crea...
+period                                              ED IIIb
+region                                                  NaN
+note      Uru-inimgina’s ""reforms"" read as evidence of r...
+Name: 123, dtype: object>","Diakonoff regards him as a reactionary, a creature of the temple-estate who attempted to counter the kings’ new policies of levying taxes on temple land and extracting collective labor from temple dependents.",
+31,ED IIIb,FISC,2,supports,Bartash 2020,"OHANE I, ch. 8, §8.7 (PDF p. 502)","Copper dominated the ED IIIa period; by the end of the ED IIIb, silver gradually became the leading form of “money” for sales and tax payments.",accept,,2,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  FISC
+score                                                     2
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.7 (PDF p. 502)
+quote     Copper dominated the ED IIIa period; by the en...
+period                                              ED IIIb
+region                                                  NaN
+note                                                    NaN
+Name: 366, dtype: object>","Copper dominated the ED IIIa period; by the end of the ED IIIb, silver gradually became the leading form of “money” for sales and tax payments.",
+32,ED IIIb,COMM,1,supports,Frahm 2015,p. 5,"In actual fact, the earliest Mesopotamian letters discovered so far were written almost a millennium after the invention of writing – they date to the 24th century. For the next 400 years, the number of extant letters remains rather small",accept,"Its ok, but there have to be better citations. Check new literature I added on 3rd millennium about letters. Or do research online on the evidence of IIIb letters and messengers",1,frahmSomeLikeIt2015,"<bound method NDFrame.where of param                                                  COMM
+score                                                     1
+stance                                             supports
+key                                     frahmSomeLikeIt2015
+where                                                  p. 5
+quote     In actual fact, the earliest Mesopotamian lett...
+period                                              ED IIIb
+region                                                  NaN
+note      Letters exist in the 24th century (Lagaš) but ...
+Name: 125, dtype: object>","In actual fact, the earliest Mesopotamian letters discovered so far were written almost a millennium after the invention of writing – they date to the 24th century. For the next 400 years, the number of extant letters remains rather small",
+33,ED IIIb,PAL,2,supports,Charpin 1995,p. 809,the economy of Lagash was in fact controlled by the king through the intermediary of large domains connected with the temples,accept,,2,charpinHistoryAncientMesopotamia1995,"<bound method NDFrame.where of param                                                   PAL
+score                                                     2
+stance                                             supports
+key                    charpinHistoryAncientMesopotamia1995
+where                                                p. 809
+quote     the economy of Lagash was in fact controlled b...
+period                                              ED IIIb
+region                                                  NaN
+note      The crown works through temple domains rather ...
+Name: 127, dtype: object>",the economy of Lagash was in fact controlled by the king through the intermediary of large domains connected with the temples,
+34,ED IIIb,PAL,2,supports,Bartash 2020,"OHANE I, ch. 8, §8.7 (PDF p. 500)","Schrakamp re-evaluated this evidence and concluded that temples in the late ED period were organizations responsible for managing the subsistence economy for the population. However, the palace embodied the “state.” It maintained the military, controlled long-distance trade, and interfered in temple affairs when necessary.",accept,"Good, but why not find the original study of Schrakamp?!",2,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                   PAL
+score                                                     2
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.7 (PDF p. 500)
+quote     Schrakamp re-evaluated this evidence and concl...
+period                                              ED IIIb
+region                                                  NaN
+note                                                    NaN
+Name: 367, dtype: object>","Schrakamp re-evaluated this evidence and concluded that temples in the late ED period were organizations responsible for managing the subsistence economy for the population. However, the palace embodied the “state.” It maintained the military, controlled long-distance trade, and interfered in temple affairs when necessary.",
+35,ED IIIb,TEMP,2,contests,Yoffee 1995,pp. 289-290,"The resulting picture of relations between the great estates of temple and palace in the early third millennium, therefore, was not one of an all-encompassing temple-estate being taken over by an all-encompassing palace-estate. Rather, the amounts of power of these organizations waxed and waned according to local conditions",accept,Check also Yoffee 2005,2,yoffeePoliticalEconomyEarly1995,"<bound method NDFrame.where of param                                                  TEMP
+score                                                     2
+stance                                             contests
+key                         yoffeePoliticalEconomyEarly1995
+where                                           pp. 289-290
+quote     The resulting picture of relations between the...
+period                                              ED IIIb
+region                                                  NaN
+note      Against the temple-state model (Deimel, Schnei...
+Name: 122, dtype: object>","The resulting picture of relations between the great estates of temple and palace in the early third millennium, therefore, was not one of an all-encompassing temple-estate being taken over by an all-encompassing palace-estate. Rather, the amounts of power of these organizations waxed and waned according to local conditions",
+36,ED IIIb,TEMP,2,contests,Bartash 2020,"OHANE I, ch. 8, §8.6 (PDF p. 498)",A re-evaluation of palace-temple relations in ED IIIb Girsu allowed Schrakamp to argue that temples maintained a strictly subordinate relationship to palatial centers. This conclusion challenges the traditionally accepted sociopolitical and economic dichotomy of palace and temple in the ED period.,accept,,2,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  TEMP
+score                                                     2
+stance                                             contests
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.6 (PDF p. 498)
+quote     A re-evaluation of palace-temple relations in ...
+period                                              ED IIIb
+region                                                  NaN
+note                                                    NaN
+Name: 369, dtype: object>",A re-evaluation of palace-temple relations in ED IIIb Girsu allowed Schrakamp to argue that temples maintained a strictly subordinate relationship to palatial centers. This conclusion challenges the traditionally accepted sociopolitical and economic dichotomy of palace and temple in the ED period.,
+37,ED IIIb,TEMP,3,supports,Steinkeller 1993,p. 122,"In the south, the economy depended upon a decentralized system of largely self-sufficient temple-households which controlled most of the resources of the city-states, including nearly all of their agricultural lands.",accept,,3,steinkellerEarlyPoliticalDevelopment1993,"<bound method NDFrame.where of param                                                  TEMP
+score                                                     3
+stance                                             supports
+key                steinkellerEarlyPoliticalDevelopment1993
+where                                                p. 122
+quote     In the south, the economy depended upon a dece...
+period                                              ED IIIb
+region                                                  NaN
+note                                                       
+Name: 115, dtype: object>","In the south, the economy depended upon a decentralized system of largely self-sufficient temple-households which controlled most of the resources of the city-states, including nearly all of their agricultural lands.",
+38,ED IIIb,TEMP,3,supports,Bartash 2020,"OHANE I, ch. 8, §8.7 (PDF p. 500)","The influential “temple state theory,” elaborated between the two world wars by Schneider and Deimel, saw ED Sumerian city states as theocracies. In their view, temples controlled all means of production ... Approximately eighteen hundred documents from the “House of the Woman,” the temple of the goddess Bawa in late ED IIIb Girsu, provided the data that underpinned this theory.",accept,,3,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  TEMP
+score                                                     3
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.7 (PDF p. 500)
+quote     The influential “temple state theory,” elabora...
+period                                              ED IIIb
+region                                                  NaN
+note                                                    NaN
+Name: 368, dtype: object>","The influential “temple state theory,” elaborated between the two world wars by Schneider and Deimel, saw ED Sumerian city states as theocracies. In their view, temples controlled all means of production ... Approximately eighteen hundred documents from the “House of the Woman,” the temple of the goddess Bawa in late ED IIIb Girsu, provided the data that underpinned this theory.",
+39,ED IIIb,TCTL,2,qualifies,Bartash 2020,"OHANE I, ch. 8, §8.6 (PDF p. 498)","It should be kept in mind, however, that the situation in ED IIIb Girsu under its last ruler Erekagina may have been anomalous ... But whether this model is also viable for earlier periods is a big question.",reject,"Unclear citation, needs better sorting of the original or find better source",2,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  TCTL
+score                                                     2
+stance                                            qualifies
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.6 (PDF p. 498)
+quote     It should be kept in mind, however, that the s...
+period                                              ED IIIb
+region                                                  NaN
+note                                                    NaN
+Name: 371, dtype: object>","It should be kept in mind, however, that the situation in ED IIIb Girsu under its last ruler Erekagina may have been anomalous ... But whether this model is also viable for earlier periods is a big question.",
+40,ED IIIb,TCTL,2,supports,Yoffee 1995,p. 289,"Although most of the texts from pre-Sargonic Lagash were once used to show the all-pervasive nature of the temple-estate, those very documents come from a temple household that was under the authority of the queen of Lagash",accept,,2,yoffeePoliticalEconomyEarly1995,"<bound method NDFrame.where of param                                                  TCTL
+score                                                     2
+stance                                             supports
+key                         yoffeePoliticalEconomyEarly1995
+where                                                p. 289
+quote     Although most of the texts from pre-Sargonic L...
+period                                              ED IIIb
+region                                                  NaN
+note      The Bau household of Girsu is run by the ruler...
+Name: 121, dtype: object>","Although most of the texts from pre-Sargonic Lagash were once used to show the all-pervasive nature of the temple-estate, those very documents come from a temple household that was under the authority of the queen of Lagash",
+41,ED IIIb,TCTL,3,supports,Charpin 1995,p. 809,"For a long time, prevailing opinion was that the city-states were “temple states” in which the gods were the sole landowners. A recent reexamination of the sources has shown that the economy of Lagash was in fact controlled by the king through the intermediary of large domains connected with the temples of the city’s prominent deities.",accept,These reforms would actually be an interesting situation to consider if visible in the tablet VAE or H/W or other elements studied in the paper.,3,charpinHistoryAncientMesopotamia1995,"<bound method NDFrame.where of param                                                  TCTL
+score                                                     3
+stance                                             supports
+key                    charpinHistoryAncientMesopotamia1995
+where                                                p. 809
+quote     For a long time, prevailing opinion was that t...
+period                                              ED IIIb
+region                                                  NaN
+note      Conflicts between the royal family and the SAN...
+Name: 126, dtype: object>","For a long time, prevailing opinion was that the city-states were “temple states” in which the gods were the sole landowners. A recent reexamination of the sources has shown that the economy of Lagash was in fact controlled by the king through the intermediary of large domains connected with the temples of the city’s prominent deities.",
+42,ED IIIb,TCTL,3,supports,Bartash 2020,"OHANE I, ch. 8, §8.6 (PDF p. 498)","Recent analysis illustrates that some rulers (ensi) at ED IIIb Umma and Lagaš had previously been administrators (sagga) of strategic temples ... one of the main temples in the city (Emunus, the “House of the Woman,” the temple of the goddess Bawa), was de facto the private domain of the queen.",accept,,3,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  TCTL
+score                                                     3
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.6 (PDF p. 498)
+quote     Recent analysis illustrates that some rulers (...
+period                                              ED IIIb
+region                                                  NaN
+note                                                    NaN
+Name: 370, dtype: object>","Recent analysis illustrates that some rulers (ensi) at ED IIIb Umma and Lagaš had previously been administrators (sagga) of strategic temples ... one of the main temples in the city (Emunus, the “House of the Woman,” the temple of the goddess Bawa), was de facto the private domain of the queen.",
+43,ED IIIb,PRIV,1,contests,Yoffee 1995,p. 289,"Diakonoff stressed the importance of pre-Sargonic land-sale documents (see 74), in which a single seller sold large amounts of land to a buyer, who was occasionally a city-prince or high office-holder",accept,,1,yoffeePoliticalEconomyEarly1995,"<bound method NDFrame.where of param                                                  PRIV
+score                                                     1
+stance                                             contests
+key                         yoffeePoliticalEconomyEarly1995
+where                                                p. 289
+quote     Diakonoff stressed the importance of pre-Sargo...
+period                                              ED IIIb
+region                                                  NaN
+note      Yoffee (p. 290) rejects Steinkeller’s view tha...
+Name: 124, dtype: object>","Diakonoff stressed the importance of pre-Sargonic land-sale documents (see 74), in which a single seller sold large amounts of land to a buyer, who was occasionally a city-prince or high office-holder",
+44,ED IIIb,PRIV,0,supports,Steinkeller 1993,p. 122,"Private ownership of land was insignificant and seems to have been confined mainly to orchards. In fact, the private sector was poorly developed and played little importance in the economy of southern city-states.",accept,,0,steinkellerEarlyPoliticalDevelopment1993,"<bound method NDFrame.where of param                                                  PRIV
+score                                                     0
+stance                                             supports
+key                steinkellerEarlyPoliticalDevelopment1993
+where                                                p. 122
+quote     Private ownership of land was insignificant an...
+period                                              ED IIIb
+region                                                  NaN
+note      Private land-holdings and royal estates appear...
+Name: 116, dtype: object>","Private ownership of land was insignificant and seems to have been confined mainly to orchards. In fact, the private sector was poorly developed and played little importance in the economy of southern city-states.",
+45,ED IIIb,PRIV,1,supports,Bartash 2020,"OHANE I, ch. 8, §8.7 (PDF p. 508)","A rich household in ED IIIb Adab consisted of a townhouse, 480 gur (115,200 liters) of barley, 300 sheep, two male and three female slaves ... These data allude to the virtually complete economic independence from the “great institutions” of temple and palace of these households, mirroring Schloen’s findings.",accept,,1,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  PRIV
+score                                                     1
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.7 (PDF p. 508)
+quote     A rich household in ED IIIb Adab consisted of ...
+period                                              ED IIIb
+region                                                  NaN
+note                                                    NaN
+Name: 372, dtype: object>","A rich household in ED IIIb Adab consisted of a townhouse, 480 gur (115,200 liters) of barley, 300 sheep, two male and three female slaves ... These data allude to the virtually complete economic independence from the “great institutions” of temple and palace of these households, mirroring Schloen’s findings.",
+46,ED IIIb,PRIV,1,supports,Bartash 2020,"OHANE I, ch. 8, §8.7 (PDF p. 502)","Merchants were essentially private individuals and not “officials” as has often been assumed. Consequently, long-distance trade was not under any centralized control. On the contrary, palace and temple elites were clients of the merchants, not the other way around.",accept,,1,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  PRIV
+score                                                     1
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.7 (PDF p. 502)
+quote     Merchants were essentially private individuals...
+period                                              ED IIIb
+region                                                  NaN
+note                                                    NaN
+Name: 373, dtype: object>","Merchants were essentially private individuals and not “officials” as has often been assumed. Consequently, long-distance trade was not under any centralized control. On the contrary, palace and temple elites were clients of the merchants, not the other way around.",
+47,ED IIIb,BUR,2,supports,Bartash 2020,"OHANE I, ch. 8, §8.7 (PDF p. 501)",The archives of the ED IIIb temple household of the goddess Bawa (ca. 2350 BC) mention some 700 persons who belonged to different categories depending on the type of services they provided to the oikos.,reject,"I understand that officialdom is evidence of standards, but what standards? On its own this isn’t strong evidence of standartization. Please look into the new papers I placed in the literature folder on economic development and other related topics",2,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                   BUR
+score                                                     2
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.7 (PDF p. 501)
+quote     The archives of the ED IIIb temple household o...
+period                                              ED IIIb
+region                                                  NaN
+note                                                    NaN
+Name: 374, dtype: object>",The archives of the ED IIIb temple household of the goddess Bawa (ca. 2350 BC) mention some 700 persons who belonged to different categories depending on the type of services they provided to the oikos.,
+48,ED IIIb,SCHOOL,1,supports,Bartash 2020,"OHANE I, ch. 8, §8.9 (PDF pp. 522-523)","Both regional traditions developed Practical Vocabularies, which were essentially scribal handbooks and included all words that were necessary to maintain the accounting of goods in the context of temple and palatial economies.",accept,Is the context of these texts houses or also institutions? Because it looks something between 1-2 to me already. There is more evidence requires here.,1,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                SCHOOL
+score                                                     1
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                OHANE I, ch. 8, §8.9 (PDF pp. 522-523)
+quote     Both regional traditions developed Practical V...
+period                                              ED IIIb
+region                                                  NaN
+note                                                    NaN
+Name: 375, dtype: object>","Both regional traditions developed Practical Vocabularies, which were essentially scribal handbooks and included all words that were necessary to maintain the accounting of goods in the context of temple and palatial economies.",
+49,ED IIIb,LAW,1,supports,Bartash 2020,"OHANE I, ch. 8, §8.6 and §8.8 (PDF pp. 497, 509)","Severe indebtedness and deep social crises allowed some rulers to proclaim debt clearances (amargi) and “reforms,” such as those of Erekagina of Lagaš ... The inscriptions of the rulers Enmetena and Erekagina (especially the “Reforms of Erekagina”) portray the deep social inequality, injustice, and abuse of administrative power in the ED IIIb Lagaš state.",accept,,1,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                   LAW
+score                                                     1
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where      OHANE I, ch. 8, §8.6 and §8.8 (PDF pp. 497, 509)
+quote     Severe indebtedness and deep social crises all...
+period                                              ED IIIb
+region                                                  NaN
+note                                                    NaN
+Name: 376, dtype: object>","Severe indebtedness and deep social crises allowed some rulers to proclaim debt clearances (amargi) and “reforms,” such as those of Erekagina of Lagaš ... The inscriptions of the rulers Enmetena and Erekagina (especially the “Reforms of Erekagina”) portray the deep social inequality, injustice, and abuse of administrative power in the ED IIIb Lagaš state.",
+50,ED IIIb,STD,1,supports,Bartash 2019,p. 95,"In summary, no data suggest any metrological-based linkage of the weight and capacity metrology in the ED period.",accept,,1,bartashEstablishingValueWeight2019,"<bound method NDFrame.where of param                                                   STD
+score                                                     1
+stance                                             supports
+key                      bartashEstablishingValueWeight2019
+where                                                 p. 95
+quote     In summary, no data suggest any metrological-b...
+period                                              ED IIIb
+region                                                  NaN
+note      ED IIIb Girsu ""perfume texts"" equate one mina ...
+Name: 119, dtype: object>","In summary, no data suggest any metrological-based linkage of the weight and capacity metrology in the ED period.",
+51,ED IIIb,STD,1,supports,Bartash 2020,"OHANE I, ch. 8, §8.6 (PDF p. 499)",Records from ED IIIa Šuruppag were dated not by a ruler’s regnal year as in the ED IIIb period but by the eponym of a prominent citizen.,accept,,1,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                   STD
+score                                                     1
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.6 (PDF p. 499)
+quote     Records from ED IIIa Šuruppag were dated not b...
+period                                              ED IIIb
+region                                                  NaN
+note      Regnal-year dating in ED IIIb is by the ruler ...
+Name: 377, dtype: object>",Records from ED IIIa Šuruppag were dated not by a ruler’s regnal year as in the ED IIIb period but by the eponym of a prominent citizen.,
+52,Ebla,TERR,2,supports,Bartash 2020,"OHANE I, ch. 8, §8.5 and §8.8 (PDF pp. 494, 509)","Eventually, Ebla consolidated more than twenty city states under its authority ... At the time of king Igrišhalab in the early twenty-fourth century BC, the Eblaite kingdom stretched from Carchemish to Hamadu (Hama).",accept,"Need more information, preferbly from Archi's book on Ebla!",2,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  TERR
+score                                                     2
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where      OHANE I, ch. 8, §8.5 and §8.8 (PDF pp. 494, 509)
+quote     Eventually, Ebla consolidated more than twenty...
+period                                                 Ebla
+region                                                  NaN
+note                                                    NaN
+Name: 378, dtype: object>","Eventually, Ebla consolidated more than twenty city states under its authority ... At the time of king Igrišhalab in the early twenty-fourth century BC, the Eblaite kingdom stretched from Carchemish to Hamadu (Hama).",
+53,Ebla,HIER,2,qualifies,Steinkeller 1993,p. 124,"This urban oligarchy, which comprised the most important families of the realm, not only shared political power with the king and his family, but also controlled a significant portion of the state’s economic resources",accept,,2,steinkellerEarlyPoliticalDevelopment1993,"<bound method NDFrame.where of param                                                  HIER
+score                                                     2
+stance                                            qualifies
+key                steinkellerEarlyPoliticalDevelopment1993
+where                                                p. 124
+quote     This urban oligarchy, which comprised the most...
+period                                                 Ebla
+region                                                  NaN
+note      Power shared with an aristocracy of likely tri...
+Name: 107, dtype: object>","This urban oligarchy, which comprised the most important families of the realm, not only shared political power with the king and his family, but also controlled a significant portion of the state’s economic resources",
+54,Ebla,HIER,2,supports,Bartash 2020,"OHANE I, ch. 8, §8.8 (PDF p. 510)","Ebla’s kings delegated most of their administrative and military responsibilities to their viziers ... These dignitaries presided over “lords” ... of which there were about thirty in the kingdom of Ebla ... the kingdom of Ebla consisted of several hundred small settlements, administered by governors who appear in written evidence under the Sumerian logogram ugula, “overseer,” and collected grain and cattle for the palace household.",accept,,2,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  HIER
+score                                                     2
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.8 (PDF p. 510)
+quote     Ebla’s kings delegated most of their administr...
+period                                                 Ebla
+region                                                  NaN
+note                                                    NaN
+Name: 379, dtype: object>","Ebla’s kings delegated most of their administrative and military responsibilities to their viziers ... These dignitaries presided over “lords” ... of which there were about thirty in the kingdom of Ebla ... the kingdom of Ebla consisted of several hundred small settlements, administered by governors who appear in written evidence under the Sumerian logogram ugula, “overseer,” and collected grain and cattle for the palace household.",
+55,Ebla,FISC,2,supports,Bartash 2020,"OHANE I, ch. 8, §8.8 (PDF p. 510)",administered by governors ... [who] collected grain and cattle for the palace household. This demonstrates the tributary nature of the economic relationship between the center and the periphery.,accept,"Is this close to 3, or 3 is only with provinces (not extent in the Ebla system)",2,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  FISC
+score                                                     2
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.8 (PDF p. 510)
+quote     administered by governors ... [who] collected ...
+period                                                 Ebla
+region                                                  NaN
+note                                                    NaN
+Name: 380, dtype: object>",administered by governors ... [who] collected grain and cattle for the palace household. This demonstrates the tributary nature of the economic relationship between the center and the periphery.,
+56,Ebla,COMM,2,supports,Bartash 2020,"OHANE I, ch. 8, §8.5 and §8.8 (PDF pp. 495, 510)","the Ebla archives illustrate that classified intelligence delivered by messengers was as valuable as military power ... Male personnel consisted of about 40 physicians ... several dozen “commissioners,” more than 30 messengers",accept,"This qualified better the possible differences expected between southern mesopotamia and Syria. But, it still leavs the Jezireh and northern Babylonia without actual categories of their own. The question is how should we separate them in this table if at all? This goes back to the issue of political geography.",2,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  COMM
+score                                                     2
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where      OHANE I, ch. 8, §8.5 and §8.8 (PDF pp. 495, 510)
+quote     the Ebla archives illustrate that classified i...
+period                                                 Ebla
+region                                                  NaN
+note                                                    NaN
+Name: 381, dtype: object>","the Ebla archives illustrate that classified intelligence delivered by messengers was as valuable as military power ... Male personnel consisted of about 40 physicians ... several dozen “commissioners,” more than 30 messengers",
+57,Ebla,PAL,3,supports,Steinkeller 1993,p. 124,the evidence of the palace’s importance at Ebla is so overwhelming and unequivocal that no further substantiation of this point is needed here,accept,,3,steinkellerEarlyPoliticalDevelopment1993,"<bound method NDFrame.where of param                                                   PAL
+score                                                     3
+stance                                             supports
+key                steinkellerEarlyPoliticalDevelopment1993
+where                                                p. 124
+quote     the evidence of the palace’s importance at Ebl...
+period                                                 Ebla
+region                                                  NaN
+note      Palace ""the main center for the production and...
+Name: 104, dtype: object>",the evidence of the palace’s importance at Ebla is so overwhelming and unequivocal that no further substantiation of this point is needed here,
+58,Ebla,PAL,3,supports,Bartash 2020,"OHANE I, ch. 8, §8.8 (PDF p. 511)","The presence of six hundred smiths at Ebla suggests that the palace was the hub of both production and redistribution ... In contrast to southern Mesopotamia, where textile mills were maintained by temples, the palace dominated the centralized production of textiles at Ebla.",accept,,3,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                   PAL
+score                                                     3
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.8 (PDF p. 511)
+quote     The presence of six hundred smiths at Ebla sug...
+period                                                 Ebla
+region                                                  NaN
+note                                                    NaN
+Name: 382, dtype: object>","The presence of six hundred smiths at Ebla suggests that the palace was the hub of both production and redistribution ... In contrast to southern Mesopotamia, where textile mills were maintained by temples, the palace dominated the centralized production of textiles at Ebla.",
+59,Ebla,TEMP,0,supports,Steinkeller 1993,p. 124,"While we know that there were numerous temples at Ebla ... they did not play a significant role in Ebla’s economic life. That is to say, the institution of the temple household, known from southern Babylonia, did not exist at Ebla.",accept,,0,steinkellerEarlyPoliticalDevelopment1993,"<bound method NDFrame.where of param                                                  TEMP
+score                                                     0
+stance                                             supports
+key                steinkellerEarlyPoliticalDevelopment1993
+where                                                p. 124
+quote     While we know that there were numerous temples...
+period                                                 Ebla
+region                                                  NaN
+note                                                       
+Name: 105, dtype: object>","While we know that there were numerous temples at Ebla ... they did not play a significant role in Ebla’s economic life. That is to say, the institution of the temple household, known from southern Babylonia, did not exist at Ebla.",
+60,Ebla,TEMP,1,supports,Bartash 2020,"OHANE I, ch. 8, §8.1 (PDF p. 474)","Specialists usually classify them as either temple archives (typically in southern Mesopotamia) or palace archives (typically in northern Mesopotamia, i.e., Syria and northern Iraq).",reject,"This isn't clear as a citation and I am sure there is evidence of temple economy that is simply very week (so closer to 1), but again we need better specialised literature. I would again go to Archi or some other specilist of Ebla. You could also check the bibliography and materials in the Ebla digital archive: http://ebda.cnr.it/",1,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  TEMP
+score                                                     1
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.1 (PDF p. 474)
+quote     Specialists usually classify them as either te...
+period                                                 Ebla
+region                                                  NaN
+note                                                    NaN
+Name: 383, dtype: object>","Specialists usually classify them as either temple archives (typically in southern Mesopotamia) or palace archives (typically in northern Mesopotamia, i.e., Syria and northern Iraq).",
+61,Ebla,TCTL,1,supports,Bartash 2020,"OHANE I, ch. 8, §8.8 (PDF p. 510)","The viziers, the royal family, the superintendent of smiths, and the high priestess of the god Hadabal constituted the highest social class in the Eblaite kingdom.",accept,I understand why to take this citation. But as it stands on its own it clashes with the strength of the Palace - in what way does the palace controls the temple? Its unclear to me just from this piece of evidence. Missing specialized literature.,1,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  TCTL
+score                                                     1
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.8 (PDF p. 510)
+quote     The viziers, the royal family, the superintend...
+period                                                 Ebla
+region                                                  NaN
+note                                                    NaN
+Name: 384, dtype: object>","The viziers, the royal family, the superintendent of smiths, and the high priestess of the god Hadabal constituted the highest social class in the Eblaite kingdom.",
+62,Ebla,PRIV,1,supports,Bartash 2020,"OHANE I, ch. 8, §8.8 (PDF pp. 510, 512)",The organization of labor attested in the Ebla archives provides an image of society as seen through the lens of the palace ... Trade by independent merchants was vibrant. The state was their biggest customer,accept,Yes but its 1! Not 0 as you suggest,0,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                  PRIV
+score                                                     0
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where               OHANE I, ch. 8, §8.8 (PDF pp. 510, 512)
+quote     The organization of labor attested in the Ebla...
+period                                                 Ebla
+region                                                  NaN
+note                                                    NaN
+Name: 385, dtype: object>",The organization of labor attested in the Ebla archives provides an image of society as seen through the lens of the palace ... Trade by independent merchants was vibrant. The state was their biggest customer,1.0
+63,Ebla,PRIV,1,supports,Steinkeller 1993,pp. 124-126,"at Ebla the ownership of agricultural land, and the concomitant right to alienate it, extended to private individuals as well",accept,,1,steinkellerEarlyPoliticalDevelopment1993,"<bound method NDFrame.where of param                                                  PRIV
+score                                                     1
+stance                                             supports
+key                steinkellerEarlyPoliticalDevelopment1993
+where                                           pp. 124-126
+quote     at Ebla the ownership of agricultural land, an...
+period                                                 Ebla
+region                                                  NaN
+note      Private households ""of comparable importance, ...
+Name: 106, dtype: object>","at Ebla the ownership of agricultural land, and the concomitant right to alienate it, extended to private individuals as well",
+64,Ebla,BUR,2,supports,Bartash 2020,"OHANE I, ch. 8, §8.5 (PDF p. 492)","In contrast to southern Mesopotamia, for which flamboyant royal inscriptions are the principal sources, the Ebla archives routinely recorded historical events in administrative documents.",accept,The evidence for historiography in administration is strong for standardization of events; perhaps someone else wrote specifically about this??,2,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                   BUR
+score                                                     2
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.5 (PDF p. 492)
+quote     In contrast to southern Mesopotamia, for which...
+period                                                 Ebla
+region                                                  NaN
+note                                                    NaN
+Name: 386, dtype: object>","In contrast to southern Mesopotamia, for which flamboyant royal inscriptions are the principal sources, the Ebla archives routinely recorded historical events in administrative documents.",
+65,Ebla,SCHOOL,2,supports,Bartash 2020,"OHANE I, ch. 8, §8.9 (PDF pp. 523, 525)","The local traditions of the Syrian kingdoms compose the third group of ED lexical lists. Two earlier compilations of traditions acted as the source material, although they were adapted to the local sociopolitical and economic realities and, of course, the Semitic language ... School tablets from Šuruppag and Ebla provide exercises",accept,,2,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                SCHOOL
+score                                                     2
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where               OHANE I, ch. 8, §8.9 (PDF pp. 523, 525)
+quote     The local traditions of the Syrian kingdoms co...
+period                                                 Ebla
+region                                                  NaN
+note                                                    NaN
+Name: 387, dtype: object>","The local traditions of the Syrian kingdoms compose the third group of ED lexical lists. Two earlier compilations of traditions acted as the source material, although they were adapted to the local sociopolitical and economic realities and, of course, the Semitic language ... School tablets from Šuruppag and Ebla provide exercises",
+66,Ebla,LAW,1,supports,Bartash 2020,"OHANE I, ch. 8, §8.5 (PDF p. 493)","The next king of Ebla, Irkabdamu, forced the unequal Treaty of Abarsal on the weakened polity. It provided Ebla with control over river trade on the Euphrates.",accept,More citations and evidence required,1,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                   LAW
+score                                                     1
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where                     OHANE I, ch. 8, §8.5 (PDF p. 493)
+quote     The next king of Ebla, Irkabdamu, forced the u...
+period                                                 Ebla
+region                                                  NaN
+note                                                    NaN
+Name: 388, dtype: object>","The next king of Ebla, Irkabdamu, forced the unequal Treaty of Abarsal on the weakened polity. It provided Ebla with control over river trade on the Euphrates.",
+67,Ebla,STD,1,supports,Bartash 2020,"OHANE I, ch. 8, §8.8-8.9 (PDF pp. 510, 523)",Cuneiform documents are dated by their years in office [of the viziers] ... Scribal work included considerable calculation ... based on the sexagesimal ... system in southern Mesopotamia and on the local Semitic decimal system in Syria.,accept,There is more evidence in Bartash 2019?! Or other articles more specialised,1,bartashEarlyDynasticNear2020,"<bound method NDFrame.where of param                                                   STD
+score                                                     1
+stance                                             supports
+key                            bartashEarlyDynasticNear2020
+where           OHANE I, ch. 8, §8.8-8.9 (PDF pp. 510, 523)
+quote     Cuneiform documents are dated by their years i...
+period                                                 Ebla
+region                                                  NaN
+note                                                    NaN
+Name: 389, dtype: object>",Cuneiform documents are dated by their years in office [of the viziers] ... Scribal work included considerable calculation ... based on the sexagesimal ... system in southern Mesopotamia and on the local Semitic decimal system in Syria.,

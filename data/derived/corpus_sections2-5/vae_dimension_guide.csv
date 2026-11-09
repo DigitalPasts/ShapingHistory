@@ -1,0 +1,13 @@
+dim,closest,closest_name,rho,second,rho2,reads,strength
+X1,hw,proportion (height ÷ width of the obverse),0.27,thick_side,0.2,higher = taller,weak
+X2,hw,proportion (height ÷ width of the obverse),-0.79,thick_side,-0.2,higher = wider,clear
+X3,thick_side,thickness at the sides ÷ width,-0.64,thick_end,-0.63,higher = thinner at the sides,clear
+X4,corner_fill,squareness of the corners (obverse),-0.36,rev_corner_fill,-0.35,higher = rounder corners,weak
+X5,circ,roundness of the outline,0.32,rect,0.26,higher = rounder,weak
+X6,rect,how rectangular the obverse is,0.35,thick_end,-0.3,higher = more rectangular,weak
+X7,hw,proportion (height ÷ width of the obverse),0.4,thick_side,0.2,higher = taller,weak
+X8,thick_end,thickness at top and bottom ÷ width,-0.28,hw,0.25,higher = thinner at the ends,weak
+X9,thick_end,thickness at top and bottom ÷ width,0.41,hw,-0.32,higher = thicker at the ends,partial
+X10,hw,proportion (height ÷ width of the obverse),0.5,thick_side,0.48,higher = taller,partial
+X11,rect,how rectangular the obverse is,-0.49,corner_fill,-0.41,"higher = less rectangular, more rounded",partial
+X12,rect,how rectangular the obverse is,0.69,rev_corner_fill,0.66,higher = more rectangular,clear

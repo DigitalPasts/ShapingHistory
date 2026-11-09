@@ -1,0 +1,20 @@
+period,n,median,share_landscape,CV,CV_trim1,MAD_log,MAD_lo,MAD_hi,MAD_in_museum,MAD_in_museum_site,MAD_in_damage,top_museum,top_share,top_site,site_share,dip,dip_p,rho_hw_size
+Uruk IV,1778,1.277,0.235,0.316,0.277,0.162,0.155,0.179,0.167,0.167,,"Vorderasiatisches Museum, Berl",0.53,Uruk,0.98,0.011,0.1715,0.173
+Uruk III,3894,1.129,0.343,0.343,0.306,0.234,0.225,0.241,0.211,0.21,0.129,"National Museum of Iraq, Baghd",0.46,Uruk,0.72,0.0114,0.0017,0.196
+Proto-Elamite,1440,1.326,0.175,0.269,0.238,0.15,0.138,0.161,0.149,0.151,,"Louvre Museum, Paris, France",0.65,Susa,0.97,0.0104,0.3919,0.096
+ED IIIa,144,1.0,0.424,0.211,0.175,0.043,0.035,0.066,0.033,0.048,,Department of Near Eastern Stu,0.29,Shuruppak,0.44,0.0299,0.4935,0.022
+ED IIIb,1615,1.016,0.256,0.255,0.153,0.067,0.056,0.076,0.073,0.056,0.05,Department of Near Eastern Stu,0.46,Girsu,0.29,0.0175,0.0018,-0.049
+Ebla,3195,1.028,0.431,0.567,0.46,0.199,0.186,0.211,0.203,0.203,0.135,"National Museum of Syria, Idli",0.94,Ebla,0.94,0.0171,0.0,-0.156
+Old Akkadian,2702,1.212,0.145,0.292,0.221,0.14,0.132,0.147,0.133,0.133,0.124,Department of Near Eastern Stu,0.47,Adab,0.49,0.0217,0.0,0.304
+Ur III,21748,1.125,0.149,0.241,0.199,0.079,0.078,0.081,0.082,0.083,0.071,"Nies Babylonian Collection, Ya",0.17,Umma,0.43,0.0227,0.0,0.389
+Early Old Babylonian,2066,1.265,0.061,0.202,0.184,0.12,0.113,0.125,0.105,0.098,0.125,"Nies Babylonian Collection, Ya",0.65,Isin,0.45,0.009,0.3493,0.692
+Old Babylonian,13710,1.273,0.144,0.322,0.271,0.204,0.201,0.207,0.19,0.171,0.204,"Yale Babylonian Collection, Ne",0.39,?,0.63,0.0132,0.0,0.557
+Old Assyrian,864,1.021,0.468,0.243,0.209,0.144,0.137,0.156,0.135,0.134,0.127,"Nies Babylonian Collection, Ya",0.66,Kanesh,0.98,0.0216,0.0074,0.608
+Middle Assyrian,788,0.952,0.529,0.424,0.289,0.212,0.195,0.224,0.205,0.209,0.211,"Vorderasiatisches Museum, Berl",0.65,Assur,0.49,0.0216,0.0136,0.193
+Middle Babylonian,2651,0.957,0.54,0.335,0.292,0.237,0.223,0.25,0.195,0.195,0.179,Harvard Museum of the Ancient ,0.54,Gasur/Nuzi,0.59,0.0264,0.0,0.422
+Middle Elamite,437,0.762,0.744,0.553,0.39,0.202,0.17,0.236,0.202,0.202,,"Haft Tappeh Museum, Hosseinaba",1.0,Kabnak,1.0,0.0118,0.9818,0.106
+Hittite,161,1.0,0.472,0.505,0.391,0.236,0.191,0.286,0.258,0.26,,"Nies Babylonian Collection, Ya",0.7,Ḫattusa,0.99,0.0184,0.9875,-0.021
+Neo-Assyrian,1871,1.0,0.464,0.483,0.398,0.331,0.313,0.346,0.314,0.299,0.299,"British Museum, London, UK",0.63,Nineveh,0.37,0.013,0.0368,0.085
+Neo-Babylonian,6555,0.735,0.788,0.835,0.535,0.088,0.085,0.093,0.125,0.124,0.115,"Yale Babylonian Collection, Ne",0.26,Uruk,0.67,0.0209,0.0,0.157
+Achaemenid,1536,0.776,0.842,0.799,0.378,0.075,0.07,0.081,0.085,0.129,0.144,"Yale Babylonian Collection, Ne",0.24,Uruk,0.28,0.0153,0.0164,0.153
+Hellenistic,405,0.889,0.714,0.425,0.229,0.065,0.056,0.081,0.069,0.069,0.043,J. Pierpont Morgan Library Col,0.29,Uruk,0.9,0.0205,0.2928,-0.024

@@ -1,0 +1,131 @@
+"""Round 3b (8-9 Nov 2026): works ShG added to the library on 8 Nov. Neo-Assyrian, Middle Assyrian, Neo-Babylonian.
+Sources (local texts; printed pages from running heads):
+- R. Mattila 2018, "Tribute in the Neo-Assyrian Empire", in Oswald Spenglers Kulturmorphologie (Springer) 253-258.
+  Library copy is a preview (pp. 253-254 only).
+- M. M. Groß 2020, At the Heart of an Empire (OLA 292): pdf n = p. n-23.
+- S. Gaspa 2014, "Silver circulation and the development of the private economy in the Assyrian Empire",
+  Studia Mesopotamica 1: 85-136 (scanned as spreads).
+- A. Itach, S. Aster, McLellan, A. Faust 2023, Orientalia 92: 130-159: pdf n = p. n+127.
+- F. M. Fales 2010, "Production and Consumption at Dur-Katlimmu", in Kuehne (ed.), Dur-Katlimmu 2008 and Beyond.
+- J. Llop 2012a, "The Development of the Middle Assyrian Provinces", AoF 39: 87-111: pdf n = p. n+86.
+- J. Llop 2012b, "Middle Assyrian Letters: a New Survey", AuOr 30: 289-306: pdf n = p. n+288.
+- M. Jursa 2014, "The Neo-Babylonian Empire", in Gehler and Rollinger (eds), Imperien und Reiche: pdf n = p. n+115.
+- L. Graslin-Thome 2016, "Long-distance trade in Neo-Babylonian Mesopotamia", in Moreno Garcia (ed.), Dynamics of
+  Production, 167-186. Cited by page of the HAL author version (hal-01854499).
+"""
+P='Neo-Assyrian'
+MAT18='mattilaTributeNeoAssyrian2018'; GRO='grossHeartEmpire2020'; GAS='gaspaSilverCirculationPrivate2014'
+ITA='itachSettlementPatternsAdministration2023'; FAL='falesProductionConsumptionDur2010'
+LLP='llopDevelopmentMiddleAssyrian2012'; LLL='llopMiddleAssyrianLetters2012'
+JUR='jursaNeoBabylonianEmpire2014'; GRA='graslin-thomeLongdistanceTradeNeobabylonian2016'
+MA='Middle Assyrian'; NB='Neo-Babylonian'
+E=[
+# ---------------------------------------------------------------- NEO-ASSYRIAN
+dict(param='FISC',score=2.5,stance='supports',key=MAT18,where='p. 254',basis='documented',genre='mixed',archive='mixed',
+ quote="The vassal states were subjugated to Assyria, but were not included in “the Land of Assyria” as provinces, and they were headed – at least nominally – by a local ruler. The vassal states were not liable to pay taxes administered by the provincial government as the Assyrian provinces did but contributed in the form of tribute.",
+ note='Two fiscal regimes: provincial taxes and vassal tribute. Library copy has pp. 253-254 only.'),
+dict(param='PAL',score=3,stance='supports',key=GRO,where='p. 569',basis='substantial',genre='admin',archive='Nineveh, Kalḫu, Assur (SAA)',
+ quote="The Neo-Assyrian royal household, understood as the domain of the king, theoretically encompassed the entire imperial territory.",
+ note=''),
+dict(param='FISC',score=3,stance='supports',key=GRO,where='p. 569',basis='substantial',genre='admin',archive='Nineveh, Kalḫu, Assur (SAA)',
+ quote="the royal household proper benefitted from their facilities also directly and obtained skilled and unskilled workforce and goods, especially from agriculture and livestock breeding, levied in the provinces.",
+ note=''),
+dict(param='HIER',score=2.5,stance='qualifies',key=GRO,where='p. 569',basis='substantial',genre='admin',archive='Nineveh, Kalḫu, Assur (SAA)',
+ quote="The governors must have operated autonomously to a certain extent since the vast territory and the great number of provinces made it impossible for the king alone to give order and to confirm every single act.",
+ note=''),
+dict(param='BUR',score=3,stance='supports',key=GRO,where='p. 570',basis='substantial',genre='admin',archive='Nineveh, Kalḫu, Assur (SAA)',
+ quote="officials including palace managers, local treasurers and accounting officers seem to have been employed in the provinces as controlling bodies. Moreover, the king was aided by his numerous mobile agents",
+ note='Central controllers placed in the provinces.'),
+dict(param='TCTL',score=3,stance='supports',key=GRO,where='p. 572',basis='substantial',genre='admin',archive='Assur temple; Nineveh, Kalḫu (SAA)',
+ quote="there was no local representative who had as much influence as the šatammu in Babylonia; instead, royal officials kept the temple administration under direct control. ... the temple in Assyria was primarily an instrument of the king and not an institution with a considerable degree of self-determination.",
+ note='Answers the recheck on NA TCTL.'),
+dict(param='HIER',score=2.5,stance='qualifies',key=GRO,where='p. 573',basis='substantial',genre='admin',archive='Nineveh, Kalḫu, Assur (SAA)',
+ quote="the Neo-Assyrian administration could not—and was not out to—develop an officialdom with entirely fixed responsibilities and hierarchies.",
+ note=''),
+dict(param='HIER',score=3,stance='supports',key=GRO,where='p. 574',basis='substantial',genre='admin',archive='Nineveh, Kalḫu, Assur (SAA)',
+ quote="the development towards the employment of extra-household officials began in the Middle Assyrian period, being consolidated and further developed in the first millennium BCE, accompanied by the formation of deeper hierarchies via the introduction of deputies.",
+ note=''),
+dict(param='PRIV',score=1.5,stance='qualifies',key=GAS,where='p. 86',basis='documented',genre='legal',archive='mixed',
+ quote="if compared with the vast documentation stemming from Babylonian archives of Neo-Babylonian, Persian, and Hellenistic period, the private sector of the Assyrian imperial economy is poorly represented in the available evidence",
+ note=''),
+dict(param='STD',score=2.5,stance='supports',key=GAS,where='p. 88',basis='documented',genre='legal',archive='mixed',
+ quote="the legal documents from the Neo-Assyrian archives attest that metals were largely used as currency in transactions of the Assyrian state of that period, and that this use was regulated by the state according to specific weight standards.",
+ note=''),
+dict(param='STD',score=2,stance='qualifies',key=GAS,where='p. 92',basis='documented',genre='legal',archive='mixed',
+ quote="three weight norms for silver",
+ note='King\'s mina, mina of Karkemiš and merchant\'s mina coexist: no single standard displaced the others.'),
+dict(param='COMM',score=3,stance='supports',key=ITA,where='p. 143',basis='fragmentary',genre='archaeology',archive='Samaria survey',
+ quote="it is likely that some sites along the roads served as official road-stations ... This strengthens the suggestion that at least some of the sites located on the roads might have had an official capacity (such as road stations).",
+ note='Archaeological survey evidence from one western province.'),
+dict(param='COMM',score=2.5,stance='qualifies',key=ITA,where='p. 143',basis='fragmentary',genre='archaeology',archive='Samaria survey',
+ quote="The number of sites located on the roads (and potentially serving as road stations) was, however, limited.",
+ note=''),
+# ---------------------------------------------------------------- MIDDLE ASSYRIAN
+dict(period=MA,param='TERR',score=3,stance='supports',key=LLP,where='p. 107',basis='substantial',genre='admin',archive='Assur M 4 offering lists; provincial archives',
+ quote="As Assyria expanded, the Middle Assyrian provinces multiplied ... The provincial system reached its peak with the maximum territorial expansion of the kingdom during the reign of Tukultī-Ninurta I.",
+ note='Llop counts twenty-two provinces in the Jazira.'),
+dict(period=MA,param='TERR',score=2.5,stance='qualifies',key=LLP,where='p. 107',basis='substantial',genre='admin',archive='Assur M 4 offering lists; provincial archives',
+ quote="The Middle Assyrian provinces seem to have ranged widely in terms of size... Some were extremely small.",
+ note=''),
+dict(period=MA,param='FISC',score=2.5,stance='supports',key=LLP,where='p. 107',basis='documented',genre='admin',archive='Assur M 4 (ginā’ū)',
+ quote="the system was reformed several times during the period and that one of these reforms may have had to do with the obligation of the provinces to provide regular offerings for the god Assur.",
+ note=''),
+dict(period=MA,param='HIER',score=2,stance='qualifies',key=LLP,where='p. 107',basis='documented',genre='admin',archive='mixed',
+ quote="It seems that in many cases the post of governor was hereditary",
+ note=''),
+dict(period=MA,param='TEMP',score=1.5,stance='supports',key=LLP,where='p. 90',basis='documented',genre='admin',archive='Assur M 4 (ginā’ū)',
+ quote="The main sources of information for the 12th century are the tablets from the archive of the administrators of the regular offerings (ginau) ... In this archive, the tabular lists of provinces contributing offerings to the temple of the national god Assur are especially relevant.",
+ note='The Aššur temple appears as the receiver of a provincial levy run by the state, not as an economic sector of its own.'),
+dict(period=MA,param='TCTL',score=3,stance='supports',key=LLP,where='p. 90',basis='documented',genre='admin',archive='Assur M 4 (ginā’ū)',
+ quote="the tabular lists of provinces contributing offerings to the temple of the national god Assur",
+ note='Offerings to the state temple are organized by province.'),
+dict(period=MA,param='TERR',score=2.5,stance='supports',key=FAL,where='p. 81',basis='documented',genre='admin',archive='Dūr-Katlimmu',
+ quote="the administrative texts tell us one “story”: that of a relatively well-organized provincial outpost with precise institutional and economic functions within the Middle Assyrian state organization.",
+ note=''),
+dict(period=MA,param='FISC',score=2.5,stance='supports',key=FAL,where='p. 82',basis='documented',genre='admin',archive='Dūr-Katlimmu',
+ quote="must have adequately fulfilled its function as a provincial productive centre for the provisioning of the Assyrian state in terms of food staples –barley and wheat– and livestock. ... a series of regular shipments of produce on the 240-km long thoroughfare linking the Jezireh to Assur",
+ note=''),
+dict(period=MA,param='COMM',score=2.5,stance='supports',key=LLL,where='p. 290',basis='documented',genre='letters',archive='Assur; Dūr-Katlimmu; Tell Ṣabi Abyad; other provincial centres',
+ quote="To date (September 2011), 238 published and unpublished letters ... are known. This corpus probably represents only a small fraction of the letters sent in the period. ... The second most numerous group of tablets comes from provincial centres ... Most of these letters deal with subjects of royal administration.",
+ note='Regular official correspondence between Assur and provinces; no relay-station evidence quoted, so 2.5 rather than 3.'),
+dict(period=MA,param='PRIV',score=0.5,stance='supports',key=LLL,where='p. 292',basis='documented',genre='letters',archive='mixed',
+ quote="only three private Middle Assyrian letters are currently known.",
+ note='Letters only; private legal archives (Assur) are treated elsewhere.'),
+dict(period=MA,param='LAW',score=3,stance='supports',key=LLL,where='p. 296',basis='fragmentary',genre='letters',archive='Assur M 8 (Ubru archive)',
+ quote="They are letters from an official, probably acting as a judge, to another official, requiring him to appear in court as a consequence of the complaint from a wronged individual. All the seven summons belong to the same archive",
+ note='Judicial summons: judges working alongside the Middle Assyrian Laws and Palace Decrees. Seven tablets, one archive.'),
+# ---------------------------------------------------------------- NEO-BABYLONIAN (Jursa 2014)
+dict(period=NB,param='TERR',score=2.5,stance='qualifies',key=JUR,where='p. 126',basis='documented',genre='mixed',archive='mixed',
+ quote="the periphery of the empire consisted of an irregular network of regions (‘provinces’) under direct Babylonian government and of semi-independent vassal states that owed tribute.",
+ note=''),
+dict(period=NB,param='PAL',score=2.5,stance='qualifies',key=JUR,where='p. 127',basis='documented',genre='royal',archive='Hofkalender; mixed',
+ quote="In the available sources the dominance of the royal figure and the role of the capital Babylon are never questioned ... In actual fact however the monarchy was but one of three distinct elements whose interaction and shifting balance of power defined the structure of the Babylonian state",
+ note='Palace with the cities and the tribes as the other two elements.'),
+dict(period=NB,param='TCTL',score=3,stance='supports',key=JUR,where='p. 130',basis='substantial',genre='admin',archive='Eanna; Ebabbar; mixed',
+ quote="also chief priests and city governors, their local background and connections notwithstanding, were in the final count royal appointees. They were kept in check by ubiquitous royal officials (qīpu, bēl piqitti) that the central government placed in key positions",
+ note=''),
+dict(period=NB,param='TCTL',score=3,stance='supports',key=JUR,where='p. 131',basis='substantial',genre='admin',archive='Eanna; Ebabbar; mixed',
+ quote="As a result of this double administrative structure, the cities’ resources – which included the temples, their estates and their personnel – were at the full disposal of the crown.",
+ note=''),
+dict(period=NB,param='PAL',score=3,stance='supports',key=JUR,where='p. 131',basis='substantial',genre='admin',archive='Eanna; Ebabbar; mixed',
+ quote="Overall the NeoBabylonian kings were successful in controlling the old Babylonian cities.",
+ note='The palace runs the city institutions through its own officials (pp. 130-131).'),
+dict(period=NB,param='BUR',score=2.5,stance='supports',key=JUR,where='p. 130',basis='documented',genre='admin',archive='mixed',
+ quote="as professional full-time administrators and members of the extended royal household they did not have close ties to the communities in which they worked. ... the royal administration always used two languages, Babylonian and Aramaic",
+ note=''),
+dict(period=NB,param='LAW',score=3,stance='supports',key=JUR,where='pp. 136-137',basis='substantial',genre='legal',archive='mixed',
+ quote="One peculiarity of our period must be emphasised especially: the important role of royal judges. ... The judicial system thus displays a clear tendency towards centralisation that was promoted by ‘rational’ and ‘bureaucratic’ means ... in the core of the empire, legal procedures were standardized.",
+ note=''),
+dict(period=NB,param='BUR',score=2.5,stance='supports',key=JUR,where='p. 137',basis='documented',genre='mixed',archive='mixed',
+ quote="The imperial core of the NeoBabylonian empire exhibited the structure of a patrimonial-bureaucratic state, whose legal-rational or bureaucratic component, especially on the lower rungs of the administrative hierarchy, was of considerable strength.",
+ note=''),
+dict(period=NB,param='COMM',score=2.5,stance='supports',key=JUR,where='p. 140',basis='assertion',genre='mixed',archive='mixed',
+ quote="it transmitted important forms of government and imperial rule that had been developed in the Assyrian empire to its Achaemenid successor (including techniques of population management, a dense communication network, as well as certain forms of taxation",
+ note='A synthesis statement; the state letters themselves are lost (Jursa 2014b).'),
+dict(period=NB,param='STD',score=2,stance='qualifies',key=GRA,where='p. 14 (HAL version)',basis='documented',genre='legal',archive='Eanna; Ebabbar; private',
+ quote="the heterogeneity remains a reality and the multiplicity of terms used to define the quality of silver is significant: payment remains a complex transaction, requiring the weighing of metal",
+ note=''),
+dict(period=NB,param='PAL',score=2,stance='qualifies',key=GRA,where='p. 8 (HAL version)',basis='documented',genre='legal',archive='Eanna; Ebabbar',
+ quote="Despite the fact that some merchants are related to the palace, the multiplicity of sellers does not advocate for a centralized trade organized by the state. It looks more like a decentralized trade, in hands of individuals, who do not belong to an institution.",
+ note='Long-distance trade outside palace control.'),
+]

@@ -1,0 +1,301 @@
+period,site,g,n_dated
+Achaemenid,Agamatanu,other,1
+Achaemenid,Aqa,other,1
+Achaemenid,Babylon,Administrative,2
+Achaemenid,Babylon,Business / Contracts,2
+Achaemenid,Babylon,Legal,10
+Achaemenid,Babylon,other,11
+Achaemenid,Bit-zerija,other,2
+Achaemenid,Bit-Šaḫṭu,other,1
+Achaemenid,Borsippa,Business / Contracts,3
+Achaemenid,Borsippa,Legal,4
+Achaemenid,Borsippa,other,37
+Achaemenid,Dilbat,Legal,1
+Achaemenid,Ešura,other,1
+Achaemenid,Gišši,other,1
+Achaemenid,Kapri-ša-naqidati,other,1
+Achaemenid,Kapru,other,1
+Achaemenid,Kar-Nabu,other,1
+Achaemenid,Kish,other,2
+Achaemenid,Marad,Administrative,1
+Achaemenid,Marad,other,1
+Achaemenid,Naḫalla,other,1
+Achaemenid,Nippur,Administrative,17
+Achaemenid,Nippur,Business / Contracts,1
+Achaemenid,Nippur,Legal,53
+Achaemenid,Nippur,other,438
+Achaemenid,Sippar-Yahrurum,Administrative,2
+Achaemenid,Sippar-Yahrurum,Letter,1
+Achaemenid,Sippar-Yahrurum,other,21
+Achaemenid,Ur,Administrative,4
+Achaemenid,Ur,Legal,5
+Achaemenid,Uruk,Administrative,7
+Achaemenid,Uruk,Business / Contracts,20
+Achaemenid,Uruk,Legal,5
+Achaemenid,Uruk,other,14
+Achaemenid,uncertain,Administrative,2
+Achaemenid,uncertain,Legal,5
+Achaemenid,uncertain,Letter,1
+Achaemenid,uncertain,other,24
+Achaemenid,unknown,Administrative,49
+Achaemenid,unknown,Business / Contracts,3
+Achaemenid,unknown,Legal,31
+Achaemenid,unknown,Letter,6
+Achaemenid,unknown,other,51
+ED IIIb,Adab,other,1
+ED IIIb,Girsu,Administrative,799
+ED IIIb,Girsu,Legal,2
+ED IIIb,Girsu,Letter,2
+ED IIIb,Girsu,other,8
+ED IIIb,Nippur,Administrative,1
+ED IIIb,Umma,Administrative,1
+ED IIIb,Uruk,other,2
+ED IIIb,unknown,Administrative,16
+Early Old Babylonian,Ešnunna,other,1
+Early Old Babylonian,Isin,Administrative,38
+Early Old Babylonian,Isin,other,3
+Early Old Babylonian,Kish,Business / Contracts,1
+Early Old Babylonian,Kish,Legal,6
+Early Old Babylonian,Larsa,Administrative,11
+Early Old Babylonian,Larsa,Business / Contracts,2
+Early Old Babylonian,Larsa,Legal,1
+Early Old Babylonian,Larsa,other,3
+Early Old Babylonian,Marad,Business / Contracts,1
+Early Old Babylonian,Marad,Legal,4
+Early Old Babylonian,Nerebtum,Administrative,41
+Early Old Babylonian,Nerebtum,Business / Contracts,52
+Early Old Babylonian,Nerebtum,Legal,5
+Early Old Babylonian,Nerebtum,Letter,9
+Early Old Babylonian,Nippur,Administrative,23
+Early Old Babylonian,Nippur,Legal,8
+Early Old Babylonian,Nippur,Letter,1
+Early Old Babylonian,Nippur,other,15
+Early Old Babylonian,Sippar-Yahrurum,Legal,1
+Early Old Babylonian,Tutub,Business / Contracts,1
+Early Old Babylonian,Umma,Administrative,1
+Early Old Babylonian,Ur,Administrative,16
+Early Old Babylonian,Ur,Business / Contracts,1
+Early Old Babylonian,Ur,Legal,6
+Early Old Babylonian,Ur,other,7
+Early Old Babylonian,Uruk,other,28
+Early Old Babylonian,Zabalam,other,1
+Early Old Babylonian,uncertain,Administrative,8
+Early Old Babylonian,uncertain,Legal,4
+Early Old Babylonian,uncertain,other,6
+Early Old Babylonian,unknown,Administrative,13
+Early Old Babylonian,unknown,Legal,1
+Early Old Babylonian,unknown,other,205
+Hellenistic,Babylon,other,1
+Hellenistic,Sippar-Yahrurum,Administrative,1
+Hellenistic,Uruk,Administrative,1
+Hellenistic,uncertain,other,1
+Middle Assyrian,Assur,Administrative,1
+Middle Assyrian,Assur,Letter,1
+Middle Assyrian,Assur,other,14
+Middle Assyrian,Babylon,other,5
+Middle Assyrian,Nineveh,other,30
+Middle Assyrian,unknown,other,2
+Middle Babylonian,Borsippa,Legal,1
+Middle Babylonian,Larsa,Administrative,2
+Middle Babylonian,Nippur,Administrative,86
+Middle Babylonian,Nippur,Legal,11
+Middle Babylonian,Nippur,other,59
+Middle Babylonian,uncertain,other,1
+Middle Babylonian,unknown,Administrative,11
+Middle Babylonian,unknown,Legal,8
+Middle Babylonian,unknown,other,4
+Neo-Assyrian,Assur,Administrative,1
+Neo-Assyrian,Assur,other,1
+Neo-Assyrian,Babylon,Legal,3
+Neo-Assyrian,Babylon,other,2
+Neo-Assyrian,Borsippa,other,1
+Neo-Assyrian,Kalhu,Letter,1
+Neo-Assyrian,Kalhu,other,3
+Neo-Assyrian,Nineveh,Legal,2
+Neo-Assyrian,Nineveh,Letter,249
+Neo-Assyrian,Nineveh,other,388
+Neo-Assyrian,Nippur,Legal,1
+Neo-Assyrian,Nippur,other,3
+Neo-Assyrian,Sippar-Yahrurum,other,1
+Neo-Assyrian,Ur,other,2
+Neo-Assyrian,Uruk,Business / Contracts,1
+Neo-Assyrian,Uruk,Legal,3
+Neo-Assyrian,Uruk,other,1
+Neo-Assyrian,uncertain,Administrative,1
+Neo-Assyrian,uncertain,Legal,1
+Neo-Assyrian,uncertain,other,4
+Neo-Assyrian,unknown,Administrative,3
+Neo-Assyrian,unknown,Letter,2
+Neo-Assyrian,unknown,other,1
+Neo-Babylonian,Babylon,Administrative,25
+Neo-Babylonian,Babylon,Business / Contracts,11
+Neo-Babylonian,Babylon,Legal,9
+Neo-Babylonian,Babylon,other,21
+Neo-Babylonian,Borsippa,Administrative,2
+Neo-Babylonian,Borsippa,Business / Contracts,1
+Neo-Babylonian,Borsippa,Legal,6
+Neo-Babylonian,Borsippa,other,42
+Neo-Babylonian,Dilbat,Business / Contracts,1
+Neo-Babylonian,Elammu,other,4
+Neo-Babylonian,Hurruba,Business / Contracts,1
+Neo-Babylonian,Kish,Legal,1
+Neo-Babylonian,Kish,other,1
+Neo-Babylonian,Kumu,other,1
+Neo-Babylonian,Larsa,other,1
+Neo-Babylonian,Marad,Administrative,1
+Neo-Babylonian,Naṣir,other,1
+Neo-Babylonian,Nineveh,other,2
+Neo-Babylonian,Nippur,Administrative,3
+Neo-Babylonian,Nippur,Legal,7
+Neo-Babylonian,Nippur,other,12
+Neo-Babylonian,Sippar-Yahrurum,Administrative,1
+Neo-Babylonian,Sippar-Yahrurum,Business / Contracts,1
+Neo-Babylonian,Sippar-Yahrurum,Legal,2
+Neo-Babylonian,Sippar-Yahrurum,other,26
+Neo-Babylonian,Ur,Administrative,2
+Neo-Babylonian,Ur,Business / Contracts,1
+Neo-Babylonian,Ur,Legal,11
+Neo-Babylonian,Ur,Letter,1
+Neo-Babylonian,Uruk,Administrative,108
+Neo-Babylonian,Uruk,Business / Contracts,24
+Neo-Babylonian,Uruk,Legal,27
+Neo-Babylonian,Uruk,Letter,1
+Neo-Babylonian,Uruk,other,44
+Neo-Babylonian,uncertain,Administrative,1
+Neo-Babylonian,uncertain,Legal,1
+Neo-Babylonian,uncertain,Letter,1
+Neo-Babylonian,uncertain,other,41
+Neo-Babylonian,unknown,Administrative,96
+Neo-Babylonian,unknown,Business / Contracts,17
+Neo-Babylonian,unknown,Legal,40
+Neo-Babylonian,unknown,Letter,2
+Neo-Babylonian,unknown,other,147
+Neo-Babylonian,Ṣurmeš,other,2
+Old Akkadian,Adab,Administrative,303
+Old Akkadian,Adab,Letter,1
+Old Akkadian,Ešnunna,Administrative,5
+Old Akkadian,Ešnunna,Legal,1
+Old Akkadian,Girsu,Administrative,8
+Old Akkadian,Nippur,Administrative,129
+Old Akkadian,Nippur,other,3
+Old Akkadian,Tutub,Administrative,3
+Old Akkadian,Umma,Administrative,5
+Old Akkadian,Umma,Letter,1
+Old Akkadian,Zabalam,Administrative,2
+Old Akkadian,uncertain,Administrative,31
+Old Akkadian,unknown,Administrative,5
+Old Akkadian,unknown,other,19
+Old Assyrian,Kanesh,Legal,1
+Old Assyrian,Kanesh,other,1
+Old Assyrian,Nineveh,other,1
+Old Babylonian,Adab,Administrative,2
+Old Babylonian,Adab,Business / Contracts,1
+Old Babylonian,Adab,Letter,1
+Old Babylonian,Alalakh,other,1
+Old Babylonian,Babylon,Legal,2
+Old Babylonian,Babylon,other,4
+Old Babylonian,Bad-Tibira,Administrative,1
+Old Babylonian,Dilbat,Business / Contracts,6
+Old Babylonian,Dilbat,Legal,25
+Old Babylonian,Dūr-Abī-ēšuḫ,Administrative,1
+Old Babylonian,Girsu,other,1
+Old Babylonian,Isin,Administrative,1
+Old Babylonian,Isin,Business / Contracts,4
+Old Babylonian,Isin,Legal,11
+Old Babylonian,Kish,Administrative,8
+Old Babylonian,Kish,Business / Contracts,11
+Old Babylonian,Kish,Legal,19
+Old Babylonian,Kish,Letter,1
+Old Babylonian,Kish,other,3
+Old Babylonian,Lagaba,Administrative,7
+Old Babylonian,Larsa,Administrative,163
+Old Babylonian,Larsa,Business / Contracts,99
+Old Babylonian,Larsa,Legal,41
+Old Babylonian,Larsa,Letter,131
+Old Babylonian,Larsa,other,15
+Old Babylonian,Marad,Legal,1
+Old Babylonian,Nerebtum,Administrative,2
+Old Babylonian,Nerebtum,Legal,1
+Old Babylonian,Nerebtum,other,1
+Old Babylonian,Nippur,Administrative,211
+Old Babylonian,Nippur,Business / Contracts,16
+Old Babylonian,Nippur,Legal,136
+Old Babylonian,Nippur,Letter,2
+Old Babylonian,Nippur,other,31
+Old Babylonian,Pī-Kasî,Administrative,14
+Old Babylonian,Pī-Kasî,Business / Contracts,5
+Old Babylonian,Pī-Kasî,Legal,23
+Old Babylonian,Pī-Kasî,other,1
+Old Babylonian,Sippar-Yahrurum,Administrative,86
+Old Babylonian,Sippar-Yahrurum,Business / Contracts,25
+Old Babylonian,Sippar-Yahrurum,Legal,229
+Old Babylonian,Sippar-Yahrurum,Letter,2
+Old Babylonian,Sippar-Yahrurum,other,14
+Old Babylonian,Terqa,Business / Contracts,1
+Old Babylonian,Tuttul,Administrative,27
+Old Babylonian,Umma,Administrative,1
+Old Babylonian,Umma,Legal,3
+Old Babylonian,Ur,Administrative,36
+Old Babylonian,Ur,Business / Contracts,15
+Old Babylonian,Ur,Legal,31
+Old Babylonian,Ur,other,8
+Old Babylonian,Uruk,Administrative,30
+Old Babylonian,Uruk,other,1
+Old Babylonian,uncertain,Administrative,138
+Old Babylonian,uncertain,Business / Contracts,16
+Old Babylonian,uncertain,Legal,36
+Old Babylonian,uncertain,other,22
+Old Babylonian,unknown,Administrative,178
+Old Babylonian,unknown,Business / Contracts,29
+Old Babylonian,unknown,Legal,211
+Old Babylonian,unknown,Letter,9
+Old Babylonian,unknown,other,32
+Ur III,Adab,Administrative,26
+Ur III,Adab,Legal,1
+Ur III,Adab,other,1
+Ur III,Du-Enlila,Business / Contracts,1
+Ur III,Dusabar,Administrative,1
+Ur III,Ešnunna,Administrative,1
+Ur III,Ešnunna,Legal,1
+Ur III,Garšana,Administrative,890
+Ur III,Garšana,Legal,6
+Ur III,Garšana,Letter,5
+Ur III,Garšana,other,15
+Ur III,Girsu,Administrative,2267
+Ur III,Girsu,Legal,10
+Ur III,Girsu,Letter,21
+Ur III,Girsu,other,3
+Ur III,Irisagrig,Administrative,57
+Ur III,Irisagrig,other,1
+Ur III,Isin,Administrative,3
+Ur III,Kish,Administrative,3
+Ur III,Kish,other,1
+Ur III,Nippur,Administrative,1321
+Ur III,Nippur,Business / Contracts,2
+Ur III,Nippur,Legal,128
+Ur III,Nippur,Letter,23
+Ur III,Nippur,other,26
+Ur III,Puzriš-Dagan,Administrative,8049
+Ur III,Puzriš-Dagan,Legal,4
+Ur III,Puzriš-Dagan,Letter,4
+Ur III,Puzriš-Dagan,other,14
+Ur III,Shuruppak,Administrative,2
+Ur III,Sippar-Yahrurum,Administrative,3
+Ur III,Umma,Administrative,8500
+Ur III,Umma,Legal,13
+Ur III,Umma,Letter,46
+Ur III,Umma,other,39
+Ur III,Ur,Administrative,579
+Ur III,Ur,Legal,1
+Ur III,Ur,Letter,1
+Ur III,Ur,other,3
+Ur III,Uruk,other,1
+Ur III,Zabalam,Administrative,1
+Ur III,uncertain,Administrative,432
+Ur III,uncertain,Business / Contracts,1
+Ur III,uncertain,Legal,2
+Ur III,uncertain,Letter,16
+Ur III,uncertain,other,19
+Ur III,unknown,Administrative,151
+Ur III,unknown,Legal,2
+Ur III,unknown,other,119

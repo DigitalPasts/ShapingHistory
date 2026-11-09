@@ -1,0 +1,576 @@
+id,period,site,museum_no,ruler,ryear,k,TabletID,MuseumNr,PublicationTablet,cdli_p,King,_Year,_Month,_Day,JulianDate,place_of_writing,ArchiveName,Provenance,TypeID,Status,how
+257280,Neo-Babylonian,Ur,UM 52-30-054,,,UM52,5369,UM 52-30-054,"UET 4, 191",257280,,,0,,-,Not mentioned,Sîn-uballiṭ,1209,3,published,CDLI P
+257584,Achaemenid,unknown,CBS 00019,Darius1,18.0,CBS19,4309,CBS 19,"BE 8/1, 107",257584,Darius I,06,12,18,515,Babylon,Ea-eppēš-ilī C (Babylon),184,1,published,CDLI P
+257586,Achaemenid,unknown,CBS 00021,Xerxes,23.0,CBS21,4408,CBS 21,"BE 8/1, 119",257586,Xerxes I,01,1,23,485,Babylon,Ea-eppēš-ilī A (Babylon),184,1,published,CDLI P
+257697,Achaemenid,unknown,CBS 00132,Dar,,CBS132,2368,CBS 132,"BE 8/1, 144",257697,Darius I,,0,,-,Broken/Unclear,Esagilāya B,184,1,published,CDLI P
+257771,Achaemenid,unknown,CBS 00325,,,CBS325,2749,CBS 325,"BE 8/1, 105",257771,Darius I,04,3,23,518,Babylon,Gahal (Babylon),184,1,published,CDLI P
+257773,Neo-Babylonian,unknown,CBS 00327,,,CBS327,4258,CBS 327,"San Nicolò 1935, pp. 22-23",257773,Nabonidus,05,6,28,551,Babylon,Ea-eppēš-ilī A (Babylon),184,1,published,CDLI P
+257872,Neo-Babylonian,unknown,CBS 00424,,,CBS424,1649,CBS 424,"Dougherty 1923a, p. 17",257872,Nebuchadnezzar II,41,7,14,564,Babylon,Esagilāya A,184,1,published,CDLI P
+260208,Achaemenid,Nippur,CBS 03838,Darius2,4.0,CBS3838,2599,CBS 3838,"Stolper 1985, no. 116",260208,,,0,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+261178,Achaemenid,Nippur,CBS 04985,Darius2,11.0,CBS4985,5458,CBS 4985,"BE 10, 42",261178,Darius II,1,6,11,423,Nippur,Murašû,909,1,published,CDLI P
+261179,Achaemenid,Nippur,CBS 04986,Artaxerxes1,17.0,CBS4986,776,CBS 4986,"Stolper 1985, no. 67",261179,Artaxerxes I,41,8,17,424,Nippur,Murašû,909,1,published,CDLI P
+261180,Achaemenid,Nippur,CBS 04987,Artaxerxes1,20.0,CBS4987,382,CBS 4987,"Stolper 1985, no. 65",261180,Artaxerxes I,41,6,20,[424],Broken/Unclear,Murašû,909,1,published,CDLI P
+261183,Achaemenid,Nippur,CBS 04990,,,CBS4990,212,CBS 4990,"Stolper 1985, no. 23",261183,Darius II,5,0,,[419/419],Til-Gabbāri,Murašû,909,1,published,CDLI P
+261185,Achaemenid,Nippur,CBS 04992,,,CBS4992,2602,CBS 4992,"Stolper 1985, no. 117",261185,,,0,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+261186,Achaemenid,Nippur,CBS 04993 + CBS 13050,Artaxerxes1,5.0,CBS4993,106,CBS 4993+,"Stolper 1985, no. 2",261186,Artaxerxes I,24,5,5,[441],Nippur,Murašû,909,1,published,CDLI P
+261187,Achaemenid,Nippur,CBS 04994,,,CBS4994,1637,CBS 4994,"Stolper 1985, no. 80",261187,,,0,13,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+261191,Achaemenid,Nippur,CBS 04998,Darius2,30.0,CBS4998,120,CBS 4998,"Stolper 1985, no. 4",261191,Darius II,2,0,30,422,Nippur,Murašû,909,1,published,CDLI P
+261192,Achaemenid,Nippur,CBS 04999,Artaxerxes1,25.0,CBS4999,142,CBS 4999,"Stolper 1985, no. 14",261192,Artaxerxes I,40,8,25,[425],Nippur,Murašû,909,1,published,CDLI P
+261332,Achaemenid,Nippur,CBS 05140,,,CBS5140,5736,CBS 5140,"BE 10, 98",261332,Darius II,4,0,,420/419,Nippur,Murašû,909,1,published,CDLI P
+261335,Achaemenid,Nippur,CBS 05143,Darius2,23.0,CBS5143,5726,CBS 5143,"BE 10, 92",261335,Darius II,4,10,,420,Nippur,Murašû,909,1,published,CDLI P
+261338,Achaemenid,Nippur,CBS 05146,Artaxerxes1,39.0,CBS5146,1793,CBS 5146,"Stolper 1985, no. 90",261338,Artaxerxes I,39,9,12,426,Nippur,Murašû,909,1,published,CDLI P
+261341,Achaemenid,Nippur,CBS 05149,Darius2,18.0,CBS5149,5597,CBS 5149,"BE 10, 61",261341,Darius II,2,11,18,421,Nippur,Murašû,909,1,published,CDLI P
+261343,Achaemenid,Nippur,CBS 05151,Artaxerxes1,30.0,CBS5151,2269,CBS 5151,"Stolper 1985, no. 102",261343,Artaxerxes I,30,5,10,after 435,Nippur,Murašû,909,1,published,CDLI P
+261345,Achaemenid,Nippur,CBS 05153,Artaxerxes1,18.0,CBS5153,301,CBS 5153,"Stolper 1985, no. 37",261345,Artaxerxes I,41,8,18,424,Nippur,Murašû,909,1,published,CDLI P
+261348,Achaemenid,Nippur,CBS 05156,Artaxerxes1,28.0,CBS5156,379,CBS 5156,"Stolper 1985, no. 62",261348,Artaxerxes I,28,8,,[437],Nippur,Murašû,909,1,published,CDLI P
+261349,Achaemenid,Nippur,CBS 05157,Darius2,20.0,CBS5157,5396,CBS 5157,"BE 10, 30",261349,Darius II,1,4,20,423,Nippur,Murašû,909,1,published,CDLI P
+261350,Achaemenid,Nippur,CBS 05158,Darius2,13.0,CBS5158,5627,CBS 5158,"BE 10, 67",261350,Darius II,3,6,13,421,Nippur,Murašû,909,1,published,CDLI P
+261352,Achaemenid,Nippur,CBS 05160,,,CBS5160,5510,CBS 5160,"BE 10, 56",261352,Darius II,2,1,,422,Nippur,Murašû,909,1,published,CDLI P
+261356,Achaemenid,Nippur,CBS 05164,Darius2,3.0,CBS5164,5097,CBS 5164,"BE 10, 12",261356,Darius II,1,2,5,423,Nippur,Murašû,909,1,published,CDLI P
+261357,Achaemenid,Nippur,CBS 05165,Darius2,9.0,CBS5165,5812,CBS 5165,"BE 10, 115",261357,Darius II,6,0,9,418,Nippur,Murašû,909,1,published,CDLI P
+261359,Achaemenid,Nippur,CBS 05167,Darius2,14.0,CBS5167,5695,CBS 5167,"BE 10, 80",261359,Darius II,3,13,14,420,Nippur,Murašû,909,1,published,CDLI P
+261360,Achaemenid,Nippur,CBS 05168,,,CBS5168,372,CBS 5168,"Stolper 1985, no. 57",261360,,,0,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+261362,Achaemenid,Nippur,CBS 05170,Artaxerxes1,20.0,CBS5170,2257,CBS 5170,"Stolper 1985, no. 98",261362,Artaxerxes I,36,10,20,429,Bīt-Gīrā,Murašû,909,1,published,CDLI P
+261364,Achaemenid,Nippur,CBS 05172,Artaxerxes1,28.0,CBS5172,2260,CBS 5172,"Stolper 1985, no. 99",261364,Artaxerxes I,40,0,28,[425],Nippur,Murašû,909,1,published,CDLI P
+261366,Achaemenid,Nippur,CBS 05174 + CBS 12893,Artaxerxes1,38.0,CBS5174,140,CBS 5174+,"Stolper 1985, no. 13",261366,Artaxerxes I,38,3,,427,Broken/Unclear,Murašû,909,1,published,CDLI P
+261367,Achaemenid,Nippur,CBS 05175,Darius2,28.0,CBS5175,5641,CBS 5256,"BE 10, 75",261367,Darius II,3,10,10,421,Nippur,Murašû,909,1,published,CDLI P
+261369,Achaemenid,Nippur,CBS 05177,Darius2,8.0,CBS5177,5122,CBS 5177,"BE 10, 21",261369,Darius II,1,3,8,423,Nippur,Murašû,909,1,published,CDLI P
+261371,Achaemenid,Nippur,CBS 05179,Darius2,15.0,CBS5179,5390,CBS 5179,"BE 10, 28",261371,Darius II,1,4,15,423,Nippur,Murašû,909,1,published,CDLI P
+261372,Achaemenid,Nippur,CBS 05180,Darius2,20.0,CBS5180,5638,CBS 5180,"BE 10, 72",261372,Darius II,3,3,20,421,Nippur,Murašû,909,1,published,CDLI P
+261377,Achaemenid,Nippur,CBS 05185,Darius2,10.0,CBS5185,5814,CBS 5185,"BE 10, 117",261377,Darius II,7,1,10,417,Nippur,Murašû,909,1,published,CDLI P
+261378,Achaemenid,Nippur,CBS 05186,Artaxerxes1,20.0,CBS5186,147,CBS 5186,"Stolper 1985, no. 16",261378,Artaxerxes I,34,6,20,431,Broken/Unclear,Murašû,909,1,published,CDLI P
+261379,Achaemenid,Nippur,CBS 05187,Darius2,7.0,CBS5187,5106,CBS 5187,"BE 10, 18",261379,Darius II,1,3,7,423,Nippur,Murašû,909,1,published,CDLI P
+261380,Achaemenid,Nippur,CBS 05188,Darius2,16.0,CBS5188,5742,CBS 5188,"BE 10, 100",261380,Darius II,5,5,16,419,Nippur,Murašû,909,1,published,CDLI P
+261382,Achaemenid,Nippur,CBS 05190,Darius2,26.0,CBS5190,5412,CBS 5190,"BE 10, 32",261382,Darius II,1,4,26,423,Nippur,Murašû,909,1,published,CDLI P
+261387,Achaemenid,Nippur,CBS 05195,Artaxerxes1,,CBS5195,374,CBS 5195,"Stolper 1985, no. 59",261387,Artaxerxes I,,11,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+261388,Achaemenid,Nippur,CBS 05196,Darius2,6.0,CBS5196,5492,CBS 5196,"BE 10, 47",261388,Darius II,1,3,6,423,Nippur,Murašû,909,1,published,CDLI P
+261390,Achaemenid,Nippur,CBS 05198,,,CBS5198,5131,CBS 5198,"BE 10, 25",261390,Darius II,1,3,,423,Nippur,Murašû,909,1,published,CDLI P
+261391,Achaemenid,Nippur,CBS 05199,Artaxerxes1,25.0,CBS5199,105,CBS 5199,"Stolper 1985, no. 1",261391,Artaxerxes I,34,0,25,[431/430],Broken/Unclear,Murašû,909,1,published,CDLI P
+261395,Achaemenid,Nippur,CBS 05202,Darius2,21.0,CBS5202,5502,CBS 5202,"BE 10, 52",261395,Darius II,1,8,2,423,Nippur,Murašû,909,1,published,CDLI P
+261397,Achaemenid,Nippur,CBS 05204,Darius2,27.0,CBS5204,5414,CBS 5204,"BE 10, 33",261397,Darius II,1,4,2,423,Nippur,Murašû,909,1,published,CDLI P
+261398,Achaemenid,Nippur,CBS 05205,Artaxerxes1,40.0,CBS5205,131,CBS 5205,"Stolper 1985, no. 11",261398,Artaxerxes I,40,3,10,425,Nippur,Murašû,909,1,published,CDLI P
+261399,Achaemenid,Nippur,CBS 05206,Artaxerxes1,17.0,CBS5206,1181,CBS 5206,"Stolper 1985, no. 69",261399,Artaxerxes I,41,0,17,424,Nippur,Murašû,909,1,published,CDLI P
+261400,Achaemenid,Nippur,CBS 05207,Darius2,6.0,CBS5207,5653,CBS 5207,"BE 10, 76",261400,Darius II,3,11,6,420,Nippur,Murašû,909,1,published,CDLI P
+261402,Achaemenid,Nippur,CBS 05209,Darius2,2.0,CBS5209,5634,CBS 5209,"BE 10, 69",261402,Darius II,3,8,2,421,Nippur,Murašû,909,1,published,CDLI P
+261405,Achaemenid,Nippur,CBS 05212,,,CBS5212,2263,CBS 5121,"Stolper 1985, no. 100",261405,,,0,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+261408,Achaemenid,Nippur,CBS 05215,Artaxerxes1,,CBS5215,324,CBS 5215,"Stolper 1985, no. 50",261408,Artaxerxes I,,0,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+261410,Achaemenid,Nippur,CBS 05217,Darius2,10.0,CBS5217,5793,CBS 5217,"BE 10, 108",261410,Darius II,6,6,10,418,Sîn-bēlšunu,Murašû,909,1,published,CDLI P
+261412,Achaemenid,Nippur,CBS 05219,Darius2,3.0,CBS5219,5636,CBS 5219,"BE 10, 70",261412,Darius II,3,8,3,421,Nippur,Murašû,909,1,published,CDLI P
+261413,Achaemenid,Nippur,CBS 05220,Darius2,5.0,CBS5220,5799,CBS 5220,"BE 10, 112",261413,Darius II,6,8,5,418,Nippur,Murašû,909,1,published,CDLI P
+261414,Achaemenid,Nippur,CBS 05221,Darius2,3.0,CBS5221,5729,CBS 5221,"BE 10, 95",261414,Darius II,4,13,3,419,Nippur,Murašû,909,1,published,CDLI P
+261415,Achaemenid,Nippur,CBS 05222,Darius2,10.0,CBS5222,5123,CBS 5222,"BE 10, 22",261415,Darius II,1,3,10,423,Nippur,Murašû,909,1,published,CDLI P
+261416,Achaemenid,Nippur,CBS 05223,Darius2,,CBS5223,5417,CBS 5223,"BE 10, 34",261416,Darius II,1,4,7,423,Nippur,Murašû,909,1,published,CDLI P
+261417,Achaemenid,Nippur,CBS 05224,Darius2,26.0,CBS5224,5398,CBS 5224,"BE 10, 31",261417,Darius II,1,4,26,423,Nippur,Murašû,909,1,published,CDLI P
+261418,Achaemenid,Nippur,CBS 05225,Darius2,7.0,CBS5225,5117,CBS 5225,"BE 10, 20",261418,Darius II,1,3,7,423,Nippur,Murašû,909,1,published,CDLI P
+261419,Achaemenid,Nippur,CBS 05226,Darius2,21.0,CBS5226,5731,CBS 5226,"BE 10, 97",261419,Darius II,4,13,22,419,Nippur,Murašû,909,1,published,CDLI P
+261420,Achaemenid,Nippur,CBS 05227,Darius2,1.0,CBS5227,5134,CBS 5227,"BE 10, 26",261420,Darius II,1,4,2,423,Nippur,Murašû,909,1,published,CDLI P
+261421,Achaemenid,Nippur,CBS 05228,Darius2,13.0,CBS5228,5946,CBS 5228,"BE 10, 129",261421,Darius II,8,1,13,416,Nippur,Murašû,909,1,notready,CDLI P
+261422,Achaemenid,Nippur,CBS 05229,Darius2,23.0,CBS5229,5715,CBS 5229,"BE 10, 89",261422,Darius II,4,9,23,420,Nippur,Murašû,909,1,published,CDLI P
+261423,Achaemenid,Nippur,CBS 05230,,,CBS5230,5787,CBS 5230,"BE 10, 107",261423,Darius II,6,5,,418,Enlil-ašābšu-iqbi,Murašû,909,1,published,CDLI P
+261424,Achaemenid,Nippur,CBS 05231,Darius2,22.0,CBS5231,5921,CBS 5231,"BE 10, 125",261424,Darius II,7,9,22,417,Nippur,Murašû,909,1,published,CDLI P
+261426,Achaemenid,Nippur,CBS 05233,Darius2,18.0,CBS5233,5090,CBS 5233,"BE 10, 6",261426,Darius II,0,0,,424/423,Nippur,Murašû,909,1,published,CDLI P
+261428,Achaemenid,Nippur,CBS 05235,Darius2,17.0,CBS5235,5088,CBS 5235,"BE 10, 5",261428,Darius II,0,13,17,423,Nippur,Murašû,909,1,published,CDLI P
+261429,Achaemenid,Nippur,CBS 05236,Darius2,11.0,CBS5236,5713,CBS 5236,"BE 10, 87",261429,Darius II,4,8,,420,Nippur,Murašû,909,1,published,CDLI P
+261430,Achaemenid,Nippur,CBS 05237,Darius2,20.0,CBS5237,5096,CBS 5237,"BE 10, 11",261430,Darius II,1,1,20,423,Nippur,Murašû,909,1,published,CDLI P
+261432,Achaemenid,Nippur,CBS 05239,Artaxerxes1,34.0,CBS5239,317,CBS 5239,"Stolper 1985, no. 45",261432,Artaxerxes I,34,8,20,431,Nippur,Murašû,909,1,published,CDLI P
+261438,Achaemenid,Nippur,CBS 05245,Darius2,5.0,CBS5245,5457,CBS 5245,"BE 10, 41",261438,Darius II,1,6,6,423,Nippur,Murašû,909,1,published,CDLI P
+261441,Achaemenid,Nippur,CBS 05248,,,CBS5248,378,CBS 5248,"Stolper 1985, no. 61",261441,,,0,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+261442,Achaemenid,Nippur,CBS 05249,Darius2,4.0,CBS5249,5925,CBS 5249,"BE 10, 127",261442,Darius II,7,10,4,417,Nippur,Murašû,909,1,notready,CDLI P
+261444,Achaemenid,Nippur,CBS 05251,Darius2,26.0,CBS5251,5951,CBS 5251,"PBS 2/1, 42",261444,Darius II,1,8,26,423,Nippur,Murašû,909,1,notready,CDLI P
+261446,Achaemenid,Nippur,CBS 05252,Darius2,11.0,CBS5252,5717,CBS 5252,"BE 10, 91",261446,Darius II,4,10,,420,Nippur,Murašû,909,1,published,CDLI P
+261449,Achaemenid,Nippur,CBS 05255,Darius2,18.0,CBS5255,5608,CBS 5255,"BE 10, 64",261449,Darius II,3,3,18,421,Nippur,Murašû,909,1,published,CDLI P
+261451,Achaemenid,Nippur,CBS 05257,Darius2,15.0,CBS5257,5092,CBS 5257,"BE 10, 8",261451,Darius II,1,1,15,423,Nippur,Murašû,909,1,published,CDLI P
+261453,Achaemenid,Nippur,CBS 05259,Darius2,6.0,CBS5259,5137,CBS 5259,"BE 10, 27",261453,Darius II,1,4,6,423,Nippur,Murašû,909,1,published,CDLI P
+261454,Achaemenid,Nippur,CBS 05260,Artaxerxes1,17.0,CBS5260,5073,CBS 5260,"BE 9, 105",261454,Artaxerxes I,41,8,17,424,Nippur,Murašû,909,1,published,CDLI P
+261455,Achaemenid,Nippur,CBS 05261,Artaxerxes1,36.0,CBS5261,216,CBS 5261,"Stolper 1985, no. 26",261455,Artaxerxes I,36,0,,[429/428],Nippur,Murašû,909,1,published,CDLI P
+261456,Achaemenid,Nippur,CBS 05262,Artaxerxes1,9.0,CBS5262,4057,CBS 5262,"BE 9, 62",261456,Artaxerxes I,38,8,9,427,Nippur,Murašû,909,1,published,CDLI P
+261457,Achaemenid,Nippur,CBS 05263,Darius2,12.0,CBS5263,5639,CBS 5263,"BE 10, 73",261457,Darius II,3,9,12,421,Nippur,Murašû,909,1,published,CDLI P
+261458,Achaemenid,Nippur,CBS 05264,Darius2,9.0,CBS5264,5421,CBS 5264,"BE 10, 38",261458,Darius II,1,5,9,423,Nippur,Murašû,909,1,published,CDLI P
+261459,Achaemenid,Nippur,CBS 05265,Darius2,11.0,CBS5265,2665,CBS 5265,"BE 10, 130",261459,Darius II,11,6,22,413,Nippur,Murašû,909,1,published,CDLI P
+261460,Achaemenid,Nippur,CBS 05266,Darius2,12.0,CBS5266,5699,CBS 5266,"BE 10, 84",261460,Darius II,4,0,,420/419,Nippur,Murašû,909,1,published,CDLI P
+261461,Achaemenid,Nippur,CBS 05267,Darius2,16.0,CBS5267,5093,CBS 5267,"BE 10, 9",261461,Darius II,1,1,16,423,Nippur,Murašû,909,1,published,CDLI P
+261462,Achaemenid,Nippur,CBS 05268,Darius2,21.0,CBS5268,5504,CBS 5268,"BE 10, 53",261462,Darius II,1,8,12,423,Nippur,Murašû,909,1,published,CDLI P
+261464,Achaemenid,Nippur,CBS 05270,Darius2,3.0,CBS5270,5610,CBS 5270,"BE 10, 66",261464,Darius II,3,6,3,421,Nippur,Murašû,909,1,published,CDLI P
+261466,Achaemenid,Nippur,CBS 05272,Darius2,15.0,CBS5272,5082,CBS 5272,"BE 10, 3",261466,Darius II,0,12,15,423,Nippur,Murašû,909,1,published,CDLI P
+261467,Achaemenid,Nippur,CBS 05273,Darius2,8.0,CBS5273,5495,CBS 5273,"BE 10, 50",261467,Darius II,1,8,8,423,Nippur,Murašû,909,1,published,CDLI P
+261469,Achaemenid,Nippur,CBS 05275,Darius2,28.0,CBS5275,5924,CBS 5275,"BE 10, 126",261469,Darius II,7,9,28,417,Enlil-ašābšu-iqbi,Murašû,909,1,notready,CDLI P
+261470,Achaemenid,Nippur,CBS 05276,Darius2,22.0,CBS5276,5926,CBS 5276,"BE 10, 128",261470,Darius II,7,0,22,417/416,Nippur,Murašû,909,1,notready,CDLI P
+261471,Achaemenid,Nippur,CBS 05277,Darius2,15.0,CBS5277,5080,CBS 5277,"BE 10, 2",261471,Darius II,0,12,15,423,Nippur,Murašû,909,1,published,CDLI P
+261473,Achaemenid,Nippur,CBS 05279,Darius2,28.0,CBS5279,5535,CBS 5279,"BE 10, 58",261473,Darius II,2,8,28,422,Nippur,Murašû,909,1,published,CDLI P
+261474,Achaemenid,Nippur,CBS 05280,Darius2,16.0,CBS5280,5714,CBS 5280,"BE 10, 88",261474,Darius II,4,8,16,420,Nippur,Murašû,909,1,published,CDLI P
+261475,Achaemenid,Nippur,CBS 05281,Darius2,8.0,CBS5281,5728,CBS 5281,"BE 10, 94",261475,Darius II,4,10,8,420,Nippur,Murašû,909,1,published,CDLI P
+261476,Achaemenid,Nippur,CBS 05282,Darius2,13.0,CBS5282,5124,CBS 5282,"BE 10, 23",261476,Darius II,1,3,13,423,Nippur,Murašû,909,1,published,CDLI P
+261477,Achaemenid,Nippur,CBS 05283,Darius2,20.0,CBS5283,5392,CBS 5283,"BE 10, 29",261477,Darius II,1,4,12,423,Nippur,Murašû,909,1,published,CDLI P
+261478,Achaemenid,Nippur,CBS 05284,Darius2,28.0,CBS5284,5507,CBS 5284,"BE 10, 55",261478,Darius II,1,13,28,422,Nippur,Murašû,909,1,published,CDLI P
+261479,Achaemenid,Nippur,CBS 05285,Darius2,23.0,CBS5285,5781,CBS 5282,"BE 10, 103",261479,Darius II,5,5,23,419,Nippur,Murašû,909,1,published,CDLI P
+261480,Achaemenid,Nippur,CBS 05286,Darius2,16.0,CBS5286,5796,CBS 5286,"BE 10, 110",261480,Darius II,6,6,16,418,Nippur,Murašû,909,1,published,CDLI P
+261481,Achaemenid,Nippur,CBS 05287,Darius2,10.0,CBS5287,5785,CBS 5287,"BE 10, 106",261481,Darius II,6,3,10,418,Not mentioned,Murašû,909,2,published,CDLI P
+261484,Achaemenid,Nippur,CBS 05290,Darius2,20.0,CBS5290,5905,CBS 5290,"BE 10, 121",261484,Darius II,7,1,20,417,Nippur,Murašû,909,1,published,CDLI P
+261485,Achaemenid,Nippur,CBS 05291,Darius2,15.0,CBS5291,5890,CBS 5291,"BE 10, 119",261485,Darius II,7,1,15,417,Malšam,Murašû,909,1,published,CDLI P
+261486,Achaemenid,Nippur,CBS 05292,Artaxerxes1,5.0,CBS5292,3853,CBS 5292,"BE 9, 49",261486,Artaxerxes I,36,8,5,429,Nippur,Murašû,909,1,published,CDLI P
+261488,Achaemenid,Nippur,CBS 05294,Artaxerxes1,20.0,CBS5294,4958,CBS 5294,"BE 9, 93",261488,Artaxerxes I,41,6,2,424,Nippur,Murašû,909,1,published,CDLI P
+261490,Achaemenid,Nippur,CBS 05296,Artaxerxes1,38.0,CBS5296,4060,CBS 5296,"BE 9, 63",261490,Artaxerxes I,38,8,10,427,Nippur,Murašû,909,1,published,CDLI P
+261491,Achaemenid,Nippur,CBS 05297,Artaxerxes1,19.0,CBS5297,4054,CBS 5297,"BE 9, 61",261491,Artaxerxes I,38,1,19,427,Nippur,Murašû,909,1,published,CDLI P
+261492,Achaemenid,Nippur,CBS 05298,Artaxerxes1,15.0,CBS5298,3634,CBS 5298,"BE 9, 47",261492,Artaxerxes I,36,6,15,429,Nippur,Murašû,909,1,published,CDLI P
+261493,Achaemenid,Nippur,CBS 05299,Artaxerxes1,17.0,CBS5299,5072,CBS 5299,"BE 9, 104",261493,Artaxerxes I,41,8,17,424,Nippur,Murašû,909,1,published,CDLI P
+261494,Achaemenid,Nippur,CBS 05300,Artaxerxes1,5.0,CBS5300,3013,CBS 5300,"BE 9, 3a",261494,Artaxerxes I,21,13,5,443,Nippur,Murašû,909,1,published,CDLI P
+261495,Achaemenid,Nippur,CBS 05301,Artaxerxes1,3.0,CBS5301,4597,CBS 5301,"BE 9, 66",261495,Artaxerxes I,39,3,3,426,Nippur,Murašû,909,1,published,CDLI P
+261496,Achaemenid,Nippur,CBS 05302,Artaxerxes1,13.0,CBS5302,3241,CBS 5302,"BE 9, 21",261496,Artaxerxes I,30,10,13,435,Nippur,Murašû,909,1,published,CDLI P
+261497,Achaemenid,Nippur,CBS 05303,Artaxerxes1,7.0,CBS5303,5052,CBS 5303,"BE 9, 100",261497,Artaxerxes I,41,8,7,424,Nippur,Murašû,909,1,published,CDLI P
+261498,Achaemenid,Nippur,CBS 05304,Artaxerxes1,19.0,CBS5304,4600,CBS 5304,"BE 9, 66a",261498,Artaxerxes I,39,8,22,426,Nippur,Murašû,909,1,published,CDLI P
+261499,Achaemenid,Nippur,CBS 05305,Artaxerxes1,41.0,CBS5305,4934,CBS 5305,"BE 9, 86a",261499,Artaxerxes I,41,3,,424,Nippur,Murašû,909,1,published,CDLI P
+261500,Achaemenid,Nippur,CBS 05306,Artaxerxes1,41.0,CBS5306,4943,CBS 5306,"BE 9, 88",261500,Artaxerxes I,41,3,10,424,Nippur,Murašû,909,1,published,CDLI P
+261501,Achaemenid,Nippur,CBS 05307,Artaxerxes1,13.0,CBS5307,4675,CBS 5307,"BE 9, 70",261501,Artaxerxes I,39,13,13,425,Nippur,Murašû,909,1,published,CDLI P
+261502,Achaemenid,Nippur,CBS 05308,Artaxerxes1,24.0,CBS5308,4940,CBS 5308,"BE 9, 87",261502,Artaxerxes I,41,3,24,424,Nippur,Murašû,909,1,published,CDLI P
+261505,Achaemenid,Nippur,CBS 05311,Artaxerxes1,17.0,CBS5311,5070,CBS 5311,"BE 9, 103",261505,Artaxerxes I,41,8,17,424,Nippur,Murašû,909,1,published,CDLI P
+261506,Achaemenid,Nippur,CBS 05312,Artaxerxes1,29.0,CBS5312,4810,CBS 5312,"BE 9, 78",261506,Artaxerxes I,40,9,29,425,Nippur,Murašû,909,1,published,CDLI P
+261507,Achaemenid,Nippur,CBS 05313,Artaxerxes1,31.0,CBS5313,3289,CBS 5313,"BE 9, 28a",261507,Artaxerxes I,31,9,6,434,Nippur,Murašû,909,1,published,CDLI P
+261509,Achaemenid,Nippur,CBS 05315,Artaxerxes1,22.0,CBS5315,3559,CBS 5315,"BE 9, 40",261509,Artaxerxes I,35,4,22,430,Nippur,Murašû,909,1,published,CDLI P
+261511,Achaemenid,Nippur,CBS 05317,Artaxerxes1,24.0,CBS5317,4976,CBS 5317,"BE 9, 95",261511,Artaxerxes I,41,6,24,424,Nippur,Murašû,909,1,published,CDLI P
+261512,Achaemenid,Nippur,CBS 05318,Darius2,6.0,CBS5318,5105,CBS 5318,"BE 10, 17",261512,Darius II,1,3,6,423,Nippur,Murašû,909,1,published,CDLI P
+261514,Achaemenid,Nippur,CBS 05320,Darius2,2.0,CBS5320,5479,CBS 5320,"BE 10, 46",261514,Darius II,1,6,2,423,Nippur,Murašû,909,1,published,CDLI P
+261515,Achaemenid,Nippur,CBS 05321,Darius2,21.0,CBS5321,5779,CBS 5321,"BE 10, 102",261515,Darius II,5,9,21,419,Nippur,Murašû,909,1,published,CDLI P
+261516,Achaemenid,Nippur,CBS 05322,Artaxerxes1,16.0,CBS5322,4696,CBS 5322,"BE 9, 73",261516,Artaxerxes I,40,14,16,424,Nippur,Murašû,909,1,published,CDLI P
+261518,Achaemenid,Nippur,CBS 05324,Darius2,20.0,CBS5324,5129,CBS 5324,"BE 10, 24",261518,Darius II,1,3,20,423,Nippur,Murašû,909,1,published,CDLI P
+261519,Achaemenid,Nippur,CBS 05325,Darius2,13.0,CBS5325,5887,CBS 5325,"BE 10, 118",261519,Darius II,7,1,13,417,Nippur,Murašû,909,1,published,CDLI P
+261520,Achaemenid,Nippur,CBS 05326,Darius2,7.0,CBS5326,5109,CBS 5326,"BE 10, 19",261520,Darius II,1,3,7,423,Nippur,Murašû,909,1,published,CDLI P
+261521,Achaemenid,Nippur,CBS 05327,Darius2,24.0,CBS5327,5601,CBS 5327,"BE 10, 62",261521,Darius II,2,11,24,421,Nippur,Murašû,909,1,published,CDLI P
+261522,Achaemenid,Nippur,CBS 05328,Artaxerxes1,30.0,CBS5328,3262,CBS 5328,"BE 9, 26",261522,Artaxerxes I,30,3,30,435,Nippur,Murašû,909,1,published,CDLI P
+261524,Achaemenid,Nippur,CBS 05330,Artaxerxes1,8.0,CBS5330,3256,CBS 5330,"BE 9, 24",261524,Artaxerxes I,31,1,8,434,Nippur,Murašû,909,1,published,CDLI P
+261525,Achaemenid,Nippur,CBS 05331,Artaxerxes1,20.0,CBS5331,3868,CBS 5331,"BE 9, 52",261525,Artaxerxes I,37,3,20,428,Nippur,Murašû,909,1,published,CDLI P
+261527,Achaemenid,Nippur,CBS 05333,Darius2,16.0,CBS5333,5709,CBS 5333,"BE 10, 86",261527,Darius II,4,6,16,420,Nippur,Murašû,909,1,published,CDLI P
+261528,Achaemenid,Nippur,CBS 05334,Artaxerxes1,5.0,CBS5334,3451,CBS  5334,"BE 9, 36",261528,Artaxerxes I,34,5,5,431,Addiyāya,Murašû,909,1,published,CDLI P
+261529,Achaemenid,Nippur,CBS 05335,Artaxerxes1,25.0,CBS5335,5018,CBS 5335,"BE 9, 97",261529,Artaxerxes I,41,6,25,424,Nippur,Murašû,909,1,published,CDLI P
+261530,Achaemenid,Nippur,CBS 05336,Artaxerxes1,3.0,CBS5336,3166,CBS 5336,"BE 9, 10",261530,Artaxerxes I,28,3,3,437,Nippur,Murašû,909,1,published,CDLI P
+261531,Achaemenid,Nippur,CBS 05337,Artaxerxes1,28.0,CBS5337,3235,CBS 5337,"BE 9, 19",261531,Artaxerxes I,30,6,28,435,Nippur,Murašû,909,1,published,CDLI P
+261533,Achaemenid,Nippur,CBS 05339,Darius2,19.0,CBS5339,5637,CBS 5339,"BE 10, 71",261533,Darius II,3,8,19,421,Nippur,Murašû,909,1,published,CDLI P
+261534,Achaemenid,Nippur,CBS 05340,Artaxerxes1,41.0,CBS5340,4928,CBS 5340,"BE 9, 85",261534,Artaxerxes I,41,1,12,424,Nippur,Murašû,909,1,published,CDLI P
+261536,Achaemenid,Nippur,CBS 05342,Artaxerxes1,4.0,CBS5342,4816,CBS 5342,"BE 9, 79",261536,Artaxerxes I,40,10,4,425,"Huṣṣēti-ša-Nabû-nāṣir (1, Nippur)",Murašû,909,1,published,CDLI P
+261537,Achaemenid,Nippur,CBS 05343,Artaxerxes1,28.0,CBS5343,3187,CBS 5343,"BE 9, 15",261537,Artaxerxes I,28,12,1,436,Nippur,Murašû,909,1,published,CDLI P
+261538,Achaemenid,Nippur,CBS 05344,Artaxerxes1,5.0,CBS5344,4234,CBS 5344,"BE 9, 64",261538,Artaxerxes I,38,12,5,426,Nippur,Murašû,909,1,published,CDLI P
+261539,Achaemenid,Nippur,CBS 05345,Artaxerxes1,24.0,CBS5345,3178,CBS 5345,"BE 9, 13",261539,Artaxerxes I,28,10,24,437,Nippur,Murašû,909,1,published,CDLI P
+261540,Achaemenid,Nippur,CBS 05346,Artaxerxes1,27.0,CBS5346,3139,CBS 5346,"BE 9, 8",261540,Artaxerxes I,27,9,12,438,Nippur,Murašû,909,1,published,CDLI P
+261541,Achaemenid,Nippur,CBS 05347,Artaxerxes1,25.0,CBS5347,3199,CBS 5347,"BE 9, 16",261541,Artaxerxes I,28,13,25,436,"Bīt-mār-Bābili (3, Nippur)",Murašû,909,1,published,CDLI P
+261543,Achaemenid,Nippur,CBS 05349,Darius2,15.0,CBS5349,5460,CBS 5349,"BE 10, 43",261543,Darius II,1,6,15,423,Nippur,Murašû,909,1,published,CDLI P
+261544,Achaemenid,Nippur,CBS 05350,Darius2,6.0,CBS5350,5493,CBS 5350,"BE 10, 48",261544,Darius II,1,3,6,423,Nippur,Murašû,909,1,published,CDLI P
+261545,Achaemenid,Nippur,CBS 05351,Darius2,5.0,CBS5351,5098,CBS 5351,"BE 10, 13",261545,Darius II,1,2,5,423,Nippur,Murašû,909,1,published,CDLI P
+261546,Achaemenid,Nippur,CBS 05352,Darius2,27.0,CBS5352,5716,CBS 5352,"BE 10, 90",261546,Darius II,4,8,27,420,Nippur,Murašû,909,1,published,CDLI P
+261547,Achaemenid,Nippur,CBS 05353,Darius2,3.0,CBS5353,5536,CBS 5353,"BE 10, 59",261547,Darius II,2,9,3,422,Nippur,Murašû,909,1,published,CDLI P
+261548,Achaemenid,Nippur,CBS 05354,Darius2,1.0,CBS5354,5475,CBS 5354,"BE 10, 45",261548,Darius II,1,6,1,423,Nippur,Murašû,909,1,published,CDLI P
+261550,Achaemenid,Nippur,CBS 05356,Darius2,5.0,CBS5356,5099,CBS 5356,"BE 10, 14",261550,Darius II,1,2,5,423,Nippur,Murašû,909,1,published,CDLI P
+261551,Achaemenid,Nippur,CBS 05357,Darius2,8.0,CBS5357,5534,CBS 5357,"BE 10, 57",261551,Darius II,2,8,8,422,Nippur,Murašû,909,1,published,CDLI P
+261552,Achaemenid,Nippur,CBS 05358,Darius2,25.0,CBS5358,5595,CBS 5358,"BE 10, 60",261552,Darius II,2,10,25,422,Nippur,Murašû,909,1,published,CDLI P
+261553,Achaemenid,Nippur,CBS 05359,Darius2,11.0,CBS5359,5698,CBS 5359,"BE 10, 83",261553,Darius II,4,4,11,420,Nippur,Murašû,909,1,published,CDLI P
+261554,Achaemenid,Nippur,CBS 05360,Darius2,6.0,CBS5360,5104,CBS 5360,"BE 10, 16",261554,Darius II,1,3,6,423,Nippur,Murašû,909,1,published,CDLI P
+261555,Achaemenid,Nippur,CBS 05361,Darius2,16.0,CBS5361,5422,CBS 5361,"BE 10, 39",261555,Darius II,1,5,16,423,Qaštu-ša-bīt-mār-šarri,Murašû,909,1,published,CDLI P
+261556,Achaemenid,Nippur,CBS 05362,Darius2,17.0,CBS5362,5730,CBS 5362,"BE 10, 96",261556,Darius II,4,13,7,419,Nippur,Murašû,909,1,published,CDLI P
+261559,Achaemenid,Nippur,CBS 05365,Darius2,6.0,CBS5365,5915,CBS 5365,"BE 10, 122",261559,Darius II,7,4,6,417,Nippur,Murašû,909,1,published,CDLI P
+261560,Achaemenid,Nippur,CBS 05366,Darius2,29.0,CBS5366,2734,CBS 5366,"BE 10, 132",261560,Darius II,13,3,29,411,Nippur,Murašû,909,1,published,CDLI P
+261561,Achaemenid,Nippur,CBS 05367,Darius2,13.0,CBS5367,5707,CBS 5467,"BE 10, 85",261561,Darius II,4,4,3,420,Nippur,Murašû,909,1,published,CDLI P
+261562,Achaemenid,Nippur,CBS 05368,Darius2,14.0,CBS5368,5694,CBS 5368,"BE 10, 79",261562,Darius II,3,13,14,420,Nippur,Murašû,909,1,published,CDLI P
+261563,Achaemenid,Nippur,CBS 05369,,,CBS5369,5808,CBS 5369,"BE 10, 113",261563,Darius II,6,8,,418,Nippur,Murašû,909,1,published,CDLI P
+261564,Achaemenid,Nippur,CBS 05370,Darius2,23.0,CBS5370,5917,CBS 5370,"BE 10, 124",261564,Darius II,7,6,23,417,Nippur,Murašû,909,1,published,CDLI P
+261566,Achaemenid,Nippur,CBS 05372,Darius2,11.0,CBS5372,5782,CBS 5372,"BE 10, 104",261566,Darius II,5,14,11,418,Hašbāya,Murašû,909,1,published,CDLI P
+261567,Achaemenid,Nippur,CBS 05373,Darius2,27.0,CBS5373,5727,CBS 5373,"BE 10, 93",261567,Darius II,4,10,27,420,Nippur,Murašû,909,1,published,CDLI P
+261569,Achaemenid,Nippur,CBS 05375,Darius2,2.0,CBS5375,5420,CBS 5375,"BE 10, 37",261569,Darius II,1,5,2,423,Nippur,Murašû,909,1,published,CDLI P
+261570,Achaemenid,Nippur,CBS 05376,Artaxerxes2,28.0,CBS5376,2662,CBS 5376,"BE 9, 1",261570,Artaxerxes II,1,8,28,404,Nippur,Murašû,909,1,published,CDLI P
+261571,Achaemenid,Nippur,CBS 05377,Artaxerxes2,22.0,CBS5377,2998,CBS 5377,"BE 9, 2",261571,Artaxerxes I,10,13,22,454,Nippur,Murašû,909,1,published,CDLI P
+261574,Achaemenid,Nippur,CBS 05380,Artaxerxes2,13.0,CBS5380,3028,CBS 5380,"BE 9, 5",261574,Artaxerxes I,23,6,13,442,Nippur,Murašû,909,1,published,CDLI P
+261575,Achaemenid,Nippur,CBS 05381,Artaxerxes1,7.0,CBS5381,3121,CBS 5381,"BE 9, 6",261575,Artaxerxes II,26,2,7,379,Nippur,Murašû,909,1,published,CDLI P
+261576,Achaemenid,Nippur,CBS 05382,Artaxerxes1,26.0,CBS5382,3124,CBS 5382,"BE 9, 7",261576,Artaxerxes I,26,10,12,439,Ridimhu,Murašû,909,1,published,CDLI P
+261577,Achaemenid,Nippur,CBS 05383,Artaxerxes1,18.0,CBS5383,3148,CBS 5383,"BE 9, 9",261577,Artaxerxes I,27,11,18,437,Nippur,Murašû,909,1,published,CDLI P
+261578,Achaemenid,Nippur,CBS 05384,Artaxerxes1,28.0,CBS5384,3169,CBS 5384,"BE 9, 11",261578,Artaxerxes I,28,3,13,437,Nippur,Murašû,909,1,published,CDLI P
+261580,Achaemenid,Nippur,CBS 05386,Artaxerxes1,23.0,CBS5386,3232,CBS 5386,"BE 9, 18",261580,Artaxerxes I,30,6,23,435,Nippur,Murašû,909,1,published,CDLI P
+261582,Achaemenid,Nippur,CBS 05388,Artaxerxes1,4.0,CBS5388,3244,CBS 5388,"BE 9, 22",261582,Artaxerxes I,30,11,4,434,Nippur,Murašû,909,1,published,CDLI P
+261583,Achaemenid,Nippur,CBS 05389,Artaxerxes1,30.0,CBS5389,3247,CBS 5389,"BE 9, 23",261583,Artaxerxes I,30,0,,435/434,Nippur,Murašû,909,1,published,CDLI P
+261584,Achaemenid,Nippur,CBS 05390,Artaxerxes1,31.0,CBS5390,3286,CBS 5390,"BE 9, 27",261584,Artaxerxes I,31,5,,434,Nippur,Murašû,909,1,published,CDLI P
+261585,Achaemenid,Nippur,CBS 05391,Artaxerxes1,32.0,CBS5391,3292,CBS 5391,"BE 9, 29",261585,Artaxerxes I,32,5,12,433,Nippur,Murašû,909,1,published,CDLI P
+261586,Achaemenid,Nippur,CBS 05392,Artaxerxes1,32.0,CBS5392,3412,CBS 5392,"BE 9, 30",261586,Artaxerxes I,42,5,12,423,Nippur,Murašû,909,1,published,CDLI P
+261587,Achaemenid,Nippur,CBS 05393,Artaxerxes1,4.0,CBS5393,3415,CBS 5393,"BE 9, 31",261587,Artaxerxes I,32,13,5,432,Nippur,Murašû,909,1,published,CDLI P
+261591,Achaemenid,Nippur,CBS 05397,Artaxerxes1,28.0,CBS5397,3181,CBS 5397,"BE 9, 14",261591,Artaxerxes I,28,11,28,436,Nippur,Murašû,909,1,published,CDLI P
+261592,Achaemenid,Nippur,CBS 05398,Artaxerxes1,34.0,CBS5398,3445,CBS 5398,"BE 9, 35",261592,Artaxerxes I,34,13,,430,Nippur,Murašû,909,1,published,CDLI P
+261593,Achaemenid,Nippur,CBS 05399,Artaxerxes1,6.0,CBS5399,3454,CBS 5399,"BE 9, 37",261593,Artaxerxes I,34,5,6,431,Addiyāya,Murašû,909,1,published,CDLI P
+261595,Achaemenid,Nippur,CBS 05401,Artaxerxes1,26.0,CBS5401,3529,CBS 5401,"BE 9, 39",261595,Artaxerxes I,34,8,26,431,Nippur,Murašû,909,1,published,CDLI P
+261596,Achaemenid,Nippur,CBS 05402,Artaxerxes1,8.0,CBS5402,3562,CBS 5402,"BE 9, 41",261596,Artaxerxes I,35,6,8,430,Nippur,Murašû,909,1,published,CDLI P
+261597,Achaemenid,Nippur,CBS 05403,Artaxerxes1,20.0,CBS5403,3571,CBS 5403,"BE 9, 42",261597,Artaxerxes I,35,8,20,430,Nippur,Murašû,909,1,published,CDLI P
+261598,Achaemenid,Nippur,CBS 05404,Artaxerxes1,20.0,CBS5404,3604,CBS 5404,"BE 9, 43",261598,Artaxerxes I,35,10,20,430,Nippur,Murašû,909,1,published,CDLI P
+261600,Achaemenid,Nippur,CBS 05406,Artaxerxes1,20.0,CBS5406,3856,CBS 5406,"BE 9, 50",261600,Artaxerxes I,36,9,20,429,Nippur,Murašû,909,1,published,CDLI P
+261601,Achaemenid,Nippur,CBS 05407,Artaxerxes1,26.0,CBS5407,3865,CBS 5407,"BE 9, 51",261601,Artaxerxes I,36,13,26,428,Nippur,Murašû,909,1,published,CDLI P
+261602,Achaemenid,Nippur,CBS 05408,Artaxerxes1,37.0,CBS5408,3922,CBS 5408,"BE 9, 53",261602,Artaxerxes I,37,6,1,428,Nippur,Murašû,909,1,published,CDLI P
+261604,Achaemenid,Nippur,CBS 05410,Artaxerxes1,2.0,CBS5410,4009,CBS 5410,"BE 9, 56",261604,Artaxerxes I,37,13,22,427,Nippur,Murašû,909,1,published,CDLI P
+261605,Achaemenid,Nippur,CBS 05411,Artaxerxes1,17.0,CBS5411,4012,CBS 5411,"BE 9, 57",261605,Artaxerxes I,37,13,17,427,Nippur,Murašû,909,1,published,CDLI P
+261606,Achaemenid,Nippur,CBS 05412,Artaxerxes1,22.0,CBS5412,4048,CBS 5412,"BE 9, 58",261606,Artaxerxes I,37,13,22,427,Nippur,Murašû,909,1,published,CDLI P
+261607,Achaemenid,Nippur,CBS 05413,Artaxerxes1,37.0,CBS5413,4099,CBS 5413,"BE 9, 59",261607,Artaxerxes I,37,0,,428/427,Nippur,Murašû,909,1,published,CDLI P
+261610,Achaemenid,Nippur,CBS 05416,Artaxerxes1,28.0,CBS5416,4609,CBS 5416,"BE 9, 67",261610,Artaxerxes I,39,8,28,426,Nippur,Murašû,909,1,published,CDLI P
+261611,Achaemenid,Nippur,CBS 05417,Artaxerxes1,21.0,CBS5417,4627,CBS 5417,"BE 9, 68",261611,Artaxerxes I,39,9,21,426,Nippur,Murašû,909,1,published,CDLI P
+261612,Achaemenid,Nippur,CBS 05418,Artaxerxes1,4.0,CBS5418,4669,CBS 5418,"BE 9, 69",261612,Artaxerxes I,39,13,4,425,Nippur,Murašû,909,1,published,CDLI P
+261613,Achaemenid,Nippur,CBS 05419,Artaxerxes1,15.0,CBS5419,4693,CBS 5419,"BE 9, 72",261613,Artaxerxes I,40,6,15,425,Nippur,Murašû,909,1,published,CDLI P
+261614,Achaemenid,Nippur,CBS 05420,Artaxerxes1,6.0,CBS5420,4702,CBS 5420,"BE 9, 74",261614,Artaxerxes I,40,8,6,425,Nippur,Murašû,909,1,published,CDLI P
+261615,Achaemenid,Nippur,CBS 05421,Artaxerxes1,24.0,CBS5421,4714,CBS 5421,"BE 9, 75",261615,Artaxerxes I,40,8,24,425,Nippur,Murašû,909,1,published,CDLI P
+261618,Achaemenid,Nippur,CBS 05424,Artaxerxes1,40.0,CBS5424,4822,CBS 5424,"BE 9, 81",261618,Artaxerxes I,40,13,1,424,Nippur,Murašû,909,1,published,CDLI P
+261619,Achaemenid,Nippur,CBS 05425,Artaxerxes1,13.0,CBS5425,4828,CBS 5425,"BE 9, 82",261619,Artaxerxes I,40,13,13,424,Nippur,Murašû,909,1,published,CDLI P
+261620,Achaemenid,Nippur,CBS 05426,Artaxerxes1,40.0,CBS5426,4831,CBS 5426,"BE 9, 83",261620,Artaxerxes I,40,0,,425/424,Broken/Unclear,Murašû,909,1,published,CDLI P
+261621,Achaemenid,Nippur,CBS 05427,Artaxerxes1,41.0,CBS5427,4931,CBS 5427,"BE 9, 86",261621,Artaxerxes I,41,1,12,424,Nippur,Murašû,909,1,published,CDLI P
+261622,Achaemenid,Nippur,CBS 05428,Artaxerxes1,41.0,CBS5428,4949,CBS 5428,"BE 9, 90",261622,Artaxerxes I,41,6,1,424,Nippur,Murašû,909,1,published,CDLI P
+261623,Achaemenid,Nippur,CBS 05429,Artaxerxes1,17.0,CBS5429,4952,CBS 5429,"BE 9, 91",261623,Artaxerxes I,41,6,17,424,Nippur,Murašû,909,1,published,CDLI P
+261624,Achaemenid,Nippur,CBS 05430,Artaxerxes1,20.0,CBS5430,4955,CBS 5430,"BE 9, 92",261624,Artaxerxes I,41,6,20,424,Nippur,Murašû,909,1,published,CDLI P
+261625,Achaemenid,Nippur,CBS 05431,Artaxerxes1,20.0,CBS5431,4961,CBS 5431,"BE 9, 94",261625,Artaxerxes I,41,6,20,424,Nippur,Murašû,909,1,published,CDLI P
+261626,Achaemenid,Nippur,CBS 05432,Artaxerxes1,25.0,CBS5432,5015,CBS 5432,"BE 9, 96",261626,Artaxerxes I,41,6,25,424,Nippur,Murašû,909,1,published,CDLI P
+261627,Achaemenid,Nippur,CBS 05433,Artaxerxes1,25.0,CBS5433,5021,CBS 5433,"BE 9, 98",261627,Artaxerxes I,41,6,25,424,Nippur,Murašû,909,1,published,CDLI P
+261628,Achaemenid,Nippur,CBS 05434,Artaxerxes1,4.0,CBS5434,5027,CBS 5434,"BE 9, 99",261628,Artaxerxes I,41,8,4,424,Nippur,Murašû,909,1,published,CDLI P
+261629,Achaemenid,Nippur,CBS 05435,Artaxerxes1,16.0,CBS5435,5069,CBS 5435,"BE 9, 102",261629,Artaxerxes I,41,8,16,424,Nippur,Murašû,909,1,published,CDLI P
+261630,Achaemenid,Nippur,CBS 05436,Artaxerxes1,22.0,CBS5436,5074,CBS 5436,"BE 9, 106",261630,Artaxerxes I,41,8,22,424,Nippur,Murašû,909,1,published,CDLI P
+261633,Achaemenid,Nippur,CBS 05439,Artaxerxes1,22.0,CBS5439,3916,CBS 5439,"BE 9, 52a",261633,Artaxerxes I,37,3,2,428,Nippur,Murašû,909,1,published,CDLI P
+261634,Achaemenid,Nippur,CBS 05440,Artaxerxes1,31.0,CBS5440,3283,CBS 5540,"BE 9, 26a",261634,Artaxerxes I,31,5,10,[434],Nippur,Murašû,909,1,published,CDLI P
+261635,Achaemenid,Nippur,CBS 05441,Artaxerxes1,23.0,CBS5441,4967,CBS 5441,"BE 9, 94a",261635,Artaxerxes I,41,6,23,424,Nippur,Murašû,909,1,published,CDLI P
+261637,Achaemenid,Nippur,CBS 05443,Artaxerxes1,5.0,CBS5443,3424,CBS 5443,"BE 9, 32a",261637,Artaxerxes I,33,5,5,[432],"Bīt-Zēru-lēšir (1, Nippur)",Murašû,909,1,published,CDLI P
+261639,Achaemenid,Nippur,CBS 05445,Artaxerxes1,35.0,CBS5445,3532,CBS 5445,"BE 9, 39a",261639,Artaxerxes I,36,1,12,429,Nippur,Murašû,909,1,published,CDLI P
+261641,Achaemenid,Nippur,CBS 05447,Darius2,20.0,CBS5447,5797,CBS 5447,"BE 10, 111",261641,Darius II,6,6,20,418,Nippur,Murašû,909,1,published,CDLI P
+261643,Achaemenid,Nippur,CBS 05449,Darius2,1.0,CBS5449,5693,CBS 5449,"BE 10, 78",261643,Darius II,3,13,1,420,Nippur,Murašû,909,1,published,CDLI P
+261696,Achaemenid,Nippur,CBS 05503,Darius2,18.0,CBS5503,5737,CBS 5503,"BE 10, 99",261696,Darius II,5,2,18,419,Hašbāya,Murašû,909,1,published,CDLI P
+261697,Achaemenid,Nippur,CBS 05504,,,CBS5504,5813,CBS 5504,"BE 10, 116",261697,Darius II,6,0,,418/417,Nippur,Murašû,909,1,published,CDLI P
+261699,Achaemenid,Nippur,CBS 05506,Artaxerxes1,41.0,CBS5506,2554,CBS 5506,"Stolper 1985, no. 112",261699,Artaxerxes I,41,6,,[424],Broken/Unclear,Murašû,909,1,published,CDLI P
+261703,Achaemenid,Nippur,CBS 05510,Artaxerxes1,29.0,CBS5510,1799,CBS 5510,"Stolper 1985, no. 92",261703,Artaxerxes I,40,5,29,425,Nippur,Murašû,909,1,published,CDLI P
+261709,Achaemenid,Nippur,CBS 05516,Artaxerxes1,41.0,CBS5516,773,CBS 5516,"Stolper 1985, no. 66",261709,Artaxerxes I,41,8,,424,Nippur,Murašû,909,1,published,CDLI P
+263894,Achaemenid,Nippur,CBS 06126,Artaxerxes1,21.0,CBS6126,2272,CBS 6126,"Stolper 1985, no. 103",263894,Artaxerxes I,38,2,21,[427],Nippur,Murašû,909,1,published,CDLI P
+263900,Achaemenid,Nippur,CBS 06132,Artaxerxes1,27.0,CBS6132,373,CBS 6132,"Stolper 1985, no. 58",263900,Artaxerxes I,29,0,11,436/435,Nippur,Murašû,909,1,published,CDLI P
+264921,Achaemenid,Nippur,CBS 09555,Darius2,24.0,CBS9555,5474,CBS 9555,"BE 10, 44",264921,Darius II,1,6,25,423,Kuzabatu,Murašû,909,1,published,CDLI P
+267150,Achaemenid,Nippur,CBS 12505,,,CBS12505,325,CBS 12505,"Stolper 1985, no. 51",267150,Artaxerxes I,5,0,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+267427,Achaemenid,Nippur,CBS 12826,Darius2,11.0,CBS12826,2746,CBS 12826,"PBS 2/1, 145",267427,Darius II,11,6,21,413,Nippur,Murašû,909,1,published,CDLI P
+267432,Achaemenid,Nippur,CBS 12831,,,CBS12831,5950,CBS 12831,"PBS 2/1, 41",267432,Darius II,1,4,7,423,Nippur,Murašû,909,1,notready,CDLI P
+267434,Achaemenid,Nippur,CBS 12833,Darius2,21.0,CBS12833,2941,CBS 12833,"PBS 2/1, no. 147",267434,Darius II,21,6,11,404?,Nippur,Murašû,909,1,published,CDLI P
+267440,Achaemenid,Nippur,CBS 12839,,,CBS12839,2815,CBS 12839,"PBS 2/1, 146",267440,Darius II,11,6,21,413,Nippur,Murašû,909,1,published,CDLI P
+267442,Achaemenid,Nippur,CBS 12841,Artaxerxes1,13.0,CBS12841,137,CBS 12841,"Stolper 1985, no. 12",267442,Artaxerxes I,37,9,13,428,Nippur,Murašû,909,1,published,CDLI P
+267452,Achaemenid,Nippur,CBS 12851,Darius2,22.0,CBS12851,5957,CBS 12851,"PBS 2/1, 1",267452,Darius II,0,13,22,423,Nippur,Murašû,909,1,notready,CDLI P
+267453,Achaemenid,Nippur,CBS 12852,Artaxerxes1,38.0,CBS12852,1652,CBS 12852,"Stolper 1985, no. 83",267453,Artaxerxes I,38,0,,427/426,Nippur,Murašû,909,1,published,CDLI P
+267460,Achaemenid,Nippur,CBS 12859,Artaxerxes1,20.0,CBS12859,2296,CBS 12859,"Stolper 1976, no. 1",267460,Artaxerxes I,20,4,6,445,Nippur,Murašû,909,1,published,CDLI P
+267463,Achaemenid,Nippur,CBS 12862,Artaxerxes1,24.0,CBS12862,313,CBS 12862,"Stolper 1985, no. 43",267463,Artaxerxes II,24,0,19,381/380,Nippur,Murašû,909,1,published,CDLI P
+267471,Achaemenid,Nippur,CBS 12870,Darius2,25.0,CBS12870,2944,CBS 12870,"PBS 2/1, no. 148",267471,Darius II,11,6,25,413,Nippur,Murašû,909,1,published,CDLI P
+267474,Achaemenid,Nippur,CBS 12873,Artaxerxes1,16.0,CBS12873,380,CBS 12873,"Stolper 1985, no. 63",267474,Artaxerxes I,29,9,17,436,Nippur,Murašû,909,1,published,CDLI P
+267475,Achaemenid,Nippur,CBS 12874,Artaxerxes1,3.0,CBS12874,1182,CBS 12874,"Stolper 1985, no. 70",267475,Artaxerxes I,29,0,3,[436/435],Broken/Unclear,Murašû,909,1,published,CDLI P
+267484,Achaemenid,Nippur,CBS 12883,Artaxerxes1,35.0,CBS12883,188,CBS 12883,"Stolper 1985, no. 22",267484,Artaxerxes I,26,13,10,438,Nippur,Murašû,909,1,published,CDLI P
+267493,Achaemenid,Nippur,CBS 12892,Artaxerxes1,30.0,CBS12892,148,CBS 12892,"Stolper 1985, no. 17",267493,Artaxerxes I,31,3,30,434,Nippur,Murašû,909,1,published,CDLI P
+267495,Achaemenid,Nippur,CBS 12894 + ,Artaxerxes1,25.0,CBS12894,217,CBS 12894,"Stolper 1985, no. 27",267495,Artaxerxes I,40,8,25,425,Nippur,Murašû,909,1,published,CDLI P
+267524,Achaemenid,Nippur,CBS 12922,Artaxerxes1,36.0,CBS12922,310,CBS 12922,"Stolper 1985, no. 41",267524,Artaxerxes I,36,2,,429,Nippur,Murašû,909,1,published,CDLI P
+267540,Achaemenid,Nippur,CBS 12937,,,CBS12937,224,CBS 12973,"Stolper 1985, no. 32",267540,,,0,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+267541,Achaemenid,Nippur,CBS 12938,,,CBS12938,149,CBS 12938,"Stolper 1985, no. 18",267541,Artaxerxes I,,0,1,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+267542,Achaemenid,Nippur,CBS 12939,,,CBS12939,215,CBS 12939,"Stolper 1985, no. 25",267542,,,0,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+267543,Achaemenid,Nippur,CBS 12940 + CBS 12972,Artaxerxes1,5.0,CBS12940,1292,CBS 12940+,"Stolper 1985, no. 77",267543,Artaxerxes I,33,5,5,432,Nippur,Murašû,909,1,published,CDLI P
+267544,Achaemenid,Nippur,CBS 12941,Artaxerxes1,40.0,CBS12941,124,CBS 12941,"Stolper 1985, no. 7",267544,Artaxerxes I,40,0,,[425/424],Broken/Unclear,Murašû,909,1,published,CDLI P
+267549,Achaemenid,Nippur,CBS 12946,Artaxerxes1,31.0,CBS12946,1775,CBS 12946,"Stolper 1985, no. 87",267549,Artaxerxes I,31,0,,434/433,Nippur,Murašû,909,1,published,CDLI P
+267553,Achaemenid,Nippur,CBS 12950,Artaxerxes1,19.0,CBS12950,322,CBS 12950,"Stolper 1985, no. 48",267553,Artaxerxes I,19,0,,446/445,Broken/Unclear,Murašû,909,1,published,CDLI P
+267560,Achaemenid,Nippur,CBS 12957,,,CBS12957,2497,CBS 12957,"Stolper 1985, no. 109",267560,Darius II,0,13,9,423,Nippur,Murašû,909,1,published,CDLI P
+267563,Achaemenid,Nippur,CBS 12960,Artaxerxes1,37.0,CBS12960,220,CBS 12960,"Stolper 1985, no. 28",267563,Artaxerxes I,37,0,,[428/427],Nippur,Murašû,909,1,published,CDLI P
+267564,Achaemenid,Nippur,CBS 12961 + Ist Ni 02851 + Ist Ni 09601bis?,Artaxerxes1,13.0,CBS12961,368,CBS 12961,"Stolper 1985, no. 55",267564,Artaxerxes I,40,13,13,424,Nippur,Murašû,909,1,published,CDLI P
+267565,Achaemenid,Nippur,CBS 12962,Artaxerxes1,29.0,CBS12962,1274,CBS 12962,"Stolper 1985, no. 71",267565,Artaxerxes I,29,0,,436/435,Broken/Unclear,Murašû,909,1,published,CDLI P
+267566,Achaemenid,Nippur,CBS 12963,Artaxerxes1,34.0,CBS12963,1271,CBS 12963,"Stolper 1985, no. 72",267566,Artaxerxes I,34,5,5,[431],Addiyāya,Murašû,909,1,published,CDLI P
+267568,Achaemenid,Nippur,CBS 12965,Artaxerxes1,29.0,CBS12965,319,CBS 12965,"Stolper 1985, no. 46",267568,Artaxerxes I,29,5,09,436,Nippur,Murašû,909,1,published,CDLI P
+267569,Achaemenid,Nippur,CBS 12966,,,CBS12966,1289,CBS 12966,"Stolper 1985, no. 76",267569,,,0,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+267573,Achaemenid,Nippur,CBS 12969,,,CBS12969,2494,CBS 12969,"Stolper 1985, no. 108",267573,,,0,,-,Enlil-ašābšu-iqbi,Murašû,909,1,published,CDLI P
+267575,Achaemenid,Nippur,CBS 12971,,,CBS12971,1286,CBS 12971,"Stolper 1985, no. 75",267575,,,0,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+267578,Achaemenid,Nippur,CBS 12974,,,CBS12974,223,CBS 12974,"Stolper 1985, no. 31",267578,,,0,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+267582,Achaemenid,Nippur,CBS 12978,Artaxerxes1,31.0,CBS12978,323,CBS 12978,"Stolper 1985, no. 49",267582,Artaxerxes I,19,0,4,446/445,Broken/Unclear,Murašû,909,1,published,CDLI P
+267585,Achaemenid,Nippur,CBS 12981,Artaxerxes1,4.0,CBS12981,128,CBS 12981,"Stolper 1985, no. 10",267585,Artaxerxes I,26,0,4,[439/438],Broken/Unclear,Murašû,909,1,published,CDLI P
+267586,Achaemenid,Nippur,CBS 12982,Artaxerxes1,36.0,CBS12982,1865,CBS 12982,"Stolper 1985, no. 95",267586,Artaxerxes I,36,0,,[429/428],Nippur,Murašû,909,1,published,CDLI P
+267587,Achaemenid,Nippur,CBS 12983,Artaxerxes1,17.0,CBS12983,381,CBS 12983,"Stolper 1985, no. 64",267587,Artaxerxes I,41,8,17,424,Nippur,Murašû,909,1,published,CDLI P
+267589,Achaemenid,Nippur,CBS 12985,,,CBS12985,2551,CBS 12985,"Stolper 1985, no. 111",267589,Darius II,7,0,,[417/416],Nippur,Murašû,909,1,published,CDLI P
+267590,Achaemenid,Nippur,CBS 12986,Artaxerxes1,,CBS12986,213,CBS 12986,"Stolper 1985, no. 24",267590,Artaxerxes I,,11,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+267593,Achaemenid,Nippur,CBS 12989 + CBS 13051 + Ist Ni 09601 ?,Artaxerxes1,39.0,CBS12989,1361,CBS 12989+,"Stolper 1985, no. 79",267593,Artaxerxes I,39,0,,426/425,Nippur,Murašû,909,1,published,CDLI P
+267599,Achaemenid,Nippur,CBS 12995,Artaxerxes1,25.0,CBS12995,2608,CBS 12995,"Stolper 1985, no. 119",267599,Artaxerxes I,35,0,,430/429,Broken/Unclear,Murašû,909,1,published,CDLI P
+267601,Achaemenid,Nippur,CBS 12997,,,CBS12997,366,CBS 12997,"Stolper 1985, no. 53",267601,,,0,,-,Nippur,Murašû,909,1,published,CDLI P
+268090,Achaemenid,Nippur,CBS 13005,,,CBS13005,326,CBS 13005,"Stolper 1985, no. 52",268090,,,0,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+268103,Achaemenid,Nippur,CBS 13018,,,CBS13018,291,CBS 13018,"Stolper 1985, no. 33",268103,Darius II,,0,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+268105,Achaemenid,Nippur,CBS 13020,Artaxerxes1,16.0,CBS13020,2605,CBS 13020,"Stolper 1985, no. 118",268105,Artaxerxes I,41,0,16,424,Broken/Unclear,Murašû,909,1,published,CDLI P
+268112,Achaemenid,Nippur,CBS 13027,,,CBS13027,2266,CBS 13027,"Stolper 1985, no. 101",268112,,,0,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+268116,Achaemenid,Nippur,CBS 13031,,,CBS13031,127,CBS 13031,"Stolper 1985, no. 9",268116,Darius II,4,0,,[420/419],Broken/Unclear,Murašû,909,1,published,CDLI P
+268119,Achaemenid,Nippur,CBS 13034,,,CBS13034,1277,CBS 13034,"Stolper 1985, no. 73",268119,,,0,,-,Nippur,Murašû,909,1,published,CDLI P
+268121,Achaemenid,Nippur,CBS 13036,,,CBS13036,2593,CBS 13036,"Stolper 1985, no. 115",268121,,,0,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+268124,Achaemenid,Nippur,CBS 13039,Artaxerxes1,30.0,CBS13039,2611,CBS 13039,"Stolper 1985, no. 120",268124,Artaxerxes I,30,0,,435/434,Broken/Unclear,Murašû,909,1,published,CDLI P
+268125,Achaemenid,Nippur,CBS 13040,,,CBS13040,1640,CBS 13040,"Stolper 1985, no. 81",268125,,,0,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+268127,Achaemenid,Nippur,CBS 13042,Artaxerxes1,38.0,CBS13042,211,CBS 13042,"Stolper 1985, no. 21",268127,Artaxerxes I,38,0,5,427/426,Broken/Unclear,Murašû,909,1,published,CDLI P
+268128,Achaemenid,Nippur,CBS 13043 + CBS 13070,Artaxerxes1,20.0,CBS13043,370,CBS 13043+,"Stolper 1985, no. 56",268128,Artaxerxes II,20,0,,after 385,Broken/Unclear,Murašû,909,1,published,CDLI P
+268129,Achaemenid,Nippur,CBS 13044,Artaxerxes1,9.0,CBS13044,2254,CBS 13044,"Stolper 1985, no. 97",268129,,,0,9,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+268133,Achaemenid,Nippur,CBS 13048,Artaxerxes1,38.0,CBS13048,367,CBS 13048,"Stolper 1985, no. 54",268133,Artaxerxes I,38,0,,427/426,Nippur,Murašû,909,1,published,CDLI P
+268140,Achaemenid,Nippur,CBS 13055,,,CBS13055,121,CBS 13055,"Stolper 1985, no. 5",268140,,,0,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+268150,Achaemenid,Nippur,CBS 13065 + CBS 13076,Artaxerxes1,22.0,CBS13065,126,CBS 13065+,"Stolper 1985, no. 8",268150,Artaxerxes I,22,0,,[443/442],Broken/Unclear,Murašû,909,1,published,CDLI P
+268174,Achaemenid,Nippur,CBS 13089,Artaxerxes1,32.0,CBS13089,2581,CBS 13089,"Stolper 1985, no. 113",268174,Artaxerxes I,33,0,,after 432/431,Broken/Unclear,Murašû,909,1,published,CDLI P
+368409,Achaemenid,uncertain,KVM 32.1159,Darius1,4.0,KVM32,5408,KVM 32.1159,"Seri 2007, no. 58",368409,Darius I,04,0,21,518/517,Borsippa,Rē’i-alpi (Borsippa),220,1,published,CDLI P
+371694,Achaemenid,Babylon,MM 0510 + VAT 01895 + 02065,Darius1,28.0,MM510,440,VAT 1895+,"Baker 2004, no. 66b",371694,Darius I,28,1,27,494,Babylon,Nappāhu,184,1,published,CDLI P
+385423,Neo-Babylonian,Borsippa,Bod AB A 083,Šamaš-šum-ukin,4.0,,2452,Bodleian A 83,"OECT 12, Plate III",385423,Šamaš-šumu-ukīn,04,2,24,664,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385424,Neo-Babylonian,Borsippa,Bod AB A 084,,,,685,Bodleian A 84,"Joannès 1989, p. 263",385424,Nebuchadnezzar II,18,6,29,587,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385425,Neo-Babylonian,Borsippa,Bod AB A 085,,,,778,Bodleian A 85,"Joannès 1989, p. 263",385425,Nebuchadnezzar II,12,3,11,593,Not mentioned,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385426,Neo-Babylonian,Borsippa,Bod AB A 086,,,,779,Bodleian A 86,"Joannès 1989, p. 264",385426,Nebuchadnezzar II,12,6,27,593,Not mentioned,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385427,Neo-Babylonian,Borsippa,Bod AB A 087,,,,781,Bodleian A 87,"Joannès 1989, p. 264",385427,Nebuchadnezzar II,15,8,,590,Not mentioned,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,2,published,CDLI P
+385428,Neo-Babylonian,Borsippa,Bod AB A 088,,,,782,Bodleian A 88,"Joannès 1989, pp. 264-265",385428,Nebuchadnezzar II,40,13,07,564,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385429,Neo-Babylonian,Borsippa,Bod AB A 089,,,,783,Bodleian A 89,"Joannès 1989, p. 265",385429,Nebuchadnezzar II,28,12,22,576,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385433,Neo-Babylonian,Borsippa,Bod AB A 093,,,,2062,Bodleian A 93,"Joannès 1989, p. 268",385433,Nebuchadnezzar II,30,11,15,574,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385434,Neo-Babylonian,Borsippa,Bod AB A 094,,,,786,Bodleian A 94,"Joannès 1989, pp. 268-269",385434,Nebuchadnezzar II,31,0,18,574/573,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385435,Neo-Babylonian,Borsippa,Bod AB A 095,,,,787,Bodleian A 95,"Joannès 1989, pp. 269-270",385435,Nebuchadnezzar II,31,7,14,574,Sūr-amīlāti,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385436,Neo-Babylonian,Borsippa,Bod AB A 096,,,,788,Bodleian A 96,"Joannès 1989, p. 270",385436,Nebuchadnezzar II,15,13,28,589,Not mentioned,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,2,published,CDLI P
+385438,Neo-Babylonian,Borsippa,Bod AB A 098,,,,1445,Bodleian A 98,"Joannès 1989, pp. 270-271",385438,Nebuchadnezzar II,08,9,23,597,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385439,Neo-Babylonian,Borsippa,Bod AB A 099,,,,789,Bodleian A 99,"Joannès 1989, pp. 271-272",385439,Nebuchadnezzar II,35,6,,570,Not mentioned,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385441,Neo-Babylonian,Borsippa,Bod AB A 101,Nabonidus,,,790,Bodleian A 101,"Joannès 1989, p. 272",385441,Nabonidus,5,3,10,551,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385442,Neo-Babylonian,Borsippa,Bod AB A 102,Nabonidus,,,791,Bodleian A 102,"Joannès 1989, pp. 272-273",385442,Nabonidus,07,13,12,548,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385443,Neo-Babylonian,Borsippa,Bod AB A 105,Nabonidus,,,2065,Bodleian A 105,"Joannès 1989, pp. 273-274",385443,Nabonidus,11,13,06,544,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385444,Neo-Babylonian,Borsippa,Bod AB A 106,Nabonidus,,,793,Bodleian A 106,"Joannès 1989, p. 274",385444,Nabonidus,13,9,16,543,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385445,Neo-Babylonian,Borsippa,Bod AB A 107,Nabonidus,,,794,Bodleian A 107,"Joannès 1989, pp. 274-275",385445,Nabonidus,16,8,26,540,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385446,Neo-Babylonian,Borsippa,Bod AB A 108,Nabonidus,,,795,Bodleian A 108,"Joannès 1989, p. 275",385446,Nabonidus,16,10,7,540,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385450,Neo-Babylonian,Borsippa,Bod AB A 112,Cambyses,,,2068,Bodleian A 112,"Joannès 1989, p. 276",385450,Cambyses,02,8,29,528,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385451,Neo-Babylonian,Borsippa,Bod AB A 113,Cambyses,,,2071,Bodleian A 113,"Joannès 1989, p. 277",385451,Cambyses,03,6,11,527,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385452,Neo-Babylonian,Borsippa,Bod AB A 114,Cambyses,,,796,Bodleian A 114,"Joannès 1989, pp. 277-278",385452,Cambyses,05,0,12,525/524,Sūr-amīlāti,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385453,Neo-Babylonian,Borsippa,Bod AB A 115,Cambyses,,,797,Bodleian A 115,"Joannès 1989, p. 278",385453,Cambyses,04,11,19,525,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385454,Neo-Babylonian,Borsippa,Bod AB A 116,Cyrus,,,2077,Bodleian A 116,"Joannès 1989, pp. 278-279",385454,Cyrus,02,9,16,537,Bāb-kirāti,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385455,Neo-Babylonian,Borsippa,Bod AB A 117,Cambyses,,,3019,Bodleian A 117,"OECT 12, Plate XV",385455,Cambyses,00,11,18,529,Broken/Unclear,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385456,Neo-Babylonian,Borsippa,Bod AB A 118,,,,2080,Bodleian A 118,"Joannès 1989, pp. 279-280",385456,Darius I,14,12,10,507,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385457,Neo-Babylonian,Borsippa,Bod AB A 119,,,,798,Bodleian A 119,"Joannès 1989, pp. 280-281",385457,Darius I,15,13,07,506,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385458,Neo-Babylonian,Borsippa,Bod AB A 120,,,,2050,Bodleian A 120,"Joannès 1989, p. 281",385458,Darius I,17,6,12,505,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385460,Neo-Babylonian,Borsippa,Bod AB A 123,,,,799,Bodleian A 123,"Joannès 1989, p. 282",385460,Darius I,13,13,22,after 508,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385463,Neo-Babylonian,Borsippa,Bod AB A 126,Nabonidus,,,800,Bodleian A 126,"Joannès 1989, p. 283",385463,Nabonidus,15,8,18,541,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385464,Neo-Babylonian,Borsippa,Bod AB A 127,,,,801,Bodleian A 127,"Joannès 1989, p. 283",385464,Nebuchadnezzar II,00,11,13,604,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385467,Neo-Babylonian,Borsippa,Bod AB A 130,Nabonidus,,,802,Bodleian A 130,"Joannès 1989, pp. 283-284",385467,,,0,,-,Broken/Unclear,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385468,Neo-Babylonian,Borsippa,Bod AB A 131,Šamaš-šum-ukin,12.0,,1448,Bodleian A 131,"Joannès 1989, pp. 284-285",385468,Šamaš-šumu-ukīn,12,0,09,[656],Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385469,Neo-Babylonian,Borsippa,Bod AB A 132,,,,803,Bodleian A 132,"Joannès 1989, p. 285",385469,Nebuchadnezzar II,20,3,16,585,Not mentioned,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385470,Neo-Babylonian,Borsippa,Bod AB A 133,,,,862,Bodleian A 133,"Joannès 1989, p. 286",385470,Darius I,14,10,16,508,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385471,Neo-Babylonian,Borsippa,Bod AB A 134,,,,863,Bodleian A 134,"Joannès 1989, p. 287",385471,Nebuchadnezzar II,23,1,22,582,Bēl-iqbi,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385472,Neo-Babylonian,Borsippa,Bod AB A 135,,,,141,Bodleian A 135,"Hackl, Jursa and Schmidl 2014, no. 119",385472,,,0,,-,Not mentioned,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,3,published,CDLI P
+385476,Neo-Babylonian,Borsippa,Bod AB A 140,Nabonidus,,,864,Bodleian A 140,"Joannès 1989, pp. 288-289",385476,Nabonidus,6,3,9,550,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385486,Neo-Babylonian,Borsippa,Bod AB A 154,Nabonidus,,,867,Bodleian A 154,"Joannès 1989, p. 290",385486,Nabonidus,5,11,23,550,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385496,Neo-Babylonian,Borsippa,Bod AB A 165,,,,868,Bodleian A 165,"Joannès 1989, p. 291",385496,,3,0,23,-,Broken/Unclear,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385502,Neo-Babylonian,unknown,Bod AB A 171,,,,7540,Bodleian A 171,"OECT 12, A 171 (pl. XXXVI)",385502,,,0,,-,Not mentioned,Ilšu-abūšu A,220,2,published,CDLI P
+385503,Neo-Babylonian,unknown,Bod AB A 172,,,,7555,Bodleian A 172,"OECT 12, A 172 (pl. XXXVI)",385503,,,0,,-,Not mentioned,Ilšu-abūšu A,220,2,published,CDLI P
+385504,Neo-Babylonian,Borsippa,Bod AB A 173,,,,870,Bodleian A 173,"Joannès 1989, p. 292",385504,Darius I,18,0,,504/503,Broken/Unclear,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385505,Neo-Babylonian,Borsippa,Bod AB A 174,Nabonidus,,,871,Bodleian A 174,"Joannès 1989, p. 293",385505,Nabonidus,2,9,2,554,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385506,Neo-Babylonian,Borsippa,Bod AB A 175,,,,133,Bodleian A 175,"Hackl, Jursa and Schmidl 2014, no. 114",385506,,,0,,-,Not mentioned,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,3,published,CDLI P
+385507,Neo-Babylonian,unknown,Bod AB A 176,Cambyses,,,3052,Bodleian A 176,"OECT 12, Plate XXXVIII",385507,Cambyses,06,0,06,524/523,Broken/Unclear,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385509,Neo-Babylonian,Borsippa,Bod AB A 178,Nabonidus,,,2056,Bodleian A 178,"Joannès 1989, p. 294",385509,Nabonidus,,5,,-,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385513,Neo-Babylonian,Borsippa,Bod AB A 182,Xerxes,,,7363,Bodleian A 182,"OECT 12, A 182 (pl. XLI)",385513,Xerxes I,02,2,22,484,Not mentioned,Ilšu-abūšu A,220,2,published,CDLI P
+385517,Neo-Babylonian,Borsippa,Bod C 001,Cyrus,,,891,Bodleian C 1,"Joannès 1989, p. 296",385517,Cyrus,01,1,30,[538],Nuhšānītu (1),"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385519,Neo-Babylonian,unknown,Bod C 004,,,,7261,Bodleian C4,"Hackl, Jursa and Schmidl 2014, no. 129",385519,,,0,,-,Not mentioned,Ilšu-abūšu A,220,3,published,CDLI P
+385520,Neo-Babylonian,unknown,Bod C 006,,,,7262,Bodleian C6,"Hackl, Jursa and Schmidl 2014, no. 130",385520,,,0,,-,Not mentioned,Ilšu-abūšu A,220,3,published,CDLI P
+385530,Neo-Babylonian,unknown,Bod AB 252,,,,7233,Bodleian AB 252,"Hackl, Jursa and Schmidl 2014, no. 128",385530,,,0,,-,Not mentioned,Ilšu-abūšu A,220,3,published,CDLI P
+387071,Neo-Babylonian,Borsippa,AO 10298,Kandalānu,7.0,AO10298,1451,AO 10298,"Joannès 1989, pp. 299-300",387071,Kandalānu,07,3,16,641,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+387092,Neo-Babylonian,Uruk,AO 10265,Nebuchadnezzar,,AO10265,1981,AO 10265,"Joannès 1989, pp. 301-302",387092,Nebuchadnezzar II,02,4,29,603,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+387151,Neo-Babylonian,Babylon,MNB 1127,Nabonidus,,MNB1127,7874,MNB 1127,"TCL 12, 86",387151,Nabonidus,6,8,4,550,Babylon,Egibi Nūr-Sîn,184,1,published,CDLI P
+387166,Neo-Babylonian,Babylon,MNB 1828,Nabonidus,,MNB1828,7865,MNB 1828,"TCL 12, 101",387166,Nabonidus,11,9,21,545,Babylon,Egibi Nūr-Sîn,184,1,published,CDLI P
+387185,Neo-Babylonian,Babylon,MNB 1133,Nabonidus,,MNB1133,7215,MNB 1133,"TCL 12, 120",387185,Nabonidus,17,6,05,539,Bīt-šar-Bābili,Egibi Nūr-Sîn,184,1,published,CDLI P
+387187,Neo-Babylonian,Babylon,MNB 1809,Nabonidus,,MNB1809,7867,MNB 1809,"TCL 12, 122",387187,Nabonidus,10,11,21,after 545,Babylon,Egibi Nūr-Sîn,184,1,published,CDLI P
+387201,Achaemenid,Borsippa,AO 10267,Cyrus,,AO10267,1996,AO 10267,"Joannès 1989, pp. 314-315",387201,Cyrus,05,2,02,534,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+387225,Achaemenid,Babylon,MNB 1129,Cambyses,,MNB1129,6455,MNB 1129,"Wunsch 2000b, no. 60A",387225,Cambyses,3,6,16,527,Babylon,Egibi Nūr-Sîn,184,1,published,CDLI P
+391475,Neo-Babylonian,unknown,OIM A01720,,,,2362,OIM A01720,"Holt 1911, pp. 196f., 214",391475,Cyrus,,5,20,-,Broken/Unclear,Esagilāya B,184,1,published,CDLI P
+391480,Neo-Babylonian,unknown,OIM A01725,,,,3994,OIM A01725,"Holt 1911, pp. 201f., 218",391480,Nabonidus,,0,,-,Babylon,Ea-eppēš-ilī A (Babylon),184,1,published,CDLI P
+405648,Achaemenid,Babylon,SM 1891.11.029,Darius1,10.0,SM1891,589,HSM 1891-11-29,"Baker 2004, no. 108",405648,Darius I,10,3,22,512,Babylon,Nappāhu,184,1,published,CDLI P
+405917,Achaemenid,Borsippa,SM 1899.02.140,Dar I,,SM1899,5260,HSM 1899.2.140,unpublished,405917,Darius I,01,12,06,520,Borsippa,Rē’i-alpi (Borsippa),220,1,published,CDLI P
+405922,Achaemenid,Borsippa,SM 1899.02.145,Darius1,16.0,SM1899,6299,HSM 1899.2.145,"Zadok and Zadok 2005, p. 646",405922,Darius I,15,9,09,507,Borsippa,Rē’i-alpi (Borsippa),220,1,published,CDLI P
+406024,Achaemenid,unknown,SM 1899.02.262,,,SM1899,7269,HSM 1899.2.262,"Hackl, Jursa and Schmidl 2014, no. 131",406024,,,0,,-,Not mentioned,Ilšu-abūšu A,220,3,published,CDLI P
+414636,Neo-Babylonian,unknown,BNUS 473,,,BNUS473,3319,BNUS 473,"Joannès 1980, no. 1",414636,Nabonidus,08,8,28,548,Babylon,Ea-eppēš-ilī B (Babylon),184,1,published,CDLI P
+414638,Neo-Babylonian,unknown,BNUS 477,,,BNUS477,3325,BNUS 477,"Joannès 1980, no. 3",414638,Darius I,06,10,03,[after 516],Babylon,Ea-eppēš-ilī B (Babylon),184,1,published,CDLI P
+414639,Neo-Babylonian,unknown,BNUS 481,,,BNUS481,3328,BNUS 481,"Joannès 1980, no. 4",414639,Darius I,15,10,10,507,Babylon,Ea-eppēš-ilī B (Babylon),184,2,published,CDLI P
+414640,Neo-Babylonian,unknown,BNUS 478,,,BNUS478,3331,BNUS 478,"Joannès 1980, no. 5",414640,Darius I,25,11,22,496,Ṭābānu,Ea-eppēš-ilī B (Babylon),184,1,published,CDLI P
+414641,Neo-Babylonian,unknown,BNUS 480,,,BNUS480,3334,BNUS 480,"Joannès 1980, no. 6",414641,Darius I,26,0,,496/495,Broken/Unclear,Ea-eppēš-ilī B (Babylon),184,1,published,CDLI P
+414642,Neo-Babylonian,unknown,BNUS 484,,,BNUS484,3337,BNUS 484,"Joannès 1980, no. 7",414642,Darius I,28,5,05,[494],Babylon,Ea-eppēš-ilī B (Babylon),184,1,published,CDLI P
+414643,Neo-Babylonian,unknown,BNUS 482,,,BNUS482,3340,BNUS 482,"Joannès 1980, no. 8",414643,,,0,,-,Not mentioned,Ea-eppēš-ilī B (Babylon),184,2,published,CDLI P
+414644,Neo-Babylonian,unknown,BNUS 479,,,BNUS479,3361,BNUS 479,"Joannès 1980, no. 10",414644,Darius I,31,6,20,491,Ṭābānu,Ea-eppēš-ilī B (Babylon),184,1,published,CDLI P
+414645,Neo-Babylonian,unknown,BNUS 476,,,BNUS476,3364,BNUS 476,"Joannès 1980, no. 11",414645,Darius I,31,6,,[491],Danītāya,Ea-eppēš-ilī B (Babylon),184,1,published,CDLI P
+414646,Neo-Babylonian,unknown,BNUS 483,,,BNUS483,3367,BNUS 483,"Joannès 1980, no. 12",414646,Darius I,31,0,20,[491/490],Babylon,Ea-eppēš-ilī B (Babylon),184,1,published,CDLI P
+414702,Neo-Babylonian,Ur,UM 52-30-005,Nabopolassar,12.0,UM52,5043,UM 52-30-005,"UET 4, 6",414702,Nabopolassar,12,4,08,614,Dūr-Šūqīti,Sîn-uballiṭ,1209,1,published,CDLI P
+414760,Neo-Babylonian,Ur,UM 52-30-014,Xerxes,,UM52,5505,UM 52-30-014,"UET 4, 64",414760,Xerxes I,03,3,14,483,Ur,Imbia,1209,1,published,CDLI P
+414761,Neo-Babylonian,Ur,UM 52-30-015,,,UM52,5974,UM 52-30-015,"UET 4, 65",414761,Darius I,10,10,22,512,Broken/Unclear,Sîn-ilī (Ur),1209,1,published,CDLI P
+414798,Neo-Babylonian,Ur,UM 52-30-023,,,UM52,6000,UM 52-30-023,"UET 4, 102",414798,Darius I,21,13,18,500,Ur,Sîn-ilī (Ur),1209,1,published,CDLI P
+414803,Neo-Babylonian,Ur,UM 52-30-024,,,UM52,6001,UM 52-30-024,"UET 4, 107",414803,Darius I,08,5,07,514,Bīt-Kušê,Sîn-ilī (Ur),1209,1,published,CDLI P
+414804,Neo-Babylonian,Ur,UM 52-30-025,,,UM52,6002,UM 52-30-025,"UET 4, 108",414804,Darius I,12,6,15,510,Broken/Unclear,Sîn-ilī (Ur),1209,1,published,CDLI P
+414859,Neo-Babylonian,Ur,UM 52-30-036,,,UM52,5442,UM 52-30-036,"UET 4, 163",414859,,,0,,-,Not mentioned,Sîn-uballiṭ,1209,3,published,CDLI P
+414860,Neo-Babylonian,Ur,UM 52-30-037,,,UM52,5280,UM 52-30-037,"UET 4, 164",414860,,,0,,-,Not mentioned,Sîn-uballiṭ,1209,2,published,CDLI P
+414867,Neo-Babylonian,Ur,UM 52-30-041,,,UM52,5178,UM 52-30-041,"UET 4, 171",414867,,,0,,-,Not mentioned,Sîn-uballiṭ,1209,1,published,CDLI P
+414875,Neo-Babylonian,Ur,UM 52-30-045,,,UM52,5462,UM 52-30-045,"UET 4, 179",414875,,,0,,-,Not mentioned,Sîn-uballiṭ,1209,3,published,CDLI P
+414878,Neo-Babylonian,Ur,UM 52-30-046,,,UM52,5372,UM 52-30-046,"UET 4, 182",414878,,,0,,-,Not mentioned,Sîn-uballiṭ,1209,3,published,CDLI P
+414879,Neo-Babylonian,Ur,UM 52-30-047,,,UM52,5434,UM 52-30-047,"UET 4, 183",414879,,,0,,-,Not mentioned,Sîn-uballiṭ,1209,3,published,CDLI P
+414882,Neo-Babylonian,Ur,UM 52-30-050,,,UM52,5295,UM 52-30-050,"UET 4, 186",414882,,,0,,-,Not mentioned,Sîn-uballiṭ,1209,3,published,CDLI P
+414884,Neo-Babylonian,Ur,UM 52-30-051,,,UM52,5436,UM 52-30-051,"UET 4, 188",414884,,,0,,-,Not mentioned,Sîn-uballiṭ,1209,3,published,CDLI P
+414885,Neo-Babylonian,Ur,UM 52-30-052,,,UM52,5465,UM 52-30-052,"UET 4, 189",414885,,,0,,-,Not mentioned,Unknown Ur,,3,ready,CDLI P
+414886,Neo-Babylonian,Ur,UM 52-30-053,,,UM52,5443,UM 52-30-053,"UET 4, 190",414886,,,0,,-,Not mentioned,Sîn-uballiṭ,1209,3,published,CDLI P
+414888,Neo-Babylonian,Ur,UM 52-30-055,,,UM52,5311,UM 52-30-055,"UET 4, 192",414888,,,0,,-,Not mentioned,Sîn-uballiṭ,1209,3,published,CDLI P
+431322,Achaemenid,unknown,KT 1464,Nabonidus,15.0,KT1464,7801,KT 1464,"Panayotov and Wunsch 2014, no. 2",431322,Nabonidus,15,6,13,541,Babylon,Egibi Nūr-Sîn,184,1,published,CDLI P
+431323,Achaemenid,unknown,KT 1465,Cyrus,3.0,KT1465,7802,KT 1465,"Panayotov and Wunsch 2014, no. 3",431323,Cyrus,3,9,23,536,Babylon,Egibi Nūr-Sîn,184,1,published,CDLI P
+431324,Achaemenid,unknown,KT 1466,Nabonidus,12.0,KT1466,7803,KT 1466,"Panayotov and Wunsch 2014, no. 4",431324,Nabonidus,12,4,27,544,Babylon,Egibi Nūr-Sîn,184,1,published,CDLI P
+453469,Achaemenid,Nippur,UM L-29-565,Darius2,6.0,,311,L-29-565,"Stolper 1985, no. 42",453469,Darius II,06,6,18,418,Nippur,Murašû,909,1,published,CDLI P
+453470,Achaemenid,Nippur,UM L-29-570,Darius2,4.0,,2587,L-29-570,"Stolper 1985, no. 114",453470,Darius II,4,11,6,419,Nippur,Murašû,909,1,published,CDLI P
+459593,Neo-Babylonian,unknown,FLP 0628,,,FLP628,7333,FLP 628,"Waerzeggers 2002, no. 4",459593,Darius I,9,12,13,,Sippar,Maštuk,1022,1,notready,CDLI P
+459595,Neo-Babylonian,unknown,FLP 0631,--,,FLP631,7235,FLP 631,No publication,459595,Neriglissar,2,5,7,,Babylon,Maštuk,1022,1,notready,CDLI P
+459596,Achaemenid,Sippar-Yahrurum,FLP 0633,Darius1,,FLP633,7315,FLP 633,No publication,459596,Darius I,2,11,17,,Sippar,Maštuk,1022,1,notready,CDLI P
+459608,Achaemenid,Sippar-Yahrurum,FLP 0652,Darius1,8.0,FLP652,7326,FLP 652,No publication,459608,Darius I,8,4,25,,Sippar,Maštuk,1022,1,notready,CDLI P
+459614,Achaemenid,Sippar-Yahrurum,FLP 0659,Darius1,23.0,FLP659,208,FLP 659,Zadok 1998a,459614,Darius I,23,2,28,499/8,Sippar,Ṣāhit-ginê B,1022,1,notready,CDLI P
+459632,Neo-Babylonian,unknown,FLP 0702,--,,FLP702,6724,FLP 702,No publication,459632,Darius I,20,0,16,,Sippar,Ṣāhit-ginê B,1022,1,notready,CDLI P
+459923,Achaemenid,Sippar-Yahrurum,FLP 1414,Darius1,24.0,FLP1414,6752,FLP 1414,"Stigers 1976, no. 49",459923,Darius I,24,13,11,,Sippar,Ṣāhit-ginê B,1022,1,notready,CDLI P
+459930,Achaemenid,Babylon,FLP 1421,Darius1,19.0,FLP1421,7871,FLP 1421,"Stigers 1976, no. 46",459930,Darius I,9,6,22,513,Babylon,Egibi Nūr-Sîn,184,1,published,CDLI P
+459954,Achaemenid,uncertain,FLP 1446,Darius1,,FLP1446,6765,FLP 1446,No publication,459954,Darius I,,0,,,Broken/Unclear,Ṣāhit-ginê B,1022,1,notready,CDLI P
+459957,Neo-Babylonian,uncertain,FLP 1449,,,FLP1449,30,FLP 1449,"JCS 28, 45",459957,,,0,,,Not mentioned,Maštuk,1022,1,notready,CDLI P
+459967,Achaemenid,Sippar-Yahrurum,FLP 1459,Darius1,13.0,FLP1459,7346,FLP 1459,"Stigers 1976, no. 23",459967,Darius I,13,12,9,,Sippar,Maštuk,1022,1,notready,CDLI P
+459976,Achaemenid,Sippar-Yahrurum,FLP 1468,Darius1,12.0,FLP1468,12,FLP 1468,"Stigers 1976, no. 33",459976,Darius I,12,4,26,,Sippar,Ṣāhit-ginê B,1022,1,notready,CDLI P
+459987,Achaemenid,Sippar-Yahrurum,FLP 1479,Cyrus,,FLP1479,7304,FLP 1479,"Stigers 1976, no. 10",459987,Cyrus,,6,11,,Sippar,Maštuk,1022,1,notready,CDLI P
+459993,Achaemenid,Sippar-Yahrurum,FLP 1485,Cyrus,7.0,FLP1485,7303,FLP 1485,"Stigers 1976, no. 13",459993,Cyrus,7,10,22,,Sippar,Maštuk,1022,1,notready,CDLI P
+459997,Achaemenid,uncertain,FLP 1489,Darius1,29.0,FLP1489,7349,FLP 1489,"Stigers 1976, no. 58",459997,Darius I,29,2,2,,Babylon,Maštuk,1022,1,notready,CDLI P
+459998,Achaemenid,Sippar-Yahrurum,FLP 1490,Darius1,12.0,FLP1490,7344,FLP 1490,No publication,459998,Darius I,12,2,3,,Sippar,Maštuk,1022,1,notready,CDLI P
+460026,Neo-Babylonian,Sippar-Yahrurum,FLP 1518,Nabopolassar,6.0,FLP1518,7230,FLP 1518,"Dillard 1975, 23-28, 236",460026,Nabopolassar,8,4,12,,Babylon,Maštuk,1022,1,notready,CDLI P
+460064,Neo-Babylonian,Sippar-Yahrurum,FLP 1556,Nebuchadnezzar2,43.0,FLP1556,7234,FLP 1556,"Dillard 1975, pp. 105, 253",460064,Nebuchadnezzar II,43,1,22,,Sippar,Maštuk,1022,1,notready,CDLI P
+460097,Neo-Babylonian,Sippar-Yahrurum,FLP 1589,Nabonidus,10.0,FLP1589,7236,FLP 1589,"Dillard 1975, pp. 153–155",460097,Nabonidus,10,6,16,,Sippar,Maštuk,1022,1,notready,CDLI P
+460102,Neo-Babylonian,Sippar-Yahrurum,FLP 1594,Nabomidus,13.0,FLP1594,7239,FLP 1594,"Dillard 1975, pp. 161–163, 269",460102,Nabonidus,13,10,14,,Sippar,Maštuk,1022,1,notready,CDLI P
+460105,Neo-Babylonian,Babylon,FLP 1597,Nabonidus,15.0,FLP1597,7289,FLP 1597,"Dillard 1975, pp. 166–167, 270",460105,Nabonidus,15,4,9,,Babylon,Maštuk,1022,1,notready,CDLI P
+460111,Neo-Babylonian,Uruk,FLP 1603,Nabonidus,16.0,FLP1603,7293,FLP 1603,"Dillard 1975, pp. 175–177, 272",460111,Nabonidus,16,12,7,,Uruk,Maštuk,1022,1,notready,CDLI P
+460112,Neo-Babylonian,Sippar-Yahrurum,FLP 1604,Nabonidus,16.0,FLP1604,7294,FLP 1604,"Dillard 1975, pp. 178–179, 273",460112,Nabonidus,16,13,13,,Sippar,Maštuk,1022,1,notready,CDLI P
+460131,Achaemenid,unknown,FLP 1623,Cambyses2,,FLP1623,6749,FLP 1623,No publication,460131,Darius I,21,0,29,,Sippar,Ṣāhit-ginê B,1022,1,notready,CDLI P
+469304,Neo-Babylonian,Ur,BM 113928,Ashurbanipal,20.0,BM113928,5508,BM 113928,"Tarasewicz 2018, no. 1",469304,Assurbanipal,20,1,29,648,Ur,Early NB archive,1209,1,published,CDLI P
+469308,Neo-Babylonian,Ur,BM 113950,,,BM113950,5577,BM 113950,"Tarasewicz 2018, no. 33",469308,,,0,,-,Not mentioned,Unknown Ur,,2,ready,CDLI P
+469309,Neo-Babylonian,Ur,BM 113955,,,BM113955,5710,BM 113955+,"Tarasewicz 2018, no. 63",469309,,,0,,-,Broken/Unclear,Unknown Ur,,4,ready,CDLI P
+469311,Neo-Babylonian,Ur,BM 113957,,,BM113957,5611,BM 113957,"Tarasewicz 2018, no. 36",469311,,,0,,-,Not mentioned,Unknown Ur,,2,ready,CDLI P
+469312,Neo-Babylonian,Ur,BM 113958,,,BM113958,5652,BM 113958,"Tarasewicz 2018, no. 40",469312,,,0,,-,Not mentioned,Unknown Ur,,2,ready,CDLI P
+469313,Neo-Babylonian,Ur,BM 113959,,,BM113959,5672,BM 113959,"Tarasewicz 2018, no. 42",469313,,,0,,-,Not mentioned,Imbia,1209,2,published,CDLI P
+469315,Achaemenid,Ur,BM 113961,Darius1,34.0,BM113961,5522,BM 113961,"Tarasewicz 2018, no. 6",469315,Darius I,35,13,28,486,Ur,Imbia,1209,1,published,CDLI P
+469316,Achaemenid,Ur,BM 113962,Darius1,8.0,BM113962,5569,BM 113962,"Tarasewicz 2018, no. 27",469316,Darius I,08,5,18,514,Not mentioned,Imbia,1209,2,published,CDLI P
+469319,Neo-Babylonian,Ur,BM 113966 + BM 114022,,,BM113966,5678,BM 113966+,"Tarasewicz 2018, no. 46",469319,,,0,,-,Ur,Unknown Ur,,1,ready,CDLI P
+469321,Achaemenid,Ur,BM 113974,Cyrus,4.0,BM113974,5542,BM 113974,"Tarasewicz 2018, no. 13",469321,Cyrus,04,3,12,535,Ur,Imbia,1209,1,published,CDLI P
+469322,Neo-Babylonian,Ur,BM 113975,,,BM113975,5675,BM 113975,"Tarasewicz 2018, no. 43",469322,,,0,,-,Not mentioned,Unknown Ur,,3,ready,CDLI P
+469324,Neo-Babylonian,Ur,BM 113977,Nabonidus,,BM113977,5558,BM 113977,"Tarasewicz 2018, no. 17",469324,Nabonidus,08,6,22,after 548,Ur,Unknown Ur,,1,ready,CDLI P
+469325,Neo-Babylonian,Ur,BM 113980,Nebuchadnezzar2,2.0,BM113980,5544,BM 113980,"Tarasewicz 2018, no. 15",469325,Nebuchadnezzar II,00,8,29,605,Ur,Imbia,1209,1,published,CDLI P
+469326,Neo-Babylonian,Ur,BM 113981,Nebuchadnezzar2,17.0,BM113981,5677,BM 113981,"Tarasewicz 2018, no. 45",469326,,,0,,-,Not mentioned,Unknown Ur,,2,ready,CDLI P
+469327,Neo-Babylonian,Ur,BM 113983,Nabonidus,12.0,BM113983,5537,BM 113983,"Tarasewicz 2018, no. 8",469327,Nabonidus,12,11,06,543,Ur,Imbia,1209,1,published,CDLI P
+469329,Neo-Babylonian,Ur,BM 113992,,,BM113992,5656,BM 113992,"Tarasewicz 2018, no. 41",469329,,,0,,-,Not mentioned,Unknown Ur,,2,ready,CDLI P
+469330,Neo-Babylonian,Ur,BM 113997,Nebuchadnezzar2,27.0,BM113997,5527,BM 113997,"Tarasewicz 2018, no. 7",469330,Nebuchadnezzar II,26,1,19,-,Ur,Unknown Ur,,1,ready,CDLI P
+469332,Neo-Babylonian,Ur,BM 114011,,,BM114011,5539,BM 114011,"Tarasewicz 2018, no. 10",469332,,,0,,-,Ur,Imbia,1209,1,published,CDLI P
+469334,Neo-Babylonian,Ur,BM 114028 + BM 114099,Darius1,9.0,BM114028,5515,BM 114028+,"Tarasewicz 2018, no. 5",469334,Darius I,09,5,22,513,Ālu-ša-Inṣabtu,Imbia,1209,1,published,CDLI P
+469336,Neo-Babylonian,Ur,BM 114034,,,BM114034,5562,BM 114034,"Tarasewicz 2018, no. 21",469336,Darius I,04,0,18,[518/517],Broken/Unclear,Imbia,1209,1,published,CDLI P
+469337,Neo-Babylonian,Ur,BM 114042,Nebuchadnezzar2,,BM114042,5540,BM 114042,"Tarasewicz 2018, no. 11",469337,Nebuchadnezzar II,,9,05,-,Dummalqu,Unknown Ur,,1,ready,CDLI P
+469339,Achaemenid,Ur,BM 114045 + BM 114102 + BM 114161,Cambyses,1.0,BM114045,5557,BM 114045+,"Tarasewicz 2018, no. 16",469339,Cambyses,01,0,26,after 529/528,Ālu-ša-Inṣabtu,Imbia,1209,1,published,CDLI P
+469341,Neo-Babylonian,Ur,BM 114050 + BM 114117,,,BM114050,5563,BM 114050+,"Tarasewicz 2018, no. 22",469341,Darius I,06,0,03,[516/515],Ālu-ša-Inṣabtu,Imbia,1209,1,published,CDLI P
+469345,Neo-Babylonian,Ur,BM 114064,,,BM114064,5564,BM 114064,"Tarasewicz 2018, no. 23",469345,,,0,,-,Broken/Unclear,Unknown Ur,,1,ready,CDLI P
+469348,Neo-Babylonian,Ur,BM 114069,,,BM114069,5712,BM 114069,"Tarasewicz 2018, no. 65",469348,,,0,,-,Broken/Unclear,Unknown Ur,,4,ready,CDLI P
+469351,Neo-Babylonian,Ur,BM 114078,,,BM114078,5688,BM 114078A,"Tarasewicz 2018, no. 54A",469351,,,0,,-,Broken/Unclear,Unknown Ur,,4,ready,CDLI P
+469358,Neo-Babylonian,Ur,BM 114106,,,BM114106,5692,BM 114106,"Tarasewicz 2018, no. 56",469358,,,0,,-,Broken/Unclear,Imbia,1209,4,published,CDLI P
+469359,Achaemenid,Ur,BM 114107,Darius1,,BM114107,5565,BM 114107,"Tarasewicz 2018, no. 24",469359,Darius I,05,7,21,[517]?,Habašu,Imbia,1209,1,published,CDLI P
+469362,Neo-Babylonian,Ur,BM 114116,,,BM114116,5567,BM 114116,"Tarasewicz 2018, no. 25",469362,,,0,,-,Broken/Unclear,Unknown Ur,,1,ready,CDLI P
+469363,Neo-Babylonian,Ur,BM 114118,,,BM114118,5700,BM 114118,"Tarasewicz 2018, no. 57",469363,,,0,,-,Broken/Unclear,Unknown Ur,,4,ready,CDLI P
+469364,Neo-Babylonian,Ur,BM 114119,,,BM114119,5701,BM 114119,"Tarasewicz 2018, no. 58",469364,,06,4,21,-,Broken/Unclear,Unknown Ur,,4,ready,CDLI P
+469369,Achaemenid,Ur,BM 114170,Darius1,,BM114170,5543,BM 114170,"Tarasewicz 2018, no. 14",469369,Darius I,05,3,06,517,Ur,Imbia,1209,1,published,CDLI P
+257278,Achaemenid,unknown,UM 83-31-001,,,UM83,321,UM 83-31-001,"Stolper 1985, no. 47",257278,Darius II,6,9,28,418,Nippur,Murašû,909,1,published,CDLI P
+261189,Achaemenid,Nippur,CBS 04996,,,CBS4996,306,CBS 4996,"Stolper 1985, no. 39",261189,,,0,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+261330,Achaemenid,Nippur,CBS 05138,Darius2,21.0,CBS5138,5697,CBS 5138,"BE 10, 82",261330,Darius II,4,3,21,420,Nippur,Murašû,909,1,published,CDLI P
+261340,Achaemenid,Nippur,CBS 05148,Artaxerxes1,3.0,CBS5148,304,CBS 5148,"Stolper 1985, no. 38",261340,Artaxerxes I,40,9,3,425,Nippur,Murašû,909,1,published,CDLI P
+261385,Achaemenid,Nippur,CBS 05193,Darius2,6.0,CBS5193,5494,CBS 5193,"BE 10, 49",261385,Darius II,1,3,6,423,Nippur,Murašû,909,1,published,CDLI P
+261433,Achaemenid,Nippur,CBS 05240,Artaxerxes1,17.0,CBS5240,296,CBS 5240,"Stolper 1985, no. 35",261433,Artaxerxes I,33,1,17,432,Broken/Unclear,Murašû,909,1,published,CDLI P
+261448,Achaemenid,Nippur,CBS 05254,Darius2,2.0,CBS5254,5419,CBS 5254,"BE 10, 36",261448,Darius II,1,5,2,423,Nippur,Murašû,909,1,published,CDLI P
+261463,Achaemenid,Nippur,CBS 05269,Darius2,18.0,CBS5269,5696,CBS 5269,"BE 10, 81",261463,Darius II,3,13,18,420,Nippur,Murašû,909,1,published,CDLI P
+261468,Achaemenid,Nippur,CBS 05274,Darius2,1.0,CBS5274,5418,CBS 5274,"BE 10, 35",261468,Darius II,1,5,1,423,Nippur,Murašû,909,1,published,CDLI P
+261472,Achaemenid,Nippur,CBS 05278,Darius2,16.0,CBS5278,5496,CBS 5278,"BE 10, 51",261472,Darius II,1,8,15,423,Nippur,Murašû,909,1,published,CDLI P
+261487,Achaemenid,Nippur,CBS 05293,Artaxerxes1,15.0,CBS5293,3613,CBS 5293,"BE 9, 46",261487,Artaxerxes I,36,6,15,429,Nippur,Murašû,909,1,published,CDLI P
+261489,Achaemenid,Nippur,CBS 05295,Artaxerxes1,4.0,CBS5295,4819,CBS 5295,"BE 9, 80",261489,Artaxerxes I,40,10,4,425,Nippur,Murašû,909,1,published,CDLI P
+261523,Achaemenid,Nippur,CBS 05329,Darius2,17.0,CBS5329,5456,CBS 5329,"BE 10, 40",261523,Darius II,1,5,17,423,Qaštu-ša-bīt-mār-šarri,Murašû,909,1,published,CDLI P
+261532,Achaemenid,Nippur,CBS 05338,Artaxerxes1,17.0,CBS5338,5077,CBS 5388,"BE 9, 109",261532,Artaxerxes I,41,12,17,423,Nippur,Murašû,909,1,published,CDLI P
+261581,Achaemenid,Nippur,CBS 05387,Artaxerxes1,30.0,CBS5387,3238,CBS 5387,"BE 9, 20",261581,Artaxerxes I,30,9,1,435,"Bīt-mār-Bābili (3, Nippur)",Murašû,909,1,published,CDLI P
+261588,Achaemenid,Nippur,CBS 05394,Artaxerxes1,27.0,CBS5394,3421,CBS  5394,"BE 9, 32",261588,Artaxerxes I,32,14,28,432,Nippur,Murašû,909,1,published,CDLI P
+261590,Achaemenid,Nippur,CBS 05396,Artaxerxes1,7.0,CBS5396,3442,CBS 5396,"BE 9, 34",261590,Artaxerxes I,34,4,7,431,Nippur,Murašû,909,1,published,CDLI P
+261603,Achaemenid,Nippur,CBS 05409,Artaxerxes1,37.0,CBS5409,3997,CBS 5409,"BE 9, 55",261603,Artaxerxes I,37,10,12,428,Nippur,Murašû,909,1,published,CDLI P
+261608,Achaemenid,Nippur,CBS 05414,Artaxerxes1,21.0,CBS5414,4051,CBS 5414,"BE 9, 60",261608,Artaxerxes I,37,0,20,428/427,Nippur,Murašû,909,1,published,CDLI P
+261609,Achaemenid,Nippur,CBS 05415,Artaxerxes1,28.0,CBS5415,4240,CBS 5415,"BE 9, 65",261609,Artaxerxes I,38,0,28,427/426,Nippur,Murašû,909,1,published,CDLI P
+261616,Achaemenid,Nippur,CBS 05422,Artaxerxes1,25.0,CBS5422,4798,CBS 5422,"BE 9, 76",261616,Artaxerxes I,40,8,24,425,Nippur,Murašû,909,1,published,CDLI P
+261617,Achaemenid,Nippur,CBS 05423,Artaxerxes1,25.0,CBS5423,4804,CBS 5423,"BE 9, 77",261617,Artaxerxes I,40,8,25,425,Nippur,Murašû,909,1,published,CDLI P
+261632,Achaemenid,Nippur,CBS 05438,Artaxerxes1,41.0,CBS5438,5076,CBS 5438,"BE 9, 108",261632,Artaxerxes I,41,10,12,424,Nippur,Murašû,909,1,published,CDLI P
+261642,Achaemenid,Nippur,CBS 05448,Darius2,16.0,CBS5448,5095,CBS 5448,"BE 10, 10",261642,Darius II,1,1,16,423,Nippur,Murašû,909,1,published,CDLI P
+261695,Achaemenid,Nippur,CBS 05502,Darius2,2.0,CBS5502,5633,CBS 5502,"BE 10, 68",261695,Darius II,3,8,2,421,Nippur,Murašû,909,1,published,CDLI P
+267430,Achaemenid,Nippur,CBS 12829 + Ist Ni 09601 + Ist Ni 12993 ,Artaxerxes1,26.0,CBS12829,2488,CBS 12829,"Stolper 1985, no. 107",267430,,,3,26,-,Nippur,Murašû,909,1,published,CDLI P
+267462,Achaemenid,Nippur,CBS 12861,Artaxerxes1,38.0,CBS12861,151,CBS 12861,"Stolper 1985, no. 19",267462,Artaxerxes I,38,3,1,427,Nippur,Murašû,909,1,published,CDLI P
+267465,Achaemenid,Nippur,CBS 12864,Artaxerxes1,22.0,CBS12864,110,CBS 12864,"Stolper 1985, no. 3",267465,Artaxerxes I,22,1,20,[443],Nippur,Murašû,909,1,published,CDLI P
+267480,Achaemenid,Nippur,CBS 12879,Artaxerxes1,7.0,CBS12879,1358,CBS 12879,"Stolper 1985, no. 78",267480,Artaxerxes I,41,8,7,424,Nippur,Murašû,909,1,published,CDLI P
+267554,Achaemenid,Nippur,CBS 12951,Artaxerxes1,32.0,CBS12951,1784,CBS 12951,"Stolper 1985, no. 88",267554,Artaxerxes I,32,0,,433/432,Nippur,Murašû,909,1,published,CDLI P
+267581,Achaemenid,Nippur,CBS 12977,Artaxerxes1,41.0,CBS12977,123,CBS 12977,"Stolper 1985, no. 6",267581,Artaxerxes I,41,8,12,424,Nippur,Murašû,909,1,published,CDLI P
+267597,Achaemenid,Nippur,CBS 12993,Artaxerxes1,28.0,CBS12993,221,CBS 12993,"Stolper 1985, no. 29",267597,Artaxerxes I,39,8,28,[426],Nippur,Murašû,909,1,published,CDLI P
+268085,Achaemenid,Nippur,CBS 13000,Artaxerxes1,30.0,CBS13000,2251,CBS 13000,"Stolper 1985, no. 96",268085,Artaxerxes I,30,0,,[after 435/434],Broken/Unclear,Murašû,909,1,published,CDLI P
+268091,Achaemenid,Nippur,CBS 13006,Artaxerxes1,21.0,CBS13006,1802,CBS 13006,"Stolper 1985, no. 93",268091,Artaxerxes I,40,4,21,425,Nippur,Murašû,909,1,published,CDLI P
+268108,Achaemenid,Nippur,CBS 13023,,,CBS13023,172,CBS 13023,"Stolper 1985, no. 20",268108,,,0,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+268109,Achaemenid,Nippur,CBS 13024,Da II,,CBS13024,1790,CBS 13024,"Stolper 1985, no. 89",268109,Darius II,,0,,-,Sîn-bēlšunu,Murašû,909,1,published,CDLI P
+268118,Achaemenid,Nippur,CBS 13033,Artaxerxes1,2.0,CBS13033,377,CBS 13033,"Stolper 1985, no. 60",268118,Artaxerxes I,41,6,2,424,Broken/Unclear,Murašû,909,1,published,CDLI P
+385431,Neo-Babylonian,Borsippa,Bod AB A 091,,,,784,Bodleian A 91,"Joannès 1989, pp. 266-267",385431,Nebuchadnezzar II,31,7,12,574,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385462,Neo-Babylonian,Borsippa,Bod AB A 125,,,,7556,Bodleian A 125,"OECT 12, A 125 (pl. XIX)",385462,,,0,,-,Not mentioned,Ilšu-abūšu A,220,2,published,CDLI P
+385473,Neo-Babylonian,Borsippa,Bod AB A 136,,,,2053,Bodleian A 136,"Joannès 1989, p. 288",385473,Nebuchadnezzar II,18,5,16,587,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385500,Neo-Babylonian,Borsippa,Bod AB A 169,,,,869,Bodleian A 169,"Joannès 1989, p. 292",385500,Darius I,16,3,,[506],Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+387239,Achaemenid,Borsippa,AO 10297,Cambyses,,AO10297,2008,AO 10297,"Joannès 1989, p. 317",387239,Cambyses,06,13,23,523,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+414647,Neo-Babylonian,unknown,BNUS 475,,,BNUS475,3370,BNUS 475,"Joannès 1980, no. 13",414647,Darius I,32,2,13,490,Babylon,Ea-eppēš-ilī B (Babylon),184,1,published,CDLI P
+414881,Neo-Babylonian,Ur,UM 52-30-049,,,UM52,5435,UM 52-30-049,"UET 4, 185",414881,,,0,,-,Not mentioned,Sîn-uballiṭ,1209,3,published,CDLI P
+417490,Achaemenid,unknown,ROM 965.262.002,Cambyses2,4.0,ROM965,7306,ROM 965.262.002,ROMCT 2 14,417490,Cambyses,4,9,6,,Sippar,Maštuk,1022,1,notready,CDLI P
+459981,Achaemenid,Sippar-Yahrurum,FLP 1473,Darius1,8.0,FLP1473,7327,FLP 1473,"Waerzeggers 2002, no. 2",459981,Darius I,8,4,25,,Sippar,Maštuk,1022,1,notready,CDLI P
+460110,Neo-Babylonian,Sippar-Yahrurum,FLP 1602,Nabonidus,16.0,FLP1602,7292,FLP 1602,"Dillard 1975, pp. 172–174, 272",460110,Nabonidus,16,9,24,,Sippar,Maštuk,1022,1,notready,CDLI P
+469317,Achaemenid,Ur,BM 113963,Darius1,11.0,BM113963,5570,BM 113963,"Tarasewicz 2018, no. 28",469317,Darius I,11,5,03,511,Not mentioned,Unknown Ur,,1,ready,CDLI P
+469338,Achaemenid,Ur,BM 114044,Xerxes,,BM114044,5684,BM 114044,"Tarasewicz 2018, no. 51",469338,,,0,,-,Broken/Unclear,Imbia,1209,1,published,CDLI P
+469340,Neo-Babylonian,Ur,BM 114046,,,BM114046,5686,BM 114046,"Tarasewicz 2018, no. 52",469340,Nebuchadnezzar II,02,0,,after 603/602,Broken/Unclear,Imbia,1209,4,published,CDLI P
+469368,Neo-Babylonian,Ur,BM 114169,Nabonidus,,BM114169,5538,BM 114169,"Tarasewicz 2018, no. 9",469368,Nabonidus,13,11,30,after 542,Ur,Imbia,1209,1,published,CDLI P
+257985,Achaemenid,unknown,CBS 00535,,,CBS535,4282,CBS 535,"BE 8/1, 113",257985,Darius I,19,6,25,503,Kiš,Ea-eppēš-ilī A (Babylon),184,1,published,CDLI P
+261188,Achaemenid,Nippur,CBS 04995,Darius2,9.0,CBS4995,5654,CBS 4995,"BE 10, 77",261188,Darius II,3,12,9,420,Nippur,Murašû,909,1,published,CDLI P
+261329,Achaemenid,Nippur,CBS 05137,Darius2,21.0,CBS5137,2704,CBS 5173,"BE 10, 131",261329,Darius II,11,6,22,413,Nippur,Murašû,909,1,published,CDLI P
+261336,Achaemenid,Nippur,CBS 05144,Darius2,18.0,CBS5144,5745,CBS 5144,"BE 10, 101",261336,Darius II,5,8,18,419,Nippur,Murašû,909,1,published,CDLI P
+261337,Achaemenid,Nippur,CBS 05145,Artaxerxes1,6.0,CBS5145,299,CBS 5145,"Stolper 1985, no. 36",261337,Artaxerxes I,40,0,6,425/424,Broken/Unclear,Murašû,909,1,published,CDLI P
+261339,Achaemenid,Nippur,CBS 05147,Darius2,8.0,CBS5147,5103,CBS 5147,"BE 10, 15",261339,Darius II,1,2,8,423,Babylon,Murašû,909,1,published,CDLI P
+261406,Achaemenid,Nippur,CBS 05213,Darius2,28.0,CBS5213,1796,CBS 5213,"Stolper 1985, no. 91",261406,Darius II,5,0,28,[419/418],Til-Gabbāri,Murašû,909,1,published,CDLI P
+261411,Achaemenid,Nippur,CBS 05218,Darius2,27.0,CBS5218,5916,CBS 5218,"BE 10, 123",261411,Darius II,7,5,27,417,Hašbāya,Murašû,909,1,published,CDLI P
+261437,Achaemenid,Nippur,CBS 05244,Darius2,8.0,CBS5244,5809,CBS 5244,"BE 10, 114",261437,Darius II,6,9,8,418,Nippur,Murašû,909,1,published,CDLI P
+261439,Achaemenid,Nippur,CBS 05246,Darius2,15.0,CBS5246,5901,CBS 5246,"BE 10, 120",261439,Darius II,7,1,15,417,Malšam,Murašû,909,1,published,CDLI P
+261465,Achaemenid,Nippur,CBS 05271,Darius2,2.0,CBS5271,5958,CBS 5271,"PBS 2/1, 43",261465,Darius II,2,2,2,422,Nippur,Murašû,909,1,notready,CDLI P
+261508,Achaemenid,Nippur,CBS 05314,Artaxerxes1,20.0,CBS5314,3988,CBS 5314,"BE 9, 54",261508,Artaxerxes I,37,10,20,428,Nippur,Murašû,909,1,published,CDLI P
+261513,Achaemenid,Nippur,CBS 05319,Darius2,4.0,CBS5319,5607,CBS 5319,"BE 10, 63",261513,Darius II,2,14,2,421,Nippur,Murašû,909,1,published,CDLI P
+261535,Achaemenid,Nippur,CBS 05341,Artaxerxes1,19.0,CBS5341,3205,CBS 5341,"BE 9, 17",261535,Artaxerxes I,29,5,19,436,Nippur,Murašû,909,1,published,CDLI P
+261542,Achaemenid,Nippur,CBS 05348,Artaxerxes1,16.0,CBS5348,5053,CBS 5348,"BE 9, 101",261542,Artaxerxes I,41,8,16,424,Nippur,Murašû,909,1,published,CDLI P
+261572,Achaemenid,Nippur,CBS 05378,Artaxerxes2,26.0,CBS5378,3010,CBS 5378,"BE 9, 3",261572,Artaxerxes I,13,2,26,452,Bīt-Mūrānu,Murašû,909,1,published,CDLI P
+261573,Achaemenid,Nippur,CBS 05379,Artaxerxes2,28.0,CBS5379,3025,CBS 5379,"BE 9, 4",261573,Artaxerxes I,22,8,28,443,Nippur,Murašû,909,1,published,CDLI P
+261594,Achaemenid,Nippur,CBS 05400,Artaxerxes1,6.0,CBS5400,3526,CBS 5400,"BE 9, 38",261594,Artaxerxes I,34,5,6,431,Addiyāya,Murašû,909,1,published,CDLI P
+261599,Achaemenid,Nippur,CBS 05405,Artaxerxes1,16.0,CBS5405,3610,CBS 5405,"BE 9, 44",261599,Artaxerxes I,35,0,16,430/429,Nippur,Murašû,909,1,published,CDLI P
+261631,Achaemenid,Nippur,CBS 05437,Artaxerxes1,6.0,CBS5437,5075,CBS 5437,"BE 9, 107",261631,Artaxerxes I,41,9,6,424,Nippur,Murašû,909,1,published,CDLI P
+261638,Achaemenid,Nippur,CBS 05444,Artaxerxes1,18.0,CBS5444,3229,CBS 5444,"BE 9, 17a",261638,Artaxerxes I,29,0,18,436/435,Nippur,Murašû,909,1,published,CDLI P
+261644,Achaemenid,Nippur,CBS 05450,Darius2,14.0,CBS5450,5794,CBS 5450,"BE 10, 109",261644,Darius II,6,6,14,418,Nippur,Murašû,909,1,published,CDLI P
+261694,Achaemenid,Nippur,CBS 05501,Darius2,2.0,CBS5501,5506,CBS 5501,"BE 10, 54",261694,Darius II,1,9,2,423,Enlil-ašābšu-iqbi,Murašû,909,1,published,CDLI P
+267464,Achaemenid,Nippur,CBS 12863,,,CBS12863,1643,CBS 12863,"Stolper 1985, no. 82",267464,,,9,24,-,Nippur,Murašû,909,1,published,CDLI P
+267476,Achaemenid,Nippur,CBS 12875,Artaxerxes1,2.0,CBS12875,1661,CBS 12875,"Stolper 1985, no. 85",267476,Artaxerxes I,37,0,2,428/427,Nippur,Murašû,909,1,published,CDLI P
+267567,Achaemenid,Nippur,CBS 12964,Artaxerxes1,34.0,CBS12964,1280,CBS 12964,"Stolper 1985, no. 74",267567,Artaxerxes I,34,5,5,[431],Addiyāya,Murašû,909,1,published,CDLI P
+267583,Achaemenid,Nippur,CBS 12979,--,,CBS12979,1180,CBS 12979,"Stolper 1985, no. 68",267583,,,4,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+267584,Achaemenid,Nippur,CBS 12980,Artaxerxes1,4.0,CBS12980,2290,CBS 12980,"Stolper 1985, no. 104",267584,Artaxerxes I,37,12,4,427,Nippur,Murašû,909,1,published,CDLI P
+267600,Achaemenid,Nippur,CBS 12996 + CBS 13002 +  Ist Ni 12918 ?,,,CBS12996,2545,CBS 12996+,"Stolper 1985, no. 110",267600,Darius II,6,12,,[417],Nippur,Murašû,909,1,published,CDLI P
+267602,Achaemenid,Nippur,CBS 12998,Artaxerxes1,40.0,CBS12998,145,CBS 12998,"Stolper 1985, no. 15",267602,Artaxerxes I,40,8,25,[425],Nippur,Murašû,909,1,published,CDLI P
+268093,Achaemenid,Nippur,CBS 13008,,,CBS13008,2293,CBS 13008,"Stolper 1985, no. 105",268093,,,0,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+268114,Achaemenid,Nippur,CBS 13029,,,CBS13029,1658,CBS 13029,"Stolper 1985, no. 84",268114,,,0,,-,Broken/Unclear,Murašû,909,1,published,CDLI P
+268122,Achaemenid,Nippur,CBS 13037,Artaxerxes1,20.0,CBS13037,222,CBS 13037,"Stolper 1985, no. 30",268122,Artaxerxes I,31,0,20,[434/433],Nippur,Murašû,909,1,published,CDLI P
+385430,Neo-Babylonian,Borsippa,Bod AB A 090,,,,1442,Bodleian A 90,"Joannès 1989, p. 266",385430,Nebuchadnezzar II,30,12,05,574,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385432,Neo-Babylonian,Borsippa,Bod AB A 092,,,,785,Bodleian A 92,"Joannès 1989, p. 267",385432,Nebuchadnezzar II,34,8,11,571,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385480,Neo-Babylonian,Borsippa,Bod AB A 146,,,,865,Bodleian A 146,"Joannès 1989, p. 289",385480,,,0,,-,Broken/Unclear,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385484,Neo-Babylonian,Borsippa,Bod AB A 152,,,,866,Bodleian A 152,"Joannès 1989, p. 290",385484,Nebuchadnezzar II,4,8,23,after 601,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385510,Neo-Babylonian,Borsippa,Bod AB A 179,,,,2059,Bodleian A 179,"Joannès 1989, p. 295",385510,Nebuchadnezzar II,18,0,,587/586,Not mentioned,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,2,published,CDLI P
+385511,Neo-Babylonian,Borsippa,Bod AB A 180,,,,872,Bodleian A 180,"Joannès 1989, pp. 295-296",385511,Nebuchadnezzar II,40,8,07,565,Borsippa,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,1,published,CDLI P
+385518,Neo-Babylonian,unknown,Bod C 003,,,,135,Bodleian C 3,"Hackl, Jursa and Schmidl 2014, no. 116",385518,,,0,,-,Not mentioned,"Ea-ilūtu-bāni, Ilī-bāni, Nanāhu",220,3,published,CDLI P
+414637,Neo-Babylonian,unknown,BNUS 474,,,BNUS474,3322,BNUS 474,"Joannès 1980, no. 2",414637,Nabonidus,,0,10,-,Broken/Unclear,Ea-eppēš-ilī B (Babylon),184,1,published,CDLI P
+431321,Achaemenid,unknown,KT 1463,Nabonidus,9.0,KT1463,7800,KT 1463,"Panayotov and Wunsch 2014, no. 1",431321,Nabonidus,9,9,5,547,Babylon,Egibi Nūr-Sîn,184,1,published,CDLI P
+432816,Neo-Babylonian,Babylon,MM 0363b,,,MM363,7918,MM 363b,"Wunsch 1997a, no. 12",432816,,,0,,-,Broken/Unclear,Egibi Nūr-Sîn,184,1,published,CDLI P
+459842,Achaemenid,Uruk,FLP 1274,Darius1,21.0,FLP1274,8,FLP 1274,"Stigers 1976, no. 18",459842,Darius I,21,2,17,,Sippar,Ṣāhit-ginê B,1022,1,notready,CDLI P
+459943,Achaemenid,Sippar-Yahrurum,FLP 1434,Darius1,24.0,FLP1434,28,FLP 1434,"Stigers 1976, no. 37",459943,Darius I,24,13,10,,Sippar,Ṣāhit-ginê B,1022,1,notready,CDLI P
+459965,Achaemenid,Sippar-Yahrurum,FLP 1457,Cambyses2,5.0,FLP1457,7307,FLP 1457,"Waerzeggers 2002, no. 1",459965,Cambyses,5,13,21,,Sippar,Maštuk,1022,1,notready,CDLI P
+459975,Achaemenid,uncertain,FLP 1467,Darius1,9.0,FLP1467,7331,FLP 1467,No publication,459975,Darius I,9,6,5,,Sippar,Maštuk,1022,1,notready,CDLI P
+469314,Neo-Babylonian,Ur,BM 113960,,,BM113960,5593,BM 113960,"Tarasewicz 2018, no. 34",469314,Darius I,,0,,-,Not mentioned,Unknown Ur,,2,ready,CDLI P
+469318,Neo-Babylonian,Ur,BM 113964,,,BM113964,5561,BM 113964,"Tarasewicz 2018, no. 20",469318,Darius I,,8,04,-,Broken/Unclear,Imbia,1209,1,published,CDLI P
+469323,Achaemenid,Ur,BM 113976,Cyrus,4.0,BM113976,5571,BM 113976,"Tarasewicz 2018, no. 29",469323,Cambyses,03,4,05,527,Ur,Imbia,1209,1,published,CDLI P
+469333,Neo-Babylonian,Ur,BM 114027,,,BM114027,5682,BM 114027,"Tarasewicz 2018, no. 50",469333,,,0,,-,Broken/Unclear,Unknown Ur,,1,ready,CDLI P
+261365,Achaemenid,Nippur,CBS 05173,Darius2,16.0,CBS5173,2704,CBS 5173,"BE 10, 131",261329,Darius II,11,6,22,413,Nippur,Murašû,909,1,published,museum no.
+261445,Achaemenid,Nippur,CBS 05251a,Darius2,29.0,CBS5251,5951,CBS 5251,"PBS 2/1, 42",261444,Darius II,1,8,26,423,Nippur,Murašû,909,1,notready,museum no.
+261450,Achaemenid,Nippur,CBS 05256,Darius2,10.0,CBS5256,5641,CBS 5256,"BE 10, 75",261367,Darius II,3,10,10,421,Nippur,Murašû,909,1,published,museum no.
+267526,Achaemenid,Nippur,CBS 12924,Artaxerxes1,,CBS12924,1769,CBS 12924,"Stolper 1985, no. 86",267476,Artaxerxes I,,0,10,-,Broken/Unclear,Murašû,909,1,published,museum no.
+267577,Achaemenid,Nippur,CBS 12973,Dar II,,CBS12973,224,CBS 12973,"Stolper 1985, no. 32",267540,,,0,,-,Broken/Unclear,Murašû,909,1,published,museum no.
+387224,Achaemenid,Borsippa,AO 07860,Cambyses,,AO7860,5300,AO 7860,"TCL 13, 159",,Cambyses,03,5,11,527,Borsippa,Ilia A+B,220,1,published,museum no.
+417515,Neo-Babylonian,unknown,ROM 965.262.004,Nebuchadnezzar2,28.0,ROM965,7306,ROM 965.262.002,ROMCT 2 14,417490,Cambyses,4,9,6,,Sippar,Maštuk,1022,1,notready,museum no.
+432834,Achaemenid,unknown,MM 0599,,,MM599,2044,MM 599,"Wunsch 1997a, no. 10",,,,0,,-,Broken/Unclear,fInṣabtu//Naggāru,220,1,published,museum no.
+432846,Achaemenid,unknown,MM 0814,,,MM814,2038,MM 814,"Wunsch 1997a, no. 8",,Darius I,,2,2,-,Broken/Unclear,fInṣabtu//Naggāru,220,1,published,museum no.
+432852,Achaemenid,unknown,MM 0821 + MM 0826 + MM 1150,,,MM821,2041,MM 821+,"Wunsch 1997a, no. 9",,,,0,,-,Broken/Unclear,fInṣabtu//Naggāru,220,1,published,museum no.
+432881,Achaemenid,unknown,MM 0894,,,MM894,2047,MM 894,"Wunsch 1997a, no. 11",,,,0,,-,Broken/Unclear,fInṣabtu//Naggāru,220,1,published,museum no.
+432901,Achaemenid,Babylon,MM 1031,,,MM1031,516,MM 1031,"Baker 2004, no. 84",,Darius I,02,5,09,520,Babylon,Nappāhu,184,1,published,museum no.
+432914,Achaemenid,Babylon,MM 1089,Cambyses,6.0,MM1089,666,MM 1089,"Baker 2004, no. 135",,Cambyses,06,8,05,524,Babylon,Nappāhu,184,1,published,museum no.
+459618,Achaemenid,Sippar-Yahrurum,FLP 0667,Darius1,33.0,FLP667,7205,FLP 667,No publication,,Darius I,33,5,2,,Sippar,Bēl-aplu-iddin,1022,1,notready,museum no.
+459932,Achaemenid,Sippar-Yahrurum,FLP 1423,Darius1,24.0,FLP1423,7207,FLP 1423,"Stigers 1976, no. 9",,Darius I,34,2,6,,Sippar,Bēl-aplu-iddin,1022,1,notready,museum no.
+459939,Achaemenid,Sippar-Yahrurum,FLP 1430,Darius1,29.0,FLP1430,7202,FLP 1430,"Stigers 1976, no. 29",,Darius I,29,4,21,,Sippar,Bēl-aplu-iddin,1022,1,notready,museum no.
+459946,Achaemenid,Sippar-Yahrurum,FLP 1437,Darius1,34.0,FLP1437,7209,FLP 1437,"Stigers 1976, no. 26",,Darius I,34,13,22,,Sippar,Bēl-aplu-iddin,1022,1,notready,museum no.
+459991,Achaemenid,uncertain,FLP 1483,Darius1,29.0,FLP1483,7203,FLP 1483,"Stigers 1976, no. 48",,Darius I,29,6,29,,Gan-Galūlu,Bēl-aplu-iddin,1022,1,notready,museum no.
+469303,Neo-Babylonian,Ur,BM 113926,,,BM113926,5635,BM 113926,"Tarasewicz 2018, no. 39",,,,0,,-,Not mentioned,Imbia,1209,2,published,museum no.
+261589,Achaemenid,Nippur,CBS 05395,Artaxerxes1,9.0,CBS5395,3439,CBS 5395,"BE 9, 33",,Artaxerxes I,33,11,9,431,Nippur,Murašû,909,1,published,museum no.
+417428,Neo-Babylonian,unknown,ROM 965.262.003,,,ROM965,7306,ROM 965.262.002,ROMCT 2 14,417490,Cambyses,4,9,6,,Sippar,Maštuk,1022,1,notready,museum no.
+370913,Neo-Babylonian,Borsippa,BM 026740,,,BM26740,4495,BM 26740,unpublished,,Nabonidus,11,9,24,545,Borsippa,Rē’i-alpi (Borsippa),220,1,published,museum no.

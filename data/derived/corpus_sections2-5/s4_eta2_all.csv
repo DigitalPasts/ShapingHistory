@@ -1,0 +1,14 @@
+label,groups,lhw,lheight,lwidth,period,factor
+type,4.0,0.041,0.308,0.392,Old Babylonian (Archibab),
+archive,1.0,,,,Old Babylonian (Archibab),
+city,6.0,0.043,0.204,0.33,Old Babylonian (Archibab),
+reign,1.0,,,,Old Babylonian (Archibab),
+sub,0.0,,,,Neo-Babylonian/Achaemenid (Prosobab),
+Type,0.0,,,,Neo-Babylonian/Achaemenid (Prosobab),
+arch,0.0,,,,Neo-Babylonian/Achaemenid (Prosobab),
+place,0.0,,,,Neo-Babylonian/Achaemenid (Prosobab),
+,,0.028,0.08,0.087,Ur III (ATF tags),province
+,,0.002,0.03,0.037,Ur III (ATF tags),reign
+,,0.042,0.123,0.11,Ur III (ATF tags),type
+,,0.027,0.009,0.052,Ur III (ATF tags),sealed
+,,0.06,0.122,0.171,Ur III (ATF tags),coll

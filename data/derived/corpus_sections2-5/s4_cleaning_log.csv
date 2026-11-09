@@ -1,0 +1,29 @@
+period,n,swapped,dropped,archival_share,rho_before,rho_after
+Ur III,21760,76,43,0.988,0.868,0.891
+Old Babylonian,13726,36,152,0.852,0.859,0.913
+Neo-Babylonian,6611,27,286,0.951,0.799,0.928
+Uruk III,3896,6,20,0.828,0.941,0.945
+Ebla,3198,2,122,0.992,0.883,0.88
+Old Akkadian,2708,45,19,0.93,0.552,0.654
+Middle Babylonian,2651,21,10,0.946,0.852,0.942
+Early Old Babylonian,2066,5,1,0.953,0.75,0.82
+Neo-Assyrian,1874,199,1050,0.238,0.004,0.672
+Uruk IV,1779,0,4,0.994,0.834,0.834
+ED IIIb,1616,1,8,0.972,0.804,0.851
+Achaemenid,1538,24,48,0.848,0.706,0.94
+Proto-Elamite,1441,44,5,0.916,0.571,0.633
+Old Assyrian,865,4,5,0.79,0.681,0.773
+Middle Assyrian,791,42,9,0.219,0.631,0.839
+Middle Elamite,437,0,9,1.0,,
+Hellenistic,406,2,3,0.852,0.392,0.475
+Hittite,163,0,6,0.129,0.929,0.929
+ED IIIa,144,2,1,0.882,0.544,0.767
+Uruk V,76,0,0,0.987,,
+Lagash II,45,1,1,0.778,0.674,0.658
+ED I-II,33,0,1,0.818,,
+modern,16,0,5,0.25,,
+Neo-Elamite,9,0,2,0.222,,
+Early Neo-Babylonian,8,0,0,0.0,,
+Linear Elamite,2,0,0,0.0,,
+Sassanian,1,0,1,0.0,,
+Pre-Writing,1,0,0,1.0,,

@@ -1,0 +1,9 @@
+test,target,classes,n_per_class,bal_acc,chance
+museum within Ur III Puzriš-Dagan,coll,5,448,0.5763392857142857,0.2
+museum within Ur III Umma,coll,5,601,0.7371048252911814,0.2
+museum within Ur III Girsu,coll,5,222,0.5720720720720721,0.2
+museum within Old Babylonian Sippar-Yahrurum,coll,2,64,0.953125,0.5
+museum within Old Babylonian Nippur,coll,4,67,0.48880597014925375,0.25
+museum within Neo-Babylonian uncertain,coll,5,153,0.6797385620915033,0.2
+city within Old Babylonian British Museum,city,3,64,0.6770833333333334,0.3333333333333333
+city within Old Babylonian Penn Museum,city,3,297,0.6958473625140291,0.3333333333333333

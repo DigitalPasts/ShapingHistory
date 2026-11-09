@@ -1,0 +1,7 @@
+group,window,cells,DiD_loghw,DiD_se,DiD_p,MAD_north_post,medHW_north_post,MAD_north_pre,medHW_north_pre,MAD_south_post,medHW_south_post,MAD_south_pre,medHW_south_pre,VAE_gap_pre,VAE_gap_post,VAE_gap_change,p_perm_convergence,note
+legal,post (1763-1712),"{('north', 'post'): 110, ('north', 'pre'): 66, ('south', 'post'): 191, ('south', 'pre'): 160}",0.146,0.05,0.0037,0.181 [0.135-0.208],1.295,0.174 [0.137-0.223],1.53,0.125 [0.109-0.145],1.53,0.171 [0.144-0.199],1.485,1.261,1.742,0.481,0.8746,
+legal,post_narrow (1763-1740),"{('north', 'post'): 76, ('north', 'pre'): 66, ('south', 'post'): 134, ('south', 'pre'): 160}",0.142,0.055,0.0102,0.135 [0.096-0.188],1.225,0.174 [0.133-0.224],1.53,0.156 [0.113-0.190],1.44,0.171 [0.143-0.199],1.485,1.261,2.309,1.048,0.9885,
+letter,post (1763-1712),"{('north', 'post'): 3, ('north', 'pre'): 2, ('south', 'post'): 41, ('south', 'pre'): 2}",,,,,,,,,,,,,,,,a cell has <10 tablets
+letter,post_narrow (1763-1740),"{('north', 'post'): 3, ('north', 'pre'): 2, ('south', 'post'): 41, ('south', 'pre'): 2}",,,,,,,,,,,,,,,,a cell has <10 tablets
+admin,post (1763-1712),"{('north', 'post'): 36, ('north', 'pre'): 4, ('south', 'post'): 101, ('south', 'pre'): 325}",,,,,,,,,,,,,,,,a cell has <10 tablets
+admin,post_narrow (1763-1740),"{('north', 'post'): 21, ('north', 'pre'): 4, ('south', 'post'): 91, ('south', 'pre'): 325}",,,,,,,,,,,,,,,,a cell has <10 tablets

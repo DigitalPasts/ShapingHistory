@@ -1,0 +1,522 @@
+id,period,site,museum_no,ruler,ryear,k,ID,Publication name,Text no.,Museum No.,Type and content (legacy),Archive,Place of issue,Period,archiv_id,nabucco_id,cdli_p,date_raw,nb_king,nb_year
+235196,Neo-Babylonian,unknown,KM 89462,,,KM89462,5011,Spar 1972,11,KM 89462,,Eanna temple,No place,Neo-Babylonian,119,5011,P235196,Nbn. 06-00-10,Nbn,6.0
+235197,Neo-Babylonian,unknown,KM 89463,,,KM89463,5012,Spar 1972,12,KM 89463,,Eanna temple,No place,Neo-Babylonian,119,5012,P235197,Nbk IV. 21-VIII-06,Nbk IV,21.0
+235272,Neo-Babylonian,unknown,KM 89597,,,KM89597,5013,Spar 1972,13,KM 89597,,Eanna temple,Abullu-ša-Nār-Kuzbi,Neo-Babylonian,119,5013,P235272,Nbk. 20-XII-19,Nbk,20.0
+257979,Neo-Babylonian,unknown,CBS 00529,,,CBS529,7276,BE 08,030,CBS 00529,,Ekur (early),,Neo-Babylonian,130,7276,P257979,Nbk III. yy-mm-30,Nbk III,
+259914,Neo-Babylonian,Nippur,CBS 03539,,,CBS3539,7618,BE 08,051,CBS 03539,,Nergal-iddin,Ālu-ša-Abi-iliya,Neo-Babylonian,84,7618,P259914,Nbn. 11-XII-29,Nbn,11.0
+259917,Neo-Babylonian,Nippur,CBS 03542,,,CBS3542,7296,BE 08,140,CBS 03542,,Ekur (early),,,130,7296,P259917,XXX. yy-mm-dd,XXX,
+259918,Neo-Babylonian,Nippur,CBS 03543,,,CBS3543,7566,BE 08,027,CBS 03543,,Nergal-iddin,,Neo-Babylonian,84,7566,P259918,Nbk. 40-XI-14,Nbk,40.0
+259924,Neo-Babylonian,Nippur,CBS 03549,,,CBS3549,7621,BE 08,053,CBS 03549,,Nergal-iddin,Ālu-ša-rab-A-iqbi,Neo-Babylonian,84,7621,P259924,Nbn. 14-IV-15,Nbn,14.0
+259926,Neo-Babylonian,Nippur,CBS 03552,Amēl-Marduk,1.0,CBS3552,7604,BE 08,033,CBS 03552,,Nergal-iddin,Ālu-ša-Abi-iliya,Neo-Babylonian,84,7604,P259926,AM. 01-XI-18,AM,1.0
+259928,Achaemenid,Nippur,CBS 03554,Darius1,20.0,CBS3554,7294,BE 08,102,CBS 03554,,Ekur (early),,Early Achaemenid,130,7294,P259928,Dar I. 00-mm-dd,Dar I,0.0
+259934,Neo-Babylonian,Nippur,CBS 03561,,,CBS3561,7554,BE 08,013,CBS 03561,,Nergal-iddin,,Neo-Babylonian,84,7554,P259934,Nbk. 28-I-15,Nbk,28.0
+259951,Neo-Babylonian,Nippur,CBS 03578,,,CBS3578,7557,BE 08,017,CBS 03578,,Nergal-iddin,Immalat,Neo-Babylonian,84,7557,P259951,Nbk. 34-IX-dd,Nbk,34.0
+259955,Achaemenid,Nippur,CBS 03582,Cambyses,25.0,CBS3582,7628,BE 08,091,CBS 03582,,Nergal-iddin,Nippur city,Early Achaemenid,84,7628,P259955,Cam. 05-XI-25,Cam,5.0
+259957,Achaemenid,Nippur,CBS 03584,,,CBS3584,8963,BE 08,65,CBS 03584,,The sons of Līšir,,Early Achaemenid,134,8963,P259957,Cyr. 5 or 6-VIII-20,Cyr,5.0
+259958,Achaemenid,Nippur,CBS 03585,Cambyses,13.0,CBS3585,7259,BE 08,087,CBS 03585,,Ekur (early),Āl-x-AN?-ri-it,Early Achaemenid,130,7259,P259958,Cam. 3-VIII-13,Cam,3.0
+259960,Achaemenid,Nippur,CBS 03587,Cambyses,12.0,CBS3587,8882,BE 08,85,CBS 03587,,The sons of Līšir,Nippur city,Achaemenid,134,8882,P259960,Cam. 3-I-12,Cam,3.0
+259962,Neo-Babylonian,Nippur,CBS 03589,Amēl-Marduk,1.0,CBS3589,7277,BE 08,031,CBS 03589,,Ekur (early),Babylon city,Neo-Babylonian,130,7277,P259962,AM. 1-III-dd,AM,1.0
+259963,Achaemenid,Nippur,CBS 03590,,,CBS3590,8965,BE 8,73,CBS 03590,,The sons of Līšir,Nippur city,Early Achaemenid,134,8965,P259963,Cyr. 8-VI-25,Cyr,8.0
+259965,Achaemenid,Nippur,CBS 03592,Cambyses,15.0,CBS3592,7263,BE 08,099,CBS 03592,,Ekur (early),Nippur city,Early Achaemenid,130,7263,P259965,Cam. 2!-XI-15,Cam,2.0
+259968,Achaemenid,Nippur,CBS 03595,,,CBS3595,7289,BE 08,069,CBS 03595,,Ekur (early),Ālu-ša-Nippur,Early Achaemenid,130,7289,P259968,Cyr. 7-VI-19,Cyr,7.0
+259969,Achaemenid,Nippur,CBS 03596,Cambyses,18.0,CBS3596,8916,BE 08,95,CBS 03596,,The sons of Līšir,Nippur city,Achaemenid,134,8916,P259969,Cam. 5-VI-18,Cam,5.0
+259970,Neo-Babylonian,Nippur,CBS 03597,,,CBS3597,7247,BE 08,055,CBS 03597,Receipts,Ekur (early),Nippur city,Neo-Babylonian,130,7247,P259970,Nbn. 17-VI-20,Nbn,17.0
+259972,Achaemenid,Nippur,CBS 03599,Cambyses,25.0,CBS3599,8968,BE 08,86,CBS 03599,,The sons of Līšir,Nippur city,Achaemenid,134,8968,P259972,Cam. 4-VII-25,Cam,4.0
+259973,Achaemenid,Nippur,CBS 03600,Cambyses,9.0,CBS3600,7260,BE 08,088,CBS 03600,,Ekur (early),Nippur city,Early Achaemenid,130,7260,P259973,Cam. 4-III-9,Cam,4.0
+259974,Achaemenid,Nippur,CBS 03601,Cambyses,15.0,CBS3601,7290,BE 08,071,CBS 03601,,Ekur (early),Nippur city,Early Achaemenid,130,7290,P259974,Cam. 8-I-12,Cam,8.0
+259975,Achaemenid,Nippur,CBS 03602,Cambyses,15.0,CBS3602,7255,BE 08,080,CBS 03602,,Ekur (early),,Early Achaemenid,130,7255,P259975,Cyr. 1-VIII-15,Cyr,1.0
+259976,Achaemenid,Nippur,CBS 03603,Cambyses,15.0,CBS3603,8966,BE 08,84,CBS 03603,,The sons of Līšir,Nippur city,Achaemenid,134,8966,P259976,Cam. 2-VIII-15,Cam,2.0
+259978,Achaemenid,Nippur,CBS 03605,,,CBS3605,7284,BE 08,062,CBS 03605,,Ekur (early),Nippur city,Early Achaemenid,130,7284,P259978,Cyr. 4-I-6,Cyr,4.0
+259979,Achaemenid,Nippur,CBS 03606,Bardiya,1.0,CBS3606,7264,BE 08,100,CBS 03606,,Ekur (early),Nippur city,Early Achaemenid,130,7264,P259979,Bar. 1-VI-13,Bar,1.0
+259983,Achaemenid,Nippur,CBS 03610,Cambyses,6.0,CBS3610,7293,BE 08,094,CBS 03610,,Ekur (early),Til-Gabbāri,Early Achaemenid,130,7293,P259983,Cam. 7-VI-6,Cam,7.0
+259985,Achaemenid,Nippur,CBS 03612,Bardiya,1.0,CBS3612,7266,BE 08,101,CBS 03612,,Ekur (early),Nippur city,Early Achaemenid,130,7266,P259985,Bar. 1-VI-15,Bar,1.0
+259987,Achaemenid,Nippur,CBS 03614,,,CBS3614,7624,BE 08,072,CBS 03614,,Nergal-iddin,Ālu-ša-Abi-iliya,Early Achaemenid,84,7624,P259987,Cyr. 08-V-03,Cyr,8.0
+259993,Achaemenid,Nippur,CBS 03620,,,CBS3620,7283,BE 08,060,CBS 03620,,Ekur (early),Ālu-ša-mār-šarri,Early Achaemenid,130,7283,P259993,Cyr. 2-mm-dd,Cyr,2.0
+259996,Neo-Babylonian,Nippur,CBS 03623,,,CBS3623,7341,BE 08,152,CBS 03623,,Ekur (early),,,130,7341,P259996,XXX. yy-mm-dd,XXX,
+259997,Achaemenid,Nippur,CBS 03624,Cambyses,30.0,CBS3624,7292,BE 08,078,CBS 03624,,Ekur (early),,Early Achaemenid,130,7292,P259997,Cam. 00-mm-30,Cam,0.0
+259998,Neo-Babylonian,Nippur,CBS 03625,,,CBS3625,7299,BE 08,146,CBS 03625,,Ekur (early),,,130,7299,P259998,XXX. yy-mm-dd,XXX,
+261186,Achaemenid,Nippur,CBS 04993 + CBS 13050,Artaxerxes1,5.0,CBS4993,1500,EE,02,CBS 04993+,Leases,Murašû,Nippur city,Achaemenid,10,1500,P261186,XXX. yy-V-dd,XXX,
+263879,Neo-Babylonian,Nippur,CBS 06104,,,CBS6104,7295,BE 08,136,CBS 06104,,Ekur (early),,,130,7295,P263879,XXX. yy-mm-dd,XXX,
+263884,Neo-Babylonian,Nippur,CBS 06109,,,CBS6109,7661,BE 08,138,CBS 06109,,Lâbâši/Zēru-ukīn,,Early Achaemenid,132,7661,P263884,XXX. yy-mm-dd,XXX,
+263886,Neo-Babylonian,Nippur,CBS 06111,,,CBS6111,7339,BE 08,148,CBS 06111,,Ekur (early),,,130,7339,P263886,XXX. yy-mm-dd,XXX,
+263888,Achaemenid,Nippur,CBS 06113,,,CBS6113,7275,BE 08,158,CBS 06113,,Ekur (early),,Early Achaemenid,130,7275,P263888,Dar I. 1-mm-dd,Dar I,1.0
+266441,Achaemenid,Nippur,CBS 11278,,,CBS11278,7379,BE 08,070,CBS 11278,,Ekur (early),Nippur city,Early Achaemenid,130,7379,P266441,Cyr. 07-X-09,Cyr,7.0
+266775,Neo-Babylonian,Nippur,CBS 11634,,,CBS11634,7267,BE 08,130,CBS 11634,,Ekur (early),-,,130,7267,P266775,XXX. yy-mm-dd,XXX,
+267396,Neo-Babylonian,Nippur,CBS 12795,,,CBS12795,7278,BE 08,037,CBS 12795,,Ekur (early),,Neo-Babylonian,130,7278,P267396,Ner. yy-mm-dd,Ner,
+267407,Neo-Babylonian,Nippur,CBS 12806,,,CBS12806,7298,BE 08,145,CBS 12806,,Ekur (early),,,130,7298,P267407,XXX. yy-mm-dd,XXX,
+267409,Neo-Babylonian,Nippur,CBS 12808,,,CBS12808,7268,BE 08,134,CBS 12808,,Ekur (early),,,130,7268,P267409,XXX. yy-mm-dd,XXX,
+305092,Achaemenid,Uruk,YBC 03734,Cambyses2,3.0,YBC3734,3592,YOS 7,147,YBC 03734,Leases,Eanna temple,Uruk city,Early Achaemenid,119,3592,P305092,Cam. 03-X-21,Cam,3.0
+305353,Achaemenid,Uruk,YBC 04041,Cyrus2,,YBC4041,3447,YOS 7,002,YBC 04041,Leases,Eanna temple,Uruk city,Early Achaemenid,119,3447,P305353,Cyr. Acc.-XI-21,,
+348914,Neo-Babylonian,unknown,Ashm 1937-0648,,,ASHM1937,7713,OECT 10,406,Ashm 1937-0644,,Carian,Bannēšu (Ālu-ša-Bannēšāya),Early Achaemenid,91,7713,P385419,Nbk IV. 1-V-14,Nbk IV,1.0
+373178,Neo-Babylonian,Uruk,VAT 18525,,,VAT18525,6168,VS 20,001,VAT 18525,,Eanna temple,No place,Neo-Babylonian,119,6168,P373178,Nbk. 43-II-09,Nbk,43.0
+373179,Neo-Babylonian,Uruk,VAT 18529,,,VAT18529,6169,VS 20,002,VAT 18529,,Eanna temple,No place,Neo-Babylonian,119,6169,P373179,AM. 01-III-22,AM,1.0
+373181,Neo-Babylonian,Uruk,VAT 18634,,,VAT18634,6170,VS 20,003,VAT 18634,,Eanna temple,No place,Neo-Babylonian,119,6170,P373181,Nbk. 42-XIIb-29,Nbk,42.0
+373183,Neo-Babylonian,Uruk,VAT 18644,,,VAT18644,6233,VS 20,006,VAT 18644,,Eanna temple,No place,,119,6233,P373183,XXX. 11-VIII-18,XXX,11.0
+373185,Neo-Babylonian,Uruk,VAT 18635,,,VAT18635,6235,VS 20,008,VAT 18635,,Eanna temple,No place,,119,6235,P373185,XXX. 09-IV-21,XXX,9.0
+373189,Neo-Babylonian,Uruk,VAT 18515,,,VAT18515,6218,VS 20,012,VAT 18515,,Eanna temple,No place,Neo-Babylonian,119,6218,P373189,Nbn. 09-II-21[+x],Nbn,9.0
+373190,Neo-Babylonian,Uruk,VAT 18651,,,VAT18651,6219,VS 20,013,VAT 18651,,Eanna temple,No place,,119,6219,P373190,XXX. yy-mm-dd,XXX,
+373191,Neo-Babylonian,Uruk,VAT 18783,,,VAT18783,6220,VS 20,014,VAT 18783,,Eanna temple,No place,Neo-Babylonian,119,6220,P373191,Nbk. 32-IX-24,Nbk,32.0
+373193,Neo-Babylonian,Uruk,VAT 18623,,,VAT18623,6222,VS 20,016,VAT 18623,,Eanna temple,No place,Neo-Babylonian,119,6222,P373193,Nbk. 12-00-23,Nbk,12.0
+373194,Neo-Babylonian,Uruk,VAT 18638,,,VAT18638,6223,VS 20,017,VAT 18638,,Eanna temple,No place,Early Achaemenid,119,6223,P373194,Dar I. 22-XI-05,Dar I,22.0
+373195,Neo-Babylonian,Uruk,VAT 18639,,,VAT18639,6224,VS 20,018,VAT 18639,,Eanna temple,No place,Neo-Babylonian,119,6224,P373195,Nbk. 22-VII-02,Nbk,22.0
+373197,Neo-Babylonian,Uruk,VAT 18512,Nabopolassar,,VAT18512,6226,VS 20,020,VAT 18512,,Eanna temple,No place,Neo-Babylonian,119,6226,P373197,Npl. 10[+x]-IV-08,Npl,10.0
+373198,Neo-Babylonian,Uruk,VAT 18531,Nabopolassar,10.0,VAT18531,6227,VS 20,021,VAT 18531,,Eanna temple,No place,Neo-Babylonian,119,6227,P373198,Npl. 10-IV-09,Npl,10.0
+373200,Neo-Babylonian,Uruk,VAT 18967,,,VAT18967,6230,VS 20,023,VAT 18967,,Eanna temple,No place,Neo-Babylonian,119,6230,P373200,XXX. 15-III-10,XXX,15.0
+373201,Neo-Babylonian,Uruk,VAT 18647,Nabopolassar,8.0,VAT18647,6231,VS 20,024,VAT 18647,,Eanna temple,No place,Neo-Babylonian,119,6231,P373201,Npl. 08-II-20,Npl,8.0
+373202,Neo-Babylonian,Uruk,VAT 18632,Nabopolassar,19.0,VAT18632,6232,VS 20,025,VAT 18632,,Eanna temple,No place,Neo-Babylonian,119,6232,P373202,Npl. 09-II-20,Npl,9.0
+373203,Neo-Babylonian,Uruk,VAT 18641,Nabopolassar,19.0,VAT18641,6275,VS 20,026,VAT 18641,,Eanna temple,No place,Neo-Babylonian,119,6275,P373203,Npl. 09-V-27,Npl,9.0
+373204,Neo-Babylonian,Uruk,VAT 18642,Nabopolassar,9.0,VAT18642,6276,VS 20,027,VAT 18642,,Eanna temple,No place,Neo-Babylonian,119,6276,P373204,Npl. IX-III-11,,
+373205,Neo-Babylonian,Uruk,VAT 18758,,,VAT18758,6277,VS 20,028,VAT 18758,,Eanna temple,No place,,119,6277,P373205,XXX. [x+]04-XII-02[+x],,
+373207,Neo-Babylonian,Uruk,VAT 18625,,,VAT18625,6279,VS 20,030,VAT 18625,,Eanna temple,No place,Neo-Babylonian,119,6279,P373207,Nbk. 42-V-11,Nbk,42.0
+373209,Neo-Babylonian,Uruk,VAT 18627,,,VAT18627,6281,VS 20,032,VAT 18627,,Eanna temple,No place,,119,6281,P373209,XXX. 08-XII-26,XXX,8.0
+373210,Neo-Babylonian,Uruk,VAT 18513,,,VAT18513,6313,VS 20,033,VAT 18513,,Eanna temple,No place,Neo-Babylonian,119,6313,P373210,Nbk. 22-X-02,Nbk,22.0
+373213,Neo-Babylonian,Uruk,VAT 18637,,,VAT18637,6316,VS 20,036,VAT 18637,,Eanna temple,No place,,119,6316,P373213,XXX. yy-mm-dd,XXX,
+373214,Neo-Babylonian,Uruk,VAT 18518,,,VAT18518,6317,VS 20,037,VAT 18518,,Eanna temple,No place,Neo-Babylonian,119,6317,P373214,Nbk. 39-II-09,Nbk,39.0
+373215,Neo-Babylonian,Uruk,VAT 18631,,,VAT18631,6318,VS 20,038,VAT 18631,,Eanna temple,No place,Neo-Babylonian,119,6318,P373215,Nbk. 42-XIIb-00,Nbk,42.0
+373216,Neo-Babylonian,Uruk,VAT 18516,,,VAT18516,6319,VS 20,039,VAT 18516,,Eanna temple,No place,Neo-Babylonian,119,6319,P373216,Nbn. 07-XII-24,Nbn,7.0
+373217,Neo-Babylonian,Uruk,VAT 18630,,,VAT18630,6320,VS 20,040,VAT 18630,,Eanna temple,No place,Neo-Babylonian,119,6320,P373217,Nbk. 37-II-20,Nbk,37.0
+373219,Neo-Babylonian,Uruk,VAT 18640,,,VAT18640,6322,VS 20,042,VAT 18640,,Eanna temple,No place,Neo-Babylonian,119,6322,P373219,Nbk. 31[+x]-VIII-25,Nbk,31.0
+373220,Neo-Babylonian,Uruk,VAT 18645,,,VAT18645,6324,VS 20,044,VAT 18645,,Eanna temple,No place,Neo-Babylonian,119,6324,P373220,Nbk. 36-XIIb-03,Nbk,36.0
+373221,Neo-Babylonian,Uruk,VAT 18524,,,VAT18524,6323,VS 20,043,VAT 18524,,Eanna temple,No place,Neo-Babylonian,119,6323,P373221,Nbk. 36-XII-06,Nbk,36.0
+373222,Neo-Babylonian,Uruk,VAT 18523,,,VAT18523,6325,VS 20,045,VAT 18523,,Eanna temple,No place,Neo-Babylonian,119,6325,P373222,Nbk. 37-V-18,Nbk,37.0
+373223,Neo-Babylonian,Uruk,VAT 18643,,,VAT18643,6326,VS 20,046,VAT 18643,,Eanna temple,No place,Neo-Babylonian,119,6326,P373223,Nbk. 37-XI-22,Nbk,37.0
+373224,Neo-Babylonian,Uruk,VAT 18471,,,VAT18471,6422,VS 20,047,VAT 18471,,Eanna temple,No place,Neo-Babylonian,119,6422,P373224,Nbk. 39-II-10[+x],Nbk,39.0
+373225,Neo-Babylonian,Uruk,VAT 18520,,,VAT18520,6423,VS 20,048,VAT 18520,,Eanna temple,No place,Neo-Babylonian,119,6423,P373225,Nbk. 042-XII-07,Nbk,42.0
+373226,Neo-Babylonian,Uruk,VAT 18950,,,VAT18950,6424,VS 20,049,VAT 18950,,Eanna temple,No place,Early Achaemenid,119,6424,P373226,Cam. 06-V-00,Cam,6.0
+373227,Neo-Babylonian,Uruk,VAT 18622,,,VAT18622,6425,VS 20,050,VAT 18622,,Eanna temple,No place,,119,6425,P373227,XXX. yy-mm-dd,XXX,
+373228,Neo-Babylonian,Uruk,VAT 18530,,,VAT18530,6426,VS 20,051,VAT 18530,,Eanna temple,No place,,119,6426,P373228,XXX. yy-XIIb-01,XXX,
+373229,Neo-Babylonian,Uruk,VAT 18664,,,VAT18664,6427,VS 20,052,VAT 18664,,Eanna temple,No place,,119,6427,P373229,XXX. yy-mm-dd,XXX,
+373232,Neo-Babylonian,Uruk,VAT 18468,,,VAT18468,6430,VS 20,055,VAT 18468,,Eanna temple,No place,Neo-Babylonian,119,6430,P373232,XXX. yy-mm-dd,XXX,
+373233,Neo-Babylonian,Uruk,VAT 18533,,,VAT18533,6431,VS 20,056,VAT 18533,,Eanna temple,No place,,119,6431,P373233,XXX. yy-mm-dd,XXX,
+373234,Neo-Babylonian,Uruk,VAT 18636,,,VAT18636,6432,VS 20,057,VAT 18636,,Eanna temple,No place,,119,6432,P373234,XXX. yy-mm-dd,XXX,
+373237,Neo-Babylonian,Uruk,VAT 18626,,,VAT18626,6435,VS 20,060,VAT 18626,,Eanna temple,No place,Neo-Babylonian,119,6435,P373237,Nbn. 00-II-09,Nbn,0.0
+373238,Neo-Babylonian,Uruk,VAT 18628,,,VAT18628,6436,VS 20,061,VAT 18628,,Eanna temple,No place,,119,6436,P373238,XXX. yy-mm-dd,XXX,
+373239,Neo-Babylonian,Uruk,VAT 18652,,,VAT18652,6437,VS 20,062,VAT 18652,,Eanna temple,No place,,119,6437,P373239,XXX. yy-mm-dd,XXX,
+373240,Neo-Babylonian,Uruk,VAT 18465,,,VAT18465,6438,VS 20,063,VAT 18465,,Eanna temple,No place,Early Achaemenid,119,6438,P373240,Cam. 00-VI-00,Cam,0.0
+373241,Neo-Babylonian,Uruk,VAT 18665,,,VAT18665,6440,VS 20,064,VAT 18665,,Eanna temple,Bitqu-ša-Bēl-ēṭir,Early Achaemenid,119,6440,P373241,Cam. 00-00-12,Cam,0.0
+373243,Neo-Babylonian,Uruk,VAT 18668,,,VAT18668,6442,VS 20,066,VAT 18668,,Eanna temple,Aššurītu,Early Achaemenid,119,6442,P373243,Cam. 00-00-11,Cam,0.0
+373244,Neo-Babylonian,Uruk,VAT 18466,,,VAT18466,6443,VS 20,067,VAT 18466,,Eanna temple,No place,Neo-Babylonian,119,6443,P373244,Nbk. 37-XI-07,Nbk,37.0
+373245,Neo-Babylonian,Uruk,VAT 18669,,,VAT18669,6446,VS 20,068,VAT 18669,,Eanna temple,No place,Neo-Babylonian,119,6446,P373245,Nbk. 00-XI-22,Nbk,0.0
+373246,Neo-Babylonian,Uruk,VAT 18660,,,VAT18660,6447,VS 20,069,VAT 18660,,Eanna temple,Uruk city,Neo-Babylonian,119,6447,P373246,Nbn. 05-00-17[+x],Nbn,5.0
+373247,Neo-Babylonian,Uruk,VAT 18633,Nabopolassar,16.0,VAT18633,6448,VS 20,070,VAT 18633,,Eanna temple,No place,Neo-Babylonian,119,6448,P373247,Npl. 16-IX-27,Npl,16.0
+373248,Neo-Babylonian,Uruk,VAT 18521,,,VAT18521,6599,VS 20,071,VAT 18521,,Eanna temple,No place,,119,6599,P373248,XXX. yy-mm-dd,XXX,
+373249,Neo-Babylonian,Uruk,VAT 18656,,,VAT18656,8048,VS 20,072,VAT 18656,,Eanna temple,No place,Early Achaemenid,119,8048,P373249,Cyr. yy-mm-dd,Cyr,
+373251,Neo-Babylonian,Uruk,VAT 18847,,,VAT18847,8120,VS 20,074,VAT 18847,,Eanna temple,No place,Early Achaemenid,119,8120,P373251,XXX. yy-mm-dd,XXX,
+373252,Neo-Babylonian,Uruk,VAT 18649,,,VAT18649,8646,VS 20,075,VAT 18649,,Eanna temple,No place,Neo-Babylonian,119,8646,P373252,XXX. yy-mm-dd,XXX,
+373253,Neo-Babylonian,Uruk,VAT 18655,,,VAT18655,6600,VS 20,076,VAT 18655,,Eanna temple,Uruk city,Early Achaemenid,119,6600,P373253,Cam. 03-I-01,Cam,3.0
+373254,Neo-Babylonian,Uruk,VAT 18721,,,VAT18721,6601,VS 20,077,VAT 18721,,Eanna temple,Broken,Early Achaemenid,119,6601,P373254,Cam. 00-00-00,Cam,0.0
+373255,Neo-Babylonian,Uruk,VAT 18672,,,VAT18672,6602,VS 20,078,VAT 18672,,Eanna temple,No place,,119,6602,P373255,XXX. 02-XII-08[+1?],XXX,2.0
+373258,Neo-Babylonian,Uruk,VAT 18666,,,VAT18666,6917,VS 20 (1978),081,VAT 18666,,Eanna temple,Broken,,119,6917,373258,XXX. 00-00-22,XXX,0.0
+373259,Neo-Babylonian,Uruk,VAT 18725,,,VAT18725,6925,VS 20 (1978),082,VAT 18725,,Eanna temple,Broken,Neo-Babylonian,119,6925,373259,Nbn. 00-III-00,Nbn,0.0
+373260,Achaemenid,Uruk,VAT 18657,,,VAT18657,6605,VS 20,083,VAT 18657,,Eanna temple,Uruk city,Early Achaemenid,119,6605,P373260,Cyr. 06-VI-13,Cyr,6.0
+373261,Neo-Babylonian,Uruk,VAT 18696,,,VAT18696,7007,VS 20 (1978),084,VAT 18696,,Rīm-Anu,Broken,Neo-Babylonian,53,7007,P373261,XXX. 00-00-00,XXX,0.0
+373262,Neo-Babylonian,Uruk,VAT 18719,,,VAT18719,6606,VS 20,085,VAT 18719,,Eanna temple,Bīt-Nabû,,119,6606,P373262,Cam. Acc.-VIb-22,,
+373263,Neo-Babylonian,Uruk,VAT 18654,,,VAT18654,6607,VS 20,086,VAT 18654,,Eanna temple,Uruk city,Neo-Babylonian,119,6607,P373263,Nbk IV. 13-XI-25,Nbk IV,13.0
+373264,Neo-Babylonian,Uruk,VAT 18679,,,VAT18679,6624,VS 20,087,VAT 18679,,Eanna temple,No place,,119,6624,P373264,XXX. yy-mm-dd,XXX,
+373265,Neo-Babylonian,Uruk,VAT 18678,,,VAT18678,3123,VS 20,088,VAT 18678,Leases,Eanna temple,Uruk city,Neo-Babylonian,119,3123,P373265,Nbk. 35-VIII-05,Nbk,35.0
+373266,Neo-Babylonian,Uruk,VAT 18759,,,VAT18759,6627,VS 20,089,VAT 18759,,Eanna temple,No place,Neo-Babylonian,119,6627,P373266,XXX. yy-mm-dd,XXX,
+373267,Neo-Babylonian,Uruk,VAT 19158,,,VAT19158,6721,VS 20,090,VAT 19158,,Eanna temple,No place,Neo-Babylonian,119,6721,P373267,Nbk. 34[+x]-XII-00,Nbk,34.0
+373268,Neo-Babylonian,Uruk,VAT 19156,,,VAT19156,6722,VS 20,091,VAT 19156,,Eanna temple,No place,,119,6722,P373268,XXX. yy-mm-dd,XXX,
+373269,Neo-Babylonian,Uruk,VAT 19157,,,VAT19157,6723,VS 20,092,VAT 19157,,Eanna temple,No place,,119,6723,P373269,XXX. yy-mm-dd,XXX,
+373270,Neo-Babylonian,Uruk,VAT 19159,,,VAT19159,6724,VS 20,093,VAT 19159,,Eanna temple,No place,,119,6724,P373270,XXX. yy-mm-dd,XXX,
+373271,Neo-Babylonian,Uruk,VAT 19155,,,VAT19155,6725,VS 20,094,VAT 19155,,Eanna temple,No place,,119,6725,P373271,XXX. yy-mm-dd,XXX,
+373272,Neo-Babylonian,Uruk,VAT 19154,,,VAT19154,6726,VS 20,095,VAT 19154,,Eanna temple,No place,Neo-Babylonian,119,6726,P373272,Nbk. 32-00-00,Nbk,32.0
+373273,Neo-Babylonian,Uruk,VAT 16714,,,VAT16714,6732,VS 20,096,VAT 16714,,Eanna temple,No place,Early Achaemenid,119,6732,P373273,Cyr. 02-00-00,Cyr,2.0
+373274,Neo-Babylonian,Uruk,VAT 16664,,,VAT16664,6733,VS 20,097,VAT 16664,,Eanna temple,No place,,119,6733,P373274,XXX. yy-mm-dd,XXX,
+373275,Neo-Babylonian,Uruk,VAT 16665,,,VAT16665,6734,VS 20,098,VAT 16665,,Eanna temple,No place,,119,6734,P373275,XXX. yy-mm-dd,XXX,
+373276,Neo-Babylonian,Uruk,VAT 16666,,,VAT16666,6735,VS 20,099,VAT 16666,,Eanna temple,No place,Neo-Babylonian,119,6735,P373276,Nbn. 00-00-00,Nbn,0.0
+373277,Neo-Babylonian,Uruk,VAT 16667,,,VAT16667,6481,VS 20,100,VAT 16667,,Eanna temple,No place,,119,6481,P373277,XXX. 00-00-00,XXX,0.0
+373279,Neo-Babylonian,Uruk,VAT 16669,,,VAT16669,6483,VS 20,102,VAT 16669,,Eanna temple,No place,,119,6483,P373279,XXX. 00-00-00,XXX,0.0
+373280,Neo-Babylonian,Uruk,VAT 16668,,,VAT16668,6484,VS 20,103,VAT 16668,,Eanna temple,No place,,119,6484,P373280,XXX. 00-00-00,XXX,0.0
+373282,Neo-Babylonian,Uruk,VAT 16685,,,VAT16685,6486,VS 20,105,VAT 16685,,Eanna temple,No place,,119,6486,P373282,XXX. 00-00-00,XXX,0.0
+373283,Neo-Babylonian,Uruk,VAT 16676,,,VAT16676,6487,VS 20,106,VAT 16676,,Eanna temple,No place,,119,6487,P373283,XXX. 00-00-00,XXX,0.0
+373284,Neo-Babylonian,Uruk,VAT 16680,,,VAT16680,6488,VS 20,107,VAT 16680,,Eanna temple,No place,,119,6488,P373284,XXX. 00-00-00,XXX,0.0
+373285,Neo-Babylonian,Uruk,VAT 16683,,,VAT16683,6489,VS 20,108,VAT 16683,,Eanna temple,No place,Neo-Babylonian,119,6489,P373285,Nbk. 15+-00-00,Nbk,15.0
+373286,Neo-Babylonian,Uruk,VAT 16711,,,VAT16711,6490,VS 20,109,VAT 16711,,Eanna temple,No place,,119,6490,P373286,XXX. 00-00-00,XXX,0.0
+373288,Neo-Babylonian,Uruk,VAT 16679,,,VAT16679,6492,VS 20,111,VAT 16679,,Eanna temple,No place,,119,6492,P373288,XXX. 00-00-00,XXX,0.0
+373289,Neo-Babylonian,Uruk,VAT 16671,,,VAT16671,6497,VS 20,112,VAT 16671,,Eanna temple,No place,Neo-Babylonian,119,6497,P373289,Nbk. 20+-00-00,Nbk,20.0
+373290,Neo-Babylonian,Uruk,VAT 16682,,,VAT16682,6498,VS 20,113,VAT 16682,,Eanna temple,No place,Neo-Babylonian,119,6498,P373290,XXX. 00-00-00,XXX,0.0
+373292,Neo-Babylonian,Uruk,VAT 16710,,,VAT16710,6565,VS 20,116,VAT 16710,,Eanna temple,No place,,119,6565,P373292,XXX. 00-00-00,XXX,0.0
+373294,Neo-Babylonian,Uruk,VAT 16712,,,VAT16712,6567,VS 20,118,VAT 16712,,Eanna temple,No place,,119,6567,P373294,XXX. 00-00-00,XXX,0.0
+373295,Neo-Babylonian,Uruk,VAT 16708,,,VAT16708,6568,VS 20,119,VAT 16708,,Eanna temple,No place,,119,6568,P373295,XXX. 00-00-00,XXX,0.0
+373296,Neo-Babylonian,Uruk,VAT 16713,,,VAT16713,6569,VS 20,120,VAT 16713,,Eanna temple,No place,Early Achaemenid,119,6569,P373296,Cyr. 08+-00-00,Cyr,8.0
+373297,Neo-Babylonian,Uruk,VAT 16673,,,VAT16673,6570,VS 20,121,VAT 16673,,Eanna temple,No place,,119,6570,P373297,XXX. 00-00-00,XXX,0.0
+373298,Neo-Babylonian,Uruk,VAT 16674,,,VAT16674,6571,VS 20,122,VAT 16674,,Eanna temple,No place,,119,6571,P373298,XXX. 00-00-00,XXX,0.0
+373299,Neo-Babylonian,Uruk,VAT 16686,,,VAT16686,6572,VS 20,123,VAT 16686,,Eanna temple,No place,,119,6572,P373299,XXX. 00-00-00,XXX,0.0
+373300,Neo-Babylonian,Uruk,VAT 16701,,,VAT16701,6573,VS 20,124,VAT 16701,,Eanna temple,No place,,119,6573,P373300,XXX. 00-00-00,XXX,0.0
+373301,Neo-Babylonian,Uruk,VAT 16696,,,VAT16696,6574,VS 20,125,VAT 16696,,Eanna temple,No place,,119,6574,P373301,XXX. 00-00-00,XXX,0.0
+373303,Neo-Babylonian,Uruk,VAT 16687,,,VAT16687,6576,VS 20,127,VAT 16687,,Eanna temple,No place,,119,6576,P373303,XXX. 00-XII-01,XXX,0.0
+373304,Neo-Babylonian,Uruk,VAT 16688,,,VAT16688,6577,VS 20,128,VAT 16688,,Eanna temple,No place,,119,6577,P373304,XXX. 00-00-00,XXX,0.0
+373306,Neo-Babylonian,Uruk,VAT 16677,,,VAT16677,6579,VS 20,130,VAT 16677,,Eanna temple,Broken,Early Achaemenid,119,6579,P373306,XXX. 00-00-00,XXX,0.0
+373307,Neo-Babylonian,Uruk,VAT 16678,,,VAT16678,6580,VS 20,131,VAT 16678,,Eanna temple,No place,,119,6580,P373307,XXX. 00-00-00,XXX,0.0
+373310,Neo-Babylonian,Uruk,VAT 16690,,,VAT16690,6583,VS 20,134,VAT 16690,,Eanna temple,No place,Neo-Babylonian,119,6583,P373310,Nbk. 27+-II-00,Nbk,27.0
+373311,Neo-Babylonian,Uruk,VAT 16689,,,VAT16689,6584,VS 20,135,VAT 16689,,Eanna temple,Broken,,119,6584,P373311,XXX. 00-00-00,XXX,0.0
+373312,Neo-Babylonian,Uruk,VAT 16692,,,VAT16692,6586,VS 20,136,VAT 16692,,Eanna temple,No place,,119,6586,P373312,XXX. 00-00-00,XXX,0.0
+373314,Neo-Babylonian,Uruk,VAT 16691,,,VAT16691,6588,VS 20,138,VAT 16691,,Eanna temple,Broken,Early Achaemenid,119,6588,P373314,Cam. 04+-XIIb-00,Cam,4.0
+373316,Neo-Babylonian,Uruk,VAT 16697,,,VAT16697,6590,VS 20,140,VAT 16697,,Eanna temple,No place,,119,6590,P373316,XXX. 00-00-00,XXX,0.0
+373317,Neo-Babylonian,Uruk,VAT 16702,,,VAT16702,6591,VS 20,141,VAT 16702,,Eanna temple,Broken,,119,6591,P373317,XXX. 00-00-00,XXX,0.0
+373318,Neo-Babylonian,Uruk,VAT 16699,,,VAT16699,6592,VS 20,142,VAT 16699,,Eanna temple,No place,,119,6592,P373318,XXX. 00-00-00,XXX,0.0
+373321,Neo-Babylonian,Uruk,VAT 16703,,,VAT16703,6597,VS 20,145,VAT 16703,,Eanna temple,No place,,119,6597,P373321,XXX. 00-00-00,XXX,0.0
+387071,Neo-Babylonian,Borsippa,AO 10298,Kandalānu,7.0,AO10298,2597,TCL 12,006,AO 10298,Purchases,"Ea-ilūtu-bāni, Ilī-bāni and Nanāhu",Borsippa city,Early Neo-Babylonian,94,2597,P387071,XXX. yy-III-dd,XXX,
+387092,Neo-Babylonian,Uruk,AO 10265,Nebuchadnezzar,,AO10265,2669,TCL 12,027,AO 10265,Purchases,"Ea-ilūtu-bāni, Ilī-bāni and Nanāhu",Borsippa city,Neo-Babylonian,94,2669,,XXX. yy-IV-dd,XXX,
+387093,Neo-Babylonian,unknown,AO 10266,Nebuchadnezzar,,AO10266,7422,TCL 12,028,AO 10266,,Eanna temple,,Neo-Babylonian,119,7422,P387093,Nbk. 11-I-27,Nbk,11.0
+387097,Neo-Babylonian,Babylon,AO 07147,Nebuchadnezzar,,AO7147,7423,TCL 12,032,AO 07147,,Nūr-Sîn,Babylon city,Neo-Babylonian,60,7423,P387097,Nbk. 13-XII-dd,Nbk,13.0
+387098,Neo-Babylonian,Uruk,AO 06869,Nebuchadnezzar,,AO6869,7427,TCL 12,033,AO 06869,,Rīm-Anu,Uruk city,Neo-Babylonian,53,7427,P387098,Nbk. 12-VI-11,Nbk,12.0
+387105,Neo-Babylonian,Babylon,AO 06804,Nebuchadnezzar,,AO6804,3175,TCL 12,040,AO 6804,Promissory notes ina muẖẖi,Eanna temple,Babylon city,Neo-Babylonian,119,3175,,Nbk. 23-III?-10+,Nbk,23.0
+387111,Neo-Babylonian,Uruk,AO 06844,Nebuchadnezzar,,AO6844,7432,TCL 12,046,AO 06844,,Eanna temple,Uruk city,Neo-Babylonian,119,7432,P387111,Nbk. 32-XII-22,Nbk,32.0
+387144,Neo-Babylonian,Uruk,AO 06848,Nabonidus,,AO6848,7446,TCL 12,079,AO 06848,,Eanna temple,,Neo-Babylonian,119,7446,P387144,Nbn. 4-XI-18,Nbn,4.0
+387151,Neo-Babylonian,Babylon,MNB 1127,Nabonidus,,MNB1127,410,TCL 12,086,MNB 1127,Court protocols,Egibi/Nūr-Sîn,Babylon city,Neo-Babylonian,118,410,,XXX. yy-VII-dd,XXX,
+387155,Neo-Babylonian,Uruk,AO 10290,Nabonidus,,AO10290,7451,TCL 12,090,AO 10290,,Eanna temple,Uruk city,Neo-Babylonian,119,7451,P387155,Nbn. 8-V-10,Nbn,8.0
+387160,Neo-Babylonian,Uruk,AO 06855,Nabonidus,,AO6855,7454,TCL 12,095,AO 06855,,Eanna temple,No place,Neo-Babylonian,119,7454,P387160,Nbn. 10-VIII-12,Nbn,10.0
+387166,Neo-Babylonian,Babylon,MNB 1828,Nabonidus,,MNB1828,1401,TCL 12,101,MNB 1828,Promissory notes ina muẖẖi,Egibi/Nūr-Sîn,Babylon city,Neo-Babylonian,118,1401,,XXX. yy-VIII-dd,XXX,
+387167,Neo-Babylonian,Uruk,AO 06823,Nabonidus,,AO6823,7456,TCL 12,102,AO 06823,,Eanna temple,No place,Neo-Babylonian,119,7456,P387167,Nbn. 1-I-20,Nbn,1.0
+387177,Neo-Babylonian,Uruk,AO 06807,Nabonidus,,AO6807,7463,TCL 12,112,AO 06807,,Eanna temple,No place,Neo-Babylonian,119,7463,P387177,Nbn. 15-X-21,Nbn,15.0
+387185,Neo-Babylonian,Babylon,MNB 1133,Nabonidus,,MNB1133,266,TCL 12,120,MNB 1133 ,Deposits,Egibi/Nūr-Sîn,Bīt-šar-Bābili,Neo-Babylonian,118,266,,XXX. yy-VI-dd,XXX,
+387187,Neo-Babylonian,Babylon,MNB 1809,Nabonidus,,MNB1809,1145,TCL 12,122,MNB 1809,Statements in court/Depositions,Egibi/Nūr-Sîn,Babylon city,Neo-Babylonian,118,1145,,XXX. yy-X-dd,XXX,
+387189,Achaemenid,Uruk,AO 10291,Cyrus,,AO10291,7491,TCL 13,124,AO 10291,,Eanna temple,Uruk city,Early Achaemenid,119,7491,P387189,Cyr. 1-V-1,Cyr,1.0
+387195,Achaemenid,Uruk,AO 06856,Cyrus,,AO6856,7495,TCL 13,130,AO 06856,,Eanna temple,No place,Early Achaemenid,119,7495,P387195,Cyr. 3-V-28,Cyr,3.0
+387196,Achaemenid,Uruk,AO 06842,Cyrus,,AO6842,7496,TCL 13,131,AO 06842,,Eanna temple,Uruk city,Early Achaemenid,119,7496,P387196,Cyr. 3-XIIb-1,Cyr,3.0
+387197,Achaemenid,Uruk,AO 08560,Cyrus,,AO8560,7497,TCL 13,132,AO 08560,,Eanna temple,Uruk city,Early Achaemenid,119,7497,,,,
+387198,Achaemenid,Uruk,AO 10275,Cyrus,,AO10275,7499,TCL 13,133,AO 10275,,Eanna temple,Uruk city,Early Achaemenid,119,7499,P387198,Cyr. 4-V-22,Cyr,4.0
+387199,Achaemenid,Uruk,AO 06835,Cyrus,,AO6835,7534,TCL 13,134,AO 06835,,Eanna temple,Uruk city,Early Achaemenid,119,7534,P387199,Cyr. 4-VIII-25,Cyr,4.0
+387200,Achaemenid,Uruk,AO 06841,Cyrus,,AO6841,7535,TCL 13,135,AO 06841,,Eanna temple,Uruk city,Early Achaemenid,119,7535,P387200,Cyr. 4-VIII-25,Cyr,4.0
+387201,Achaemenid,Borsippa,AO 10267,Cyrus,,AO10267,2638,TCL 13,136,AO 10267,Receipts,"Ea-ilūtu-bāni, Ilī-bāni and Nanāhu",Borsippa city,Early Achaemenid,94,2638,,XXX. yy-II-dd,XXX,
+387202,Achaemenid,unknown,AO 08568,Cyrus,,AO8568,7549,TCL 13,137,AO 08568,,Eanna temple,Kār-Ninurta,Early Achaemenid,119,7549,P387202,Cyr. 5-IX-24,Cyr,5.0
+387203,Achaemenid,Uruk,AO 06828,Cyrus,,AO6828,7550,TCL 13,138,AO 06828,,Eanna temple,Uruk city,Early Achaemenid,119,7550,P387203,Cyr. 5-V-18,Cyr,5.0
+387205,Achaemenid,Uruk,AO 06787,Cyrus,,AO6787,7553,TCL 13,140,AO 06787,,Eanna temple,Uruk city,Early Achaemenid,119,7553,,,,
+387225,Achaemenid,Babylon,MNB 1129,Cambyses,,MNB1129,473,TCL 13,160,MNB 1129,Commercial partnerships,Egibi/Nūr-Sîn,Babylon city,Early Achaemenid,118,473,,XXX. yy-VIb-dd,XXX,
+387226,Achaemenid,Uruk,AO 06816,Cambyses,,AO6816,7616,TCL 13,161,AO 06816,,Eanna temple,Uruk city,Early Achaemenid,119,7616,P387226,Cam. 3-X-21,Cam,3.0
+387228,Achaemenid,Uruk,AO 06791,Cambyses,,AO6791,7620,TCL 13,163,AO 06791,,Eanna temple,Broken,Early Achaemenid,119,7620,,,,
+387230,Achaemenid,Uruk,AO 06800,Cambyses,,AO6800,7625,TCL 13,165,AO 06800,,Eanna temple,Uruk city,Early Achaemenid,119,7625,P387230,Cam. 4-V-25,Cam,4.0
+387236,Achaemenid,unknown,AO 10289,Cambyses,,AO10289,7653,TCL 13,171,AO 10289,,Eanna temple,No place,Early Achaemenid,119,7653,P387236,Cam. 5-VI-23,Cam,5.0
+387241,Achaemenid,Uruk,AO 06861,Cambyses,,AO6861,7656,TCL 13,176,AO 06861,,Eanna temple,No place,Early Achaemenid,119,7656,P387241,Cam. 6-III-dd,Cam,6.0
+387244,Achaemenid,Uruk,AO 06802,Cambyses,,AO6802,3158,TCL 13,179,AO 6802,Court protocols,Eanna temple,Uruk city,Early Achaemenid,119,3158,P387244,Cam. [x]-[x]-[x],,
+387248,Achaemenid,Uruk,AO 06812,Darius,,AO6812,7686,TCL 13,183,AO 06812,,Eanna temple,No place,Early Achaemenid,119,7686,P387248,Dar I. 2-VI-6,Dar I,2.0
+387287,Achaemenid,Uruk,AO 06813,,,AO6813,7689,TCL 13,222,AO 06813,,Eanna temple,No place,Early Achaemenid,119,7689,,,,
+387296,Hellenistic,unknown,AO 08572,,,AO8572,7755,TCL 13,233,AO 08572,,Eanna temple,No place,Early Achaemenid,119,7755,P387296,Cyr. 8-mm-dd,Cyr,8.0
+412445,Hellenistic,unknown,Ashm 1937-0993,,,ASHM1937,7713,OECT 10,406,Ashm 1937-0644,,Carian,Bannēšu (Ālu-ša-Bannēšāya),Early Achaemenid,91,7713,P385419,Nbk IV. 1-V-14,Nbk IV,1.0
+414214,Neo-Babylonian,Uruk,VAT 14598,,,VAT14598,4761,AnOr 9,22,VAT 14598,,Eanna temple,No place,,119,4761,,XXX. 00-00-00,XXX,0.0
+416496,Achaemenid,Marad,SLAM 271:1952,Cyrus2,,SLAM271,5017,Spar 1972,03,SLAM 271:1952,,Eanna temple,Uruk city,Early Achaemenid,119,5017,P416496,Cyr. 07-XI-16,Cyr,7.0
+416497,Achaemenid,Marad,SLAM 272:1952,Darius1,,SLAM272,5014,Spar 1972,14,SLAM 272:1952,,Eanna temple,Nār Saparrāti,Early Achaemenid,119,5014,P416497,Dar I. 22-I-16,Dar I,22.0
+416498,Neo-Babylonian,Marad,SLAM 274:1952,Nebuchadnezzar2,,SLAM274,5007,Spar 1972,07,SLAM 274:1952,,Eanna temple,No place,Neo-Babylonian,119,5007,P416498,Nbn. 05-I-04,Nbn,5.0
+416547,Neo-Babylonian,unknown,SLAM 139:1922,,,SLAM139,5018,,,SLAM 139:1922,,Eanna temple,Uruk city,Neo-Babylonian,119,5018,P416547,Nbk. 34?-IV-01,Nbk,34.0
+416879,Neo-Babylonian,unknown,CUA 108,,,CUA108,6614,Zadok 2019,A.I.a.7,CUA 108,,Eanna temple,Kapri-ša-nāqidāti,Early Achaemenid,119,6614,P416879,Cam. 04-VI*-12+,Cam,4.0
+416881,Neo-Babylonian,unknown,CUA 110,,,CUA110,8401,"Studia Mesopotamica 5 (2001), 241-369",D.I.20.2,CUA 110,,Eanna temple,No place,Neo-Babylonian,119,8401,P416881,Nbn. 01-VII-10,Nbn,1.0
+417476,Neo-Babylonian,unknown,ROM 967.287.069,Nebuchadnezzar2,41.0,ROM967,8531,ROMCT 2,5,ROM 967.287.068,,Eanna temple,Uruk city,Early Achaemenid,119,8531,P417480,Cyr. 6-XI-9,Cyr,6.0
+417480,Achaemenid,unknown,ROM 967.287.068,Cyrus2,6.0,ROM967,8531,ROMCT 2,5,ROM 967.287.068,,Eanna temple,Uruk city,Early Achaemenid,119,8531,P417480,Cyr. 6-XI-9,Cyr,6.0
+421701,Achaemenid,unknown,CULC 614,,,CULC614,8395,"Studia Mesopotamica 5 (2001), 241-369",C.I.4,CULC 614,,Eanna temple,Bitqu-ša-Bēl-ēṭir,Early Achaemenid,119,8395,P421701,Cam. 05-VI-00,Cam,5.0
+423858,Neo-Babylonian,uncertain,MAH 15873,,,MAH15873,8386,Zadok 2018,B.,MAH 15873,,Eanna temple,Bīt-Rahē,Neo-Babylonian,119,8386,P423858,Nbk. 30-VI-27,Nbk,30.0
+423947,Neo-Babylonian,Uruk,MAH 15980,,,MAH15980,8403,,,MAH 15980,,Eanna temple,No place,Neo-Babylonian,119,8403,P423947,Npl. 02-00-00,Npl,2.0
+424286,Achaemenid,uncertain,MAH 16626,Cambyses2,1.0,MAH16626,6620,Zadok 2019,A.II.2,MAH 16626,,Eanna temple,No place,Early Achaemenid,119,6620,P424286,Cam. Acc.-VI-20,,
+432815,Neo-Babylonian,unknown,MM 0220b,,,MM220,7206,"AuOr 15 (1997), 139-194",01,MM 0220b,,Eanna temple,No place,Neo-Babylonian,119,7206,P432815,XXX. yy-mm-dd,XXX,
+432824,Achaemenid,unknown,MM 0504,,,MM504,6192,Stolper 2003,272-274,MM504,Letters,Eanna temple,No place,Early Achaemenid,119,6192,P432824,XXX. yy-mm-dd,XXX,
+432845,Achaemenid,unknown,MM 0813,,,MM813,7208,"AuOr 15 (1997), 139-194",03,MM 0813,,Eanna temple,Uruk city,Early Achaemenid,119,7208,,Cyr. [...]+1-IV-19,,
+432900,Neo-Babylonian,unknown,MM 1030,,,MM1030,7209,"AuOr 15 (1997), 139-194",35,MM 1030,,Eanna temple,No place,Neo-Babylonian,119,7209,P432900,XXX. yy-mm-dd,XXX,
+432901,Achaemenid,Babylon,MM 1031,,,MM1031,1795,"Wunsch, AuOr 15",5,MM 1031,Leases,Nappāhu,Babylon city,Early Achaemenid,51,1795,,XXX. yy-V-dd,XXX,
+432914,Achaemenid,Babylon,MM 1089,Cambyses,6.0,MM1089,1737,"Wunsch, AuOr 15",4,MM 1089,Promissory notes ina muẖẖi,Nappāhu,Babylon city,Early Achaemenid,51,1737,,XXX. yy-VII-dd,XXX,
+459930,Achaemenid,Babylon,FLP 1421,Darius1,19.0,FLP1421,1120,"Stigers, JCS 28",46,FLP 1421,Leases,Egibi/Nūr-Sîn,Babylon city,Early Achaemenid,118,1120,,XXX. yy-VI-dd,XXX,
+459968,Achaemenid,uncertain,FLP 1460,Cambyses2,1.0,FLP1460,3166,JCS 28 (1976),15,FLP 1460,Receipts,Eanna temple,Harru-ša-Iddinā,Early Achaemenid,119,3166,,Cam. 01-XI-18,Cam,1.0
+459971,Achaemenid,unknown,FLP 1463,Darius1,12.0,FLP1463,6683,"JCS 28 (1976), 3-59",36,FLP 1463,Letter orders,Eanna temple,No place,Early Achaemenid,119,6683,P459971,Dar I. 12-III-15,Dar I,12.0
+459979,Neo-Babylonian,unknown,FLP 1471,Xerxes,11.0,FLP1471,8039,"Stigers, JCS 28",38,FLP 1471,,Eanna temple,No place,Early Achaemenid,119,8039,P459979,Dar I. 11-XI-24,Dar I,11.0
+459995,Neo-Babylonian,uncertain,FLP 1487,,,FLP1487,8117,JCS 28 (1976),no. 40,FLP 1487,,Eanna temple,No place,Early Achaemenid,119,8117,,XXX. yy-mm-dd,XXX,
+460027,Neo-Babylonian,unknown,FLP 1519,Nabopolassar,9.0,FLP1519,6746,Dillard 1975,,FLP 1519,,Eanna temple,No place,Neo-Babylonian,119,6746,P460027,Npl. 09-VI-17,Npl,9.0
+460028,Neo-Babylonian,Sippar-Yahrurum,FLP 1520,Nabopolassar,17.0,FLP1520,6747,Dillard 1975,,FLP 1520,,Eanna temple,No place,Neo-Babylonian,119,6747,P460028,Nbk. 17-VIII-28,Nbk,17.0
+460030,Neo-Babylonian,Uruk,FLP 1522,Nebuchadnezzar2,7.0,FLP1522,7071,Dillard 1975,,FLP 1522,,Eanna temple,Uruk city,Neo-Babylonian,119,7071,P460030,Nbk. 07-V-23,Nbk,7.0
+460031,Neo-Babylonian,Ṣurmeš,FLP 1523,Nebuchadnezzar2,7.0,FLP1523,6817,Dillard 1975,06a,FLP 1523,,Eanna temple,Ṣurru,Neo-Babylonian,119,6817,P460031,Nbk. 07-VI-10,Nbk,7.0
+460032,Neo-Babylonian,Ṣurmeš,FLP 1524,Nebuchadnezzar2,7.0,FLP1524,6818,Dillard 1975,06b,FLP 1524,,Eanna temple,Ṣurru,Neo-Babylonian,119,6818,P460032,Nbk. 07-VI-10,Nbk,7.0
+460034,Neo-Babylonian,uncertain,FLP 1526,Nebuchadnezzar2,11.0,FLP1526,6748,Dillard 1975,,FLP 1526,,Eanna temple,No place,Neo-Babylonian,119,6748,P460034,Nbk IV. 11-VII-18,Nbk IV,11.0
+460035,Neo-Babylonian,Uruk,FLP 1527,Nebuchadnezzar2,12.0,FLP1527,6814,Dillard 1975,,FLP 1527,,Eanna temple,Uruk city,Neo-Babylonian,119,6814,P460035,Nbk. 12-00-00,Nbk,12.0
+460036,Neo-Babylonian,Uruk,FLP 1528,Nebuchadnezzar2,13.0,FLP1528,7072,Dillard 1975,,FLP 1528,,Eanna temple,Uruk city,Neo-Babylonian,119,7072,P460036,Nbk. See Inferred date-IV-00,,
+460037,Neo-Babylonian,uncertain,FLP 1529,Nebuchadnezzar2,14.0,FLP1529,6815,Dillard 1975,,FLP 1529,,Eanna temple,No place,Neo-Babylonian,119,6815,P460037,XXX. 26-VI-26,XXX,26.0
+460038,Neo-Babylonian,Uruk,FLP 1530,Nebuchadnezzar2,15.0,FLP1530,6852,Dillard 1975,,FLP 1530,,Eanna temple,Uruk city,Neo-Babylonian,119,6852,P460038,Nbk. 15-III-04[+x],Nbk,15.0
+460039,Neo-Babylonian,Babylon,FLP 1531,Nebuchadnezzar2,16.0,FLP1531,6853,Dillard 1975,,FLP 1531,,Eanna temple,Babylon city,Neo-Babylonian,119,6853,P460039,Nbk. 16-VI-13,Nbk,16.0
+460040,Neo-Babylonian,Babylon,FLP 1532,Nebuchadnezzar2,16.0,FLP1532,7074,Dillard 1975,,FLP 1532,,Eanna temple,Babylon city,Neo-Babylonian,119,7074,P460040,Nbk. 16-XII-27,Nbk,16.0
+460041,Neo-Babylonian,Babylon,FLP 1533,Nebuchadnezzar2,17.0,FLP1533,7061,Dillard 1975,,FLP 1533,,Nūr-Sîn,Babylon city,Neo-Babylonian,60,7061,P460041,Nbk. 17-XII-13,Nbk,17.0
+460042,Neo-Babylonian,uncertain,FLP 1534,Nebuchadnezzar2,20.0,FLP1534,6854,Dillard 1975,,FLP 1534,,Eanna temple,No place,Neo-Babylonian,119,6854,P460042,Nbk. 20-VI-07,Nbk,20.0
+460044,Neo-Babylonian,Uruk,FLP 1536,Nebuchadnezzar2,21.0,FLP1536,6859,Dillard 1975,,FLP 1536,,Eanna temple,Uruk city,Neo-Babylonian,119,6859,P460044,Nbk. 21-III-17,Nbk,21.0
+460045,Neo-Babylonian,uncertain,FLP 1537,Nebuchadnezzar2,22.0,FLP1537,6860,Dillard 1975,,FLP 1537,,Eanna temple,No place,Neo-Babylonian,119,6860,P460045,Nbk. 22-X-10,Nbk,22.0
+460046,Neo-Babylonian,Uruk,FLP 1538,Nebuchadnezzar2,23.0,FLP1538,6861,Dillard 1975,,FLP 1538,,Eanna temple,No place,Neo-Babylonian,119,6861,P460046,Nbk. 23-V-01,Nbk,23.0
+460047,Neo-Babylonian,uncertain,FLP 1539,Nebuchadnezzar2,23.0,FLP1539,6878,Dillard 1975,,FLP 1539,,Eanna temple,No place,Neo-Babylonian,119,6878,P460047,Nbk. 23-X-11,Nbk,23.0
+460048,Neo-Babylonian,uncertain,FLP 1540,Nebuchadnezzar2,25.0,FLP1540,6879,Dillard 1975,,FLP 1540,,Eanna temple,No place,Neo-Babylonian,119,6879,P460048,Nbk. 25-VII-11,Nbk,25.0
+460049,Neo-Babylonian,Uruk,FLP 1541,Nebuchadnezzar2,27.0,FLP1541,6880,Dillard 1975,,FLP 1541,,Eanna temple,Uruk city,Neo-Babylonian,119,6880,P460049,Nbk. 27-VII-16,Nbk,27.0
+460053,Neo-Babylonian,Uruk,FLP 1545,Nebuchadnezzar2,34.0,FLP1545,7073,Dillard 1975,,FLP 1545,,Eanna temple,Uruk city,Neo-Babylonian,119,7073,P460053,Nbk. 34-II-[...]+5,Nbk,34.0
+460054,Neo-Babylonian,Uruk,FLP 1546,Nebuchadnezzar2,34.0,FLP1546,7075,Dillard 1975,,FLP 1546,,Eanna temple,Uruk city,Neo-Babylonian,119,7075,P460054,Nbk. 34-XII-25,Nbk,34.0
+460056,Neo-Babylonian,uncertain,FLP 1548,Nebuchadnezzar2,36.0,FLP1548,6881,Dillard 1975,,FLP 1548,,Eanna temple,No place,Neo-Babylonian,119,6881,P460056,Nbk. 36-VII-06,Nbk,36.0
+460057,Neo-Babylonian,Uruk,FLP 1549,Nebuchadnezzar2,38.0,FLP1549,7062,Dillard 1975,,FLP 1549,,Eanna temple,Uruk city,Neo-Babylonian,119,7062,P460057,Nbk. 38-XII-11,Nbk,38.0
+460058,Neo-Babylonian,uncertain,FLP 1550,Nebuchadnezzar2,39.0,FLP1550,6914,Dillard 1975,,FLP 1550,,Eanna temple,No place,Neo-Babylonian,119,6914,P460058,Nbk. 39-II-13,Nbk,39.0
+460059,Neo-Babylonian,Uruk,FLP 1551,Nebuchadnezzar2,39.0,FLP1551,7078,Dillard 1975,,FLP 1551,,Eanna temple,Uruk city,Neo-Babylonian,119,7078,P460059,Nbk. 39-V-22,Nbk,39.0
+460063,Neo-Babylonian,Uruk,FLP 1555,Nebuchadnezzar2,43.0,FLP1555,7079,Dillard 1975,,FLP 1555,,Eanna temple,Uruk city,Neo-Babylonian,119,7079,P460063,Nbk. 43-III-22,Nbk,43.0
+460066,Neo-Babylonian,Uruk,FLP 1558,Neriglissar,1.0,FLP1558,7215,Dillard 1975,,FLP 1558,,Eanna temple,Uruk city,Neo-Babylonian,119,7215,P460066,Ner. 01-X-01,Ner,1.0
+460067,Neo-Babylonian,Uruk,FLP 1559,Neriglissar,,FLP1559,7216,Dillard 1975,,FLP 1559,,Eanna temple,Broken,Neo-Babylonian,119,7216,P460067,Ner. 00-IX-00,Ner,0.0
+460070,Neo-Babylonian,uncertain,FLP 1562,Nabonidus,5.0,FLP1562,6926,Dillard 1975,,FLP 1562,,Eanna temple,No place,Neo-Babylonian,119,6926,P460070,Nbn. 05-IV-18,Nbn,5.0
+460073,Neo-Babylonian,uncertain,FLP 1565,Nabonidus,5.0,FLP1565,7218,Dillard 1975,,FLP 1565,,Eanna temple,No place,Neo-Babylonian,119,7218,P460073,Nbn. 05-V-06,Nbn,5.0
+460074,Neo-Babylonian,uncertain,FLP 1566,Nabonidus,5.0,FLP1566,6929,Dillard 1975,,FLP 1566,,Eanna temple,No place,Neo-Babylonian,119,6929,P460074,Nbn. 05-V-08,Nbn,5.0
+460075,Neo-Babylonian,uncertain,FLP 1567,Nabonidus,5.0,FLP1567,6931,Dillard 1975,,FLP 1567,,Eanna temple,No place,Neo-Babylonian,119,6931,P460075,Nbn. 05-V-12,Nbn,5.0
+460076,Neo-Babylonian,uncertain,FLP 1568,Nabonidus,5.0,FLP1568,6932,Dillard 1975,,FLP 1568,,Eanna temple,No place,Neo-Babylonian,119,6932,P460076,Nbn. 05-V-19,Nbn,5.0
+460079,Neo-Babylonian,uncertain,FLP 1571,Nabonidus,5.0,FLP1571,6969,Dillard 1975,,FLP 1571,,Eanna temple,No place,Neo-Babylonian,119,6969,P460079,Nbn. 05-XI-21,Nbn,5.0
+460080,Neo-Babylonian,Uruk,FLP 1572,Nabonidus,34.0,FLP1572,8805,Frame 2026,2,FLP 1572,Other,Eanna temple,Uruk city,Neo-Babylonian,119,8805,P460080,Nbn. 6-XIIa-14,Nbn,6.0
+460081,Neo-Babylonian,uncertain,FLP 1573,Nabonidus,7.0,FLP1573,6970,Dillard 1975,,FLP 1573,,Eanna temple,No place,Neo-Babylonian,119,6970,P460081,Nbn. 07-V-20,Nbn,7.0
+460083,Neo-Babylonian,Uruk,FLP 1575,Nabonidus,7.0,FLP1575,6971,Dillard 1975,,FLP 1575,,Eanna temple,No place,Neo-Babylonian,119,6971,P460083,Nbn. 04+[3]-X-06,Nbn,4.0
+460084,Neo-Babylonian,uncertain,FLP 1576,Nabonidus,7.0,FLP1576,6972,Dillard 1975,,FLP 1576,,Eanna temple,No place,Neo-Babylonian,119,6972,P460084,Nbn. 07-XI-28,Nbn,7.0
+460088,Neo-Babylonian,uncertain,FLP 1580,Nabonidus,8.0,FLP1580,6986,Dillard 1975,,FLP 1580,,Eanna temple,No place,Neo-Babylonian,119,6986,P460088,Nbn. 08-IV-18,Nbn,8.0
+460089,Neo-Babylonian,Uruk,FLP 1581,Nabonidus,8.0,FLP1581,7008,Dillard 1975,,FLP 1581,,Eanna temple,No place,Neo-Babylonian,119,7008,P460089,Nbn. 08-V-17,Nbn,8.0
+460091,Neo-Babylonian,Uruk,FLP 1583,Nabonidus,9.0,FLP1583,7009,Dillard 1975,,FLP 1583,,Eanna temple,Bīt-Šama'-il,Neo-Babylonian,119,7009,P460091,Nbn. 09-IX-22,Nbn,9.0
+460092,Neo-Babylonian,Uruk,FLP 1584,Nabonidus,10.0,FLP1584,7010,Dillard 1975,,FLP 1584,,Eanna temple,Uruk city,Neo-Babylonian,119,7010,P460092,Nbn. 10-III-04,Nbn,10.0
+460093,Neo-Babylonian,Uruk,FLP 1585,Nabonidus,10.0,FLP1585,7219,Dillard 1975,,FLP 1585,,Eanna temple,,Neo-Babylonian,119,7219,P460093,Nbn. 01-VI-14,Nbn,1.0
+460095,Neo-Babylonian,uncertain,FLP 1587,Nabonidus,10.0,FLP1587,7011,Dillard 1975,,FLP 1587,,Eanna temple,No place,Neo-Babylonian,119,7011,P460095,Nbn. 10-VIb-18,Nbn,10.0
+460096,Neo-Babylonian,uncertain,FLP 1588,Nabonidus,10.0,FLP1588,7012,Dillard 1975,,FLP 1588,,Eanna temple,No place,Neo-Babylonian,119,7012,P460096,Nbn. 10-VIb-26,Nbn,10.0
+460098,Neo-Babylonian,uncertain,FLP 1590,Nabonidus,10.0,FLP1590,7013,Dillard 1975,,FLP 1590,,Eanna temple,No place,Neo-Babylonian,119,7013,P460098,Nbn. X-VII-21,,
+460099,Neo-Babylonian,Sippar-Yahrurum,FLP 1591,Nabonidus,10.0,FLP1591,7014,Dillard 1975,,FLP 1591,,Eanna temple,No place,Neo-Babylonian,119,7014,P460099,Nbn. 10-X-16,Nbn,10.0
+460100,Neo-Babylonian,uncertain,FLP 1592,Nabonidus,11.0,FLP1592,7015,Dillard 1975,,FLP 1592,,Eanna temple,No place,Neo-Babylonian,119,7015,P460100,Nbn. 11-III-10,Nbn,11.0
+460101,Neo-Babylonian,uncertain,FLP 1593,Nabonidus,11.0,FLP1593,7055,Dillard 1975,,FLP 1593,,Eanna temple,No place,Neo-Babylonian,119,7055,P460101,Nbn. 11-III-24,Nbn,11.0
+460109,Neo-Babylonian,Uruk,FLP 1601,Nabonidus,16.0,FLP1601,7057,Dillard 1975,,FLP 1601,,Eanna temple,Uruk city,Neo-Babylonian,119,7057,P460109,Nbn. 16-V-02,Nbn,16.0
+460111,Neo-Babylonian,Uruk,FLP 1603,Nabonidus,16.0,FLP1603,7063,Dillard 1975,,FLP 1603,,Eanna temple,Uruk city,Neo-Babylonian,119,7063,P460057,Nbn. 16-XI-07,Nbn,16.0
+460113,Neo-Babylonian,Kumu,FLP 1605,Nabonidus,16.0,FLP1605,7064,Dillard 1975,,FLP 1605,,Eanna temple,Kār-Nanāya,Neo-Babylonian,119,7064,P460113,Nbn. 16-00-27,Nbn,16.0
+460114,Neo-Babylonian,Nippur,FLP 1606,Nabonidus,17.0,FLP1606,8765,Jursa 2005,033,FLP 01606,,Bēl-eṭēri-Šamaš,Nippur city,Neo-Babylonian,99,8765,P460114,Nbn. 17-II-27,Nbn,17.0
+460117,Neo-Babylonian,Uruk,FLP 1609,,,FLP1609,7058,Dillard 1975,,FLP 1609,,Eanna temple,No place,Neo-Babylonian,119,7058,P460117,XXX. 03-XI-13,XXX,3.0
+460118,Neo-Babylonian,uncertain,FLP 1610,,,FLP1610,7059,Dillard 1975,,FLP 1610,,Eanna temple,No place,Neo-Babylonian,119,7059,P460118,XXX. 07-VI-22,XXX,7.0
+460119,Neo-Babylonian,uncertain,FLP 1611,,,FLP1611,7060,Dillard 1975,,FLP 1611,,Eanna temple,No place,,119,7060,P460119,XXX. 08-I-02,XXX,8.0
+460120,Neo-Babylonian,uncertain,FLP 1612,Nabonidus,8.0,FLP1612,7065,Dillard 1975,,FLP 1612,,Eanna temple,No place,Neo-Babylonian,119,7065,P460120,Nbn. 08-V-21,Nbn,8.0
+460121,Neo-Babylonian,uncertain,FLP 1613,,,FLP1613,7066,Dillard 1975,,FLP 1613,,Eanna temple,No place,,119,7066,P460121,XXX. 09-XII-00,XXX,9.0
+460127,Neo-Babylonian,uncertain,FLP 1619,,,FLP1619,7067,Dillard 1975,,FLP 1619,,Eanna temple,No place,,119,7067,P460127,XXX. yy-mm-dd,XXX,
+460131,Achaemenid,unknown,FLP 1623,Cambyses2,,FLP1623,7068,Dillard 1975,,FLP 1623,,Eanna temple,No place,,119,7068,P460132,XXX. yy-mm-dd,XXX,
+462207,Neo-Babylonian,Uruk,CST 002,,,CST2,6716,"Knopf, Diss.",070,CST 002,,Eanna temple,No place,Neo-Babylonian,119,6716,P462207,Nbn. 02-IV-28,Nbn,2.0
+462212,Neo-Babylonian,Uruk,CST 007,,,CST7,7162,"Knopf, Diss.",122,CST 007,,Eanna temple,Uruk city,Early Achaemenid,119,7162,P462212,Cam. 5-III-7,Cam,5.0
+462214,Neo-Babylonian,Uruk,CST 009,,,CST9,7537,"Knopf, Diss.",138,CST 009,,Eanna temple,,Neo-Babylonian,119,7537,P462214,Nbn. accession year-IV-12,,
+462215,Neo-Babylonian,Uruk,CST 010,,,CST10,7492,"Knopf, Diss.",163,CST 010,,Eanna temple,No place,Neo-Babylonian,119,7492,P462215,Nbn. 11-III-29,Nbn,11.0
+462220,Neo-Babylonian,Uruk,CST 015,,,CST15,7558,"Knopf, Diss.",180,CST 015,,Eanna temple,,Neo-Babylonian,119,7558,P462220,Npl. 12-II-5,Npl,12.0
+462232,Neo-Babylonian,Uruk,CST 027,,,CST27,7705,"Studia Mesopotamica 5 (2001), 241-369",D.I.4,CST 027,,Eanna temple,Ḫarru-ša-Iddināya,Neo-Babylonian,119,7705,P462232,XXX. 06-00-04,XXX,6.0
+462259,Neo-Babylonian,Uruk,CST 054,,,CST54,7048,"Knopf, Diss.",148,CST 054,,Eanna temple,No place,,119,7048,P462259,XXX. 00-00-00,XXX,0.0
+462262,Neo-Babylonian,Uruk,CST 057,,,CST57,7285,"Knopf, Diss.",120,CST 057,,Eanna temple,No place,Neo-Babylonian,119,7285,P462262,Nbn. 02-III-20,Nbn,2.0
+462263,Neo-Babylonian,Uruk,CST 058,,,CST58,6781,"Knopf, Diss.",124,CST 058,,Eanna temple,Uruk city,Neo-Babylonian,119,6781,P462263,Npl. 02-II-03,Npl,2.0
+462275,Neo-Babylonian,Uruk,CST 070,,,CST70,6610,"Knopf, Diss.",110,CST 070,,Eanna temple,Bitqu-ša-Bēl-ēṭir,Early Achaemenid,119,6610,P462275,Cam. 02-VI-26,Cam,2.0
+462277,Neo-Babylonian,Uruk,CST 072,,,CST72,6611,"Knopf, Diss.",111,CST 072,,Eanna temple,Bitqu-ša-Bēl-ēṭir,Early Achaemenid,119,6611,P462277,Cam. 05-VI-03,Cam,5.0
+462280,Neo-Babylonian,Uruk,CST 075,,,CST75,7156,"Knopf, Diss.",075,CST 075,,Eanna temple,,Neo-Babylonian,119,7156,P462280),Ner. 3-VI-25,Ner,3.0
+462291,Neo-Babylonian,Uruk,CST 086,,,CST86,7053,"Knopf, Diss.",029,CST 086,,Eanna temple,Uruk city,Neo-Babylonian,119,7053,P462291,Nbn. 08-VII-05,Nbn,8.0
+462293,Neo-Babylonian,Uruk,CST 088,,,CST88,7287,"Knopf, Diss.",112,CST 088,,Eanna temple,Ālu-ša-Šunanē,Neo-Babylonian,119,7287,P462293,Nbn. 13-VII-30,Nbn,13.0
+462294,Neo-Babylonian,Uruk,CST 089,,,CST89,8254,"Knopf, Diss.",121,CST 089,,Eanna temple,Uruk city,Neo-Babylonian,119,8254,P462309,Ner. Acc.-00-28,,
+462301,Neo-Babylonian,Uruk,CST 096,,,CST96,7286,"Knopf, Diss.",005,CST 096,,Eanna temple,No place,Neo-Babylonian,119,7286,P462301,Nbk IV. 30-IX-13,Nbk IV,30.0
+462306,Neo-Babylonian,Uruk,CST 101,,,CST101,7490,"Knopf, Diss.",158,CST 101,,Eanna temple,No place,Neo-Babylonian,119,7490,P462306,Nbn. 01-XII-12,Nbn,1.0
+462310,Neo-Babylonian,Uruk,CST 105,,,CST105,7155,"Knopf, Diss.",174,CST 105,,Eanna temple,,Early Neo-Babylonian,119,7155,P462310,Npl. accession year-II-1,,
+462318,Neo-Babylonian,Uruk,CST 113,,,CST113,6615,"Knopf, Diss.",113,CST 113,,Eanna temple,Uruk city,Early Achaemenid,119,6615,P462318,Cam. 05-V-04,Cam,5.0
+462332,Neo-Babylonian,Uruk,CST 127,,,CST127,8214,"Knopf, Diss.",149,CST 127,,Eanna temple,Uruk city,Neo-Babylonian,119,8214,P462332,Nbn. 05-VI-19,Nbn,5.0
+462334,Neo-Babylonian,Uruk,CST 129,,,CST129,6715,"Knopf, Diss.",007,CST 129,,Eanna temple,No place,Neo-Babylonian,119,6715,P462334,XXX. 00-00-00,XXX,0.0
+462336,Neo-Babylonian,Uruk,CST 131,,,CST131,6526,"Knopf, Diss.",062,CST 131,,Eanna temple,,Neo-Babylonian,119,6526,P462336,Npl. 16-VII-16,Npl,16.0
+462346,Neo-Babylonian,Uruk,CST 141,,,CST141,6520,"Knopf, Diss.",175,CST 141,,Eanna temple,,Neo-Babylonian,119,6520,P462346,Nbn. --VI-25,,
+462351,Neo-Babylonian,Uruk,CST 146,,,CST146,6612,"Knopf, Diss.",114,CST 146,,Eanna temple,Uruk city,Early Achaemenid,119,6612,P462351,Cam. 02-V-02+,Cam,2.0
+462353,Neo-Babylonian,Uruk,CST 148,,,CST148,8413,"Studia Mesopotamica 5 (2001), 241-369",D.III.a.3,CST 148,,Eanna temple,Broken,Neo-Babylonian,119,8413,P462353,XXX. 00-00-00,XXX,0.0
+462354,Neo-Babylonian,Uruk,CST 149,,,CST149,7160,"Knopf, Diss.",187,CST 149,,Eanna temple,,Neo-Babylonian,119,7160,P462354,Npl. 9-III-24,Npl,9.0
+462355,Neo-Babylonian,Uruk,CST 150,,,CST150,6617,"Knopf, Diss.",115,CST 150,,Eanna temple,Broken,Neo-Babylonian,119,6617,P462355,Nbn. 09-I*-05,Nbn,9.0
+462364,Neo-Babylonian,Uruk,CST 159,,,CST159,6613,"Knopf, Diss.",107,CST 159,,Eanna temple,Kapri-ša-nāqidāti,Early Achaemenid,119,6613,P462364,Cam. 02-VI-04+,Cam,2.0
+462365,Neo-Babylonian,Uruk,CST 160,,,CST160,7819,"Knopf, Diss.",186,CST 160,,Eanna temple,No place,,119,7819,P462365,XXX. 00-00-08+,XXX,0.0
+462366,Neo-Babylonian,Uruk,CST 161,,,CST161,6525,"Knopf, Diss.",061,CST 161,,Eanna temple,,Neo-Babylonian,119,6525,P462336,Npl. 7-XI-4,Npl,7.0
+462369,Neo-Babylonian,Uruk,CST 164,,,CST164,7692,"Studia Mesopotamica 5 (2001), 241-369",D.I.2.1,CST 164,,Eanna temple,Bitqu-ša-Bēl-ēṭir,Neo-Babylonian,119,7692,P462369,Nbn. 03-VIII-09,Nbn,3.0
+462379,Neo-Babylonian,Uruk,CST 174,,,CST174,6527,Isimu 20-21,C.1.1.2,CST 174,,Eanna temple,,Neo-Babylonian,119,6527,P462379,Npl. 20-XIIb-26,Npl,20.0
+462381,Neo-Babylonian,Uruk,CST 176,,,CST176,7049,Aarslev 2023 (PhD Diss.),13,CST 176,,Eanna temple,No place,Neo-Babylonian,119,7049,P462381,XXX. 01-X-23,XXX,1.0
+462383,Neo-Babylonian,Uruk,CST 178,,,CST178,7813,"Knopf, Diss.",045,CST 178,,Eanna temple,No place,,119,7813,P462383,XXX. 00-00-00,XXX,0.0
+462389,Neo-Babylonian,Uruk,CST 184,,,CST184,8394,"Studia Mesopotamica 5 (2001), 241-369",C.I.2,CST 184,,Eanna temple,Šaqillatu,Early Achaemenid,119,8394,P462389,Cam. 05-VI-11,Cam,5.0
+462391,Neo-Babylonian,Uruk,CST 186,,,CST186,6743,Zadok 2016,B.b.I.4,CST 186,,Eanna temple,No place,Neo-Babylonian,119,6743,P462391,Nbk. 02-III-06,Nbk,2.0
+462394,Neo-Babylonian,Uruk,CST 189,,,CST189,7222,,,CST 189,,Eanna temple,No place,Neo-Babylonian,119,7222,P462394,Nbn. 03-XII-07,Nbn,3.0
+462395,Neo-Babylonian,Uruk,CST 190,,,CST190,8261,"Studia Mesopotamica 5 (2001), 241-369",D.II.c.3,CST 190,,Eanna temple,Bīt-Ḫarramma,Neo-Babylonian,119,8261,P462395,Npl. 10-VII-30,Npl,10.0
+462400,Neo-Babylonian,Uruk,CST 195,,,CST195,7540,,,CST 195,,Eanna temple,,Neo-Babylonian,119,7540,P462400,Npl. 2-II-6,Npl,2.0
+462407,Neo-Babylonian,Uruk,CST 202,,,CST202,8393,"Studia Mesopotamica 5 (2001), 241-369",C.I.1,CST 202,,Eanna temple,Uruk city,Early Achaemenid,119,8393,P462407,Cam. 02-V-20,Cam,2.0
+462411,Neo-Babylonian,Uruk,CST 206,,,CST206,7652,Studia Mesopotamica 5 (2001),C.I.3,CST 206,,Eanna temple,Šaqillatu,Early Achaemenid,119,7652,P462411,Cam. 5-VI-11,Cam,5.0
+462421,Neo-Babylonian,Uruk,CST 216,,,CST216,6745,Zadok 2016,B.b.I.6,CST 216,,Eanna temple,No place,Neo-Babylonian,119,6745,P462421,Nbn. 02-00-19+,Nbn,2.0
+462430,Neo-Babylonian,Uruk,CST 225,,,CST225,6623,Zadok 2019,B.I.3,CST 225,,Basia,Ālu-ša-Šumu-ukīn,Neo-Babylonian,104,6623,P462430,Nbn. 01-VIII-10,Nbn,1.0
+462432,Neo-Babylonian,Uruk,CST 227,,,CST227,7726,,,CST 227,,Eanna temple,,Neo-Babylonian,119,7726,P462432,Npl. 15-X-17,Npl,15.0
+462434,Neo-Babylonian,Uruk,CST 229,,,CST229,6521,Isimu 20-21,B.1,CST 229,,Eanna temple,,Neo-Babylonian,119,6521,P462434,XXX. yy-mm-dd,XXX,
+462440,Neo-Babylonian,Uruk,CST 235,,,CST235,7157,Isimu 20-21,C.1.1.9,CST 235,,Eanna temple,,Neo-Babylonian,119,7157,,Nbn. accession year-IX-11,,
+462446,Neo-Babylonian,Uruk,CST 241,,,CST241,8399,"Studia Mesopotamica 5 (2001), 241-369",D.I.17,CST 241,,Eanna temple,No place,Neo-Babylonian,119,8399,P462446,Nbn. 00-00-00,Nbn,0.0
+462449,Neo-Babylonian,Uruk,CST 244,,,CST244,7542,,,CST 244,,Eanna temple,,Neo-Babylonian,119,7542,P462449,Nbk. 4-XI-3,Nbk,4.0
+462450,Neo-Babylonian,Uruk,CST 245,,,CST245,6711,Zadok 2016,B.a.I.1,CST 245,,Eanna temple,No place,Neo-Babylonian,119,6711,P462450,XXX. 00-00-00,XXX,0.0
+462453,Neo-Babylonian,Uruk,CST 248,,,CST248,8406,,,CST 248,,Eanna temple,Ālu-ša-Ištar-kuzbiya,Early Achaemenid,119,8406,P462453,Cyr. 09-I-20,Cyr,9.0
+462454,Neo-Babylonian,Uruk,CST 249,,,CST249,6513,Isimu 20-21,A.1.1.2,CST 249,,Eanna temple,,Neo-Babylonian,119,6513,P462576,Npl. 16-X-11,Npl,16.0
+462455,Neo-Babylonian,Uruk,CST 250,,,CST250,6514,Isimu 20-21,A.2.1,CST 250,,Eanna temple,,Neo-Babylonian,119,6514,P462455,Npl. 21-IV-9,Npl,21.0
+462458,Neo-Babylonian,Uruk,CST 253,,,CST253,8405,"Studia Mesopotamica 5 (2001), 241-369",D.II.a.2,CST 253,,Basia,Broken,Neo-Babylonian,104,8405,P462458,Nbk. 30+-I-13,Nbk,30.0
+462463,Neo-Babylonian,Uruk,CST 258,,,CST258,7799,Isimu 20-21,C.5.2,CST 258,,Eanna temple,,Neo-Babylonian,119,7799,P462463,XXX. yy-mm-dd,XXX,
+462483,Neo-Babylonian,Uruk,CST 278,,,CST278,7543,,,CST 278,,Eanna temple,,Neo-Babylonian,119,7543,P462483,Npl. 6-XI-1,Npl,6.0
+462494,Neo-Babylonian,Uruk,CST 289,,,CST289,7731,"Studia Mesopotamica 5 (2001), 241-369",D.I.13-14.1,CST 289,,Eanna temple,No place,Neo-Babylonian,119,7731,P462494,Nbn. 03-00-01,Nbn,3.0
+462495,Neo-Babylonian,Uruk,CST 290,,,CST290,8412,"Studia Mesopotamica 5 (2001), 241-369",D.III.a.2,CST 290,,Eanna temple,Uruk city,Neo-Babylonian,119,8412,P462495,Nbn. 00-III-00,Nbn,0.0
+462500,Neo-Babylonian,Uruk,CST 295,,,CST295,6851,Zadok 2016,B.b.I.7,CST 295,,Eanna temple,No place,,119,6851,P462500,XXX. 00-00-00,XXX,0.0
+462502,Neo-Babylonian,Uruk,CST 297,,,CST297,8353,"Studia Mesopotamica 5 (2001), 241-369",D.III.b.3,CST 297,,Eanna temple,Broken,Neo-Babylonian,119,8353,P462502,Nbn. 00-XII-00,Nbn,0.0
+462506,Neo-Babylonian,Uruk,CST 301,,,CST301,6717,Zadok 2016,E.1,CST 301,,Eanna temple,No place,Neo-Babylonian,119,6717,P462506,Nbn. 03-III-29,Nbn,3.0
+462509,Neo-Babylonian,Uruk,CST 304,,,CST304,8315,"Studia Mesopotamica 5 (2001), 241-369",D.III.a.1,CST 304,,Eanna temple,Broken,Neo-Babylonian,119,8315,P462509,XXX. 4+-00-00,XXX,4.0
+462512,Neo-Babylonian,Uruk,CST 307,,,CST307,6609,Zadok 2019,A.I.a.2,CST 307,,Eanna temple,Bitqu-ša-Bēl-ēṭir,Early Achaemenid,119,6609,P462512,Cam. 03-VI?-17,Cam,3.0
+462514,Neo-Babylonian,Uruk,CST 309,,,CST309,7745,,,CST 309,,Eanna temple,,Neo-Babylonian,119,7745,P462514,Npl. yy-VII-20,Npl,
+462515,Neo-Babylonian,Uruk,CST 310,,,CST310,8282,"Studia Mesopotamica 5 (2001), 241-369",D.II.c.8,CST 310,,Eanna temple,No place,Neo-Babylonian,119,8282,P462515,XXX. 14-00-17,XXX,14.0
+462516,Neo-Babylonian,Uruk,CST 311,,,CST311,6719,Zadok 2016,B.b.I.8,CST 311,,Eanna temple,No place,,119,6719,P462516,XXX. 00-00-00,XXX,0.0
+462518,Neo-Babylonian,Uruk,CST 313,,,CST313,6608,Zadok 2019,A.I.a.1,CST 313,,Eanna temple,Bitqu-ša-Bēl-ēṭir,Early Achaemenid,119,6608,P462518,Cam. 02-VI-24,Cam,2.0
+462519,Neo-Babylonian,Uruk,CST 314,,,CST314,7814,"Studia Mesopotamica 5 (2001), 241-369",D.I.28,CST 314,,Eanna temple,No place,Neo-Babylonian,119,7814,P462519,Npl. 16-XI-14,Npl,16.0
+462526,Neo-Babylonian,Uruk,CST 321,,,CST321,8433,,,CST 321,,Eanna temple,Šaṭeru,Neo-Babylonian,119,8433,462526,Nbn. 2-00-14,Nbn,2.0
+462529,Neo-Babylonian,Uruk,CST 324,,,CST324,7561,Isimu 20-21,C.2.1.8,CST 324,,Eanna temple,,Neo-Babylonian,119,7561,P462529,Nbn. 4-X-2,Nbn,4.0
+462532,Neo-Babylonian,Uruk,CST 327,,,CST327,6530,Isimu 20-21,C.1.1.5,CST 327,,Eanna temple,,Neo-Babylonian,119,6530,,Npl. 20-II-6,Npl,20.0
+462536,Neo-Babylonian,Uruk,CST 331,,,CST331,6515,Isimu 20-21,A.2.2,CST 331,,Eanna temple,,Neo-Babylonian,119,6515,P462536,Npl. 17-IX-1,Npl,17.0
+462538,Neo-Babylonian,Uruk,CST 333,,,CST333,8396,"Studia Mesopotamica 5 (2001), 241-369",D.I.1.2,CST 333,,Eanna temple,Kār-Nanāya,Early Achaemenid,119,8396,P462538,XXX. 07-V-03+,XXX,7.0
+462550,Neo-Babylonian,Uruk,CST 345,,,CST345,8398,"Studia Mesopotamica 5 (2001), 241-369",D.I.10–12,CST 345,,Eanna temple,No place,,119,8398,P462550,XXX. yy-mm-dd,XXX,
+462559,Neo-Babylonian,Uruk,CST 354,,,CST354,7051,Aarslev 2023 (PhD Diss.),37,CST 354,,Eanna temple,No place,Neo-Babylonian,119,7051,P462559,XXX. 12-X-26,XXX,12.0
+462561,Neo-Babylonian,Uruk,CST 356,,,CST356,7757,,,CST 356,,Eanna temple,,Neo-Babylonian,119,7757,P462561,Nbn. accession year-IX-17,,
+462568,Neo-Babylonian,Uruk,CST 363,,,CST363,6528,Isimu 20-21,C.1.1.3,CST 363,,Eanna temple,,Neo-Babylonian,119,6528,P462568,Npl. 16-XI-14,Npl,16.0
+462576,Neo-Babylonian,Uruk,CST 371,,,CST371,6439,Isimu 20-21,A.1.1.1,CST 371,,Eanna temple,,Neo-Babylonian,119,6439,P462576,Npl. 14-VIII-30,Npl,14.0
+462579,Neo-Babylonian,Uruk,CST 374,,,CST374,6518,Isimu 20-21,A.2.3,CST 374,,Eanna temple,,Neo-Babylonian,119,6518,P462579,Nbk. 16-IX-10,Nbk,16.0
+462587,Neo-Babylonian,Uruk,CST 382,,,CST382,7052,Aarslev 2023 (PhD Diss.),38,CST 382,,Eanna temple,No place,Early Achaemenid,119,7052,P462587,Npl. 20-XIIb-00,Npl,20.0
+462622,Neo-Babylonian,Uruk,CST 417,,,CST417,7795,,,CST 417,,Eanna temple,,Neo-Babylonian,119,7795,P462622,Npl. 20-V-20,Npl,20.0
+462626,Neo-Babylonian,Uruk,CST 421,,,CST421,7742,,,CST 421,,Eanna temple,,Neo-Babylonian,119,7742,P462626,Npl. 13-mm-24,Npl,13.0
+462633,Neo-Babylonian,Uruk,CST 428,,,CST428,7756,,,CST 428,,Eanna temple,,Neo-Babylonian,119,7756,P462633,AM. accession year-XI-16,,
+462638,Neo-Babylonian,Uruk,CST 433,,,CST433,7797,"Studia Mesopotamica 5 (2001), 241-369",D.I.20.1,CST 433,,Eanna temple,No place,,119,7797,P462638,XXX. 00-00-00,XXX,0.0
+462661,Neo-Babylonian,Uruk,CST 456,,,CST456,6618,Zadok 2019,A.I.b.2,CST 456,,Eanna temple,No place,Neo-Babylonian,119,6618,P462661,Nbn. 11-II-23,Nbn,11.0
+462662,Neo-Babylonian,Uruk,CST 457,,,CST457,8407,"Studia Mesopotamica 5 (2001), 241-369",D.II.c.2,CST 457,,Eanna temple,No place,Neo-Babylonian,119,8407,P462662,XXX. 22-VIII-00,XXX,22.0
+462668,Neo-Babylonian,Uruk,CST 463,,,CST463,7659,"Studia Mesopotamica 5 (2001), 241-369",D.I.1.1,CST 463,,Eanna temple,Kār-Nanāya,Neo-Babylonian,119,7659,P462668,Nbn. 07-V-28,Nbn,7.0
+462679,Neo-Babylonian,Uruk,CST 474,,,CST474,6516,Isimu 20-21,A.2.4,CST 474,,Eanna temple,,Neo-Babylonian,119,6516,P462679,Npl. 14-VI-28,Npl,14.0
+462686,Neo-Babylonian,Uruk,CST 481,,,CST481,8397,"Studia Mesopotamica 5 (2001), 241-369",D.I.2.2,CST 481,,Eanna temple,Bitqu-ša-Bēl-ēṭir,,119,8397,P462686,XXX. 00-00-20,XXX,0.0
+462687,Neo-Babylonian,Uruk,CST 482,,,CST482,6742,Zadok 2016,B.b.I.3,CST 482,,Eanna temple,No place,Neo-Babylonian,119,6742,P462687,Nbk. 32-00-05+,Nbk,32.0
+462695,Neo-Babylonian,Uruk,CST 490,,,CST490,8402,,,CST 490,,Eanna temple,No place,Early Achaemenid,119,8402,P462695,XXX. 00-00-00,XXX,0.0
+462700,Neo-Babylonian,Uruk,CST 495,,,CST495,7559,,,CST 495,,Eanna temple,,,119,7559,P462700,Npl. 15-II-15,Npl,15.0
+462706,Neo-Babylonian,Uruk,CST 501,,,CST501,7743,,,CST 501,,Eanna temple,,Neo-Babylonian,119,7743,P462706,XXX. yy-mm-dd,XXX,
+462713,Neo-Babylonian,Uruk,CST 508,,,CST508,6856,Zadok 2016,D.1,CST 508,,Eanna temple,No place,Neo-Babylonian,119,6856,P462713,AM. Acc.-VIII-00,,
+462729,Neo-Babylonian,Uruk,CST 524,,,CST524,7796,Isimu 20-21,C.5.1,CST 524,,Eanna temple,,Neo-Babylonian,119,7796,P462729,Nbn. 3-mm-7,Nbn,3.0
+462742,Neo-Babylonian,Uruk,CST 537,,,CST537,8400,"Studia Mesopotamica 5 (2001), 241-369",D.I.18,CST 537,,Eanna temple,No place,Neo-Babylonian,119,8400,P462742,Nbn. 00-VI-00,Nbn,0.0
+462743,Neo-Babylonian,Uruk,CST 538,,,CST538,6517,Isimu 20-21,A.3,CST 538,,Eanna temple,,Neo-Babylonian,119,6517,P462743,XXX. 14-VIII-2,XXX,14.0
+462744,Neo-Babylonian,Uruk,CST 539,,,CST539,7389,"Studia Mesopotamica 5 (2001), 241-369",A.II.4,CST 539,,Eanna temple,No place,,119,7389,P462744,XXX. 00-00-00,XXX,0.0
+462750,Neo-Babylonian,Uruk,CST 545,,,CST545,6529,Isimu 20-21,C.1.1.4,CST 545,,Eanna temple,,,119,6529,P462750,XXX. yy-mm-dd,XXX,
+462753,Neo-Babylonian,Uruk,CST 548,,,CST548,7539,,,CST 548,,Eanna temple,,Neo-Babylonian,119,7539,P462753,Npl. 15-IV-12,Npl,15.0
+462757,Neo-Babylonian,Uruk,CST 552,,,CST552,7541,,,CST 552,,Eanna temple,,,119,7541,P462757,Npl. 2-XIIb-11,Npl,2.0
+462766,Neo-Babylonian,Uruk,CST 561,,,CST561,8408,"Studia Mesopotamica 5 (2001), 241-369",D.II.c.4,CST 561,,Eanna temple,No place,,119,8408,P462766,XXX. yy-mm-dd,XXX,
+470097,Neo-Babylonian,Uruk,PTS 2000,,,PTS2000,8651,dubsar 3,26,PTS 2000,,Eanna temple,No place,Neo-Babylonian,119,8651,P470097,XXX. yy-mm-dd,XXX,
+470098,Neo-Babylonian,Uruk,PTS 2001,,,PTS2001,8451,dubsar 3,008,PTS 2001,Letters,Eanna temple,No place,Neo-Babylonian,119,8451,P470098,Npl. yy-mm-dd,Npl,
+470102,Neo-Babylonian,unknown,PTS 2005,,,PTS2005,878,"Zadok and Zadok, NABU 1997/14",,PTS 2005,Letters,Eanna temple,No place,Early Achaemenid,119,878,P470102,XXX. yy---dd,XXX,
+470114,Neo-Babylonian,unknown,PTS 2017,,,PTS2017,8016,,,PTS 2017,,Eanna temple,No place,Early Achaemenid,119,8016,P470114,XXX. yy-mm-dd,XXX,
+470117,Neo-Babylonian,unknown,PTS 2020,,,PTS2020,8021,,,PTS 2020,,Eanna temple,No place,Early Achaemenid,119,8021,P470117,XXX. yy-mm-dd,XXX,
+470145,Neo-Babylonian,unknown,PTS 2048,Nabopolassar,16.0,PTS2048,8066,Kleber 2017,079,PTS 2048,,Eanna temple,No place,Neo-Babylonian,119,8066,P470145,Npl. 16-I-04,Npl,16.0
+470170,Neo-Babylonian,Uruk,PTS 2073,Nabonidus,9.0,PTS2073,3124,Kozuh 2014,34,PTS 2073,Leases,Eanna temple,Uruk city,Neo-Babylonian,119,3124,,Nbn. 09-[x]-4,Nbn,9.0
+470171,Neo-Babylonian,Uruk,PTS 2075,,,PTS2075,3151,,,PTS 2075,Court protocols,Eanna temple,Uruk city,Early Achaemenid,119,3151,,Cam. 0a-[x]-[x],Cam,0.0
+470172,Neo-Babylonian,Uruk,PTS 2076,,,PTS2076,3244,,,PTS 2076,Inventories,Eanna temple,No place,Early Achaemenid,119,3244,,XXX. yy-mm-dd,XXX,
+470185,Achaemenid,Uruk,PTS 2089,Cyrus,1.0,PTS2089,3120,,,PTS 2089,Leases,Eanna temple,Uruk city,Early Achaemenid,119,3120,,Cyr. 01-VII-8,Cyr,1.0
+470196,Neo-Babylonian,unknown,PTS 2100,Nabonidus,8.0,PTS2100,7750,Kleber 2017,038,PTS 2100,,Eanna temple,No place,Neo-Babylonian,119,7750,P470196,Nbn. 08-I-10,Nbn,8.0
+470204,Neo-Babylonian,unknown,PTS 2108,Nabonidus,1.0,PTS2108,3292,Kozuh 2014,03,PTS 2108,Inventories,Eanna temple,No place,Neo-Babylonian,119,3292,,Nbn. 01-IV-22,Nbn,1.0
+470208,Neo-Babylonian,unknown,PTS 2112,Nabonidus,10.0,PTS2112,7751,Kleber 2017,039,PTS 2112,,Eanna temple,No place,Neo-Babylonian,119,7751,P470208,Nbn. 10-VIb-28,Nbn,10.0
+470212,Neo-Babylonian,Uruk,PTS 2116,Nebuchadnezzar,43.0,PTS2116,8441,Kleber 2017,138,PTS 2116,,Eanna temple,Uruk city,Neo-Babylonian,119,8441,P470212,Nbk. 43-V-05,Nbk,43.0
+470213,Neo-Babylonian,unknown,PTS 2117,Nebuchadnezzar,18.0,PTS2117,7648,Kleber 2008,20,PTS 2117,,Eanna temple,Bit-Hahhūru,Neo-Babylonian,119,7648,P470213,Nbk. 18-VI-09,Nbk,18.0
+470217,Neo-Babylonian,unknown,PTS 2121,Nabonidus,5.0,PTS2121,7672,Kleber 2008,31,PTS 2121,,Eanna temple,No place,Neo-Babylonian,119,7672,P470217,Nbn. 05-xx-xx,Nbn,5.0
+470218,Neo-Babylonian,Sippar-Yahrurum,PTS 2122,AM,1.0,PTS2122,7671,Kleber 2008,30,PTS 2122,,Eanna temple,Sippar city,Neo-Babylonian,119,7671,P470218,AM. 01-II-01,AM,1.0
+470226,Achaemenid,unknown,PTS 2130,Cyrus,5.0,PTS2130,7680,Kleber 2008,38,PTS 2130,,Eanna temple,No place,Early Achaemenid,119,7680,P470226,Cyr. 05-XII-xx,Cyr,5.0
+470229,Neo-Babylonian,unknown,PTS 2133,Nebuchadnezzar,23.0,PTS2133,8497,Kleber 2017,158,PTS 2133,,Eanna temple,No place,,119,8497,P470229,Nbk. 23-I-21,Nbk,23.0
+470230,Neo-Babylonian,Uruk,PTS 2134,Nebuchadnezzar,43.0,PTS2134,3113,,,PTS 2134,Leases,Eanna temple,Uruk city,Neo-Babylonian,119,3113,,Nbk. 43-IV-17,Nbk,43.0
+470232,Neo-Babylonian,Babylon,PTS 2136,Nebuchadnezzar,28.0,PTS2136,7670,Kleber 2008,29,PTS 2136,,Eanna temple,Babylon city,Neo-Babylonian,119,7670,P470232,Nbk. 28-X-03,Nbk,28.0
+470233,Achaemenid,unknown,PTS 2137,Cambyses,2.0,PTS2137,3281,Kozuh 2014,18,PTS 2137,Record of transfer,Eanna temple,No place,Early Achaemenid,119,3281,,Cam. 02-V?-dd,Cam,2.0
+470237,Neo-Babylonian,unknown,PTS 2141,Nebuchadnezzar,36.0,PTS2141,7470,Kleber 2017,010,PTS 2141,,Eanna temple,No place,Neo-Babylonian,119,7470,P470237,Nbk. 38-X-19,Nbk,38.0
+470239,Neo-Babylonian,Uruk,PTS 2143,Nebuchadnezzar,41.0,PTS2143,8421,Kleber 2017,129,PTS 2143,,Eanna temple,Uruk city,Neo-Babylonian,119,8421,P470239,Nbk. 41-VI-02,Nbk,41.0
+470240,Neo-Babylonian,unknown,PTS 2144,Nebuchadnezzar,34.0,PTS2144,7469,Kleber 2017,009,PTS 2144,,Eanna temple,No place,Neo-Babylonian,119,7469,P470240,Nbk. 34-VII-10,Nbk,34.0
+470253,Neo-Babylonian,Uruk,PTS 2157,Nebuchadnezzar,43.0,PTS2157,7665,Kleber 2008,24,PTS 2157,,Eanna temple,Uruk city,Neo-Babylonian,119,7665,P470253,Nbk. 43-IV-15,Nbk,43.0
+470260,Neo-Babylonian,unknown,PTS 2164,Nebuchadnezzar,22.0,PTS2164,7669,Kleber 2008,28,PTS 2164,,Eanna temple,No place,Neo-Babylonian,119,7669,P470260,Nbk. 12-VI-07,Nbk,12.0
+470267,Neo-Babylonian,Uruk,PTS 2171,Nebuchadnezzar,42.0,PTS2171,8432,Kleber 2017,136,PTS 2171,,Eanna temple,Uruk city,Neo-Babylonian,119,8432,P470267,Nbk. 42-XI-25,Nbk,42.0
+470276,Neo-Babylonian,unknown,PTS 2181,,,PTS2181,7880,,,PTS 2181,,Eanna temple,No place,,119,7880,P470276,XXX. yy-mm-dd,XXX,
+470288,Neo-Babylonian,Babylon,PTS 2194,Nabonidus,2.0,PTS2194,356,,,PTS 2194 ,Litigation,Egibi/Nūr-Sîn,Babylon city,Neo-Babylonian,118,356,,XXX. yy-VIII-dd,XXX,
+470294,Neo-Babylonian,unknown,PTS 2200,Nebuchadnezzar,18.0,PTS2200,3336,,,PTS 2200,Record of transfer,Eanna temple,No place,Neo-Babylonian,119,3336,,Nbk. 18-VII-5,Nbk,18.0
+470298,Neo-Babylonian,Borsippa,PTS 2204,Nabonidus,2.0,PTS2204,3268,,,PTS 2204,Inventories,Eanna temple,No place,Neo-Babylonian,119,3268,,Nbn. 02-VI-15,Nbn,2.0
+470302,Neo-Babylonian,Uruk,PTS 2208,,,PTS2208,3258,,,PTS 2208,Balanced accounts,Eanna temple,No place,Neo-Babylonian,119,3258,,Npl. 20-X-23,Npl,20.0
+470307,Neo-Babylonian,unknown,PTS 2213,Nebuchadnezzar,20.0,PTS2213,8420,Kleber 2017,128,PTS 2213,,Eanna temple,Uruk city,Neo-Babylonian,119,8420,P470307,Nbk. 40-X-12,Nbk,40.0
+470313,Neo-Babylonian,Uruk,PTS 2219,Nabonidus,6.0,PTS2219,8718,"OrAn 25 (1986), 29-50",4,PTS 2219,,Eanna temple,Uruk city,Neo-Babylonian,119,8718,P470313,Nbn. 06-III-05,Nbn,6.0
+470325,Neo-Babylonian,unknown,PTS 2231,,,PTS2231,3216,,,PTS 2231,Statements in court/Deposition,Eanna temple,Uruk city,Neo-Babylonian,119,3216,,Nbn. 08-X-19,Nbn,8.0
+470338,Neo-Babylonian,unknown,PTS 2244,Nebuchadnezzar,23.0,PTS2244,7930,Kleber 2017,062,PTS 2244,,Eanna temple,No place,Neo-Babylonian,119,7930,P470338,Nbk. 23-X-18,Nbk,23.0
+470339,Neo-Babylonian,Uruk,PTS 2245,Nebuchadnezzar,36.0,PTS2245,8364,Kleber 2017,104,PTS 2245,,Eanna temple,Uruk city,Neo-Babylonian,119,8364,P470339,Nbk. 36-IX-21,Nbk,36.0
+470343,Neo-Babylonian,Uruk,PTS 2249,Nabonidus,,PTS2249,3118,,,PTS 2249,Leases,Eanna temple,Uruk city,Neo-Babylonian,119,3118,,Nbn. 03?-VI-23,Nbn,3.0
+470370,Neo-Babylonian,Uruk,PTS 2277,Nabopolassar,9.0,PTS2277,7406,Kleber 2017,002,PTS 2277,,Eanna temple,No place,Neo-Babylonian,119,7406,P470370,Npl. 09-IV-10,Npl,9.0
+470382,Neo-Babylonian,Babylon,PTS 2289,Nabonidus,2.0,PTS2289,7471,Kleber 2017,011,PTS 2289,,Eanna temple,Eridu,Neo-Babylonian,119,7471,P470382,Nbn. 02-VIII-00,Nbn,2.0
+470394,Neo-Babylonian,unknown,PTS 2301,Nabonidus,17.0,PTS2301,8752,"OrAn 25 (1986), 29-50",5,PTS 2301,,Eanna temple,Uruk city,Early Neo-Babylonian,119,8752,P470394,Nbn. 17-IV-29,Nbn,17.0
+470396,Neo-Babylonian,unknown,PTS 2303,Nabonidus,10.0,PTS2303,8478,Kleber 2017,148,PTS 2303,,Eanna temple,No place,Neo-Babylonian,119,8478,P470396,Nbn. 10-VIII-17,Nbn,10.0
+470405,Neo-Babylonian,Uruk,PTS 2312,Neriglissar,1.0,PTS2312,3187,,,PTS 2312,Promissory notes ina muẖẖi,Eanna temple,Nār-Innin,Neo-Babylonian,119,3187,,Ner. 01-VII-10,Ner,1.0
+470409,Achaemenid,unknown,PTS 2316,Darius1,2.0,PTS2316,8113,,,PTS 2316,,Eanna temple,No place,Early Achaemenid,119,8113,P470409,Dar I. 2-III-6,Dar I,2.0
+470417,Neo-Babylonian,unknown,PTS 2324,,,PTS2324,8271,Kleber 2017,095,PTS 2324,,Eanna temple,No place,Neo-Babylonian,119,8271,P470417,Nbk. 24-VIII-00,Nbk,24.0
+470423,Neo-Babylonian,unknown,PTS 2330,Neriglissar,3.0,PTS2330,3330,,,PTS 2330,Record of transfer,Eanna temple,No place,Neo-Babylonian,119,3330,,Ner. 03-VII-6,Ner,3.0
+492469,Neo-Babylonian,Uruk,AO 06806,,,AO6806,4021,TBER,11a/12a,AO 06806,,Eanna temple,No place,Neo-Babylonian,119,4021,P492469,XXX. yy-mm-dd,XXX,
+492975,Achaemenid,unknown,AO 08564,,,AO8564,4985,TBER,28b,AO 08564,,Eanna temple,No place,,119,4985,P492975,XXX. 00-00-00,XXX,0.0
+500535,Neo-Babylonian,unknown,PTS 2413,,,PTS2413,7929,Kleber 2017,061,PTS 2413,,Eanna temple,No place,Neo-Babylonian,119,7929,P500535,Nbk. 14-XI-13,Nbk,14.0
+259927,Neo-Babylonian,Nippur,CBS 03553,,,CBS3553,7605,BE 08,050,CBS 03553,,Nergal-iddin,Ālu-ša-Arbāja,Neo-Babylonian,84,7605,P259927,Nbn. 09-VIII-22,Nbn,9.0
+259937,Neo-Babylonian,Nippur,CBS 03564,,,CBS3564,7562,Kienast 1988,18,CBS 03564,,Nergal-iddin,Ālu-ša-Qurabatūa,Neo-Babylonian,84,7562,P259937,Nbk III. 40-VIII-08,Nbk III,40.0
+260002,Achaemenid,Nippur,CBS 03629,,,CBS3629,7343,BE 08,147,CBS 03629,,Ekur (early),Nippur city,,130,7343,P260002,XXX. yy-mm-dd,XXX,
+263881,Achaemenid,Nippur,CBS 06106,Cambyses,26.0,CBS6106,7667,BE 08,092,CBS 06106,,Lâbâši/Zēru-ukīn,Nippur city,Early Achaemenid,132,7667,P263881,Cam. 05-X-16,Cam,5.0
+266293,Neo-Babylonian,Nippur,CBS 11132,,,CBS11132,7297,BE 08,143,CBS 11132,,Ekur (early),,,130,7297,P266293,XXX. yy-mm-dd,XXX,
+267394,Neo-Babylonian,Nippur,CBS 12793,,,CBS12793,7340,BE 08,151,CBS 12793,,Ekur (early),,,130,7340,P267394,XXX. yy-mm-dd,XXX,
+373184,Neo-Babylonian,Uruk,VAT 18522,,,VAT18522,6234,VS 20,007,VAT 18522,,Eanna temple,No place,Neo-Babylonian,119,6234,P373184,Nbn. 07-XII-26,Nbn,7.0
+373188,Neo-Babylonian,Uruk,VAT 18470,,,VAT18470,6239,VS 20,011,VAT 18470,,Eanna temple,No place,Neo-Babylonian,119,6239,P373188,Nbk. 42-I-4[+x?],Nbk,42.0
+373192,Neo-Babylonian,Uruk,VAT 18511,,,VAT18511,6221,VS 20,015,VAT 18511,,Eanna temple,No place,Neo-Babylonian,119,6221,P373192,Nbk. 25-VIII-11,Nbk,25.0
+373196,Neo-Babylonian,Uruk,VAT 18467,,,VAT18467,6225,VS 20,019,VAT 18467,,Eanna temple,No place,Neo-Babylonian,119,6225,P373196,XXX. 09-II-01,XXX,9.0
+373206,Neo-Babylonian,Uruk,VAT 18532,Nabopolassar,7.0,VAT18532,6278,VS 20,029,VAT 18532,,Eanna temple,No place,Neo-Babylonian,119,6278,P373206,Npl. 07-V-26,Npl,7.0
+373208,Neo-Babylonian,Uruk,VAT 18648,,,VAT18648,6280,VS 20,031,VAT 18648,,Eanna temple,No place,Neo-Babylonian,119,6280,P373208,Nbk. 03-III-21,Nbk,3.0
+373211,Neo-Babylonian,Uruk,VAT 18519,,,VAT18519,6314,VS 20,034,VAT 18519,,Eanna temple,No place,Neo-Babylonian,119,6314,P373211,Nbk. 25-IV-19,Nbk,25.0
+373212,Neo-Babylonian,Uruk,VAT 18517,,,VAT18517,6315,VS 20,035,VAT 18517,,Eanna temple,No place,Neo-Babylonian,119,6315,P373212,Nbk. 26-III-15,Nbk,26.0
+373231,Neo-Babylonian,Uruk,VAT 18956,,,VAT18956,6429,VS 20,054,VAT 18956,,Eanna temple,No place,Neo-Babylonian,119,6429,P373231,AM. 01-III-00,AM,1.0
+373235,Neo-Babylonian,Uruk,VAT 18650,,,VAT18650,6433,VS 20,058,VAT 18650,,Eanna temple,No place,,119,6433,P373235,XXX. yy-mm-dd,XXX,
+373256,Neo-Babylonian,Uruk,VAT 18658,,,VAT18658,6603,VS 20,079,VAT 18658,,Eanna temple,No place,Early Achaemenid,119,6603,P373256,Cam. 00-VIb-26,Cam,0.0
+373281,Neo-Babylonian,Uruk,VAT 16672,,,VAT16672,6485,VS 20,104,VAT 16672,,Eanna temple,No place,,119,6485,P373281,XXX. 00-00-00,XXX,0.0
+373293,Neo-Babylonian,Uruk,VAT 16709,,,VAT16709,6566,VS 20,117,VAT 16709,,Eanna temple,No place,,119,6566,P373293,XXX. 00-00-00,XXX,0.0
+373315,Neo-Babylonian,Uruk,VAT 16695,,,VAT16695,6589,VS 20,139,VAT 16695,,Eanna temple,No place,,119,6589,P373315,XXX. 00-00-00,XXX,0.0
+373320,Neo-Babylonian,Uruk,VAT 16704,,,VAT16704,6596,VS 20,144,VAT 16704,,Eanna temple,No place,,119,6596,P373320,XXX. 00-00-00,XXX,0.0
+387085,Neo-Babylonian,Uruk,AO 07145,Nabopolassar,17.0,AO7145,7397,TCL 12,020,AO 07145,,Eanna temple,,Neo-Babylonian,119,7397,P387058,Npl. 17-II-10,Npl,17.0
+387239,Achaemenid,Borsippa,AO 10297,Cambyses,,AO10297,2840,TCL 13,174,AO 10297,Inheritances,"Ea-ilūtu-bāni, Ilī-bāni and Nanāhu",Borsippa city,Early Achaemenid,94,2840,,XXX. yy-XII-dd,XXX,
+387240,Achaemenid,Uruk,AO 06858,Cambyses,,AO6858,7655,TCL 13,175,AO 06858,,Eanna temple,No place,Early Achaemenid,119,7655,P387240,Cam. 6-II-dd,Cam,6.0
+387292,Achaemenid,Uruk,AO 07143,,,AO7143,7709,TCL 13,227,AO 07143,,Eanna temple,No place,Neo-Babylonian,119,7709,P387292,Nbn. 7-mm-dd,Nbn,7.0
+432830,Neo-Babylonian,unknown,MM 0583,,,MM583,7207,"AuOr 15 (1997), 139-194",02,MM 0583,,Eanna temple,No place,Neo-Babylonian,119,7207,P432830,XXX. yy-mm-dd,XXX,
+451748,Neo-Babylonian,unknown,Ashm 1937-0627,,,ASHM1937,7713,OECT 10,406,Ashm 1937-0644,,Carian,Bannēšu (Ālu-ša-Bannēšāya),Early Achaemenid,91,7713,P385419,Nbk IV. 1-V-14,Nbk IV,1.0
+459952,Achaemenid,Uruk,FLP 1444,Cyrus,3.0,FLP1444,3209,JCS 28 (1976),32,FLP 1444,Summonses/Oaths/Injunctions,Eanna temple,Uruk city,Early Achaemenid,119,3209,,Cyr. 03-XIIb-12,Cyr,3.0
+460106,Neo-Babylonian,uncertain,FLP 1598,Nabonidus,15.0,FLP1598,7056,Dillard 1975,,FLP 1598,,Eanna temple,No place,Neo-Babylonian,119,7056,P460106,Nbn. 15-VIII-28,Nbn,15.0
+460108,Neo-Babylonian,uncertain,FLP 1600,Nabonidus,15.0,FLP1600,8561,Jursa 2005,14,FLP 01600,,Bēl-eṭēri-Šamaš,Bīt-abdā,Neo-Babylonian,99,8561,P460108,Nbn. 15-[...]-[...],Nbn,15.0
+462224,Neo-Babylonian,Uruk,CST 019,,,CST19,6524,"Knopf, Diss.",059,CST 019,,Eanna temple,,Neo-Babylonian,119,6524,P462224,Nbk. 10-VI-28,Nbk,10.0
+462231,Neo-Babylonian,Uruk,CST 026,,,CST26,6519,"Knopf, Diss.",060,CST 026,,Eanna temple,,Neo-Babylonian,119,6519,P462231,Npl. 8-VI-14,Npl,8.0
+462319,Neo-Babylonian,Uruk,CST 114,,,CST114,7288,"Knopf, Diss.",084,CST 114,,Eanna temple,No place,Neo-Babylonian,119,7288,P462319,XXX. 00-00-00,XXX,0.0
+462373,Neo-Babylonian,Uruk,CST 168,,,CST168,8392,"Studia Mesopotamica 5 (2001), 241-369",B.I.1,CST 168,,Eanna temple,No place,Neo-Babylonian,119,8392,P462373,Ner. Acc.-XIIb-09,,
+462426,Neo-Babylonian,Uruk,CST 221,,,CST221,7158,,,CST 221,,Eanna temple,,Neo-Babylonian,119,7158,P462426,Npl. accession year-VIII-17,,
+462435,Neo-Babylonian,Uruk,CST 230,,,CST230,8352,"Studia Mesopotamica 5 (2001), 241-369",D.III.b.1,CST 230,,Eanna temple,No place,Neo-Babylonian,119,8352,P462435,Nbk. 22-00-00,Nbk,22.0
+462497,Neo-Babylonian,Uruk,CST 292,,,CST292,6710,Zadok 2016,B,CST 292,,Eanna temple,No place,Neo-Babylonian,119,6710,P462497,XXX. 00-00-00,XXX,0.0
+462673,Neo-Babylonian,Uruk,CST 468,,,CST468,8414,"Studia Mesopotamica 5 (2001), 241-369",D.III.b.2,CST 468,,Eanna temple,Broken,Neo-Babylonian,119,8414,P462673,Ner. 00-I-11,Ner,0.0
+462690,Neo-Babylonian,Uruk,CST 485,,,CST485,8411,"Studia Mesopotamica 5 (2001), 241-369",D.II.c.9,CST 485,,Eanna temple,No place,,119,8411,P462690,XXX. 00-VII-22,XXX,0.0
+462764,Neo-Babylonian,Uruk,CST 559,,,CST559,8409,"Studia Mesopotamica 5 (2001), 241-369",D.II.c 5,CST 559,,Eanna temple,Ḫuṣṣētu-ša-Banītu-ēreš,Neo-Babylonian,119,8409,P462764,XXX. 15-00-26,XXX,15.0
+462774,Neo-Babylonian,Uruk,CST 569,,,CST569,6712,Zadok 2016,B.a.I.2,CST 569,,Eanna temple,No place,Neo-Babylonian,119,6712,P462774,XXX. 00-00-00,XXX,0.0
+470122,Neo-Babylonian,unknown,PTS 2025,,,PTS2025,8143,,,PTS 2025,,Eanna temple,No place,Early Achaemenid,119,8143,P470122,Cam. yy-mm-dd,Cam,
+470201,Neo-Babylonian,Uruk,PTS 2105,Nebuchadnezzar,46.0,PTS2105,8077,Kleber 2017,072,PTS 2105,,Eanna temple,Uruk city,Neo-Babylonian,119,8077,P470201,Nbk. 43-III-11,Nbk,43.0
+470362,Neo-Babylonian,Uruk,PTS 2269,Nabonidus,8.0,PTS2269,7638,Kleber 2008,10,PTS 2269,,Eanna temple,Uruk city,Neo-Babylonian,119,7638,P470362,Nbn. 08-XII-20,Nbn,8.0
+470383,Achaemenid,unknown,PTS 2290,Cambyses,4.0,PTS2290,8713,"Frame 2017, Festschrift Galter (AOAT 434), 111-124",2,PTS 2290,,Eanna temple,Uruk city,Early Achaemenid,119,8713,P470383,Cam. 04-V-25,Cam,4.0
+259959,Neo-Babylonian,Nippur,CBS 03586,,,CBS3586,7603,BE 08,028,CBS 03586,,Nergal-iddin,,Neo-Babylonian,84,7603,P259959,Nbk. 43-I-07,Nbk,43.0
+259980,Achaemenid,Nippur,CBS 03607,,,CBS3607,7622,BE 08,068,CBS 03607,,Nergal-iddin,Ālu-ša-Abi-iliya,Early Achaemenid,84,7622,P259980,Cyr. 06-IV-24,Cyr,6.0
+260003,Achaemenid,Nippur,CBS 03630,,,CBS3630,7291,BE 08,076,CBS 03630,,Ekur (early),,Early Achaemenid,130,7291,P260003,Cyr. yy-XI-16,Cyr,
+274869,Neo-Babylonian,Uruk,VAT 16707,,,VAT16707,6564,VS 20,115,VAT 16707,,Eanna temple,No place,,119,6564,P274869,XXX. 00-00-00,XXX,0.0
+373180,Neo-Babylonian,Uruk,VAT 18760,,,VAT18760,6171,VS 20,004,VAT 18760,,Eanna temple,No place,Neo-Babylonian,119,6171,P373180,Nbk. 26-V-26,Nbk,26.0
+373182,Neo-Babylonian,Uruk,VAT 18469,,,VAT18469,6172,VS 20,005,VAT 18469,,Eanna temple,No place,Neo-Babylonian,119,6172,P373182,XXX. 10-X-25,XXX,10.0
+373186,Neo-Babylonian,Uruk,VAT 18527,,,VAT18527,6237,VS 20,009,VAT 18527,,Eanna temple,No place,Neo-Babylonian,119,6237,P373186,Nbk. 27-II-05,Nbk,27.0
+373187,Neo-Babylonian,Uruk,VAT 18526,,,VAT18526,6238,VS 20,010,VAT 18526,,Eanna temple,No place,Neo-Babylonian,119,6238,P373187,Nbk. 35-III-25,Nbk,35.0
+373218,Neo-Babylonian,Uruk,VAT 18653,,,VAT18653,6321,VS 20,041,VAT 18653,,Eanna temple,No place,,119,6321,P373218,XXX. yy-VII-27,XXX,
+373230,Neo-Babylonian,Uruk,VAT 18528,,,VAT18528,6428,VS 20,053,VAT 18528,,Eanna temple,No place,Neo-Babylonian,119,6428,P373230,Nbk. 38-IV-00,Nbk,38.0
+373236,Neo-Babylonian,Uruk,VAT 18785,,,VAT18785,6434,VS 20,059,VAT 18785,,Eanna temple,No place,Neo-Babylonian,119,6434,P373236,XXX. yy-mm-dd,XXX,
+373242,Neo-Babylonian,Uruk,VAT 18720,,,VAT18720,6441,VS 20,065,VAT 18720,,Eanna temple,No place,Early Achaemenid,119,6441,P373242,Cam. [x+]04-00-00,,
+373257,Neo-Babylonian,Uruk,VAT 18661,,,VAT18661,6604,VS 20,080,VAT 18661,,Eanna temple,No place,Neo-Babylonian,119,6604,P373257,XXX. 04-00-00,XXX,4.0
+373278,Neo-Babylonian,Uruk,VAT 16670,,,VAT16670,6482,VS 20,101,VAT 16670,,Eanna temple,No place,,119,6482,P373278,XXX. 00-00-00,XXX,0.0
+373287,Neo-Babylonian,Uruk,VAT 16663,,,VAT16663,6491,VS 20,110,VAT 16663,,Eanna temple,No place,,119,6491,P373287,XXX. 00-00-00,XXX,0.0
+373291,Neo-Babylonian,Uruk,VAT 16698,,,VAT16698,6499,VS 20,114,VAT 16698,,Eanna temple,No place,,119,6499,P373291,XXX. 00-00-00,XXX,0.0
+373302,Neo-Babylonian,Uruk,VAT 16675,,,VAT16675,6575,VS 20,126,VAT 16675,,Eanna temple,Uruk city,Early Achaemenid,119,6575,P373302,Cyr. 02-VIb-09,Cyr,2.0
+373305,Neo-Babylonian,Uruk,VAT 16684,,,VAT16684,6578,VS 20,129,VAT 16684,,Eanna temple,No place,,119,6578,P373305,XXX. 00-00-00,XXX,0.0
+373309,Neo-Babylonian,Uruk,VAT 16681,,,VAT16681,6582,VS 20,133,VAT 16681,,Eanna temple,No place,,119,6582,P373309,XXX. 00-00-00,XXX,0.0
+373319,Neo-Babylonian,Uruk,VAT 16700,,,VAT16700,6593,VS 20,143,VAT 16700,,Eanna temple,No place,,119,6593,P373319,XXX. 00-00-00,XXX,0.0
+373322,Neo-Babylonian,Uruk,VAT 16705,,,VAT16705,6598,VS 20,146,VAT 16705,,Eanna temple,No place,,119,6598,P373322,XXX. 00-00-00,XXX,0.0
+387190,Achaemenid,Uruk,AO 06821,Cyrus,,AO6821,7489,TCL 13,125,AO 06821,,Eanna temple,Broken,Early Achaemenid,119,7489,P387190,Cyr. 1-VIII-8,Cyr,1.0
+387210,Achaemenid,Uruk,AO 06857,Cyrus,,AO6857,7556,TCL 13,145,AO 06857,,Eanna temple,No place,Early Achaemenid,119,7556,P387210),Cyr. 9-III-dd,Cyr,9.0
+387211,Achaemenid,Uruk,AO 06805,Cambyses,,AO6805,7565,TCL 13,146,AO 06805,,Eanna temple,No place,Early Achaemenid,119,7565,,,,
+432816,Neo-Babylonian,Babylon,MM 0363b,,,MM363,1137,"Wunsch, AuOr 15",12,MM 363b,Statements in court/Depositions,Egibi/Nūr-Sîn,No place,Neo-Babylonian,118,1137,,XXX. yy---dd,XXX,
+459843,Achaemenid,uncertain,FLP 1275,Darius1,6.0,FLP1275,8037,"Stigers, JCS 28",14,FLP 1275,,Eanna temple,No place,Early Achaemenid,119,8037,P459843,Dar I. 12-II-14,Dar I,12.0
+459936,Achaemenid,Sippar-Yahrurum,FLP 1427,Cambyses2,,FLP1427,3204,JCS 28 (1976),34,FLP 1427,Summonses/Oaths/Injunctions,Eanna temple,Uruk city,Early Achaemenid,119,3204,P459936,Cam. 0a-X-01,Cam,0.0
+462237,Neo-Babylonian,Uruk,CST 032,,,CST32,6522,"Knopf, Diss.",091,CST 032,,Eanna temple,,Neo-Babylonian,119,6522,P462237,XXX. 18-III-14,XXX,18.0
+462245,Neo-Babylonian,Uruk,CST 040,,,CST40,7486,"Knopf, Diss.",155,CST 040,,Eanna temple,No place,Neo-Babylonian,119,7486,P462245,Nbn. 04-XII-12,Nbn,4.0
+462261,Neo-Babylonian,Uruk,CST 056,,,CST56,7161,"Knopf, Diss.",181,CST 056,,Eanna temple,,Neo-Babylonian,119,7161,P462261,Ner. 3-IV-7,Ner,3.0
+462398,Neo-Babylonian,Uruk,CST 193,,,CST193,7793,"Studia Mesopotamica 5 (2001), 241-369",D.I.16,CST 193,,Eanna temple,No place,Neo-Babylonian,119,7793,P462398,Nbn. 01-XII-07,Nbn,1.0
+462505,Neo-Babylonian,Uruk,CST 300,,,CST300,7159,,,CST 300,,Eanna temple,,,119,7159,P462505,XXX. accession year-III-8,,
+462530,Neo-Babylonian,Uruk,CST 325,,,CST325,7725,,,CST 325,,Eanna temple,,Neo-Babylonian,119,7725,P462530,Npl. 13-VII-21,Npl,13.0
+462534,Neo-Babylonian,Uruk,CST 329,,,CST329,8410,"Studia Mesopotamica 5 (2001), 241-369",D.II.c.6,CST 329,,Eanna temple,Ḫuṣṣētu-ša-ša-rēši,Neo-Babylonian,119,8410,P462534,XXX. 13-II-15+,XXX,13.0
+462640,Neo-Babylonian,Uruk,CST 435,,,CST435,6718,Zadok 2016,D.2,CST 435,,Eanna temple,No place,Neo-Babylonian,119,6718,P462640,Npl. 17-IV-05,Npl,17.0
+462653,Neo-Babylonian,Uruk,CST 448,,,CST448,6709,Zadok 2016,A,CST 448,,Eanna temple,No place,Neo-Babylonian,119,6709,P462653,XXX. 02-VIb-16,XXX,2.0
+462725,Neo-Babylonian,Uruk,CST 520,,,CST520,7560,,,CST 520,,Eanna temple,,,119,7560,P462725,Nbk. 17-XII-29,Nbk,17.0
+470141,Achaemenid,Uruk,PTS 2044,Cyrus,8.0,PTS2044,3121,,,PTS 2044,Leases,Eanna temple,Uruk city,Early Achaemenid,119,3121,,Cyr. 08-II-6,Cyr,8.0
+470181,Neo-Babylonian,Uruk,PTS 2085,Nebuchadnezzar,20.0,PTS2085,7729,Kleber 2017,032,PTS 2085,,Eanna temple,Uruk city,Neo-Babylonian,119,7729,P470181,Nbk. 20-XI-04,Nbk,20.0
+470194,Neo-Babylonian,unknown,PTS 2098,,,PTS2098,7488,Kleber 2017,018,PTS 2098,,Eanna temple,No place,Neo-Babylonian,119,7488,P470194,XXX. yy-mm-dd,XXX,
+470210,Neo-Babylonian,unknown,PTS 2114,Nebuchadnezzar,36.0,PTS2114,8505,Kleber 2017,161,PTS 2114,,Eanna temple,No place,Neo-Babylonian,119,8505,P470210,Nbk. 36-VI-11,Nbk,36.0
+470225,Neo-Babylonian,Uruk,PTS 2129,Nebuchadnezzar,9.0,PTS2129,8970,,,PTS 2129,,Eanna temple,Uruk city,Neo-Babylonian,119,8970,,,,
+470360,Neo-Babylonian,unknown,PTS 2267,Nabopolassar,17.0,PTS2267,7708,Kleber 2017,026,PTS 2267,,Eanna temple,No place,Neo-Babylonian,119,7708,P470360,Npl. 17-III-07,Npl,17.0
+470380,Neo-Babylonian,unknown,PTS 2287,,,PTS2287,7809,Kleber 2017,055,PTS 2287,,Eanna temple,No place,Neo-Babylonian,119,7809,P470380,Nbk. 38-II-00,Nbk,38.0
