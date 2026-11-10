@@ -1,0 +1,7 @@
+period,archives,n,loo_accuracy,majority_baseline,perm_mean,p
+Achaemenid,2,409,0.9,0.89,0.565,0.005
+Middle Assyrian,10,732,0.202,0.328,0.079,0.005
+Neo-Assyrian,2,147,0.646,0.66,0.51,0.005
+Neo-Babylonian,2,452,0.777,0.876,0.556,0.005
+Old Babylonian,2,224,0.746,0.688,0.507,0.005
+Ur III,6,1527,0.296,0.196,0.158,0.005

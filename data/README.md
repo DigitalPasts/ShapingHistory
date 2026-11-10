@@ -33,10 +33,11 @@ gzipped (`pandas.read_csv` reads them as they are).
 
 ## Withheld or reduced
 
-- **Archibab.** Until the Archibab team agrees to redistribution, only identifiers are released
-  (`dating/archibab_cdli_links_ids_only.csv`, `dating/archibab_links_used_ids_only.csv`). In
-  `dating/tablet_dates_consolidated_public.csv.gz` the king, year and absolute date of the 608 tablets dated from Archibab are
-  blank and flagged in the `withheld` column; rerun `harvesters/archibab_table_v2.py`, `19b` and `98d`-`98j` to restore them.
+- **Archibab.** Following ShG's decision of 10 Nov 2026, the dates taken from Archibab are released with the digital citation
+  of each text: `dating/tablet_dates_consolidated_public.csv.gz` gives king, year and absolute date for the 608 tablets dated from
+  Archibab, with the Archibab text identifier (`archibab_id`) and its URL (`archibab_url`, e.g. https://www.archibab.fr/T3955).
+  Archibab's own records (summaries, references, archive labels) are not redistributed; `dating/archibab_cdli_links_ids_only.csv`
+  gives only the identifier links. Cite: Charpin et al., ARCHIBAB, https://www.archibab.fr (accessed 9 Nov 2026).
 - **OARE.** Only the OARE identifiers, genre and object type are released (`old_assyrian/oare_metadata_public.csv`), not the
   transliterations.
 - **Goren et al. 2004** per-letter catalogue (case study B) and the literature full texts used to check quotations are not released.

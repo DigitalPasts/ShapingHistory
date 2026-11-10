@@ -32,7 +32,12 @@ d=d[d.genre.isin(ARCH)&d.photo_hw.between(1/3,3)&d.period.isin(MAIN)].copy()
 d['y']=np.log(d.photo_hw); d[X]=(d[X]-d[X].mean())/d[X].std()
 def indices(W):
     Z=W.copy(); Z['PRIV']=3-Z['PRIV']; return pd.DataFrame({k:Z[v].mean(axis=1) for k,v in DIMS.items()})
-L=pd.read_csv(f'{C}/lit_scores_long.csv'); L=L[L.period.isin(MAIN)]
+import os
+if os.path.exists(f'{C}/lit_scores_v2_long.csv'):   # v2 scores after ShG's three review rounds (85b, 85d, 85f): half-point scale, score_final
+    L=pd.read_csv(f'{C}/lit_scores_v2_long.csv'); L['score']=L.score_final; L['dist']=L.dist7
+else:
+    L=pd.read_csv(f'{C}/lit_scores_long.csv')
+L=L[L.period.isin(MAIN)]
 W=L.pivot(index='period',columns='param',values='score')[PARAMS].loc[MAIN]; I=indices(W)
 # Step 1
 def mad(x): return np.median(np.abs(x-np.median(x)))
@@ -53,7 +58,7 @@ cells={(r.period,r.param):(lambda a:a/a.sum())(np.array(json.loads(r.dist))) for
 draws=[]
 for _ in range(2000):
     Wd=W.copy().astype(float)
-    for (p,k),pr in cells.items(): Wd.loc[p,k]=rng.choice(4,p=pr)
+    for (p,k),pr in cells.items(): Wd.loc[p,k]=rng.choice(len(pr),p=pr)*(3/(len(pr)-1))
     draws.append(indices(Wd))
 res=[]
 for o in OUT:

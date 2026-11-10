@@ -17,14 +17,20 @@ from sklearn.metrics import silhouette_score, normalized_mutual_info_score as NM
 from scipy.spatial.distance import jensenshannon, pdist, squareform
 from scipy.stats import spearmanr
 import matplotlib; matplotlib.use('Agg'); import matplotlib.pyplot as plt
+import os
 R=WORK; rng=np.random.default_rng(11)
+REP=os.environ.get('SH_REP','vae'); SUF='' if REP=='vae' else '_dinov2'   # 'dinov2': first 12 DINOv2 principal components (script 103) in place of the VAE
 d=pd.read_parquet(f'{R}/master_tablets.parquet')
+if REP=='dinov2':
+    Pd=pd.read_parquet(f'{R}/dinov2_pca.parquet')[['id']+[f'D{i}' for i in range(1,13)]]
+    d=d.drop(columns=[f'X{i}' for i in range(1,13)]).merge(Pd.rename(columns={f'D{i}':f'X{i}' for i in range(1,13)}),on='id',how='inner')
 F=[f'X{i}' for i in range(1,13)]+['loghw']   # rectangularity, corners and thickness are missing for many archive tablets; the VAE dims carry them
 src=[('Archibab',pd.read_csv(f'{R}/turning/companion_dates.csv')[['id','ab_archive']].rename(columns={'ab_archive':'archive_db'})),
      ('NaBuCCo',pd.read_csv(f'{R}/nabucco/nabucco_matched.csv')[['id','Archive']].rename(columns={'Archive':'archive_db'})),
      ('Prosobab',pd.read_csv(f'{R}/prosobab/prosobab_matched.csv')[['id','ArchiveName']].rename(columns={'ArchiveName':'archive_db'})),
      ('Oracc',pd.read_csv(f'{R}/oracc/oracc_matched.csv')[['id','archive']].rename(columns={'archive':'archive_db'})),
-     ('CDLI',d[['id','archive']].rename(columns={'archive':'archive_db'}))]
+     ('CDLI',d[['id','archive']].rename(columns={'archive':'archive_db'})),
+     ('Ur III provinces',pd.read_csv(f'{R}/results/s4_ur3_tablets_bdtns.csv').rename(columns={'artifact_id':'id'}).assign(archive_db=lambda u: 'Ur III '+u.province+' provincial archive')[['id','archive_db']])]
 L=pd.concat([s.assign(archive_src=n) for n,s in src]).dropna(subset=['archive_db'])
 L=L[~L.archive_db.astype(str).str.contains(r'Miscellaneous|Unknown|^\?',regex=True)].drop_duplicates('id')
 D=pd.read_csv(f'{R}/turning/tablet_dates_consolidated.csv')[['id','king_final','bce']]
@@ -33,7 +39,8 @@ X=d.merge(L,on='id').merge(D,on='id',how='left')
 Qo=pd.read_csv(f'{R}/oracc/oracc_matched.csv'); Qo['tt']=Qo.subgenre.where(Qo.period=='Middle Assyrian').fillna(Qo.genre)
 TT=pd.concat([Qo[['id','tt']],
     pd.read_csv(f'{R}/nabucco/nabucco_matched.csv').rename(columns={'Type and content (legacy)':'tt'})[['id','tt']],
-    pd.read_csv(f'{R}/turning/companion_dates.csv').rename(columns={'ab_type':'tt'})[['id','tt']]]).dropna().drop_duplicates('id')
+    pd.read_csv(f'{R}/turning/companion_dates.csv').rename(columns={'ab_type':'tt'})[['id','tt']],
+    pd.read_csv(f'{R}/results/s4_ur3_tablets_bdtns.csv').rename(columns={'artifact_id':'id','type':'tt'})[['id','tt']]]).dropna().drop_duplicates('id')
 X=X.merge(TT,on='id',how='left'); X['text_type']=X.tt.fillna(X.genre)
 X=X[X.photo_hw.between(1/3,3)].dropna(subset=F)
 def scale(g):
@@ -51,7 +58,9 @@ acr=[]; man=[]; maps={}
 for p in sorted({i[0] for i in big.index}):
     arcs=[a for (pp,a) in big.index if pp==p]
     if len(arcs)<2: continue
-    g=X[(X.period==p)&X.archive_db.isin(arcs)]; z=Z.loc[g.index].values; y=g.archive_db.values
+    g=X[(X.period==p)&X.archive_db.isin(arcs)]
+    if len(g)>3000: g=g.loc[np.concatenate([t.sample(min(len(t),300),random_state=0).index.values for _,t in g.groupby('archive_db')])]
+    z=Z.loc[g.index].values; y=g.archive_db.values
     def loo_acc(lab):
         meds={a:np.median(z[lab==a],axis=0) for a in arcs}; ok=0
         for i in range(len(z)):
@@ -80,7 +89,7 @@ for p in sorted({i[0] for i in big.index}):
             for _ in range(2000):
                 pi=rng.permutation(len(arcs)); nl.append(spearmanr(Ds[iu],M[pi][:,pi][iu],nan_policy='omit').correlation)
             man.append(dict(period=p,archives=len(arcs),metadata=k,rho=round(r,3),p=round((1+np.sum(np.array(nl)>=r))/2001,4)))
-pd.DataFrame(acr).to_csv(f'{R}/turning/archive_across.csv',index=False); pd.DataFrame(man).to_csv(f'{R}/turning/archive_mantel.csv',index=False)
+pd.DataFrame(acr).to_csv(f'{R}/turning/archive_across{SUF}.csv',index=False); pd.DataFrame(man).to_csv(f'{R}/turning/archive_mantel{SUF}.csv',index=False)
 print(pd.DataFrame(acr).to_string()); print(pd.DataFrame(man).to_string())
 # ---------- within archives
 VARS={'text type':'text_type','genre':'genre','museum':'museum','reign':'king_final','decade':'decade','damage':'dam3','site':'site'}
@@ -88,8 +97,8 @@ win=[]; clus={}
 for (p,a),n in X.groupby(['period','archive_db']).size().items():
     if n<50: continue
     g=X[(X.period==p)&(X.archive_db==a)]; z=Z.loc[g.index].values
-    best=max(range(2,5),key=lambda k: silhouette_score(z,KMeans(k,n_init=10,random_state=0).fit_predict(z)))
-    lab=KMeans(best,n_init=10,random_state=0).fit_predict(z); sil=silhouette_score(z,lab); clus[(p,a)]=(g,lab)
+    best=max(range(2,5),key=lambda k: silhouette_score(z,KMeans(k,n_init=10,random_state=0).fit_predict(z),sample_size=min(len(z),3000),random_state=0))
+    lab=KMeans(best,n_init=10,random_state=0).fit_predict(z); sil=silhouette_score(z,lab,sample_size=min(len(z),3000),random_state=0); clus[(p,a)]=(g,lab)
     for v,col in VARS.items():
         s=g[col]; ok=s.notna().values
         if ok.sum()<30 or s[ok].astype(str).nunique()<2: continue
@@ -97,7 +106,7 @@ for (p,a),n in X.groupby(['period','archive_db']).size().items():
         win.append(dict(period=p,archive=a,n=len(g),k=best,silhouette=round(sil,3),variable=v,levels=int(s[ok].astype(str).nunique()),n_known=int(ok.sum()),
                         nmi=round(obs,3),nmi_null=round(nl.mean(),3),p=(1+np.sum(nl>=obs))/1001))
 W=pd.DataFrame(win).sort_values('p'); m=len(W); W['q']=np.minimum.accumulate((W.p*m/np.arange(1,m+1))[::-1])[::-1].clip(upper=1)
-W=W.sort_values(['period','archive','variable']); W.to_csv(f'{R}/turning/archive_within.csv',index=False)
+W=W.sort_values(['period','archive','variable']); W.to_csv(f'{R}/turning/archive_within{SUF}.csv',index=False)
 print(W[['period','archive','n','k','silhouette','variable','levels','nmi','nmi_null','q']].to_string())
 # ---------- figures
 import matplotlib.cm as cm
@@ -120,7 +129,7 @@ for ax,p in zip(axs,ps):
     for s_ in ax.spines.values(): s_.set_color('#ccc')
 handles=[plt.Line2D([],[],marker='o',ls='',color=col[gn],label=gn) for gn in DOMS]
 fig.legend(handles=handles,loc='lower center',ncol=len(handles),fontsize=8,frameon=False,title='dominant text type (dot colour); dot size = tablets',title_fontsize=8)
-plt.tight_layout(rect=(0,0.08,1,1)); plt.savefig(f'{R}/figures/archive_shape_across.png',dpi=200); plt.close()
+plt.tight_layout(rect=(0,0.08,1,1)); plt.savefig(f'{R}/figures/archive_shape_across{SUF}.png',dpi=200); plt.close()
 P=W.pivot_table(index=['period','archive'],columns='variable',values='nmi'); Q=W.pivot_table(index=['period','archive'],columns='variable',values='q')
 cols=[c for c in ['text type','genre','museum','site','reign','decade','damage'] if c in P.columns]; P=P[cols]; Q=Q[cols]
 fig,ax=plt.subplots(figsize=(1.3*len(cols)+4,0.45*len(P)+1.6))
@@ -131,5 +140,5 @@ for i in range(P.shape[0]):
         if not np.isnan(v): ax.text(j,i,f'{v:.2f}'+('*' if q<0.05 else ''),ha='center',va='center',fontsize=8,color='white' if v>0.2 else '#222')
 ax.set_xticks(range(len(cols))); ax.set_xticklabels(cols); ax.set_yticks(range(len(P))); ax.set_yticklabels([f'{a} ({p})' for p,a in P.index],fontsize=8)
 ax.set_title('Within archives: how far shape clusters follow each metadata field\n(normalized mutual information; * = q < 0.05 against 1,000 permutations)',fontsize=9)
-plt.colorbar(im,ax=ax,shrink=0.6); plt.tight_layout(); plt.savefig(f'{R}/figures/archive_shape_within.png',dpi=200); plt.close()
+plt.colorbar(im,ax=ax,shrink=0.6); plt.tight_layout(); plt.savefig(f'{R}/figures/archive_shape_within{SUF}.png',dpi=200); plt.close()
 print('figures written')

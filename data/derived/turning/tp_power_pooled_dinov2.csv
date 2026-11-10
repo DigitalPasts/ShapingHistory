@@ -1,0 +1,6 @@
+group,events,pooled_z,p,power_at_sulgi39_size,power_at_ibbisuen3_size,mds_each_event
+reform and foundation,Urukagina; Sulgi 21; Sulgi 39,25.22,0.000999000999000999,1.0,0.97,0.2
+collapse,Ibbi-Suen 3; Samsu-iluna 1739,4.7,0.003996003996003996,1.0,0.68,0.3
+conquest and succession,Hammurabi 1763; Sargon II > Sennacherib; Esarhaddon 681; Cyrus 539; Darius I 521,-0.44,0.6183816183816184,0.85,0.26,0.45
+conquest,Hammurabi 1763; Cyrus 539,-0.16,0.5724275724275725,0.57,0.17,0.6
+succession,Sargon II > Sennacherib; Esarhaddon 681; Darius I 521,-0.28,0.5774225774225774,0.66,0.19,0.55

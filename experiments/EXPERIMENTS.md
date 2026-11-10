@@ -52,7 +52,7 @@ kept here so it is not repeated). Dates are 2026.
 |---|---|---|---|---|
 | E1 | First codebook and pilots | 70-79 | Centralization does not make tablets uniform; uniform periods have one producing institution | kept |
 | E2 | Literature-grounded scores (12 parameters x 14 periods) | 80, 81_*, 85-85f, 88-92, 95-97 | 915 quoted statements from 166 works; ShG reviewed in three rounds; regional sub-scores | SI |
-| E3 | Do the indices predict uniformity? | 86 | No index significant; institutional economy (B) closest (rho -0.52, p 0.06 at the 3 Nov count) | main (one paragraph) / SI |
+| E3 | Do the indices predict uniformity? | 86, 107 | Rerun 10 Nov with v2 scores: no index significant; B closest for proportion (rho -0.43, p 0.12); A and C positive for outline within museum (0.47, 0.49; p 0.09, 0.07) | main Fig. 3 / SI S10 |
 | E4 | Archive overview per period | 84, 84b | Photos over-represent OB Nippur, lack Mari and Sippar; Girsu and Persepolis under-represented | SI |
 
 ## F. Dating from companion databases (9 Nov)
@@ -72,15 +72,19 @@ kept here so it is not repeated). Dates are 2026.
 | G2 | Which candidates can be tested (>=30 dated on each side, +/-20 y, same sites) | 98c, 98k | Testable: Urukagina, Šulgi 21, Š39, Ibbi-Suen 3, Hammurabi 1763, Samsu-iluna 1739, Cyrus 539, Darius I 521, Sargon II -> Sennacherib 705, Esarhaddon 681 | main |
 | G3 | Hammurabi 1763 inside site x genre cells | 75, 87, 98b, 98f | No shift (39 tests, none at q < 0.05); best break 1791, not the conquest | main (negative result) |
 | G4 | Group scan | 99 | 109 groups, 36 differ, 18 survive museum control; mostly genre and place | kept |
+| G5 | Reign-only dates heaped at accession years | _reigns.py, 100, 101, 105 | 4,210 reign-dated tablets carried the accession year; windows now admit them only if the whole reign fits. Removes the 1792, 713, 676 BCE scan breaks | SI S7, S12 |
+| G6 | One protocol, ten events (10 Nov) | 100 | Robust in all four runs (VAE, DINOv2, with/without museum): Urukagina, Sulgi 39. None in any run: Hammurabi 1763, Esarhaddon 681, Cyrus 539. Mixed: Sulgi 21 (19 tablets before), Ibbi-Suen 3 (DINOv2 only), Samsu-iluna (museum only), Sargon II>Sennacherib (VAE only), Darius I (VAE museum only, 16 after) | main Fig. 1 / SI S8 |
+| G7 | Power of each test | 105 | Pooled conquests: no change (VAE p 0.10, DINOv2 p 0.57); power for a Puzris-Dagan-size change 89% (VAE), 57% (DINOv2) | main / SI S8 |
+| G8 | Blind change-point scan | 101, 106 | Ur III 2064, 2053, 2036, 2021; none in OB, NA, NB-Achaemenid; group-level matches 63% vs 49% chance (binomial p 0.16) | main Fig. 2 / SI S9 |
+| G9 | Map of recognition and nearest heartland site | 104 | Kanesh to Kar-Tukulti-Ninurta, Ansan to Assur/Persepolis line, Alalakh to Ur (museum artefact) | main Fig. 5 |
 
 ## H. Archives
 
 | # | Question | Scripts | Result | Status |
 |---|---|---|---|---|
-| H1 | Do shape groups follow genre or other metadata across and within archives? | 99b | Text type leads within archives (Merkes A2 0.37, Ea-ilūtu-bāni 0.26, Šamaš-hazir 0.18); reign weak; museum matters only in split archives | main |
+| H1 | Do shape groups follow genre or other metadata across and within archives? | 99b | Rerun 10 Nov with Ur III provinces: text type significant in 11 of 20 archives (Merkes A2 0.37, Ea-ilūtu-bāni 0.26, Murašû 0.18, Šamaš-hazir 0.18); reign strongest in none; museum leads at Puzriš-Dagan (0.22) | main Fig. 4 / SI S11 |
 | H2 | Orthography against shape (OA) | none | Out of scope (ShG, 9 Nov) | not run |
 
-## Run on ShG's computers (to be added)
+## Run on ShG's computers
 
-DINOv2 museum and archive tests (`~/deeplomatics-repro/museum_tests/`, `archibab/03-07` on the Mac M3) and the alternative
-pipeline-figure set are on ShG's machines and should be copied into `analysis/scripts/` before submission.
+Copied 10 Nov 2026 into `analysis/mac_studio/` (Archibab 01-09, museum tests, NaBuCCo and Prosobab parsers, pipeline figure). DINOv2 ViT-B/14 embeddings computed on the Mac Studio, read by script 103.

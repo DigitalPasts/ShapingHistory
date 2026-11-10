@@ -1,0 +1,10 @@
+period,archives,metadata,rho,p
+Middle Assyrian,10,text-type mix,0.515,0.003
+Middle Assyrian,10,genre mix,0.003,0.4833
+Middle Assyrian,10,museum mix,0.307,0.0935
+Middle Assyrian,10,site mix,0.114,0.3138
+Ur III,6,text-type mix,0.321,0.1349
+Ur III,6,genre mix,0.275,0.1769
+Ur III,6,museum mix,0.661,0.0085
+Ur III,6,site mix,0.433,0.068
+Ur III,6,median date,0.467,0.043
